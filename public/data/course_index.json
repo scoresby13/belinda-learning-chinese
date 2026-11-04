@@ -1,0 +1,55 @@
+{
+  "title": "Michel Thomas Mandarin Chinese Course",
+  "levels": [
+    {
+      "id": "foundation",
+      "title": "Chinese Foundation",
+      "totalDiscs": 8,
+      "discs": [
+        {
+          "cd": 1,
+          "title": "Foundation CD 1",
+          "tracks": [
+            { "track": 1, "id": "foundation-cd01-01", "title": "Track 1: Introduction, Tones & 'Hǎo' (Good)", "dataFile": "data/foundation_cd01_track01.json", "audioUrl": "audio/cd1_01_preview.mp3" },
+            { "track": 2, "id": "foundation-cd01-02", "title": "Track 2: 'Bù' (Not) and 'Bù Hǎo' (Not good)", "dataFile": "", "audioUrl": "" },
+            { "track": 3, "id": "foundation-cd01-03", "title": "Track 3: 'Tài' (Too / Extremely) & 'Bù Tài Hǎo'", "dataFile": "", "audioUrl": "" },
+            { "track": 4, "id": "foundation-cd01-04", "title": "Track 4: 'Nǐ' (You) & 'Nǐ Hǎo' (Hello)", "dataFile": "", "audioUrl": "" },
+            { "track": 5, "id": "foundation-cd01-05", "title": "Track 5: 'Ma' (Question particle) & 'Nǐ Hǎo Ma?'", "dataFile": "", "audioUrl": "" },
+            { "track": 6, "id": "foundation-cd01-06", "title": "Track 6: 'Wǒ' (I / Me) & 'Hěn' (Very)", "dataFile": "", "audioUrl": "" },
+            { "track": 7, "id": "foundation-cd01-07", "title": "Track 7: 'Xièxie' (Thank you) & 'Nǐ Ne?' (And you?)", "dataFile": "", "audioUrl": "" },
+            { "track": 8, "id": "foundation-cd01-08", "title": "Track 8: 'Yào' (To want / desire)", "dataFile": "", "audioUrl": "" }
+          ]
+        },
+        { "cd": 2, "title": "Foundation CD 2", "tracks": [] },
+        { "cd": 3, "title": "Foundation CD 3", "tracks": [] },
+        { "cd": 4, "title": "Foundation CD 4", "tracks": [] },
+        { "cd": 5, "title": "Foundation CD 5", "tracks": [] },
+        { "cd": 6, "title": "Foundation CD 6", "tracks": [] },
+        { "cd": 7, "title": "Foundation CD 7", "tracks": [] },
+        { "cd": 8, "title": "Foundation CD 8", "tracks": [] }
+      ]
+    },
+    {
+      "id": "advanced",
+      "title": "Chinese Advanced",
+      "totalDiscs": 4,
+      "discs": [
+        { "cd": 1, "title": "Advanced CD 1", "tracks": [] },
+        { "cd": 2, "title": "Advanced CD 2", "tracks": [] },
+        { "cd": 3, "title": "Advanced CD 3", "tracks": [] },
+        { "cd": 4, "title": "Advanced CD 4", "tracks": [] }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Chinese Vocabulary",
+      "totalDiscs": 4,
+      "discs": [
+        { "cd": 1, "title": "Vocabulary CD 1", "tracks": [] },
+        { "cd": 2, "title": "Vocabulary CD 2", "tracks": [] },
+        { "cd": 3, "title": "Vocabulary CD 3", "tracks": [] },
+        { "cd": 4, "title": "Vocabulary CD 4", "tracks": [] }
+      ]
+    }
+  ]
+}

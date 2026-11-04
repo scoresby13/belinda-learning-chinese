@@ -1,0 +1,720 @@
+/* ==========================================================================
+   Belinda Learning Chinese — Master Stylesheet
+   Designed for Claude's Aesthetic Refinements & Pairing
+   ========================================================================== */
+
+/* --- 1. CSS Variables & Design Tokens --- */
+:root {
+  /* Warm Zen Parchment Palette (Default Light) */
+  --bg-primary: #FAF7F2;
+  --bg-secondary: #F3EFE8;
+  --bg-card: #FFFFFF;
+  --bg-card-active: #FFFDF9;
+  --border-subtle: #E8E2D6;
+  --border-active: #C84B31; /* Cinnabar Red */
+  
+  --text-primary: #212529;
+  --text-secondary: #5C636E;
+  --text-muted: #8E95A0;
+  
+  --hanzi-color: #1A1A1A;
+  --pinyin-color: #B33925; /* Vermilion tone */
+  --english-color: #384047;
+  
+  --accent-primary: #C84B31; /* Cinnabar / Chinese Seal Red */
+  --accent-secondary: #2D5A4C; /* Scholar Jade */
+  --accent-glow: rgba(200, 75, 49, 0.15);
+  
+  --player-bg: rgba(255, 255, 255, 0.92);
+  --player-border: #E4DDD1;
+  --progress-bg: #E3DCCE;
+  --progress-fill: #C84B31;
+  
+  --font-hanzi: 'Noto Serif SC', 'Songti SC', serif;
+  --font-pinyin: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+  
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-active: 0 8px 24px rgba(200, 75, 49, 0.12);
+  
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Dark Mode: Ink Obsidian Palette */
+[data-theme="dark"] {
+  --bg-primary: #121417;
+  --bg-secondary: #181B20;
+  --bg-card: #1E2228;
+  --bg-card-active: #252A32;
+  --border-subtle: #2D333D;
+  --border-active: #E5A93C; /* Antique Imperial Gold */
+  
+  --text-primary: #F0F3F6;
+  --text-secondary: #A0AAB6;
+  --text-muted: #646E7B;
+  
+  --hanzi-color: #FFFFFF;
+  --pinyin-color: #F1B24A;
+  --english-color: #C8D1DC;
+  
+  --accent-primary: #E5A93C;
+  --accent-secondary: #4E8773;
+  --accent-glow: rgba(229, 169, 60, 0.2);
+  
+  --player-bg: rgba(24, 27, 32, 0.94);
+  --player-border: #2D333D;
+  --progress-bg: #2D333D;
+  --progress-fill: #E5A93C;
+}
+
+/* --- 2. Base & Reset --- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+  transition: background-color var(--transition-normal), color var(--transition-normal);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* --- 3. Layout Structure --- */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* --- 4. Top Navigation Bar --- */
+.top-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--player-bg);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.brand-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.chinese-badge {
+  font-family: var(--font-hanzi);
+  font-size: 0.85rem;
+  padding: 0.15rem 0.5rem;
+  background: var(--accent-glow);
+  color: var(--accent-primary);
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+}
+
+.track-subtitle {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.nav-controls {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.toggle-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  transition: all var(--transition-fast);
+}
+
+.icon-btn:hover {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+/* Pill Toggle Buttons */
+.pill-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.75rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-full);
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: all var(--transition-fast);
+}
+
+.pill-btn .pill-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--text-muted);
+  transition: background var(--transition-fast);
+}
+
+.pill-btn.active {
+  background: var(--accent-glow);
+  border-color: var(--accent-primary);
+  color: var(--accent-primary);
+}
+
+.pill-btn.active .pill-dot {
+  background: var(--accent-primary);
+}
+
+/* --- 5. Workspace Layout --- */
+.workspace {
+  display: flex;
+  flex: 1;
+  position: relative;
+  padding-bottom: 120px; /* Space for floating player dock */
+}
+
+/* Curriculum Drawer / Sidebar */
+.sidebar {
+  width: 320px;
+  background-color: var(--bg-secondary);
+  border-right: 1px solid var(--border-subtle);
+  overflow-y: auto;
+  transition: transform var(--transition-normal);
+}
+
+.sidebar.closed {
+  transform: translateX(-100%);
+  position: absolute;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.sidebar-header h2 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.course-tree {
+  padding: 1rem;
+}
+
+.level-section {
+  margin-bottom: 1.5rem;
+}
+
+.level-title {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.disc-group {
+  margin-bottom: 0.75rem;
+}
+
+.disc-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.4rem 0.5rem;
+  color: var(--text-secondary);
+}
+
+.track-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  transition: background var(--transition-fast);
+  cursor: pointer;
+}
+
+.track-item:hover {
+  background-color: var(--bg-card);
+  color: var(--text-primary);
+}
+
+.track-item.active {
+  background-color: var(--bg-card);
+  color: var(--accent-primary);
+  font-weight: 600;
+  box-shadow: var(--shadow-sm);
+  border-left: 3px solid var(--accent-primary);
+}
+
+/* --- 6. Transcript Stream & Lyrics Viewport --- */
+.transcript-container {
+  flex: 1;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem 1.5rem;
+  position: relative;
+}
+
+.resume-scroll-banner {
+  position: sticky;
+  top: 4.5rem;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: var(--player-bg);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--border-active);
+  color: var(--text-primary);
+  padding: 0.45rem 1rem;
+  border-radius: var(--radius-full);
+  font-size: 0.8rem;
+  box-shadow: var(--shadow-md);
+  margin-bottom: 1.5rem;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+.resume-scroll-banner .text-link {
+  color: var(--accent-primary);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.transcript-stream {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* Individual Speech Cards */
+.speech-card {
+  position: relative;
+  padding: 1.25rem 1.5rem;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  transition: all var(--transition-normal);
+  cursor: pointer;
+}
+
+.speech-card:hover {
+  border-color: var(--border-active);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Active Highlight State (Karaoke Current Segment) */
+.speech-card.active {
+  background-color: var(--bg-card-active);
+  border-color: var(--border-active);
+  border-left-width: 5px;
+  box-shadow: var(--shadow-active);
+  transform: scale(1.015);
+  z-index: 10;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  font-size: 0.75rem;
+}
+
+.speaker-tag {
+  font-weight: 600;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.speaker-tag.teacher {
+  color: var(--accent-secondary);
+}
+
+.speaker-tag.student {
+  color: var(--accent-primary);
+}
+
+.time-badge {
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+}
+
+/* Bilingual Sentence Blocks */
+.sentence-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Mandarin Target: Hanzi & Pinyin */
+.mandarin-block {
+  font-family: var(--font-hanzi);
+  font-size: 1.65rem;
+  line-height: 1.5;
+  color: var(--hanzi-color);
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+/* Ruby Character Styling */
+ruby {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: bottom;
+  margin: 0 0.15em;
+  position: relative;
+}
+
+rt {
+  font-family: var(--font-pinyin);
+  font-size: 0.95rem;
+  line-height: 1.2;
+  font-weight: 500;
+  color: var(--pinyin-color);
+  text-align: center;
+  user-select: none;
+  transition: opacity var(--transition-fast), transform var(--transition-fast);
+}
+
+/* Pinyin Visibility Toggle States */
+[data-pinyin="hidden"] rt {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(2px);
+}
+
+/* English Gloss & Spoken Content */
+.english-block {
+  font-size: 1.05rem;
+  color: var(--english-color);
+  line-height: 1.5;
+}
+
+/* Word-by-Word Sweeping Effect */
+.word-token {
+  display: inline-block;
+  padding: 0 0.08em;
+  border-radius: var(--radius-sm);
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+.word-token.spoken {
+  color: var(--accent-primary);
+}
+
+.word-token.active-word {
+  background: var(--accent-glow);
+  color: var(--accent-primary);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* --- 7. Sticky Floating Audio Player Dock --- */
+.player-dock {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: var(--player-bg);
+  backdrop-filter: blur(16px);
+  border-top: 1px solid var(--player-border);
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.06);
+  padding: 0.75rem 1.5rem 1rem 1.5rem;
+}
+
+.player-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Scrubber Timeline */
+.scrubber-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.time-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  width: 45px;
+}
+
+.timeline-container {
+  flex: 1;
+  height: 6px;
+  background-color: var(--progress-bg);
+  border-radius: var(--radius-full);
+  position: relative;
+  cursor: pointer;
+  transition: height var(--transition-fast);
+}
+
+.timeline-container:hover {
+  height: 8px;
+}
+
+.timeline-progress {
+  height: 100%;
+  width: 0%;
+  background-color: var(--progress-fill);
+  border-radius: var(--radius-full);
+  transition: width 50ms linear;
+}
+
+.timeline-handle {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  width: 14px;
+  height: 14px;
+  background: #FFFFFF;
+  border: 2px solid var(--accent-primary);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+  box-shadow: var(--shadow-sm);
+}
+
+.timeline-container:hover .timeline-handle {
+  opacity: 1;
+}
+
+/* Controls Row */
+.controls-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.current-playing-meta {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.playing-disc-badge {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.playing-track-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Core Buttons */
+.core-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ctrl-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all var(--transition-fast);
+}
+
+.ctrl-btn.primary {
+  width: 48px;
+  height: 48px;
+  background-color: var(--accent-primary);
+  color: #FFFFFF;
+  box-shadow: 0 4px 12px var(--accent-glow);
+}
+
+.ctrl-btn.primary:hover {
+  transform: scale(1.06);
+}
+
+.ctrl-btn.secondary {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  color: var(--text-secondary);
+  border-radius: var(--radius-full);
+}
+
+.ctrl-btn.secondary:hover {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+.btn-micro-label {
+  position: absolute;
+  bottom: -4px;
+  font-size: 0.6rem;
+  font-weight: 700;
+}
+
+/* Extra Controls */
+.extra-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 250px;
+  justify-content: flex-end;
+}
+
+.pill-btn.sm {
+  padding: 0.25rem 0.6rem;
+  font-size: 0.75rem;
+}
+
+.speed-selector {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  right: 0;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  padding: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  min-width: 120px;
+  z-index: 110;
+}
+
+.dropdown-menu button {
+  padding: 0.35rem 0.6rem;
+  font-size: 0.75rem;
+  border-radius: var(--radius-sm);
+  text-align: left;
+  transition: background var(--transition-fast);
+}
+
+.dropdown-menu button:hover {
+  background-color: var(--bg-secondary);
+}
+
+.dropdown-menu button.active {
+  color: var(--accent-primary);
+  font-weight: 700;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* --- 8. Responsive Design --- */
+@media (max-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 57px;
+    bottom: 0;
+    left: 0;
+    z-index: 90;
+    box-shadow: var(--shadow-md);
+  }
+  
+  .current-playing-meta,
+  .extra-controls {
+    display: none;
+  }
+  
+  .controls-row {
+    justify-content: center;
+  }
+  
+  .mandarin-block {
+    font-size: 1.35rem;
+  }
+  
+  .transcript-container {
+    padding: 1.5rem 1rem 3rem 1rem;
+  }
+}

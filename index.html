@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Belinda Learning Chinese — Interactive Audio Course</title>
+  
+  <!-- Typography: Google Fonts for Hanzi & Latin -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+<body data-pinyin="visible" data-theme="zen">
+  <div id="app" class="app-container">
+    
+    <!-- Top Navigation Bar -->
+    <header class="top-nav">
+      <div class="nav-left">
+        <button id="toggleSidebarBtn" class="icon-btn" title="Toggle Course Curriculum" aria-label="Toggle Curriculum">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+        <div class="brand-info">
+          <h1 class="brand-title">Belinda Learning Chinese <span class="chinese-badge">学中文</span></h1>
+          <p id="currentTrackHeader" class="track-subtitle">Foundation CD 1 - Track 1: Introduction</p>
+        </div>
+      </div>
+      
+      <!-- Interactive Global Controls -->
+      <div class="nav-controls">
+        <!-- Pinyin Toggle -->
+        <div class="toggle-group" title="Toggle Pinyin visibility for character reading practice">
+          <span class="toggle-label">Pinyin</span>
+          <button id="togglePinyinBtn" class="pill-btn active" role="switch" aria-checked="true">
+            <span class="pill-dot"></span>
+            <span id="pinyinStateText">ON</span>
+          </button>
+        </div>
+
+        <!-- Auto-scroll Toggle -->
+        <div class="toggle-group" title="Keep active sentence centered during playback">
+          <span class="toggle-label">Auto-scroll</span>
+          <button id="toggleAutoScrollBtn" class="pill-btn active" role="switch" aria-checked="true">
+            <span class="pill-dot"></span>
+            <span id="autoScrollStateText">ON</span>
+          </button>
+        </div>
+
+        <!-- Theme Toggle (Parchment Zen / Dark Ink) -->
+        <button id="toggleThemeBtn" class="icon-btn" title="Toggle Theme" aria-label="Toggle Theme">
+          <svg id="themeIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Workspace Layout -->
+    <div class="workspace">
+      
+      <!-- Course Curriculum Drawer / Sidebar -->
+      <aside id="courseSidebar" class="sidebar">
+        <div class="sidebar-header">
+          <h2>Curriculum Catalog</h2>
+          <button id="closeSidebarBtn" class="icon-btn close-btn" aria-label="Close Sidebar">&times;</button>
+        </div>
+        <div id="courseTree" class="course-tree">
+          <!-- Dynamically populated from course_index.json -->
+          <div class="loading-spinner">Loading course list...</div>
+        </div>
+      </aside>
+
+      <!-- Main Lyrics & Transcript Viewport -->
+      <main class="transcript-container">
+        
+        <!-- Live Playback Resume Banner (appears if user manually scrolled up) -->
+        <div id="resumeScrollBanner" class="resume-scroll-banner hidden">
+          <span>Viewing past lines • </span>
+          <button id="resumeScrollBtn" class="text-link">Jump to live speech ↓</button>
+        </div>
+
+        <!-- Live Transcript Stream -->
+        <div id="transcriptStream" class="transcript-stream" role="region" aria-label="Synchronized Course Transcript">
+          <!-- Dynamically rendered speech cards -->
+        </div>
+
+      </main>
+
+    </div>
+
+    <!-- Sticky Floating Audio Player Dock -->
+    <footer class="player-dock">
+      <div class="player-wrapper">
+        
+        <!-- Scrubber Timeline -->
+        <div class="scrubber-bar">
+          <span id="currentTimeDisplay" class="time-label mono">00:00</span>
+          <div class="timeline-container" id="timelineContainer">
+            <div id="timelineProgress" class="timeline-progress"></div>
+            <div id="timelineHandle" class="timeline-handle"></div>
+          </div>
+          <span id="durationTimeDisplay" class="time-label mono">00:30</span>
+        </div>
+
+        <!-- Bottom Controls Row -->
+        <div class="controls-row">
+          
+          <!-- Track Info / Quick Jump -->
+          <div class="current-playing-meta">
+            <span class="playing-disc-badge" id="playingBadge">Foundation CD 1</span>
+            <span class="playing-track-name" id="playingTitle">Track 1: Introduction & Tones</span>
+          </div>
+
+          <!-- Central Playback Core -->
+          <div class="core-buttons">
+            <button id="skipBackBtn" class="ctrl-btn secondary" title="Skip back 5 seconds (Left Arrow)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 19l-9-7 9-7v14z"></path><path d="M22 19l-9-7 9-7v14z"></path></svg>
+              <span class="btn-micro-label">-5s</span>
+            </button>
+
+            <button id="playPauseBtn" class="ctrl-btn primary" title="Play / Pause (Spacebar)" aria-label="Play">
+              <svg id="playIcon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              <svg id="pauseIcon" class="hidden" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect></svg>
+            </button>
+
+            <button id="skipForwardBtn" class="ctrl-btn secondary" title="Skip forward 5 seconds (Right Arrow)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 19l9-7-9-7v14z"></path><path d="M2 19l9-7-9-7v14z"></path></svg>
+              <span class="btn-micro-label">+5s</span>
+            </button>
+          </div>
+
+          <!-- Utility Controls: Speed, Loop, Volume -->
+          <div class="extra-controls">
+            <!-- Loop Current Sentence -->
+            <button id="loopSentenceBtn" class="pill-btn sm" title="Loop active sentence">
+              <span>🔁 Loop Line</span>
+            </button>
+
+            <!-- Playback Speed -->
+            <div class="speed-selector">
+              <button id="speedBtn" class="pill-btn sm" title="Playback Speed">1.0x</button>
+              <div id="speedMenu" class="dropdown-menu hidden">
+                <button data-speed="0.75">0.75x (Slower)</button>
+                <button data-speed="0.9">0.9x</button>
+                <button data-speed="1.0" class="active">1.0x (Normal)</button>
+                <button data-speed="1.15">1.15x</button>
+                <button data-speed="1.25">1.25x</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </footer>
+
+    <!-- Hidden native HTML5 audio element -->
+    <audio id="nativeAudio" preload="auto"></audio>
+
+  </div>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
