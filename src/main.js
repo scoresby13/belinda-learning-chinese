@@ -2,6 +2,7 @@
  * Learning Chinese — Audio Player & Karaoke Engine
  * Co-developed by Gemini (data + sync engine) & Claude (UI/UX + rendering)
  */
+import { mediaSession, registerServiceWorker, cacheAudioForOffline, isNativeApp } from './platform.js';
 
 // ───────────────────────────── State ─────────────────────────────
 const state = {
@@ -14,7 +15,18 @@ const state = {
   isToneColorOn: false,
   isAutoScrollEnabled: true,
   isUserScrolling: false,
-  isLoopingSentence: false,
+  isLoopingSentence: false,   // true for both loop modes
+  loopMode: 'off',            // 'off' | 'loop' | 'shadow' (loop with a pause to repeat aloud)
+  isShadowGap: false,         // in the repeat-aloud pause
+  shadowTimer: null,
+  isYourTurnOn: false,        // pause after teacher prompts (segments with type "prompt")
+  promptHandled: new Set(),   // prompt indices we've already paused on
+  awaitingAnswerIdx: -1,
+  showEnglishGloss: true,
+  showChineseGloss: true,
+  saved: [],                  // saved lines
+  lastProgressSave: 0,
+  lastPositionPush: 0,
   isScrubbing: false,
   userScrollTimeout: null,
   playbackSpeed: 1.0,
@@ -23,6 +35,8 @@ const state = {
 };
 
 const USER_SCROLL_RESUME_MS = 6000;
+const LOOP_MODES = ['off', 'loop', 'shadow'];
+const LOOP_LABELS = { off: 'Loop line', loop: 'Looping', shadow: 'Repeat aloud' };
 const DESKTOP_BREAKPOINT = 1024;
 
 // ───────────────────────────── DOM cache ─────────────────────────────
@@ -71,7 +85,16 @@ const elements = {
 
   speedBtn: $('speedBtn'),
   speedValue: $('speedValue'),
-  speedMenu: $('speedMenu')
+  speedMenu: $('speedMenu'),
+
+  settingsBtn: $('settingsBtn'),
+  settingsPanel: $('settingsPanel'),
+  loopLabel: $('loopLabel'),
+  savedList: $('savedList'),
+  savedCount: $('savedCount'),
+  toast: $('toast'),
+  toastText: $('toastText'),
+  toastAction: $('toastAction')
 };
 
 // ───────────────────────────── Helpers ─────────────────────────────
@@ -173,13 +196,30 @@ function mandarinBlockHtml(hanzi, pinyin, size = 'lg') {
 }
 
 // ───────────────────────────── Init ─────────────────────────────
+const DEFAULT_TRACK = { file: 'data/foundation_cd01_track01.json', id: 'foundation-cd01-01' };
+
 async function initApp() {
+  if (isNativeApp) document.documentElement.classList.add('native-app');
   loadStoredPreferences();
   setupEventListeners();
+  setupMediaSession();
+  registerServiceWorker();
   if (!isDesktop()) setSidebarOpen(false, { focus: false });
   else setSidebarOpen(true, { focus: false });
   await loadCourseCatalog();
-  await loadTrackData('data/foundation_cd01_track01.json', 'foundation-cd01-01');
+  renderSaved();
+
+  // Pick up where the learner left off
+  const resume = readJSON('lc_resume');
+  const known = resume && allTracks().find((t) => t.id === resume.trackId && t.dataFile);
+  if (known && resume.time > 1) {
+    await loadTrackData(known.dataFile, known.id, { startAt: resume.time });
+    showToast(`Picked up where you left off · ${formatTime(resume.time)}`, {
+      action: { label: 'Start over', onClick: () => seekAudio(0, { play: false }) }
+    });
+  } else {
+    await loadTrackData(known?.dataFile || DEFAULT_TRACK.file, known?.id || DEFAULT_TRACK.id);
+  }
   startAnimationFrameSync();
 }
 
@@ -198,10 +238,29 @@ function loadStoredPreferences() {
 
   const savedSpeed = parseFloat(read('lc_speed'));
   if (Number.isFinite(savedSpeed)) setPlaybackSpeed(savedSpeed, { persist: false });
+
+  state.showEnglishGloss = read('lc_gloss_en') !== 'false';
+  state.showChineseGloss = read('lc_gloss_zh') !== 'false';
+  state.isYourTurnOn = read('lc_your_turn') === 'true';
+  applyPracticeState();
+
+  state.saved = readJSON('lc_saved') || [];
 }
 
 function store(key, value) {
   try { localStorage.setItem(key, value); } catch { /* private mode */ }
+}
+function readJSON(key) {
+  try { return JSON.parse(localStorage.getItem(key)); } catch { return null; }
+}
+
+/** All tracks across the catalog in course order. */
+function allTracks() {
+  const out = [];
+  for (const level of state.currentCourse?.levels || []) {
+    for (const disc of level.discs || []) for (const t of disc.tracks || []) out.push({ ...t, level: level.title, cd: disc.cd });
+  }
+  return out;
 }
 
 // ───────────────────────────── Curriculum ─────────────────────────────
@@ -301,12 +360,17 @@ function markActiveTrack() {
 }
 
 // ───────────────────────────── Track loading ─────────────────────────────
-async function loadTrackData(jsonPath, trackId) {
+async function loadTrackData(jsonPath, trackId, { startAt = 0, play = false } = {}) {
   try {
     const res = await fetch(jsonPath);
     const data = await res.json();
+    cancelShadowGap();
     state.currentTrackData = data;
     state.currentTrackId = trackId || data.trackId;
+    state.currentTrackFile = jsonPath;
+    state.promptHandled.clear();
+    state.awaitingAnswerIdx = -1;
+    document.body.classList.remove('awaiting-answer');
 
     const shortTitle = data.title.replace(/^.*?Track\s*\d+:\s*/i, '');
     const discLabel = `${data.course.replace(/^Chinese\s+/i, '')} · CD ${data.cd} · Track ${data.track}`;
@@ -321,6 +385,23 @@ async function loadTrackData(jsonPath, trackId) {
     elements.audio.src = data.audioUrl;
     elements.audio.load();
     elements.audio.playbackRate = state.playbackSpeed;
+    if (startAt > 0 || play) {
+      elements.audio.addEventListener('loadedmetadata', () => {
+        if (startAt > 0 && startAt < getDuration() - 1) elements.audio.currentTime = startAt;
+        if (play) elements.audio.play().catch(() => {});
+      }, { once: true });
+    }
+
+    mediaSession.setMetadata({
+      title: shortTitle,
+      artist: 'Learning Chinese',
+      album: `${data.course} · CD ${data.cd}`,
+      artwork: [
+        { src: new URL('icons/icon-192.png', location.href).href, sizes: '192x192', type: 'image/png' },
+        { src: new URL('icons/icon-512.png', location.href).href, sizes: '512x512', type: 'image/png' }
+      ]
+    });
+    cacheAudioForOffline(data.audioUrl);
 
     renderTranscriptCards(data.segments);
     renderTimelineTicks();
@@ -330,8 +411,8 @@ async function loadTrackData(jsonPath, trackId) {
     state.activeWordIndex = -1;
     state.lastSyncedTime = -1;
     updateLineNav();
-    updateProgressUI();
-    window.scrollTo({ top: 0, behavior: 'auto' });
+    updateProgressUI(startAt);
+    if (!startAt) window.scrollTo({ top: 0, behavior: 'auto' });
   } catch (err) {
     console.error('Failed to load track data:', err);
     elements.transcriptStream.innerHTML = `<p class="error-msg">Failed to load transcript data.</p>`;
@@ -383,6 +464,9 @@ function renderTranscriptCards(segments) {
 
   const cardsHtml = segments.map((seg, idx) => {
     const sp = speakerMeta(seg);
+    const isPrompt = seg.type === 'prompt';
+    const isAnswer = idx > 0 && segments[idx - 1].type === 'prompt';
+    const saved = isSaved(seg, idx);
     const words = Array.isArray(seg.words) ? seg.words : [];
     const isMandarinLine = seg.language === 'zh';
     let body = '';
@@ -403,7 +487,7 @@ function renderTranscriptCards(segments) {
     }
 
     return `
-      <article class="speech-card enter" id="card-${idx}" style="--i:${Math.min(idx, 12)}"
+      <article class="speech-card enter${isPrompt ? ' is-prompt' : ''}${isAnswer ? ' is-answer' : ''}" id="card-${idx}" style="--i:${Math.min(idx, 12)}"
         data-index="${idx}" data-start="${seg.start}" data-end="${seg.end}"
         data-lang="${escapeHtml(seg.language || 'en')}" data-type="${escapeHtml(seg.type || '')}"
         tabindex="-1" aria-label="${escapeHtml(sp.name)} at ${formatTime(seg.start)}">
@@ -416,8 +500,11 @@ function renderTranscriptCards(segments) {
           <span class="card-actions">
             <span class="loop-badge">
               <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M17 2.5l3 3-3 3"/><path d="M4 11.5v-1a5 5 0 0 1 5-5h11"/><path d="M7 21.5l-3-3 3-3"/><path d="M20 12.5v1a5 5 0 0 1-5 5H4"/></svg>
-              Looping
+              <span class="lb-loop">Looping</span><span class="lb-say">Your turn to repeat</span>
             </span>
+            <button class="save-btn${saved ? ' saved' : ''}" data-action="save" aria-pressed="${saved}" aria-label="${saved ? 'Remove from saved lines' : 'Save this line'}" title="Save line (S)">
+              <svg width="15" height="15" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 3.2l2.6 5.5 6 .8-4.4 4.1 1.1 5.9L12 16.6l-5.3 2.9 1.1-5.9L3.4 9.5l6-.8z"/></svg>
+            </button>
             <button class="time-badge" data-start="${seg.start}" aria-label="Play from ${formatTime(seg.start)}">
               <svg viewBox="0 0 24 24" height="9" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg>
               ${formatTime(seg.start)}
@@ -425,6 +512,8 @@ function renderTranscriptCards(segments) {
           </span>
         </header>
         <div class="sentence-body">${body}</div>
+        ${isPrompt ? `<p class="prompt-hint"><span class="prompt-glyph" lang="zh-Hans" aria-hidden="true">说</span>Your turn — say it before you hear the answer</p>` : ''}
+        ${isAnswer ? `<button class="reveal-btn" data-action="reveal"><span class="prompt-glyph" lang="zh-Hans" aria-hidden="true">说</span><span><strong>Say it aloud first</strong><small>Tap to hear the answer</small></span></button>` : ''}
       </article>`;
   }).join('');
 
@@ -435,16 +524,35 @@ function renderTranscriptCards(segments) {
     elements.transcriptStream.querySelectorAll('.speech-card.enter').forEach((c) => c.classList.remove('enter'));
   }, 1400);
 
-  elements.transcriptStream.querySelectorAll('.speech-card').forEach((card) => {
-    card.addEventListener('click', (e) => {
-      // Don't hijack text selection
-      if (window.getSelection && String(window.getSelection()).length > 0) return;
-      const wordToken = e.target.closest('.word-token');
-      const start = wordToken?.dataset.start ?? card.dataset.start;
-      resumeFollowing();
-      seekAudio(parseFloat(start));
-    });
-  });
+}
+
+/** One delegated handler for every card: save, reveal, Pinyin peek, word & line seeking. */
+function onTranscriptClick(e) {
+  const card = e.target.closest('.speech-card');
+  if (!card) return;
+  const idx = Number(card.dataset.index);
+
+  if (e.target.closest('[data-action="save"]')) { toggleSaved(idx); return; }
+  if (e.target.closest('[data-action="reveal"]')) { revealAnswer(idx, { play: true }); return; }
+
+  // Don't hijack text selection
+  if (window.getSelection && String(window.getSelection()).length > 0) return;
+
+  // Pinyin hidden: tapping a character peeks at its syllable instead of seeking
+  const glyph = e.target.closest('ruby.glyph:not(.punct)');
+  if (glyph && !state.isPinyinVisible) { peekPinyin(glyph); return; }
+
+  const wordToken = e.target.closest('.word-token');
+  const start = wordToken?.dataset.start ?? card.dataset.start;
+  if (card.classList.contains('is-answer')) card.classList.add('revealed');
+  resumeFollowing();
+  seekAudio(parseFloat(start));
+}
+
+function peekPinyin(glyph) {
+  glyph.classList.add('peek');
+  clearTimeout(glyph._peekTimer);
+  glyph._peekTimer = setTimeout(() => glyph.classList.remove('peek'), 2600);
 }
 
 function renderTimelineTicks() {
@@ -467,6 +575,8 @@ function startAnimationFrameSync() {
         syncActiveWord(curTime);
         if (!state.isScrubbing) updateProgressUI();
         checkSentenceLoop(curTime);
+        checkYourTurn(curTime);
+        if (!elements.audio.paused) maybeSaveProgress(curTime);
       }
     }
     requestAnimationFrame(loop);
@@ -506,6 +616,8 @@ function syncActiveSentence(currentTime) {
 
     state.activeSegmentIndex = activeIdx;
     state.activeWordIndex = -1;
+    // Reaching an answer line reveals it (and everything before it)
+    for (let i = 0; i <= activeIdx; i++) $(`card-${i}`)?.classList.add('revealed');
     const activeCard = $(`card-${activeIdx}`);
     if (activeCard) {
       activeCard.classList.add('active');
@@ -565,10 +677,64 @@ function syncActiveWord(currentTime) {
 }
 
 function checkSentenceLoop(currentTime) {
-  if (!state.isLoopingSentence || state.activeSegmentIndex === -1 || elements.audio.paused) return;
+  if (state.loopMode === 'off' || state.isShadowGap || state.activeSegmentIndex === -1 || elements.audio.paused) return;
   const curSeg = state.currentTrackData.segments[state.activeSegmentIndex];
-  if (curSeg && currentTime >= curSeg.end - 0.15) {
+  if (!curSeg || currentTime < curSeg.end - 0.15) return;
+
+  if (state.loopMode === 'loop') {
     elements.audio.currentTime = curSeg.start;
+    return;
+  }
+  // Repeat aloud: pause for about as long as the line took, then play it again
+  const gap = Math.max(1.5, (curSeg.end - curSeg.start) / (state.playbackSpeed || 1) + 0.8);
+  state.isShadowGap = true;
+  elements.audio.pause();
+  document.body.classList.add('shadow-gap');
+  $(`card-${state.activeSegmentIndex}`)?.style.setProperty('--gap', `${gap}s`);
+  state.shadowTimer = setTimeout(() => {
+    state.isShadowGap = false;
+    document.body.classList.remove('shadow-gap');
+    elements.audio.currentTime = curSeg.start;
+    elements.audio.play().catch(() => {});
+  }, gap * 1000);
+}
+
+function cancelShadowGap() {
+  if (!state.isShadowGap) return;
+  clearTimeout(state.shadowTimer);
+  state.isShadowGap = false;
+  document.body.classList.remove('shadow-gap');
+  updatePlayPauseState(!elements.audio.paused);
+}
+
+/** "Your turn": pause at the end of a teacher prompt so the learner can answer first. */
+function checkYourTurn(currentTime) {
+  if (!state.isYourTurnOn || elements.audio.paused || state.activeSegmentIndex === -1) return;
+  const idx = state.activeSegmentIndex;
+  const seg = state.currentTrackData.segments[idx];
+  if (seg?.type !== 'prompt' || state.promptHandled.has(idx) || currentTime < seg.end - 0.08) return;
+  state.promptHandled.add(idx);
+  elements.audio.pause();
+  const answer = $(`card-${idx + 1}`);
+  if (answer) {
+    state.awaitingAnswerIdx = idx + 1;
+    answer.classList.add('awaiting');
+    document.body.classList.add('awaiting-answer');
+  }
+}
+
+function revealAnswer(idx, { play = false } = {}) {
+  const card = $(`card-${idx}`);
+  if (!card) return;
+  card.classList.add('revealed');
+  card.classList.remove('awaiting');
+  if (state.awaitingAnswerIdx === idx) {
+    state.awaitingAnswerIdx = -1;
+    document.body.classList.remove('awaiting-answer');
+  }
+  if (play) {
+    const seg = state.currentTrackData.segments[idx];
+    seekAudio(Math.max(elements.audio.currentTime, seg.start));
   }
 }
 
@@ -578,6 +744,10 @@ function checkSentenceLoop(currentTime) {
  */
 function seekAudio(timestamp, { play = true } = {}) {
   const t = Math.max(0, Math.min(getDuration(), timestamp));
+  cancelShadowGap();
+  // Seeking back before a prompt's end arms its "Your turn" pause again
+  const segs = state.currentTrackData?.segments || [];
+  for (const i of [...state.promptHandled]) if (segs[i] && t < segs[i].end - 0.1) state.promptHandled.delete(i);
   elements.audio.currentTime = t;
   if (play && elements.audio.paused) {
     elements.audio.play().catch((err) => console.log('Play interrupted:', err));
@@ -599,6 +769,21 @@ function updateProgressUI(forcedTime) {
   elements.timelineContainer.setAttribute('aria-valuemax', dur.toFixed(1));
   elements.timelineContainer.setAttribute('aria-valuenow', cur.toFixed(1));
   elements.timelineContainer.setAttribute('aria-valuetext', `${formatTime(cur)} of ${formatTime(dur)}`);
+}
+
+function maybeSaveProgress(t, force = false) {
+  const now = performance.now();
+  if (!force && now - state.lastProgressSave < 2000) return;
+  state.lastProgressSave = now;
+  if (state.currentTrackId) store('lc_resume', JSON.stringify({ trackId: state.currentTrackId, time: t, at: Date.now() }));
+  if (force || now - state.lastPositionPush > 5000) {
+    state.lastPositionPush = now;
+    pushPositionState();
+  }
+}
+
+function pushPositionState() {
+  mediaSession.setPositionState({ duration: getDuration(), position: elements.audio.currentTime || 0, playbackRate: state.playbackSpeed });
 }
 
 function updateLineNav() {
@@ -668,6 +853,8 @@ function resumeFollowing() {
 
 // ───────────────────────────── Toggles ─────────────────────────────
 function togglePlayPause() {
+  if (state.isShadowGap) { cancelShadowGap(); return; }  // stop the repeat-aloud cycle
+  if (state.awaitingAnswerIdx !== -1) { revealAnswer(state.awaitingAnswerIdx); }
   if (elements.audio.paused) {
     elements.audio.play().catch((err) => console.log('Play interrupted:', err));
   } else {
@@ -675,7 +862,9 @@ function togglePlayPause() {
   }
 }
 
-function updatePlayPauseState(isPlaying) {
+function updatePlayPauseState(playing) {
+  // The repeat-aloud pause is part of an active session, so it still looks "playing"
+  const isPlaying = playing || state.isShadowGap;
   elements.playIcon.classList.toggle('hidden', isPlaying);
   elements.pauseIcon.classList.toggle('hidden', !isPlaying);
   elements.playPauseBtn.setAttribute('aria-label', isPlaying ? 'Pause' : 'Play');
@@ -695,6 +884,7 @@ function togglePinyin() {
 function applyPinyinState() {
   document.body.setAttribute('data-pinyin', state.isPinyinVisible ? 'visible' : 'hidden');
   setSwitch(elements.togglePinyinBtn, state.isPinyinVisible);
+  syncSettingsPanel();
 }
 
 function toggleTones() {
@@ -705,20 +895,182 @@ function toggleTones() {
 function applyToneState() {
   document.body.setAttribute('data-tones', state.isToneColorOn ? 'on' : 'off');
   setSwitch(elements.toggleTonesBtn, state.isToneColorOn);
+  syncSettingsPanel();
 }
 
 function toggleAutoScroll() {
   state.isAutoScrollEnabled = !state.isAutoScrollEnabled;
   setSwitch(elements.toggleAutoScrollBtn, state.isAutoScrollEnabled);
+  syncSettingsPanel();
   resumeFollowing();
   if (state.isAutoScrollEnabled && state.activeSegmentIndex !== -1) scrollToActive();
 }
 
+/** Cycles Off → Loop → Repeat aloud (loop with a pause to say it yourself) → Off */
 function toggleLoop() {
-  state.isLoopingSentence = !state.isLoopingSentence;
+  const next = LOOP_MODES[(LOOP_MODES.indexOf(state.loopMode) + 1) % LOOP_MODES.length];
+  setLoopMode(next);
+  if (next !== 'off') showToast(next === 'loop' ? 'Looping this line' : 'Repeat aloud — the line pauses so you can say it', { duration: 2400 });
+}
+function setLoopMode(mode) {
+  if (mode !== 'shadow') cancelShadowGap();
+  state.loopMode = mode;
+  state.isLoopingSentence = mode !== 'off';
   elements.loopSentenceBtn.classList.toggle('active', state.isLoopingSentence);
+  elements.loopSentenceBtn.dataset.mode = mode;
   elements.loopSentenceBtn.setAttribute('aria-pressed', String(state.isLoopingSentence));
+  elements.loopSentenceBtn.setAttribute('aria-label', `Loop mode: ${LOOP_LABELS[mode]}`);
+  elements.loopLabel.textContent = LOOP_LABELS[mode];
   document.body.classList.toggle('is-looping', state.isLoopingSentence);
+  document.body.classList.toggle('is-shadowing', mode === 'shadow');
+}
+
+// ─────────── Practice settings: glosses & Your turn ───────────
+function applyPracticeState() {
+  document.body.dataset.glossEn = state.showEnglishGloss ? 'on' : 'off';
+  document.body.dataset.glossZh = state.showChineseGloss ? 'on' : 'off';
+  document.body.classList.toggle('your-turn', state.isYourTurnOn);
+  syncSettingsPanel();
+}
+function setPractice(key, value) {
+  const map = { showEnglishGloss: 'lc_gloss_en', showChineseGloss: 'lc_gloss_zh', isYourTurnOn: 'lc_your_turn' };
+  state[key] = value;
+  store(map[key], value);
+  if (key === 'isYourTurnOn' && !value) {
+    state.awaitingAnswerIdx = -1;
+    document.body.classList.remove('awaiting-answer');
+  }
+  applyPracticeState();
+}
+
+function syncSettingsPanel() {
+  const panel = elements.settingsPanel;
+  if (!panel) return;
+  const values = {
+    pinyin: state.isPinyinVisible, tones: state.isToneColorOn, follow: state.isAutoScrollEnabled,
+    glossEn: state.showEnglishGloss, glossZh: state.showChineseGloss, yourTurn: state.isYourTurnOn
+  };
+  panel.querySelectorAll('[data-setting]').forEach((btn) => setSwitch(btn, Boolean(values[btn.dataset.setting])));
+  let saved = null;
+  try { saved = localStorage.getItem('lc_theme'); } catch { /* noop */ }
+  const themeChoice = saved ? (saved === 'dark' ? 'dark' : 'light') : 'auto';
+  panel.querySelectorAll('[data-theme-choice]').forEach((b) => {
+    const on = b.dataset.themeChoice === themeChoice;
+    b.classList.toggle('active', on);
+    b.setAttribute('aria-checked', String(on));
+  });
+}
+
+function setSettingsOpen(open) {
+  elements.settingsPanel.classList.toggle('hidden', !open);
+  elements.settingsBtn.setAttribute('aria-expanded', String(open));
+  document.body.classList.toggle('settings-open', open);
+  if (open) { syncSettingsPanel(); elements.settingsPanel.querySelector('button')?.focus({ preventScroll: true }); }
+}
+
+// ───────────────────────────── Saved lines ─────────────────────────────
+function lineKey(seg, idx) { return `${state.currentTrackId}#${seg?.id || idx}`; }
+function isSaved(seg, idx) { return state.saved.some((s) => s.key === lineKey(seg, idx)); }
+
+function toggleSaved(idx) {
+  const seg = state.currentTrackData?.segments?.[idx];
+  if (!seg) return;
+  const key = lineKey(seg, idx);
+  const existing = state.saved.findIndex((s) => s.key === key);
+  if (existing >= 0) state.saved.splice(existing, 1);
+  else {
+    state.saved.unshift({
+      key, trackId: state.currentTrackId, file: state.currentTrackFile, start: seg.start,
+      hanzi: seg.hanzi || '', pinyin: seg.pinyin || '', english: seg.english || '',
+      lesson: elements.lessonTitle.textContent, savedAt: Date.now()
+    });
+  }
+  store('lc_saved', JSON.stringify(state.saved));
+  const btn = $(`card-${idx}`)?.querySelector('.save-btn');
+  if (btn) {
+    const on = existing < 0;
+    btn.classList.toggle('saved', on);
+    btn.setAttribute('aria-pressed', String(on));
+    btn.setAttribute('aria-label', on ? 'Remove from saved lines' : 'Save this line');
+    if (on) { btn.classList.remove('pop'); void btn.offsetWidth; btn.classList.add('pop'); }
+  }
+  renderSaved();
+  showToast(existing >= 0 ? 'Removed from saved lines' : 'Saved — find it in the course menu', { duration: 2000 });
+}
+
+function renderSaved() {
+  const list = elements.savedList;
+  elements.savedCount.textContent = state.saved.length ? String(state.saved.length) : '';
+  if (!state.saved.length) {
+    list.innerHTML = `<li class="saved-empty">Tap <span aria-hidden="true">☆</span> on any line to keep it here for review.</li>`;
+    return;
+  }
+  list.innerHTML = state.saved.map((s, i) => `
+    <li class="saved-item">
+      <button class="saved-open" data-i="${i}" title="Play this line">
+        ${s.hanzi ? `<span class="saved-hanzi" lang="zh-Hans">${escapeHtml(s.hanzi)}</span>` : ''}
+        <span class="saved-en">${escapeHtml(s.english)}</span>
+        <span class="saved-meta">${escapeHtml(s.lesson || '')} · ${formatTime(s.start)}</span>
+      </button>
+      <button class="saved-remove" data-remove="${i}" aria-label="Remove saved line">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </li>`).join('');
+}
+
+async function openSaved(i) {
+  const s = state.saved[i];
+  if (!s) return;
+  if (s.trackId !== state.currentTrackId && s.file) {
+    await loadTrackData(s.file, s.trackId, { startAt: s.start + 0.01, play: true });
+  } else {
+    resumeFollowing();
+    seekAudio(s.start + 0.01);
+  }
+  if (!isDesktop()) setSidebarOpen(false);
+}
+
+// ───────────────────────────── Toast ─────────────────────────────
+let toastTimer = null;
+function showToast(text, { action = null, duration = 5000 } = {}) {
+  elements.toastText.textContent = text;
+  elements.toastAction.classList.toggle('hidden', !action);
+  elements.toastAction.onclick = action ? () => { action.onClick(); hideToast(); } : null;
+  if (action) elements.toastAction.textContent = action.label;
+  elements.toast.classList.remove('hidden');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(hideToast, duration);
+}
+function hideToast() { elements.toast.classList.add('hidden'); }
+
+// ───────────────────────────── Media Session & track end ─────────────────────────────
+function setupMediaSession() {
+  mediaSession.setActionHandlers({
+    play: () => { if (elements.audio.paused) togglePlayPause(); },
+    pause: () => { if (!elements.audio.paused || state.isShadowGap) togglePlayPause(); },
+    seekbackward: () => seekAudio(elements.audio.currentTime - 5, { play: false }),
+    seekforward: () => seekAudio(elements.audio.currentTime + 5, { play: false }),
+    previoustrack: () => jumpLine(-1),   // lock-screen ⏮ / ⏭ step through lines — handy for repetition
+    nexttrack: () => jumpLine(1),
+    seekto: (d) => { if (Number.isFinite(d.seekTime)) seekAudio(d.seekTime, { play: false }); }
+  });
+}
+
+function findNextTrack() {
+  const tracks = allTracks();
+  const i = tracks.findIndex((t) => t.id === state.currentTrackId);
+  return tracks.slice(i + 1).find((t) => t.dataFile) || null;
+}
+
+async function onTrackEnded() {
+  updatePlayPauseState(false);
+  const next = findNextTrack();
+  if (!next || state.loopMode !== 'off') {
+    store('lc_resume', JSON.stringify({ trackId: state.currentTrackId, time: 0, at: Date.now() }));
+    return;
+  }
+  showToast(`Up next: ${next.title.replace(/^Track\s*\d+:\s*/i, '')}`, { duration: 3500 });
+  await loadTrackData(next.dataFile, next.id, { play: true });
 }
 
 function applyTheme() {
@@ -730,6 +1082,18 @@ function toggleTheme() {
   state.theme = state.theme === 'dark' ? 'zen' : 'dark';
   store('lc_theme', state.theme);
   applyTheme();
+  syncSettingsPanel();
+}
+function setThemeChoice(choice) {
+  if (choice === 'auto') {
+    try { localStorage.removeItem('lc_theme'); } catch { /* noop */ }
+    state.theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'zen';
+  } else {
+    state.theme = choice === 'dark' ? 'dark' : 'zen';
+    store('lc_theme', state.theme);
+  }
+  applyTheme();
+  syncSettingsPanel();
 }
 
 function setSidebarOpen(open, { focus = true } = {}) {
@@ -755,6 +1119,7 @@ function setPlaybackSpeed(speed, { persist = true } = {}) {
     b.setAttribute('aria-checked', String(on));
   });
   if (persist) store('lc_speed', speed);
+  pushPositionState();
 }
 
 function setSpeedMenuOpen(open) {
@@ -819,10 +1184,60 @@ function setupScrubber() {
 function setupEventListeners() {
   const a = elements.audio;
   elements.playPauseBtn.addEventListener('click', togglePlayPause);
-  a.addEventListener('play', () => updatePlayPauseState(true));
-  a.addEventListener('pause', () => updatePlayPauseState(false));
-  a.addEventListener('ended', () => updatePlayPauseState(false));
-  a.addEventListener('loadedmetadata', () => { renderTimelineTicks(); updateProgressUI(); });
+  a.addEventListener('play', () => { updatePlayPauseState(true); mediaSession.setPlaybackState('playing'); pushPositionState(); });
+  a.addEventListener('pause', () => {
+    updatePlayPauseState(false);
+    if (!state.isShadowGap) mediaSession.setPlaybackState('paused');
+    maybeSaveProgress(a.currentTime, true);
+  });
+  a.addEventListener('ended', onTrackEnded);
+  a.addEventListener('loadedmetadata', () => { renderTimelineTicks(); updateProgressUI(); pushPositionState(); });
+  a.addEventListener('seeked', pushPositionState);
+  // Save position when the app is backgrounded or closed
+  document.addEventListener('visibilitychange', () => { if (document.hidden) maybeSaveProgress(a.currentTime, true); });
+  window.addEventListener('pagehide', () => maybeSaveProgress(a.currentTime, true));
+
+  elements.transcriptStream.addEventListener('click', onTranscriptClick);
+  elements.savedList.addEventListener('click', (e) => {
+    const rm = e.target.closest('[data-remove]');
+    if (rm) {
+      const s = state.saved[Number(rm.dataset.remove)];
+      state.saved.splice(Number(rm.dataset.remove), 1);
+      store('lc_saved', JSON.stringify(state.saved));
+      renderSaved();
+      if (s?.trackId === state.currentTrackId) {
+        const card = [...document.querySelectorAll('.speech-card')].find((c) => Math.abs(parseFloat(c.dataset.start) - s.start) < 0.001);
+        card?.querySelector('.save-btn')?.classList.remove('saved');
+      }
+      return;
+    }
+    const open = e.target.closest('[data-i]');
+    if (open) openSaved(Number(open.dataset.i));
+  });
+
+  // Settings panel
+  elements.settingsBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    setSettingsOpen(elements.settingsPanel.classList.contains('hidden'));
+  });
+  elements.settingsPanel.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const btn = e.target.closest('[data-setting]');
+    if (btn) {
+      const k = btn.dataset.setting;
+      if (k === 'pinyin') togglePinyin();
+      else if (k === 'tones') toggleTones();
+      else if (k === 'follow') toggleAutoScroll();
+      else if (k === 'glossEn') setPractice('showEnglishGloss', !state.showEnglishGloss);
+      else if (k === 'glossZh') setPractice('showChineseGloss', !state.showChineseGloss);
+      else if (k === 'yourTurn') setPractice('isYourTurnOn', !state.isYourTurnOn);
+      return;
+    }
+    const theme = e.target.closest('[data-theme-choice]');
+    if (theme) setThemeChoice(theme.dataset.themeChoice);
+    if (e.target.closest('[data-close]')) setSettingsOpen(false);
+  });
+  document.addEventListener('click', () => { if (!elements.settingsPanel.classList.contains('hidden')) setSettingsOpen(false); });
 
   elements.skipBackBtn.addEventListener('click', () => seekAudio(a.currentTime - 5));
   elements.skipForwardBtn.addEventListener('click', () => seekAudio(a.currentTime + 5));
@@ -856,7 +1271,7 @@ function setupEventListeners() {
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', (e) => {
     let saved = null;
     try { saved = localStorage.getItem('lc_theme'); } catch { /* noop */ }
-    if (!saved) { state.theme = e.matches ? 'dark' : 'zen'; applyTheme(); }
+    if (!saved) { state.theme = e.matches ? 'dark' : 'zen'; applyTheme(); syncSettingsPanel(); }
   });
 
   // User scroll intent — wheel / touch / keyboard. (A bare `scroll` listener
@@ -899,7 +1314,8 @@ function setupEventListeners() {
     if (['INPUT', 'TEXTAREA', 'SELECT'].includes(e.target.tagName) || e.target.isContentEditable) return;
 
     if (e.key === 'Escape') {
-      if (!elements.speedMenu.classList.contains('hidden')) { setSpeedMenuOpen(false); elements.speedBtn.focus(); }
+      if (!elements.settingsPanel.classList.contains('hidden')) { setSettingsOpen(false); elements.settingsBtn.focus(); }
+      else if (!elements.speedMenu.classList.contains('hidden')) { setSpeedMenuOpen(false); elements.speedBtn.focus(); }
       else if (!isDesktop() && !elements.courseSidebar.classList.contains('closed')) setSidebarOpen(false);
       return;
     }
@@ -910,7 +1326,7 @@ function setupEventListeners() {
 
     if (e.code === 'Space') {
       // Space is always play/pause (media-player convention); Enter still activates buttons.
-      if (e.target.closest('.dropdown-menu')) return;
+      if (e.target.closest('.dropdown-menu, .settings-panel')) return;
       e.preventDefault();
       togglePlayPause();
     } else if (e.code === 'ArrowLeft') {
@@ -925,6 +1341,8 @@ function setupEventListeners() {
       toggleTones();
     } else if (e.key.toLowerCase() === 'l') {
       toggleLoop();
+    } else if (e.key.toLowerCase() === 's' && state.activeSegmentIndex !== -1) {
+      toggleSaved(state.activeSegmentIndex);
     }
   });
 }
