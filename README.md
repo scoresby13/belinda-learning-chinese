@@ -16,6 +16,8 @@ Built with **Gemini** (transcription pipeline, data schema & sync engine) and **
 - 🔤 **Toggleable Pinyin:** Instantly switch Pinyin on or off. Beginners can read Pinyin + Hanzi side-by-side, while intermediate learners can hide Pinyin to test and master their Hanzi reading skills.
 - 🎯 **Click-to-Seek Navigation:** Click any line, phrase, or word in the transcript to instantly jump playback to that timestamp.
 - ⚡ **Word-by-Word Sweeping Progress:** Visual progress sweeps across characters as they are pronounced.
+- 🎨 **Tone Colours:** Optionally colour Pinyin and Hanzi by tone (1st red · 2nd jade · 3rd azure · 4th plum · neutral grey) to build tone memory.
+- ⌨️ **Keyboard Shortcuts:** `Space` play/pause · `←/→` ±5 s · `Shift+←/→` previous/next line · `P` Pinyin · `T` tones · `L` loop line.
 - 🔁 **Sentence Loop & Speed Controls:** Slow down speech (0.75x, 0.9x) or loop difficult phrases to perfect tones and pronunciation.
 - 📱 **Responsive & Clean UI:** Designed by Claude with a refined, distraction-free aesthetic optimized for desktop and mobile reading.
 - 🚀 **GitHub Pages Ready:** Zero-backend static web application deployable directly on GitHub Pages.
