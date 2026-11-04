@@ -45,7 +45,7 @@ Transform the audio-guided Mandarin Chinese course (Michel Thomas Method, ~16 CD
 
 | Date | Decision | Rationale | Impact / Outcome |
 | :--- | :--- | :--- | :--- |
-| **2026-11-05** | **Independent Git Repository** | The parent workspace folder previously contained `chinese-word-atlas`. To give Claude clean cloud access without repo pollution, created this project as a fresh repository (now `https://github.com/scoresby13/learning-chinese.git`). | Parent `.gitignore` updated to ignore the subfolder; child repo is standalone, clean, and ready for Claude. |
+| **2026-11-05** | **Independent Git Repository** | The parent workspace previously contained another project. To give Claude clean cloud access without repo pollution, created this project as a fresh repository (now `https://github.com/scoresby13/learning-chinese.git`). | Parent `.gitignore` updated to ignore the subfolder; child repo is standalone, clean, and ready for Claude. |
 | **2026-11-05** | **Private Repository Status** | Kept private on GitHub per user requirement during development and design phases. | Secures audio transcripts and course data while allowing Claude cloud access. |
 | **2026-11-05** | **Data Schema: Structured JSON with Ruby Annotation Support** | Transcripts must capture speaker tags, language switches (English vs Chinese), Hanzi, Pinyin, and word timestamps. | Enables native HTML `<ruby>` / `<rt>` markup and clean CSS class toggling (`pinyin-visible` / `pinyin-hidden`). |
 | **2026-11-05** | **Audio Delivery Strategy** | Total audio files across 16 CDs are ~1.6 GB (~200 MP3 files). GitHub repos recommend remaining under 1 GB, with max 100MB per file. | Phase 1 embeds Foundation CD1 tracks for local/cloud prototyping; Phase 2 introduces external CDN streaming (e.g., GitHub Releases asset attachments or Cloudflare R2) so GitHub Pages remains lightweight and fast. |
@@ -72,7 +72,7 @@ Transform the audio-guided Mandarin Chinese course (Michel Thomas Method, ~16 CD
 ## 4. Problems Encountered & Resolutions
 
 ### Problem 1: Parent Workspace Repo Collision
-- **Issue:** The parent workspace folder was already a cloned Git repository (`scoresby13/chinese-word-atlas`). Initializing a new repository directly at the root would create conflicting Git roots or overwrite existing remotes.
+- **Issue:** The parent workspace was already a cloned Git repository (another project). Initializing a new repository directly at the root would create conflicting Git roots or overwrite existing remotes.
 - **Resolution:** Created the project subfolder as an isolated Git repository with its own remote origin, and added it along with `learningchinese/` to the parent `.gitignore`.
 
 ### Problem 2: Audio File Size Quotas on GitHub

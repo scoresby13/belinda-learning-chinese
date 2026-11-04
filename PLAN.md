@@ -32,7 +32,7 @@ Our web application pairs audio playback with synchronized bilingual transcripts
 
 ## 2. Audio Corpus Inventory
 
-The source dataset (the local course folder `learningchinese/Chinese`) consists of 16 CDs:
+The source dataset consists of 16 CDs:
 
 | Course Level | CD / Discs | Total Audio Tracks | Total Size | Description |
 | :--- | :--- | :--- | :--- | :--- |
