@@ -1,7 +1,7 @@
-# Belinda Learning Chinese — Project Decision & Architecture Log
+# Learning Chinese — Project Decision & Architecture Log
 
 > **Collaborators:** Gemini 3.8 & Claude  
-> **Repository:** [scoresby13/belinda-learning-chinese](https://github.com/scoresby13/belinda-learning-chinese) (Private)  
+> **Repository:** [scoresby13/learning-chinese](https://github.com/scoresby13/learning-chinese) (Private)  
 > **Last Updated:** 2026-11-05  
 > **Status:** Active Initiation & Claude Design Handoff  
 
@@ -17,7 +17,7 @@ Transform the audio-guided Mandarin Chinese course (Michel Thomas Method, ~16 CD
    - Mandarin sentences/phrases transcribed into Chinese characters (**Hanzi**) and Romanization with tonal diacritics (**Pinyin**).
 2. **Pinyin Visibility Toggle:**
    - Instant toggle switch allowing the learner to show or hide Pinyin anytime.
-   - Purpose: As Belinda/learners build confidence, they can hide Pinyin to practice pure Hanzi reading fluency while listening, or toggle it on when they need phonetic assistance.
+   - Purpose: As learners build confidence, they can hide Pinyin to practice pure Hanzi reading fluency while listening, or toggle it on when they need phonetic assistance.
 3. **Lyrics / Karaoke-Style Interactive Audio Synchronization:**
    - Live transcript tracking: As audio plays, the transcript smoothly auto-scrolls to keep the active segment in focus.
    - Active segment highlight: Clear visual focus on what the teacher/student is currently saying.
@@ -34,7 +34,7 @@ Transform the audio-guided Mandarin Chinese course (Michel Thomas Method, ~16 CD
 
 ## 2. What We Are Doing Right Now
 
-- **Repository Setup:** Created private GitHub repository `scoresby13/belinda-learning-chinese`.
+- **Repository Setup:** Created private GitHub repository `scoresby13/learning-chinese`.
 - **Architectural Specification (`PLAN.md`):** Drafting the comprehensive system blueprint, including data schema, audio management strategy, frontend architecture, and design handoff specifications for Claude.
 - **Decision Log (`DECISION_LOG.md`):** Establishing this shared persistent record so context is never lost across sessions, context compression, or agent handoffs.
 - **App Scaffold:** Initializing the web application boilerplate (Vite-based modern stack) with a working sample data player for immediate testing.
@@ -45,7 +45,7 @@ Transform the audio-guided Mandarin Chinese course (Michel Thomas Method, ~16 CD
 
 | Date | Decision | Rationale | Impact / Outcome |
 | :--- | :--- | :--- | :--- |
-| **2026-11-05** | **Independent Git Repository** | The parent folder `D:\belindalearningchinese` previously contained `chinese-word-atlas`. To give Claude clean cloud access without repo pollution, created `belinda-learning-chinese` as a fresh repository linked to `https://github.com/scoresby13/belinda-learning-chinese.git`. | Parent `.gitignore` updated to ignore the subfolder; child repo is standalone, clean, and ready for Claude. |
+| **2026-11-05** | **Independent Git Repository** | The parent workspace folder previously contained `chinese-word-atlas`. To give Claude clean cloud access without repo pollution, created this project as a fresh repository (now `https://github.com/scoresby13/learning-chinese.git`). | Parent `.gitignore` updated to ignore the subfolder; child repo is standalone, clean, and ready for Claude. |
 | **2026-11-05** | **Private Repository Status** | Kept private on GitHub per user requirement during development and design phases. | Secures audio transcripts and course data while allowing Claude cloud access. |
 | **2026-11-05** | **Data Schema: Structured JSON with Ruby Annotation Support** | Transcripts must capture speaker tags, language switches (English vs Chinese), Hanzi, Pinyin, and word timestamps. | Enables native HTML `<ruby>` / `<rt>` markup and clean CSS class toggling (`pinyin-visible` / `pinyin-hidden`). |
 | **2026-11-05** | **Audio Delivery Strategy** | Total audio files across 16 CDs are ~1.6 GB (~200 MP3 files). GitHub repos recommend remaining under 1 GB, with max 100MB per file. | Phase 1 embeds Foundation CD1 tracks for local/cloud prototyping; Phase 2 introduces external CDN streaming (e.g., GitHub Releases asset attachments or Cloudflare R2) so GitHub Pages remains lightweight and fast. |
@@ -55,11 +55,12 @@ Transform the audio-guided Mandarin Chinese course (Michel Thomas Method, ~16 CD
 | **2026-11-04** | **Per-character ruby with a reserved Pinyin row (Claude)** | Each Hanzi gets its own `<ruby>` with its syllable centred above. The Pinyin row is always laid out and only fades (`opacity` + `visibility`), so toggling `P` causes **zero layout shift** (verified: transcript height identical on/off). Punctuation stays with the preceding character so lines never start with `，` or `。`. | Requires pinyin syllable count = Han character count per line (punctuation ignored); otherwise a Pinyin line above the Hanzi is used instead. |
 | **2026-11-04** | **Frame-driven karaoke sweep (Claude)** | The spoken word fills left→right with cinnabar, driven every animation frame from `audio.currentTime` via a `--p` CSS variable (0→1). This stays exact through pause, seek, speed changes and loops, unlike a CSS animation timer. Spoken words become full ink and upcoming words recede. | Works for English tokens, inline Mandarin tokens ("…is hǎo 好") and spoken-Mandarin lines (sweep across Hanzi). |
 | **2026-11-04** | **Lyrics focus + language-aware card layout (Claude)** | While playing, non-active lines recede (58% opacity); the active line lifts with a brushstroke accent, a cinnabar wash and a line-progress hairline. `language: "en"` lines show English as the lyric with the Chinese rendering underneath; `language: "zh"` lines show Hanzi as the lyric with an italic English gloss. | The learner's eye always lands on what is being said right now. |
-| **2026-11-04** | **Optional tone colours (Claude)** | Implements PLAN §3.3: `T` / "Tones" chip colours Pinyin and Hanzi by tone (1 red, 2 jade, 3 azure, 4 plum, neutral grey). Tone is detected from the diacritic. Off by default. | Saved in `localStorage` (`belinda_tones`). |
+| **2026-11-04** | **Optional tone colours (Claude)** | Implements PLAN §3.3: `T` / "Tones" chip colours Pinyin and Hanzi by tone (1 red, 2 jade, 3 azure, 4 plum, neutral grey). Tone is detected from the diacritic. Off by default. | Saved in `localStorage` (`lc_tones`). |
 | **2026-11-04** | **Floating glass dock + richer controls (Claude)** | Floating, blurred dock centred on the reading column. Timeline supports click **and drag**, keyboard input (`role="slider"`), a hover time tooltip, tick marks at line boundaries, and a band showing the active line (hatched while looping). Added previous/next-line buttons (`Shift+←/→`); "previous" restarts the current line if more than 1.5 s in. Speed set to PLAN's 0.75/0.9/1/1.1/1.25 and saved between sessions. | On mobile, transport is one row of ≥48 px thumb targets: Loop · −5 · Play · +5 · Speed. |
 | **2026-11-04** | **Follow (auto-scroll) intent detection fixed (Claude)** | The old `scroll` listener also fired during our own smooth `scrollIntoView`, so "Viewing past lines" appeared constantly. Now only real user input (wheel, touch, PageUp/Down/arrow keys) pauses following. The "Back to live line" pill appears only when the live line is actually off-screen, and its arrow points toward it. Following resumes after 6 s idle. | The Follow chip shows a pulsing ring while following and a hollow ring while paused by the reader. |
 | **2026-11-04** | **Curriculum drawer (Claude)** | Persistent sticky sidebar on desktop (≥1024 px) with its own scroll; off-canvas drawer with scrim, `inert`, and Esc-to-close below that. Levels carry Hanzi labels (基础 / 进阶 / 词汇); discs collapse; CDs without transcripts show "Soon"; the active track shows a now-playing equaliser. | Closed by default on phones so the transcript is visible first. |
 | **2026-11-04** | **Fix: words blinking out at the end of the sweep (Claude)** | Found while checking Gemini's new `seg-005`. The sweep makes the text colour `transparent` and paints the fill through `background-clip: text`. When a word finished, the fill was removed instantly but the colour faded back from transparent, so each word briefly vanished (measured alpha 0.001 for Hanzi, 0.21 for English). Colour transitions are now off for tokens in the live line. | Text stays fully opaque on every frame after a word ends (verified per frame). The data from Gemini's §6.2 work passes the validator and renders with zero Pinyin fallbacks. |
+| **2026-11-04** | **Renamed to "Learning Chinese" (owner request)** | The app is for anyone, not one learner. Removed the personal name from the UI, docs, package name and storage keys. The repo slug becomes `learning-chinese`. | `localStorage` keys are now `lc_*` (old preferences reset once). The GitHub repo itself must be renamed in Settings → General; GitHub redirects the old URL. |
 | **2026-11-05** | **Transcript Alignment & Quality Engine (Gemini)** | Addressed Claude's §6.2 requests: restored complete English word tokens in `words[]` (line 3 & 4), guaranteed 1:1 Hanzi-to-Pinyin syllable matching per line, strictly non-overlapping timestamps, and added `native_guide` model pronunciation card. | Sample CD1 Track 1 updated; created `scripts/validate_transcript.py` for CI and batch pipeline verification. |
 
 ---
@@ -67,8 +68,8 @@ Transform the audio-guided Mandarin Chinese course (Michel Thomas Method, ~16 CD
 ## 4. Problems Encountered & Resolutions
 
 ### Problem 1: Parent Workspace Repo Collision
-- **Issue:** `D:\belindalearningchinese` was already a cloned Git repository (`scoresby13/chinese-word-atlas`). Initializing a new repository directly at the root would create conflicting Git roots or overwrite existing remotes.
-- **Resolution:** Created `D:\belindalearningchinese\belinda-learning-chinese` as an isolated Git repository with its own remote origin, and added it along with `learningchinese/` to the parent `.gitignore`.
+- **Issue:** The parent workspace folder was already a cloned Git repository (`scoresby13/chinese-word-atlas`). Initializing a new repository directly at the root would create conflicting Git roots or overwrite existing remotes.
+- **Resolution:** Created the project subfolder as an isolated Git repository with its own remote origin, and added it along with `learningchinese/` to the parent `.gitignore`.
 
 ### Problem 2: Audio File Size Quotas on GitHub
 - **Issue:** The Chinese course contains 16 CDs:
@@ -133,7 +134,7 @@ The sync engine keeps the same behaviour and function names. Changes there: it a
 5. **`speakerName`** is parsed as `"Name (Role)"`. The `speaker` values `teacher` / `student_*` / `native_guide` map to the glyphs 师 / 生 / 范 and to jade / cinnabar / gold.
 
 ### 6.3 Preferences persisted (localStorage)
-`belinda_theme` (`zen` | `dark`, otherwise follows the OS), `belinda_pinyin`, `belinda_tones`, `belinda_speed`.
+`lc_theme` (`zen` | `dark`, otherwise follows the OS), `lc_pinyin`, `lc_tones`, `lc_speed`.
 
 ### 6.4 Shortcuts
 `Space` play/pause · `←/→` ±5 s · `Shift+←/→` previous/next line · `P` Pinyin · `T` tone colours · `L` loop line · `Esc` close menu/drawer.
