@@ -3,10 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>Belinda Learning Chinese — Interactive Audio Course</title>
+  <title>Learning Chinese — Interactive Audio Course</title>
   <meta name="description" content="Lyrics-synchronised Mandarin Chinese lessons with Hanzi, Pinyin and word-by-word karaoke highlighting." />
   <meta name="theme-color" content="#FAF7F2" media="(prefers-color-scheme: light)" />
   <meta name="theme-color" content="#111315" media="(prefers-color-scheme: dark)" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Chinese" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='4' y='4' width='56' height='56' rx='12' fill='%23C84B31'/%3E%3Ctext x='32' y='45' font-size='36' text-anchor='middle' fill='%23FFF8F0' font-family='serif' font-weight='700'%3E%E5%AD%A6%3C/text%3E%3C/svg%3E" />
 
   <!-- Typography: Noto Serif SC (Hanzi) · Newsreader (spoken English) · Plus Jakarta Sans (UI + Pinyin) -->
@@ -18,7 +22,7 @@
   <script>
     (function () {
       try {
-        var t = localStorage.getItem('belinda_theme');
+        var t = localStorage.getItem('lc_theme');
         if (!t) t = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'zen';
         document.documentElement.setAttribute('data-theme', t);
       } catch (e) { document.documentElement.setAttribute('data-theme', 'zen'); }
@@ -37,10 +41,10 @@
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 6.5h16M4 12h10M4 17.5h16"/></svg>
         </button>
 
-        <a class="brand" href="./" aria-label="Belinda Learning Chinese — home">
+        <a class="brand" href="./" aria-label="Learning Chinese — home">
           <span class="brand-seal" aria-hidden="true">学</span>
           <span class="brand-text">
-            <span class="brand-title">Belinda <em>Learning Chinese</em></span>
+            <span class="brand-title">Learning <em>Chinese</em></span>
             <span id="currentTrackHeader" class="track-subtitle">Loading lesson…</span>
           </span>
         </a>
@@ -65,10 +69,59 @@
           <span class="chip-switch" aria-hidden="true"></span>
         </button>
 
-        <button id="toggleThemeBtn" class="icon-btn" title="Switch between Rice Paper and Ink Obsidian" aria-label="Toggle dark mode">
+        <button id="toggleThemeBtn" class="icon-btn theme-btn" title="Switch between Rice Paper and Ink Obsidian" aria-label="Toggle dark mode">
           <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z"/></svg>
           <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg>
         </button>
+
+        <button id="settingsBtn" class="icon-btn" title="View & practice settings" aria-label="View and practice settings" aria-haspopup="dialog" aria-expanded="false" aria-controls="settingsPanel">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h9M17 7h3M4 17h3M11 17h9"/><circle cx="15" cy="7" r="2.2"/><circle cx="9" cy="17" r="2.2"/></svg>
+        </button>
+      </div>
+
+      <!-- View & practice settings -->
+      <div id="settingsPanel" class="settings-panel hidden" role="dialog" aria-label="View and practice settings">
+        <div class="settings-head">
+          <p class="eyebrow">View &amp; practice</p>
+          <button class="icon-btn" data-close aria-label="Close settings">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+          </button>
+        </div>
+
+        <p class="settings-group">Reading</p>
+        <button class="setting-row" role="switch" aria-checked="true" data-setting="pinyin">
+          <span class="setting-text"><strong>Pinyin</strong><small>Syllables above each character. When off, tap a character to peek.</small></span>
+          <kbd>P</kbd><span class="chip-switch" aria-hidden="true"></span>
+        </button>
+        <button class="setting-row" role="switch" aria-checked="false" data-setting="tones">
+          <span class="setting-text"><strong>Tone colours</strong><small>1st red · 2nd jade · 3rd blue · 4th plum</small></span>
+          <kbd>T</kbd><span class="chip-switch" aria-hidden="true"></span>
+        </button>
+        <button class="setting-row" role="switch" aria-checked="true" data-setting="glossEn">
+          <span class="setting-text"><strong>English meaning</strong><small>The translation under spoken Chinese lines</small></span>
+          <span class="chip-switch" aria-hidden="true"></span>
+        </button>
+        <button class="setting-row" role="switch" aria-checked="true" data-setting="glossZh">
+          <span class="setting-text"><strong>Chinese version of English lines</strong><small>Hanzi under what the teacher says in English</small></span>
+          <span class="chip-switch" aria-hidden="true"></span>
+        </button>
+
+        <p class="settings-group">Practice</p>
+        <button class="setting-row" role="switch" aria-checked="false" data-setting="yourTurn">
+          <span class="setting-text"><strong>Your turn pauses</strong><small>Pause after the teacher asks you to say something, and hide the answer until you've tried</small></span>
+          <span class="chip-switch" aria-hidden="true"></span>
+        </button>
+        <button class="setting-row" role="switch" aria-checked="true" data-setting="follow">
+          <span class="setting-text"><strong>Follow the live line</strong><small>Keep the line being spoken in view</small></span>
+          <span class="chip-switch" aria-hidden="true"></span>
+        </button>
+
+        <p class="settings-group">Appearance</p>
+        <div class="segmented" role="radiogroup" aria-label="Theme">
+          <button role="radio" aria-checked="false" data-theme-choice="light">Rice paper</button>
+          <button role="radio" aria-checked="false" data-theme-choice="dark">Ink</button>
+          <button role="radio" aria-checked="true" data-theme-choice="auto">Auto</button>
+        </div>
       </div>
     </header>
 
@@ -89,9 +142,20 @@
           </button>
         </div>
 
+        <div class="sidebar-scroll">
+        <section class="saved-section" aria-labelledby="savedTitle">
+          <h3 class="level-title" id="savedTitle">
+            <span class="level-hanzi" lang="zh-Hans">收藏</span>
+            <span class="level-name">Saved lines</span>
+            <span id="savedCount" class="level-count"></span>
+          </h3>
+          <ul id="savedList" class="saved-list"></ul>
+        </section>
+
         <nav id="courseTree" class="course-tree">
           <div class="loading-state"><span class="ink-spinner"></span>Loading course list…</div>
         </nav>
+        </div>
 
         <div class="sidebar-footer">
           <p class="eyebrow">Shortcuts</p>
@@ -100,7 +164,8 @@
             <li><kbd>←</kbd><kbd>→</kbd> Skip 5 s</li>
             <li><kbd>P</kbd> Pinyin</li>
             <li><kbd>T</kbd> Tone colours</li>
-            <li><kbd>L</kbd> Loop line</li>
+            <li class="wide"><kbd>L</kbd> Loop line · repeat aloud</li>
+            <li><kbd>S</kbd> Save line</li>
             <li class="wide"><kbd>Shift</kbd><kbd>←</kbd><kbd>→</kbd> Previous / next line</li>
           </ul>
         </div>
@@ -125,6 +190,12 @@
         <svg class="resume-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
         <span>Back to live line</span>
       </button>
+    </div>
+
+    <!-- Toast -->
+    <div id="toast" class="toast hidden" role="status" aria-live="polite">
+      <span id="toastText"></span>
+      <button id="toastAction" class="toast-action hidden"></button>
     </div>
 
     <!-- ───────────── Floating glass player dock ───────────── -->
@@ -158,9 +229,9 @@
 
           <!-- Transport -->
           <div class="core-buttons">
-            <button id="loopSentenceBtn" class="ctrl-btn tool" title="Loop the current line (L)" aria-pressed="false">
+            <button id="loopSentenceBtn" class="ctrl-btn tool" title="Loop the line, or loop with a pause to repeat it aloud (L)" aria-pressed="false" data-mode="off">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 2.5l3 3-3 3"/><path d="M4 11.5v-1a5 5 0 0 1 5-5h11"/><path d="M7 21.5l-3-3 3-3"/><path d="M20 12.5v1a5 5 0 0 1-5 5H4"/></svg>
-              <span class="tool-label">Loop line</span>
+              <span id="loopLabel" class="tool-label">Loop line</span>
             </button>
 
             <button id="skipBackBtn" class="ctrl-btn secondary" title="Back 5 seconds (←)" aria-label="Back 5 seconds">

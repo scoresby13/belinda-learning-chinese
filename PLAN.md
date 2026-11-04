@@ -1,8 +1,8 @@
-# Belinda Learning Chinese — Implementation & Architecture Plan
+# Learning Chinese — Implementation & Architecture Plan
 
 > **Author:** Gemini 3.8 & Collaborative Team  
 > **Design Lead:** Claude  
-> **Repository:** `scoresby13/belinda-learning-chinese` (Private)  
+> **Repository:** `scoresby13/learning-chinese` (Private)  
 > **Date:** November 2026  
 > **Version:** 1.0.0  
 
@@ -134,7 +134,7 @@ We will use Gemini's multimodal audio transcription capabilities to process each
 ### 4.2. Key Components & Features
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│ Belinda Learning Chinese                     [Pinyin: ON|OFF]   │
+│ Learning Chinese                             [Pinyin: ON|OFF]   │
 │ Track: Foundation CD1 - Track 01              [Auto-Scroll: ON] │
 ├───────────────────────────────┬─────────────────────────────────┤
 │ Track Selector (Sidebar)      │ Transcript Viewport (Karaoke)   │
@@ -171,7 +171,7 @@ We will use Gemini's multimodal audio transcription capabilities to process each
    - "Loop Current Sentence" button (repeats the current phrase until mastered).
 4. **Navigation & Track Management:**
    - Collapsible drawer / sidebar grouping all 16 CDs and tracks.
-   - Progress tracking: automatically remembers Belinda's last played track and timestamp in `localStorage`.
+   - Progress tracking: automatically remembers the learner's last played track and timestamp in `localStorage`.
 
 ---
 
@@ -225,7 +225,7 @@ flowchart TD
 
 ### Milestone Details:
 - **Phase 1 (Current):**
-  - Create private GitHub repo `scoresby13/belinda-learning-chinese`.
+  - Create private GitHub repo `scoresby13/learning-chinese`.
   - Establish `DECISION_LOG.md` and `PLAN.md`.
   - Build working Vite webapp prototype with CD1 Track 1 sample data.
   - Push initial codebase to GitHub for Claude.

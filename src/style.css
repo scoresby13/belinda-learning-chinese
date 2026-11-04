@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Belinda Learning Chinese — Design System
+   Learning Chinese — Design System
    "Rice Paper & Ink"  ·  light: Rice Paper  ·  dark: Ink Obsidian
    Design lead: Claude
    --------------------------------------------------------------------------
@@ -93,6 +93,7 @@
   --reading-w: 760px;
   --dock-h: 128px;
   --safe-b: env(safe-area-inset-bottom, 0px);
+  --safe-t: env(safe-area-inset-top, 0px);
 
   /* Paper grain (inline SVG noise) */
   --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .35 0 0 0 0 .27 0 0 0 0 .18 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
@@ -156,7 +157,7 @@
 
 html {
   -webkit-text-size-adjust: 100%;
-  scroll-padding-top: calc(var(--nav-h) + 24px);
+  scroll-padding-top: calc(var(--nav-h) + var(--safe-t) + 24px);
   scroll-padding-bottom: calc(var(--dock-h) + 24px);
 }
 
@@ -258,7 +259,8 @@ kbd {
   position: sticky;
   top: 0;
   z-index: 120;
-  height: var(--nav-h);
+  height: calc(var(--nav-h) + var(--safe-t));
+  padding-top: var(--safe-t) !important;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -457,11 +459,11 @@ body.is-playing #toggleAutoScrollBtn.active:not(.suspended) .follow-glyph::after
 /* --- 5. Curriculum drawer ---------------------------------------------- */
 .sidebar {
   position: sticky;
-  top: var(--nav-h);
+  top: calc(var(--nav-h) + var(--safe-t));
   flex: none;
   width: var(--sidebar-w);
-  height: calc(100vh - var(--nav-h));
-  height: calc(100dvh - var(--nav-h));
+  height: calc(100vh - var(--nav-h) - var(--safe-t));
+  height: calc(100dvh - var(--nav-h) - var(--safe-t));
   display: flex;
   flex-direction: column;
   background: color-mix(in srgb, var(--paper-deep) 82%, transparent);
@@ -493,14 +495,44 @@ body.is-playing #toggleAutoScrollBtn.active:not(.suspended) .follow-glyph::after
 }
 .close-btn { margin: -0.25rem -0.25rem 0 0; }
 
-.course-tree {
+.sidebar-scroll {
   flex: 1;
   overflow-y: auto;
   overscroll-behavior: contain;
-  padding: 0.25rem 0.85rem 1.25rem;
   scrollbar-width: thin;
   scrollbar-color: var(--line-strong) transparent;
 }
+.course-tree { padding: 0.25rem 0.85rem 1.25rem; }
+
+/* Saved lines */
+.saved-section { padding: 0 0.85rem 0.75rem; margin-bottom: 0.5rem; border-bottom: 1px solid var(--line); }
+.saved-list { list-style: none; display: flex; flex-direction: column; gap: 0.3rem; padding-bottom: 0.4rem; }
+.saved-empty { padding: 0.35rem 0.65rem 0.6rem; font-size: 0.76rem; line-height: 1.5; color: var(--ink-3); }
+.saved-empty span { color: var(--gold); }
+.saved-item { position: relative; }
+.saved-open {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  width: 100%;
+  padding: 0.55rem 2.4rem 0.55rem 0.75rem;
+  text-align: left;
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  transition: border-color var(--t-fast), box-shadow var(--t-fast);
+}
+.saved-open:hover { border-color: color-mix(in srgb, var(--gold) 45%, var(--line)); box-shadow: var(--shadow-xs); }
+.saved-hanzi { font-family: var(--font-hanzi); font-size: 1rem; font-weight: 600; color: var(--ink); line-height: 1.35; }
+.saved-en { font-family: var(--font-reading); font-size: 0.86rem; color: var(--ink-2); line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.saved-meta { font-size: 0.66rem; font-weight: 600; color: var(--ink-4); font-variant-numeric: tabular-nums; }
+.saved-remove {
+  position: absolute; top: 6px; right: 6px;
+  display: grid; place-items: center; width: 30px; height: 30px;
+  color: var(--ink-4); border-radius: 50%;
+  transition: background-color var(--t-fast), color var(--t-fast);
+}
+.saved-remove:hover { color: var(--cinnabar); background: var(--cinnabar-soft); }
 
 .level-section + .level-section { margin-top: 1.25rem; }
 
@@ -748,7 +780,7 @@ body.is-playing .track-item.active .eq i:nth-child(3) { animation-delay: -600ms;
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
   cursor: pointer;
-  scroll-margin-top: calc(var(--nav-h) + 24px);
+  scroll-margin-top: calc(var(--nav-h) + var(--safe-t) + 24px);
   scroll-margin-bottom: calc(var(--dock-h) + 24px);
   transition:
     background-color var(--t-med) var(--ease-std),
@@ -1499,6 +1531,206 @@ body.is-playing .disc-art { animation: spin 6s linear infinite; }
 }
 .line-counter strong { display: block; font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-4); }
 
+/* --- Settings panel ----------------------------------------------------- */
+.top-nav { position: sticky; }
+.settings-panel {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 12px;
+  z-index: 150;
+  width: min(380px, calc(100vw - 24px));
+  max-height: calc(100dvh - var(--nav-h) - var(--safe-t) - 24px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 0.6rem 0.6rem 0.8rem;
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  transform-origin: top right;
+  animation: panelIn var(--t-med) var(--ease-out);
+}
+.settings-head { display: flex; align-items: center; justify-content: space-between; padding: 0.1rem 0.1rem 0.2rem 0.65rem; }
+.settings-group {
+  padding: 0.8rem 0.65rem 0.3rem;
+  font-size: 0.66rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-3);
+}
+.setting-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: 100%;
+  min-height: 52px;
+  padding: 0.55rem 0.65rem;
+  text-align: left;
+  border-radius: var(--radius-sm);
+  transition: background-color var(--t-fast);
+}
+.setting-row:hover { background: var(--paper-sunk); }
+.setting-text { flex: 1; display: flex; flex-direction: column; gap: 0.1rem; line-height: 1.3; }
+.setting-text strong { font-size: 0.86rem; font-weight: 600; color: var(--ink); }
+.setting-text small { font-size: 0.72rem; color: var(--ink-3); }
+.setting-row kbd { opacity: 0.8; }
+.setting-row .chip-switch { flex: none; }
+.setting-row.active .chip-switch { background: var(--cinnabar); }
+.setting-row.active .chip-switch::after { transform: translateX(11px); }
+
+.segmented {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3px;
+  margin: 0.2rem 0.4rem 0;
+  padding: 3px;
+  background: var(--paper-sunk);
+  border-radius: var(--radius-full);
+}
+.segmented button {
+  height: 34px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--ink-2);
+  border-radius: var(--radius-full);
+  transition: background-color var(--t-fast), color var(--t-fast), box-shadow var(--t-fast);
+}
+.segmented button.active { background: var(--paper-raised); color: var(--ink); box-shadow: var(--shadow-xs); }
+
+/* --- Save (star) button --------------------------------------------------- */
+.save-btn {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  color: var(--ink-4);
+  border-radius: 50%;
+  transition: color var(--t-fast), background-color var(--t-fast), transform var(--t-fast) var(--ease-out);
+}
+.save-btn svg { fill: transparent; transition: fill var(--t-fast); }
+.save-btn:hover { color: var(--gold); background: var(--gold-soft); }
+.save-btn.saved { color: var(--gold); }
+.save-btn.saved svg { fill: currentColor; }
+.save-btn.pop { animation: starPop 420ms var(--ease-out); }
+@media (hover: hover) {
+  .speech-card:not(:hover):not(.active) .save-btn:not(.saved) { opacity: 0; }
+}
+
+/* --- Your turn (prompts & hidden answers) --------------------------------- */
+.prompt-hint, .reveal-btn { display: none; }
+.prompt-glyph {
+  flex: none;
+  display: grid; place-items: center;
+  width: 26px; height: 26px;
+  font-family: var(--font-hanzi); font-size: 0.8rem; font-weight: 700; line-height: 1;
+  color: var(--on-accent); background: var(--jade);
+  border-radius: 8px 6px 9px 5px;
+}
+body.your-turn .speech-card.is-prompt .prompt-hint {
+  display: flex; align-items: center; gap: 0.55rem;
+  margin-top: 0.85rem; padding-top: 0.7rem;
+  font-size: 0.78rem; font-weight: 600; color: var(--jade);
+  border-top: 1px dashed var(--line-strong);
+}
+/* Answers stay hidden until reached or revealed */
+body.your-turn .speech-card.is-answer:not(.revealed) .sentence-body {
+  filter: blur(9px);
+  opacity: 0.5;
+  user-select: none;
+  pointer-events: none;
+}
+body.your-turn .speech-card.is-answer:not(.revealed) .reveal-btn {
+  position: absolute;
+  left: 50%; top: 55%;
+  transform: translate(-50%, -50%);
+  display: inline-flex; align-items: center; gap: 0.65rem;
+  padding: 0.6rem 1rem 0.6rem 0.65rem;
+  text-align: left;
+  background: var(--paper-raised);
+  border: 1px solid color-mix(in srgb, var(--jade) 35%, var(--line));
+  border-radius: var(--radius-full);
+  box-shadow: var(--shadow-md);
+  white-space: nowrap;
+}
+.reveal-btn strong { display: block; font-size: 0.84rem; color: var(--ink); }
+.reveal-btn small { display: block; font-size: 0.7rem; color: var(--ink-3); }
+body.your-turn .speech-card.is-answer.awaiting {
+  opacity: 1 !important;
+  border-color: color-mix(in srgb, var(--jade) 45%, var(--line));
+  box-shadow: 0 0 0 4px var(--jade-soft), var(--shadow-md);
+}
+body.your-turn .speech-card.is-answer.awaiting .prompt-glyph { animation: blink 1.4s ease-in-out infinite; }
+
+/* --- Repeat-aloud (shadowing) ------------------------------------------- */
+.lb-say { display: none; }
+body.is-shadowing .speech-card.active .lb-loop { display: none; }
+body.is-shadowing .speech-card.active .lb-say { display: inline; }
+body.shadow-gap .speech-card.active .loop-badge {
+  color: var(--on-accent);
+  background: var(--jade);
+}
+/* the line's hairline drains as a countdown during the pause */
+body.shadow-gap .speech-card.active::after {
+  opacity: 1;
+  background: var(--jade);
+  animation: drain var(--gap, 3s) linear forwards;
+}
+.ctrl-btn.tool[data-mode="shadow"].active { color: var(--jade); background: var(--jade-soft); }
+.ctrl-btn.tool[data-mode="shadow"].active .tool-label { color: var(--jade); }
+
+/* --- Pinyin peek & gloss visibility ------------------------------------- */
+@media (hover: hover) {
+  [data-pinyin="hidden"] ruby.glyph:not(.punct):hover > rt {
+    opacity: 0.85; visibility: visible; transform: none;
+    transition: opacity var(--t-fast), transform var(--t-fast) var(--ease-out), visibility 0s;
+  }
+}
+/* Tapped peek beats the hover preview (same specificity, so it must come after) */
+[data-pinyin="hidden"] ruby.glyph.peek:not(.punct) > rt {
+  opacity: 1; visibility: visible; transform: none;
+  transition: opacity var(--t-fast), transform var(--t-fast) var(--ease-out), visibility 0s;
+}
+[data-pinyin="hidden"] ruby.glyph:not(.punct) { cursor: help; }
+[data-gloss-en="off"] .gloss-en { display: none; }
+[data-gloss-zh="off"] .gloss-zh { display: none; }
+
+/* --- Toast ---------------------------------------------------------------- */
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: calc(var(--dock-h) + 30px + var(--safe-b));
+  z-index: 106;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  max-width: calc(100vw - 32px);
+  padding: 0.55rem 0.6rem 0.55rem 1rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--paper);
+  background: var(--ink);
+  border-radius: var(--radius-full);
+  box-shadow: var(--shadow-md);
+  transform: translateX(-50%);
+  animation: riseIn var(--t-slow) var(--ease-out);
+}
+.toast:not(:has(.toast-action:not(.hidden))) { padding-right: 1rem; }
+.toast-action {
+  padding: 0.3rem 0.75rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--ink);
+  background: var(--paper);
+  border-radius: var(--radius-full);
+  white-space: nowrap;
+}
+/* Don't stack the toast on top of the resume pill */
+body:has(#resumeScrollBanner:not(.hidden)) .toast { bottom: calc(var(--dock-h) + 82px + var(--safe-b)); }
+@media (min-width: 1024px) {
+  body.sidebar-open .toast { left: calc(50% + var(--sidebar-w) / 2); }
+}
+
+@keyframes panelIn { from { opacity: 0; transform: translateY(-6px) scale(0.97); } to { opacity: 1; transform: none; } }
+@keyframes starPop { 0% { transform: scale(1); } 40% { transform: scale(1.35) rotate(-8deg); } 100% { transform: scale(1); } }
+@keyframes drain { from { transform: scaleX(1); } to { transform: scaleX(0); } }
+
 /* --- 9. Resume pill · states · motion ---------------------------------- */
 .resume-scroll-banner {
   position: fixed;
@@ -1629,16 +1861,18 @@ body.is-playing .disc-art { animation: spin 6s linear infinite; }
   .top-nav { padding: 0 0.6rem 0 0.4rem; gap: 0.5rem; }
   .brand-seal { width: 32px; height: 32px; font-size: 1.15rem; }
   .brand-title { font-size: 1.08rem; }
-  .brand-title em { display: none; }
+  .brand-title { font-size: 1.02rem; }
   .track-subtitle { max-width: 34vw; font-size: 0.7rem; }
 
   /* Chips collapse to glyph + switch */
   .nav-controls { gap: 0.3rem; }
   .chip-label { display: none; }
   .chip-toggle { gap: 0.35rem; height: 36px; padding: 0 0.4rem 0 0.3rem; }
-  .chip-switch { display: none; }
+  .chip-toggle .chip-switch { display: none; }
   .chip-glyph { width: 28px; height: 28px; }
   .icon-btn { width: 38px; height: 38px; }
+  #toggleTonesBtn, .theme-btn { display: none; }
+  .toast { bottom: calc(var(--dock-h) + 12px + var(--safe-b)); }
 
   .transcript-container { padding: 1.75rem 1rem calc(var(--dock-h) + 6rem + var(--safe-b)); }
   .lesson-heading { margin-bottom: 1.35rem; }
