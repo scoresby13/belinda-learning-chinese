@@ -1,0 +1,16 @@
+{
+  "appId": "io.github.scoresby13.learningchinese",
+  "appName": "Learning Chinese",
+  "webDir": "dist",
+  "backgroundColor": "#FAF7F2",
+  "android": {
+    "backgroundColor": "#FAF7F2",
+    "allowMixedContent": false
+  },
+  "plugins": {
+    "SystemBars": {
+      "insetsHandling": "native",
+      "initialViewportFitValueHint": "cover"
+    }
+  }
+}

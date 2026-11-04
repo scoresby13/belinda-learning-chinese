@@ -17,8 +17,13 @@ Built with **Gemini** (transcription pipeline, data schema & sync engine) and **
 - 🎯 **Click-to-Seek Navigation:** Click any line, phrase, or word in the transcript to instantly jump playback to that timestamp.
 - ⚡ **Word-by-Word Sweeping Progress:** Visual progress sweeps across characters as they are pronounced.
 - 🎨 **Tone Colours:** Optionally colour Pinyin and Hanzi by tone (1st red · 2nd jade · 3rd azure · 4th plum · neutral grey) to build tone memory.
-- ⌨️ **Keyboard Shortcuts:** `Space` play/pause · `←/→` ±5 s · `Shift+←/→` previous/next line · `P` Pinyin · `T` tones · `L` loop line.
-- 🔁 **Sentence Loop & Speed Controls:** Slow down speech (0.75x, 0.9x) or loop difficult phrases to perfect tones and pronunciation.
+- 👀 **Pinyin Peek:** With Pinyin hidden, tap (or hover over) any character to see its syllable for a moment.
+- 🗣️ **Your Turn Pauses:** Optionally pause after the teacher asks you to say something, with the answer hidden until you've tried.
+- 🔁 **Loop, Repeat Aloud & Speed:** Loop a line, or loop it with a pause long enough to say it yourself; slow speech to 0.75× or 0.9×.
+- ⭐ **Saved Lines:** Star difficult lines and come back to them from the course menu.
+- 🔒 **Lock-Screen Controls & Resume:** Play/pause, ±5 s and previous/next line from the lock screen or headphones; reopens where you left off.
+- 📴 **Works Offline:** Installable as an app; lessons you've opened (including audio) keep working without signal.
+- ⌨️ **Keyboard Shortcuts:** `Space` play/pause · `←/→` ±5 s · `Shift+←/→` previous/next line · `P` Pinyin · `T` tones · `L` loop / repeat aloud · `S` save line.
 - 📱 **Responsive & Clean UI:** Designed by Claude with a refined, distraction-free aesthetic optimized for desktop and mobile reading.
 - 🚀 **GitHub Pages Ready:** Zero-backend static web application deployable directly on GitHub Pages.
 
@@ -74,11 +79,42 @@ npm run dev
 
 Open your browser at `http://localhost:5173` to view the interactive player.
 
+### Run the tests
+```bash
+npm test
+```
+Builds the site and runs the Playwright browser tests (desktop and phone). The first time, install Chromium with `npx playwright install chromium`. CI runs these plus the transcript validator on every push.
+
 ### Build for Production (GitHub Pages)
 ```bash
 npm run build
 ```
 The optimized static output is generated in `dist/`.
+
+---
+
+## 📱 Android App
+
+There are two ways to get it on an Android phone:
+
+1. **Install the web app (no download):** open the site in Chrome, then tap **⋮ → Add to home screen / Install app**. It runs full-screen, works offline and has lock-screen controls.
+2. **Install the APK:** every push to `main` builds `learning-chinese.apk` and attaches it to the **android-latest** release (Releases → *Android app — latest build*). Download it on the phone, open it, and allow "Install unknown apps" when asked. Builds from other branches are under **Actions → Android app → Artifacts**.
+
+The native app is a [Capacitor](https://capacitorjs.com/) shell around the same web code (`android/`), with [`@capgo/capacitor-media-session`](https://github.com/Cap-go/capacitor-media-session) for lock-screen controls and background playback.
+
+**Build it yourself** (needs Android Studio / the Android SDK and JDK 21):
+```bash
+npm run build && npx cap sync android
+```
+```bash
+cd android && ./gradlew assembleDebug
+```
+
+**Signing for updates and Google Play.** Without signing secrets, CI builds a debug-signed APK, and each build gets a new debug key, so installing a newer build means uninstalling the old one first. To sign every build with the same key, create one once:
+```bash
+keytool -genkeypair -v -keystore release.jks -alias learning-chinese -keyalg RSA -keysize 2048 -validity 10000
+```
+Then add these repository secrets (Settings → Secrets and variables → Actions): `ANDROID_KEYSTORE_BASE64` (output of `base64 -w0 release.jks`), `ANDROID_KEYSTORE_PASSWORD`, `ANDROID_KEY_ALIAS` (`learning-chinese`) and `ANDROID_KEY_PASSWORD`. Keep `release.jks` safe and out of the repository: losing it means users can't update the app.
 
 ---
 

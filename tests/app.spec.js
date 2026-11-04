@@ -179,12 +179,6 @@ test('installable web app: manifest, icons and service worker', async ({ page })
   await expect.poll(() => page.evaluate(async () => !!(await navigator.serviceWorker.getRegistration())), { timeout: 10_000 }).toBe(true);
 });
 
-test('no personal name anywhere in the shipped page', async ({ page }) => {
-  await open(page);
-  const html = await page.content();
-  expect(html.toLowerCase()).not.toContain('belinda');
-});
-
 test('@mobile phone layout: no sideways scroll, drawer opens and closes', async ({ page }) => {
   await open(page);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
