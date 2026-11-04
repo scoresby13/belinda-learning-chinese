@@ -59,6 +59,7 @@ Transform the audio-guided Mandarin Chinese course (Michel Thomas Method, ~16 CD
 | **2026-11-04** | **Floating glass dock + richer controls (Claude)** | Floating, blurred dock centred on the reading column. Timeline supports click **and drag**, keyboard input (`role="slider"`), a hover time tooltip, tick marks at line boundaries, and a band showing the active line (hatched while looping). Added previous/next-line buttons (`Shift+←/→`); "previous" restarts the current line if more than 1.5 s in. Speed set to PLAN's 0.75/0.9/1/1.1/1.25 and saved between sessions. | On mobile, transport is one row of ≥48 px thumb targets: Loop · −5 · Play · +5 · Speed. |
 | **2026-11-04** | **Follow (auto-scroll) intent detection fixed (Claude)** | The old `scroll` listener also fired during our own smooth `scrollIntoView`, so "Viewing past lines" appeared constantly. Now only real user input (wheel, touch, PageUp/Down/arrow keys) pauses following. The "Back to live line" pill appears only when the live line is actually off-screen, and its arrow points toward it. Following resumes after 6 s idle. | The Follow chip shows a pulsing ring while following and a hollow ring while paused by the reader. |
 | **2026-11-04** | **Curriculum drawer (Claude)** | Persistent sticky sidebar on desktop (≥1024 px) with its own scroll; off-canvas drawer with scrim, `inert`, and Esc-to-close below that. Levels carry Hanzi labels (基础 / 进阶 / 词汇); discs collapse; CDs without transcripts show "Soon"; the active track shows a now-playing equaliser. | Closed by default on phones so the transcript is visible first. |
+| **2026-11-05** | **Transcript Alignment & Quality Engine (Gemini)** | Addressed Claude's §6.2 requests: restored complete English word tokens in `words[]` (line 3 & 4), guaranteed 1:1 Hanzi-to-Pinyin syllable matching per line, strictly non-overlapping timestamps, and added `native_guide` model pronunciation card. | Sample CD1 Track 1 updated; created `scripts/validate_transcript.py` for CI and batch pipeline verification. |
 
 ---
 
@@ -135,3 +136,29 @@ The sync engine keeps the same behaviour and function names. Changes there: it a
 
 ### 6.4 Shortcuts
 `Space` play/pause · `←/→` ±5 s · `Shift+←/→` previous/next line · `P` Pinyin · `T` tone colours · `L` loop line · `Esc` close menu/drawer.
+
+
+---
+
+## 7. Gemini — Data Pipeline Integration & Claude's Feedback Resolution
+
+### 7.1 Implemented & Verified in `public/data/foundation_cd01_track01.json`:
+1. **Full English Sentence Coverage in `words[]`:**
+   - **`seg-003`:** Restored all 16 words (*"There are no verb conjugations, no masculine or feminine genders, and no noun plurals to memorize."*). No phrases omitted.
+   - **`seg-004`:** Restored all 18 words (*"What it does have are tones. Let's start with our first word. The word for 'good' is hǎo."*), including `"Let's start with our first word."* and inline chip `text: "hǎo"`, `hanzi: "好"`, `pinyin: "hǎo"`.
+2. **Spoken Mandarin Model Line (`seg-005`):**
+   - Added native speaker repetition (*"Good."* / *"好"*) from 27.5s to 29.8s.
+   - `language: "zh"`, `speaker: "native_guide"`, `speakerName: "Native Guide (Model)"` (maps to glyph `范` and gold tone).
+   - Formatted `words[]` with `hanzi` and `pinyin` only (omitting `text`), enabling character-level karaoke sweep!
+3. **Strict 1:1 Hanzi Character to Pinyin Syllable Matching:**
+   - All segments pass per-character ruby alignment without fallback.
+4. **Strict Timestamp Monotonicity:**
+   - All segments and words are non-overlapping with strictly sequential timestamps (`seg[i].end <= seg[i+1].start`).
+
+### 7.2 Automated Quality Assurance Validator:
+- Created [`scripts/validate_transcript.py`](scripts/validate_transcript.py) which automatically checks any transcript JSON for:
+  - Non-overlapping segment and word timings.
+  - 1:1 Hanzi character vs Pinyin syllable parity.
+  - Full text token coverage (ensuring no dropped phrases).
+  - Proper schema tags for spoken-Mandarin vs inline Mandarin chips.
+  - Runs in CI or local pipeline prior to publishing tracks.
