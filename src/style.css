@@ -1057,6 +1057,11 @@ ruby.glyph.punct .glyph-han { color: var(--ink-3); }
 .word-token:hover { color: var(--ink); text-decoration: underline; text-decoration-color: var(--line-strong); text-underline-offset: 0.22em; }
 
 /* Inside the live line: upcoming words recede, spoken words are inked */
+/* No colour transitions in the live line: the sweep sets colour to transparent,
+   so easing back to ink at word end would make each word blink out briefly. */
+.speech-card.active .word-token,
+.speech-card.active .word-token .glyph-han,
+.speech-card.active .word-token .py-word { transition: none; }
 .speech-card.active .word-token { color: var(--unspoken); }
 .speech-card.active .word-token.spoken { color: var(--ink); }
 
