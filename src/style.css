@@ -856,6 +856,7 @@ body.is-playing .speech-card:not(.active):hover { opacity: 0.9; }
 .speaker-tag.teacher { --speaker-c: var(--jade); }
 .speaker-tag.student { --speaker-c: var(--cinnabar); }
 .speaker-tag.native  { --speaker-c: var(--gold); }
+.speaker-tag.announcer { --speaker-c: var(--ink-2); }
 .speech-card.active .speaker-glyph { color: var(--on-accent); background: var(--speaker-c); }
 
 .card-actions {

@@ -342,13 +342,15 @@ async function loadTrackData(jsonPath, trackId) {
 const SPEAKERS = {
   teacher:      { cls: 'teacher', glyph: '师', role: 'Teacher' },
   student:      { cls: 'student', glyph: '生', role: 'Student' },
-  native_guide: { cls: 'native',  glyph: '范', role: 'Native speaker' }
+  native_guide: { cls: 'native',  glyph: '范', role: 'Native speaker' },
+  announcer:    { cls: 'announcer', glyph: '序', role: 'Narrator' }
 };
 
 function speakerMeta(seg) {
   const key = seg.speaker || '';
   const base = key.includes('teacher') ? SPEAKERS.teacher
     : key.includes('native') ? SPEAKERS.native_guide
+    : (key.includes('announcer') || key.includes('intro')) ? SPEAKERS.announcer
     : SPEAKERS.student;
   // "Harold Goodman (Teacher)" → name "Harold Goodman", role "Teacher"
   let name = seg.speakerName || base.role;
