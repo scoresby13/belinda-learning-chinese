@@ -1,0 +1,2855 @@
+{
+  "trackId": "vocabulary-cd04-07",
+  "course": "Chinese Vocabulary",
+  "cd": 4,
+  "track": 7,
+  "title": "Chinese Vocabulary CD 4 - Track 7",
+  "audioUrl": "audio/vocabulary-cd04/track-07.mp3",
+  "durationSeconds": 231.41,
+  "segments": [
+    {
+      "id": "seg-001",
+      "start": 0.0,
+      "end": 6.3,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You know, if you add some P's, like in pea soup, to wine, you will get Chinese beer.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You",
+          "start": 0.0,
+          "end": 0.28
+        },
+        {
+          "text": "know,",
+          "start": 0.28,
+          "end": 0.44
+        },
+        {
+          "text": "if",
+          "start": 0.46,
+          "end": 0.62
+        },
+        {
+          "text": "you",
+          "start": 0.62,
+          "end": 0.76
+        },
+        {
+          "text": "add",
+          "start": 0.76,
+          "end": 1.08
+        },
+        {
+          "text": "some",
+          "start": 1.08,
+          "end": 1.66
+        },
+        {
+          "text": "P's,",
+          "start": 1.66,
+          "end": 2.26
+        },
+        {
+          "text": "like",
+          "start": 2.44,
+          "end": 3.04
+        },
+        {
+          "text": "in",
+          "start": 3.04,
+          "end": 3.22
+        },
+        {
+          "text": "pea",
+          "start": 3.22,
+          "end": 3.4
+        },
+        {
+          "text": "soup,",
+          "start": 3.4,
+          "end": 3.68
+        },
+        {
+          "text": "to",
+          "start": 3.74,
+          "end": 4.06
+        },
+        {
+          "text": "wine,",
+          "start": 4.06,
+          "end": 4.52
+        },
+        {
+          "text": "you",
+          "start": 4.64,
+          "end": 5.1
+        },
+        {
+          "text": "will",
+          "start": 5.1,
+          "end": 5.22
+        },
+        {
+          "text": "get",
+          "start": 5.22,
+          "end": 5.42
+        },
+        {
+          "text": "Chinese",
+          "start": 5.42,
+          "end": 5.78
+        },
+        {
+          "text": "beer.",
+          "start": 5.78,
+          "end": 6.3
+        }
+      ]
+    },
+    {
+      "id": "seg-002",
+      "start": 6.5,
+      "end": 8.5,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "How would you say beer in Chinese?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "How",
+          "start": 6.5,
+          "end": 7.08
+        },
+        {
+          "text": "would",
+          "start": 7.08,
+          "end": 7.24
+        },
+        {
+          "text": "you",
+          "start": 7.24,
+          "end": 7.36
+        },
+        {
+          "text": "say",
+          "start": 7.36,
+          "end": 7.58
+        },
+        {
+          "text": "beer",
+          "start": 7.58,
+          "end": 7.94
+        },
+        {
+          "text": "in",
+          "start": 7.94,
+          "end": 8.18
+        },
+        {
+          "text": "Chinese?",
+          "start": 8.18,
+          "end": 8.5
+        }
+      ]
+    },
+    {
+      "id": "seg-003",
+      "start": 10.3,
+      "end": 10.9,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "啤酒",
+      "pinyin": "pí jiǔ",
+      "words": [
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 10.3,
+          "end": 10.6
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 10.6,
+          "end": 10.9
+        }
+      ]
+    },
+    {
+      "id": "seg-004",
+      "start": 13.38,
+      "end": 13.98,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "啤酒",
+      "pinyin": "pí jiǔ",
+      "words": [
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 13.38,
+          "end": 13.68
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 13.68,
+          "end": 13.98
+        }
+      ]
+    },
+    {
+      "id": "seg-005",
+      "start": 15.26,
+      "end": 17.16,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "啤, blue finger up.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "啤,",
+          "start": 15.26,
+          "end": 15.86
+        },
+        {
+          "text": "blue",
+          "start": 15.86,
+          "end": 16.46
+        },
+        {
+          "text": "finger",
+          "start": 16.46,
+          "end": 16.8
+        },
+        {
+          "text": "up.",
+          "start": 16.8,
+          "end": 17.16
+        }
+      ]
+    },
+    {
+      "id": "seg-006",
+      "start": 17.46,
+      "end": 19.9,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "酒, red V for victory.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "酒,",
+          "start": 17.46,
+          "end": 18.06
+        },
+        {
+          "text": "red",
+          "start": 18.46,
+          "end": 19.02
+        },
+        {
+          "text": "V",
+          "start": 19.02,
+          "end": 19.22
+        },
+        {
+          "text": "for",
+          "start": 19.22,
+          "end": 19.48
+        },
+        {
+          "text": "victory.",
+          "start": 19.48,
+          "end": 19.9
+        }
+      ]
+    },
+    {
+      "id": "seg-007",
+      "start": 20.82,
+      "end": 22.34,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "啤酒, for beer.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "啤酒,",
+          "start": 20.82,
+          "end": 21.42
+        },
+        {
+          "text": "for",
+          "start": 21.78,
+          "end": 22.04
+        },
+        {
+          "text": "beer.",
+          "start": 22.04,
+          "end": 22.34
+        }
+      ]
+    },
+    {
+      "id": "seg-008",
+      "start": 23.1,
+      "end": 24.72,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "So, how would you say beer?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "So,",
+          "start": 23.1,
+          "end": 23.7
+        },
+        {
+          "text": "how",
+          "start": 23.74,
+          "end": 23.94
+        },
+        {
+          "text": "would",
+          "start": 23.94,
+          "end": 24.1
+        },
+        {
+          "text": "you",
+          "start": 24.1,
+          "end": 24.22
+        },
+        {
+          "text": "say",
+          "start": 24.22,
+          "end": 24.42
+        },
+        {
+          "text": "beer?",
+          "start": 24.42,
+          "end": 24.72
+        }
+      ]
+    },
+    {
+      "id": "seg-009",
+      "start": 26.64,
+      "end": 27.24,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "啤酒",
+      "pinyin": "pí jiǔ",
+      "words": [
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 26.64,
+          "end": 26.94
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 26.94,
+          "end": 27.24
+        }
+      ]
+    },
+    {
+      "id": "seg-010",
+      "start": 27.24,
+      "end": 29.48,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "How would you say beer?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "How",
+          "start": 27.24,
+          "end": 28.34
+        },
+        {
+          "text": "would",
+          "start": 28.34,
+          "end": 28.84
+        },
+        {
+          "text": "you",
+          "start": 28.84,
+          "end": 28.98
+        },
+        {
+          "text": "say",
+          "start": 28.98,
+          "end": 29.2
+        },
+        {
+          "text": "beer?",
+          "start": 29.2,
+          "end": 29.48
+        }
+      ]
+    },
+    {
+      "id": "seg-011",
+      "start": 31.14,
+      "end": 32.02,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "啤酒",
+      "pinyin": "pí jiǔ",
+      "words": [
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 31.14,
+          "end": 31.58
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 31.58,
+          "end": 32.02
+        }
+      ]
+    },
+    {
+      "id": "seg-012",
+      "start": 32.02,
+      "end": 35.1,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Please bring me your favorite British beer.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Please",
+          "start": 32.02,
+          "end": 33.38
+        },
+        {
+          "text": "bring",
+          "start": 33.38,
+          "end": 33.78
+        },
+        {
+          "text": "me",
+          "start": 33.78,
+          "end": 34.02
+        },
+        {
+          "text": "your",
+          "start": 34.02,
+          "end": 34.18
+        },
+        {
+          "text": "favorite",
+          "start": 34.18,
+          "end": 34.48
+        },
+        {
+          "text": "British",
+          "start": 34.48,
+          "end": 34.78
+        },
+        {
+          "text": "beer.",
+          "start": 34.78,
+          "end": 35.1
+        }
+      ]
+    },
+    {
+      "id": "seg-013",
+      "start": 48.2,
+      "end": 49.08,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "请给我你最喜欢的英国啤酒",
+      "pinyin": "qǐng gěi wǒ nǐ zuì xǐ huān de yīng guó pí jiǔ",
+      "words": [
+        {
+          "hanzi": "请",
+          "pinyin": "qǐng",
+          "start": 48.2,
+          "end": 48.27
+        },
+        {
+          "hanzi": "给",
+          "pinyin": "gěi",
+          "start": 48.27,
+          "end": 48.34
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 48.35,
+          "end": 48.42
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 48.42,
+          "end": 48.49
+        },
+        {
+          "hanzi": "最",
+          "pinyin": "zuì",
+          "start": 48.49,
+          "end": 48.56
+        },
+        {
+          "hanzi": "喜",
+          "pinyin": "xǐ",
+          "start": 48.57,
+          "end": 48.64
+        },
+        {
+          "hanzi": "欢",
+          "pinyin": "huān",
+          "start": 48.64,
+          "end": 48.71
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 48.71,
+          "end": 48.78
+        },
+        {
+          "hanzi": "英",
+          "pinyin": "yīng",
+          "start": 48.79,
+          "end": 48.86
+        },
+        {
+          "hanzi": "国",
+          "pinyin": "guó",
+          "start": 48.86,
+          "end": 48.93
+        },
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 48.93,
+          "end": 49.0
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 49.01,
+          "end": 49.08
+        }
+      ]
+    },
+    {
+      "id": "seg-014",
+      "start": 49.08,
+      "end": 52.04,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "How would you say like?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "How",
+          "start": 49.08,
+          "end": 50.82
+        },
+        {
+          "text": "would",
+          "start": 50.82,
+          "end": 51.18
+        },
+        {
+          "text": "you",
+          "start": 51.18,
+          "end": 51.23
+        },
+        {
+          "text": "say",
+          "start": 51.23,
+          "end": 51.58
+        },
+        {
+          "text": "like?",
+          "start": 51.58,
+          "end": 52.04
+        }
+      ]
+    },
+    {
+      "id": "seg-015",
+      "start": 53.72,
+      "end": 54.6,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "喜欢",
+      "pinyin": "xǐ huān",
+      "words": [
+        {
+          "hanzi": "喜",
+          "pinyin": "xǐ",
+          "start": 53.72,
+          "end": 54.16
+        },
+        {
+          "hanzi": "欢",
+          "pinyin": "huān",
+          "start": 54.16,
+          "end": 54.6
+        }
+      ]
+    },
+    {
+      "id": "seg-016",
+      "start": 54.6,
+      "end": 56.62,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Yes, 喜欢",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Yes,",
+          "start": 54.6,
+          "end": 55.38
+        },
+        {
+          "text": "喜欢",
+          "start": 55.46,
+          "end": 56.62
+        }
+      ]
+    },
+    {
+      "id": "seg-017",
+      "start": 59.04,
+      "end": 59.92,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "请给我",
+      "pinyin": "qǐng gěi wǒ",
+      "words": [
+        {
+          "hanzi": "请",
+          "pinyin": "qǐng",
+          "start": 59.04,
+          "end": 59.33
+        },
+        {
+          "hanzi": "给",
+          "pinyin": "gěi",
+          "start": 59.33,
+          "end": 59.62
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 59.63,
+          "end": 59.92
+        }
+      ]
+    },
+    {
+      "id": "seg-018",
+      "start": 67.7,
+      "end": 68.6,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "你最喜欢的英国啤酒",
+      "pinyin": "nǐ zuì xǐ huān de yīng guó pí jiǔ",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 67.7,
+          "end": 67.8
+        },
+        {
+          "hanzi": "最",
+          "pinyin": "zuì",
+          "start": 67.8,
+          "end": 67.9
+        },
+        {
+          "hanzi": "喜",
+          "pinyin": "xǐ",
+          "start": 67.9,
+          "end": 68.0
+        },
+        {
+          "hanzi": "欢",
+          "pinyin": "huān",
+          "start": 68.0,
+          "end": 68.1
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 68.1,
+          "end": 68.2
+        },
+        {
+          "hanzi": "英",
+          "pinyin": "yīng",
+          "start": 68.2,
+          "end": 68.3
+        },
+        {
+          "hanzi": "国",
+          "pinyin": "guó",
+          "start": 68.3,
+          "end": 68.4
+        },
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 68.4,
+          "end": 68.5
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 68.5,
+          "end": 68.6
+        }
+      ]
+    },
+    {
+      "id": "seg-019",
+      "start": 72.14,
+      "end": 73.02,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "请给我你最喜欢的英国啤酒",
+      "pinyin": "qǐng gěi wǒ nǐ zuì xǐ huān de yīng guó pí jiǔ",
+      "words": [
+        {
+          "hanzi": "请",
+          "pinyin": "qǐng",
+          "start": 72.14,
+          "end": 72.21
+        },
+        {
+          "hanzi": "给",
+          "pinyin": "gěi",
+          "start": 72.21,
+          "end": 72.28
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 72.29,
+          "end": 72.36
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 72.36,
+          "end": 72.43
+        },
+        {
+          "hanzi": "最",
+          "pinyin": "zuì",
+          "start": 72.43,
+          "end": 72.5
+        },
+        {
+          "hanzi": "喜",
+          "pinyin": "xǐ",
+          "start": 72.51,
+          "end": 72.58
+        },
+        {
+          "hanzi": "欢",
+          "pinyin": "huān",
+          "start": 72.58,
+          "end": 72.65
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 72.65,
+          "end": 72.72
+        },
+        {
+          "hanzi": "英",
+          "pinyin": "yīng",
+          "start": 72.73,
+          "end": 72.8
+        },
+        {
+          "hanzi": "国",
+          "pinyin": "guó",
+          "start": 72.8,
+          "end": 72.87
+        },
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 72.87,
+          "end": 72.94
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 72.95,
+          "end": 73.02
+        }
+      ]
+    },
+    {
+      "id": "seg-020",
+      "start": 73.02,
+      "end": 76.68,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Please give me a glass of beer.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Please",
+          "start": 73.02,
+          "end": 74.76
+        },
+        {
+          "text": "give",
+          "start": 74.76,
+          "end": 75.08
+        },
+        {
+          "text": "me",
+          "start": 75.08,
+          "end": 75.42
+        },
+        {
+          "text": "a",
+          "start": 75.42,
+          "end": 75.64
+        },
+        {
+          "text": "glass",
+          "start": 75.64,
+          "end": 76.02
+        },
+        {
+          "text": "of",
+          "start": 76.02,
+          "end": 76.34
+        },
+        {
+          "text": "beer.",
+          "start": 76.34,
+          "end": 76.68
+        }
+      ]
+    },
+    {
+      "id": "seg-021",
+      "start": 82.74,
+      "end": 83.65,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "请给我一杯啤酒",
+      "pinyin": "qǐng gěi wǒ yī bēi pí jiǔ",
+      "words": [
+        {
+          "hanzi": "请",
+          "pinyin": "qǐng",
+          "start": 82.74,
+          "end": 82.87
+        },
+        {
+          "hanzi": "给",
+          "pinyin": "gěi",
+          "start": 82.87,
+          "end": 83.0
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 83.0,
+          "end": 83.13
+        },
+        {
+          "hanzi": "一",
+          "pinyin": "yī",
+          "start": 83.13,
+          "end": 83.26
+        },
+        {
+          "hanzi": "杯",
+          "pinyin": "bēi",
+          "start": 83.26,
+          "end": 83.39
+        },
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 83.39,
+          "end": 83.52
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 83.52,
+          "end": 83.65
+        }
+      ]
+    },
+    {
+      "id": "seg-022",
+      "start": 83.65,
+      "end": 87.12,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "How would you say beer?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "How",
+          "start": 83.65,
+          "end": 85.36
+        },
+        {
+          "text": "would",
+          "start": 85.36,
+          "end": 86.28
+        },
+        {
+          "text": "you",
+          "start": 86.28,
+          "end": 86.33
+        },
+        {
+          "text": "say",
+          "start": 86.33,
+          "end": 86.64
+        },
+        {
+          "text": "beer?",
+          "start": 86.64,
+          "end": 87.12
+        }
+      ]
+    },
+    {
+      "id": "seg-023",
+      "start": 88.62,
+      "end": 88.98,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "啤酒",
+      "pinyin": "pí jiǔ",
+      "words": [
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 88.62,
+          "end": 88.8
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 88.8,
+          "end": 88.98
+        }
+      ]
+    },
+    {
+      "id": "seg-024",
+      "start": 89.5,
+      "end": 89.98,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "啤酒",
+      "pinyin": "pí jiǔ",
+      "words": [
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 89.5,
+          "end": 89.74
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 89.74,
+          "end": 89.98
+        }
+      ]
+    },
+    {
+      "id": "seg-025",
+      "start": 90.0,
+      "end": 91.78,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Yes, 啤酒",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Yes,",
+          "start": 90.0,
+          "end": 90.34
+        },
+        {
+          "text": "啤酒",
+          "start": 90.34,
+          "end": 91.78
+        }
+      ]
+    },
+    {
+      "id": "seg-026",
+      "start": 99.34,
+      "end": 100.11,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "请给我一杯啤酒",
+      "pinyin": "qǐng gěi wǒ yī bēi pí jiǔ",
+      "words": [
+        {
+          "hanzi": "请",
+          "pinyin": "qǐng",
+          "start": 99.34,
+          "end": 99.45
+        },
+        {
+          "hanzi": "给",
+          "pinyin": "gěi",
+          "start": 99.45,
+          "end": 99.56
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 99.56,
+          "end": 99.67
+        },
+        {
+          "hanzi": "一",
+          "pinyin": "yī",
+          "start": 99.67,
+          "end": 99.78
+        },
+        {
+          "hanzi": "杯",
+          "pinyin": "bēi",
+          "start": 99.78,
+          "end": 99.89
+        },
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 99.89,
+          "end": 100.0
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 100.0,
+          "end": 100.11
+        }
+      ]
+    },
+    {
+      "id": "seg-027",
+      "start": 101.88,
+      "end": 102.65,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "请给我一杯啤酒",
+      "pinyin": "qǐng gěi wǒ yī bēi pí jiǔ",
+      "words": [
+        {
+          "hanzi": "请",
+          "pinyin": "qǐng",
+          "start": 101.88,
+          "end": 101.99
+        },
+        {
+          "hanzi": "给",
+          "pinyin": "gěi",
+          "start": 101.99,
+          "end": 102.1
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 102.1,
+          "end": 102.21
+        },
+        {
+          "hanzi": "一",
+          "pinyin": "yī",
+          "start": 102.21,
+          "end": 102.32
+        },
+        {
+          "hanzi": "杯",
+          "pinyin": "bēi",
+          "start": 102.32,
+          "end": 102.43
+        },
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 102.43,
+          "end": 102.54
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 102.54,
+          "end": 102.65
+        }
+      ]
+    },
+    {
+      "id": "seg-028",
+      "start": 103.6,
+      "end": 107.18,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "How would you say kind, one kind?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "How",
+          "start": 103.6,
+          "end": 104.36
+        },
+        {
+          "text": "would",
+          "start": 104.36,
+          "end": 104.56
+        },
+        {
+          "text": "you",
+          "start": 104.56,
+          "end": 104.72
+        },
+        {
+          "text": "say",
+          "start": 104.72,
+          "end": 104.98
+        },
+        {
+          "text": "kind,",
+          "start": 104.98,
+          "end": 105.94
+        },
+        {
+          "text": "one",
+          "start": 106.3,
+          "end": 106.68
+        },
+        {
+          "text": "kind?",
+          "start": 106.68,
+          "end": 107.18
+        }
+      ]
+    },
+    {
+      "id": "seg-029",
+      "start": 108.74,
+      "end": 109.5,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "一样",
+      "pinyin": "yī yàng",
+      "words": [
+        {
+          "hanzi": "一",
+          "pinyin": "yī",
+          "start": 108.74,
+          "end": 109.12
+        },
+        {
+          "hanzi": "样",
+          "pinyin": "yàng",
+          "start": 109.12,
+          "end": 109.5
+        }
+      ]
+    },
+    {
+      "id": "seg-030",
+      "start": 109.5,
+      "end": 112.58,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "And so, what would the kind be?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "And",
+          "start": 109.5,
+          "end": 110.06
+        },
+        {
+          "text": "so,",
+          "start": 110.06,
+          "end": 110.38
+        },
+        {
+          "text": "what",
+          "start": 110.44,
+          "end": 110.76
+        },
+        {
+          "text": "would",
+          "start": 110.76,
+          "end": 111.02
+        },
+        {
+          "text": "the",
+          "start": 111.02,
+          "end": 111.2
+        },
+        {
+          "text": "kind",
+          "start": 111.2,
+          "end": 111.88
+        },
+        {
+          "text": "be?",
+          "start": 111.88,
+          "end": 112.58
+        }
+      ]
+    },
+    {
+      "id": "seg-031",
+      "start": 113.64,
+      "end": 114.4,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "一样",
+      "pinyin": "yī yàng",
+      "words": [
+        {
+          "hanzi": "一",
+          "pinyin": "yī",
+          "start": 113.64,
+          "end": 114.02
+        },
+        {
+          "hanzi": "样",
+          "pinyin": "yàng",
+          "start": 114.02,
+          "end": 114.4
+        }
+      ]
+    },
+    {
+      "id": "seg-032",
+      "start": 114.4,
+      "end": 116.32,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "How would you say what?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "How",
+          "start": 114.4,
+          "end": 115.42
+        },
+        {
+          "text": "would",
+          "start": 115.42,
+          "end": 115.6
+        },
+        {
+          "text": "you",
+          "start": 115.6,
+          "end": 115.74
+        },
+        {
+          "text": "say",
+          "start": 115.74,
+          "end": 115.94
+        },
+        {
+          "text": "what?",
+          "start": 115.94,
+          "end": 116.32
+        }
+      ]
+    },
+    {
+      "id": "seg-033",
+      "start": 117.32,
+      "end": 118.08,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "什么",
+      "pinyin": "shén me",
+      "words": [
+        {
+          "hanzi": "什",
+          "pinyin": "shén",
+          "start": 117.32,
+          "end": 117.7
+        },
+        {
+          "hanzi": "么",
+          "pinyin": "me",
+          "start": 117.7,
+          "end": 118.08
+        }
+      ]
+    },
+    {
+      "id": "seg-034",
+      "start": 118.08,
+      "end": 119.62,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "How would you say?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "How",
+          "start": 118.08,
+          "end": 119.04
+        },
+        {
+          "text": "would",
+          "start": 119.04,
+          "end": 119.24
+        },
+        {
+          "text": "you",
+          "start": 119.24,
+          "end": 119.36
+        },
+        {
+          "text": "say?",
+          "start": 119.36,
+          "end": 119.62
+        }
+      ]
+    },
+    {
+      "id": "seg-035",
+      "start": 120.0,
+      "end": 121.54,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "What kind de?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "What",
+          "start": 120.0,
+          "end": 120.22
+        },
+        {
+          "text": "kind",
+          "start": 120.22,
+          "end": 120.82
+        },
+        {
+          "text": "de?",
+          "start": 120.82,
+          "end": 121.54
+        }
+      ]
+    },
+    {
+      "id": "seg-036",
+      "start": 122.06,
+      "end": 123.32,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "What kind of?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "What",
+          "start": 122.06,
+          "end": 122.7
+        },
+        {
+          "text": "kind",
+          "start": 122.7,
+          "end": 122.96
+        },
+        {
+          "text": "of?",
+          "start": 122.96,
+          "end": 123.32
+        }
+      ]
+    },
+    {
+      "id": "seg-037",
+      "start": 126.04,
+      "end": 126.68,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "什么样的?",
+      "pinyin": "shén me yàng de ?",
+      "words": [
+        {
+          "hanzi": "什",
+          "pinyin": "shén",
+          "start": 126.04,
+          "end": 126.17
+        },
+        {
+          "hanzi": "么",
+          "pinyin": "me",
+          "start": 126.17,
+          "end": 126.3
+        },
+        {
+          "hanzi": "样",
+          "pinyin": "yàng",
+          "start": 126.3,
+          "end": 126.43
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 126.43,
+          "end": 126.56
+        }
+      ]
+    },
+    {
+      "id": "seg-038",
+      "start": 127.48,
+      "end": 129.48,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "That's how you would say what kind of.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "That's",
+          "start": 127.48,
+          "end": 128.12
+        },
+        {
+          "text": "how",
+          "start": 128.12,
+          "end": 128.2
+        },
+        {
+          "text": "you",
+          "start": 128.2,
+          "end": 128.34
+        },
+        {
+          "text": "would",
+          "start": 128.34,
+          "end": 128.48
+        },
+        {
+          "text": "say",
+          "start": 128.48,
+          "end": 128.68
+        },
+        {
+          "text": "what",
+          "start": 128.68,
+          "end": 128.88
+        },
+        {
+          "text": "kind",
+          "start": 128.88,
+          "end": 129.16
+        },
+        {
+          "text": "of.",
+          "start": 129.16,
+          "end": 129.48
+        }
+      ]
+    },
+    {
+      "id": "seg-039",
+      "start": 130.54,
+      "end": 133.12,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "What kind of beer do you want?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "What",
+          "start": 130.54,
+          "end": 131.18
+        },
+        {
+          "text": "kind",
+          "start": 131.18,
+          "end": 131.56
+        },
+        {
+          "text": "of",
+          "start": 131.56,
+          "end": 132.08
+        },
+        {
+          "text": "beer",
+          "start": 132.08,
+          "end": 132.42
+        },
+        {
+          "text": "do",
+          "start": 132.42,
+          "end": 132.7
+        },
+        {
+          "text": "you",
+          "start": 132.7,
+          "end": 132.82
+        },
+        {
+          "text": "want?",
+          "start": 132.82,
+          "end": 133.12
+        }
+      ]
+    },
+    {
+      "id": "seg-040",
+      "start": 133.14,
+      "end": 135.0,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You want what kind of beer?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You",
+          "start": 133.14,
+          "end": 133.34
+        },
+        {
+          "text": "want",
+          "start": 133.34,
+          "end": 133.66
+        },
+        {
+          "text": "what",
+          "start": 133.66,
+          "end": 133.94
+        },
+        {
+          "text": "kind",
+          "start": 133.94,
+          "end": 134.3
+        },
+        {
+          "text": "of",
+          "start": 134.3,
+          "end": 134.64
+        },
+        {
+          "text": "beer?",
+          "start": 134.64,
+          "end": 135.0
+        }
+      ]
+    },
+    {
+      "id": "seg-041",
+      "start": 143.68,
+      "end": 144.32,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "你要什么样的啤酒?",
+      "pinyin": "nǐ yào shén me yàng de pí jiǔ ?",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 143.68,
+          "end": 143.75
+        },
+        {
+          "hanzi": "要",
+          "pinyin": "yào",
+          "start": 143.75,
+          "end": 143.82
+        },
+        {
+          "hanzi": "什",
+          "pinyin": "shén",
+          "start": 143.82,
+          "end": 143.89
+        },
+        {
+          "hanzi": "么",
+          "pinyin": "me",
+          "start": 143.89,
+          "end": 143.96
+        },
+        {
+          "hanzi": "样",
+          "pinyin": "yàng",
+          "start": 143.96,
+          "end": 144.03
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 144.04,
+          "end": 144.11
+        },
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 144.11,
+          "end": 144.18
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 144.18,
+          "end": 144.25
+        }
+      ]
+    },
+    {
+      "id": "seg-042",
+      "start": 149.32,
+      "end": 149.96,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "你要什么样的啤酒?",
+      "pinyin": "nǐ yào shén me yàng de pí jiǔ ?",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 149.32,
+          "end": 149.39
+        },
+        {
+          "hanzi": "要",
+          "pinyin": "yào",
+          "start": 149.39,
+          "end": 149.46
+        },
+        {
+          "hanzi": "什",
+          "pinyin": "shén",
+          "start": 149.46,
+          "end": 149.53
+        },
+        {
+          "hanzi": "么",
+          "pinyin": "me",
+          "start": 149.53,
+          "end": 149.6
+        },
+        {
+          "hanzi": "样",
+          "pinyin": "yàng",
+          "start": 149.6,
+          "end": 149.67
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 149.68,
+          "end": 149.75
+        },
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 149.75,
+          "end": 149.82
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 149.82,
+          "end": 149.89
+        }
+      ]
+    },
+    {
+      "id": "seg-043",
+      "start": 149.96,
+      "end": 150.44,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "你要什么样的啤酒?",
+      "pinyin": "nǐ yào shén me yàng de pí jiǔ ?",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 149.96,
+          "end": 150.02
+        },
+        {
+          "hanzi": "要",
+          "pinyin": "yào",
+          "start": 150.02,
+          "end": 150.08
+        },
+        {
+          "hanzi": "什",
+          "pinyin": "shén",
+          "start": 150.08,
+          "end": 150.14
+        },
+        {
+          "hanzi": "么",
+          "pinyin": "me",
+          "start": 150.14,
+          "end": 150.2
+        },
+        {
+          "hanzi": "样",
+          "pinyin": "yàng",
+          "start": 150.2,
+          "end": 150.26
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 150.26,
+          "end": 150.32
+        },
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 150.32,
+          "end": 150.38
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 150.38,
+          "end": 150.44
+        }
+      ]
+    },
+    {
+      "id": "seg-044",
+      "start": 150.84,
+      "end": 151.38,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "你要什么样的啤酒?",
+      "pinyin": "nǐ yào shén me yàng de pí jiǔ ?",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 150.84,
+          "end": 150.9
+        },
+        {
+          "hanzi": "要",
+          "pinyin": "yào",
+          "start": 150.9,
+          "end": 150.96
+        },
+        {
+          "hanzi": "什",
+          "pinyin": "shén",
+          "start": 150.96,
+          "end": 151.02
+        },
+        {
+          "hanzi": "么",
+          "pinyin": "me",
+          "start": 151.02,
+          "end": 151.08
+        },
+        {
+          "hanzi": "样",
+          "pinyin": "yàng",
+          "start": 151.08,
+          "end": 151.14
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 151.14,
+          "end": 151.2
+        },
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 151.2,
+          "end": 151.26
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 151.26,
+          "end": 151.32
+        }
+      ]
+    },
+    {
+      "id": "seg-045",
+      "start": 153.46,
+      "end": 154.0,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "你要什么样的啤酒?",
+      "pinyin": "nǐ yào shén me yàng de pí jiǔ ?",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 153.46,
+          "end": 153.52
+        },
+        {
+          "hanzi": "要",
+          "pinyin": "yào",
+          "start": 153.52,
+          "end": 153.58
+        },
+        {
+          "hanzi": "什",
+          "pinyin": "shén",
+          "start": 153.58,
+          "end": 153.64
+        },
+        {
+          "hanzi": "么",
+          "pinyin": "me",
+          "start": 153.64,
+          "end": 153.7
+        },
+        {
+          "hanzi": "样",
+          "pinyin": "yàng",
+          "start": 153.7,
+          "end": 153.76
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 153.76,
+          "end": 153.82
+        },
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 153.82,
+          "end": 153.88
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 153.88,
+          "end": 153.94
+        }
+      ]
+    },
+    {
+      "id": "seg-046",
+      "start": 154.94,
+      "end": 156.9,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "What sort of beer do you have?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "What",
+          "start": 154.94,
+          "end": 155.48
+        },
+        {
+          "text": "sort",
+          "start": 155.48,
+          "end": 155.72
+        },
+        {
+          "text": "of",
+          "start": 155.72,
+          "end": 155.98
+        },
+        {
+          "text": "beer",
+          "start": 155.98,
+          "end": 156.2
+        },
+        {
+          "text": "do",
+          "start": 156.2,
+          "end": 156.36
+        },
+        {
+          "text": "you",
+          "start": 156.36,
+          "end": 156.48
+        },
+        {
+          "text": "have?",
+          "start": 156.48,
+          "end": 156.9
+        }
+      ]
+    },
+    {
+      "id": "seg-047",
+      "start": 157.26,
+      "end": 159.54,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You have what kind of beer?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You",
+          "start": 157.26,
+          "end": 157.8
+        },
+        {
+          "text": "have",
+          "start": 157.8,
+          "end": 158.08
+        },
+        {
+          "text": "what",
+          "start": 158.08,
+          "end": 158.56
+        },
+        {
+          "text": "kind",
+          "start": 158.56,
+          "end": 158.98
+        },
+        {
+          "text": "of",
+          "start": 158.98,
+          "end": 159.28
+        },
+        {
+          "text": "beer?",
+          "start": 159.28,
+          "end": 159.54
+        }
+      ]
+    },
+    {
+      "id": "seg-048",
+      "start": 166.86,
+      "end": 167.4,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "你有什么样啤酒?",
+      "pinyin": "nǐ yǒu shén me yàng pí jiǔ ?",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 166.86,
+          "end": 166.93
+        },
+        {
+          "hanzi": "有",
+          "pinyin": "yǒu",
+          "start": 166.93,
+          "end": 167.0
+        },
+        {
+          "hanzi": "什",
+          "pinyin": "shén",
+          "start": 167.0,
+          "end": 167.07
+        },
+        {
+          "hanzi": "么",
+          "pinyin": "me",
+          "start": 167.07,
+          "end": 167.14
+        },
+        {
+          "hanzi": "样",
+          "pinyin": "yàng",
+          "start": 167.14,
+          "end": 167.21
+        },
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 167.21,
+          "end": 167.28
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 167.28,
+          "end": 167.35
+        }
+      ]
+    },
+    {
+      "id": "seg-049",
+      "start": 167.92,
+      "end": 171.32,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "And so if we want to describe what kind of beer,",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "And",
+          "start": 167.92,
+          "end": 168.22
+        },
+        {
+          "text": "so",
+          "start": 168.22,
+          "end": 168.48
+        },
+        {
+          "text": "if",
+          "start": 168.48,
+          "end": 168.72
+        },
+        {
+          "text": "we",
+          "start": 168.72,
+          "end": 169.02
+        },
+        {
+          "text": "want",
+          "start": 169.02,
+          "end": 169.42
+        },
+        {
+          "text": "to",
+          "start": 169.42,
+          "end": 169.66
+        },
+        {
+          "text": "describe",
+          "start": 169.66,
+          "end": 170.04
+        },
+        {
+          "text": "what",
+          "start": 170.04,
+          "end": 170.5
+        },
+        {
+          "text": "kind",
+          "start": 170.5,
+          "end": 170.72
+        },
+        {
+          "text": "of",
+          "start": 170.72,
+          "end": 171.0
+        },
+        {
+          "text": "beer,",
+          "start": 171.0,
+          "end": 171.32
+        }
+      ]
+    },
+    {
+      "id": "seg-050",
+      "start": 171.58,
+      "end": 174.1,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "what are we going to place before the word beer?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "what",
+          "start": 171.58,
+          "end": 172.1
+        },
+        {
+          "text": "are",
+          "start": 172.1,
+          "end": 172.22
+        },
+        {
+          "text": "we",
+          "start": 172.22,
+          "end": 172.32
+        },
+        {
+          "text": "going",
+          "start": 172.32,
+          "end": 172.38
+        },
+        {
+          "text": "to",
+          "start": 172.38,
+          "end": 172.56
+        },
+        {
+          "text": "place",
+          "start": 172.56,
+          "end": 172.92
+        },
+        {
+          "text": "before",
+          "start": 172.92,
+          "end": 173.26
+        },
+        {
+          "text": "the",
+          "start": 173.26,
+          "end": 173.56
+        },
+        {
+          "text": "word",
+          "start": 173.56,
+          "end": 173.8
+        },
+        {
+          "text": "beer?",
+          "start": 173.8,
+          "end": 174.1
+        }
+      ]
+    },
+    {
+      "id": "seg-051",
+      "start": 175.3,
+      "end": 175.84,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "的",
+      "pinyin": "de",
+      "words": [
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 175.3,
+          "end": 175.84
+        }
+      ]
+    },
+    {
+      "id": "seg-052",
+      "start": 175.84,
+      "end": 176.76,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Yes.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Yes.",
+          "start": 175.84,
+          "end": 176.76
+        }
+      ]
+    },
+    {
+      "id": "seg-053",
+      "start": 177.02,
+      "end": 179.5,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "So how would you say what sort of beer do you have?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "So",
+          "start": 177.02,
+          "end": 177.56
+        },
+        {
+          "text": "how",
+          "start": 177.56,
+          "end": 177.76
+        },
+        {
+          "text": "would",
+          "start": 177.76,
+          "end": 177.9
+        },
+        {
+          "text": "you",
+          "start": 177.9,
+          "end": 178.02
+        },
+        {
+          "text": "say",
+          "start": 178.02,
+          "end": 178.2
+        },
+        {
+          "text": "what",
+          "start": 178.2,
+          "end": 178.38
+        },
+        {
+          "text": "sort",
+          "start": 178.38,
+          "end": 178.62
+        },
+        {
+          "text": "of",
+          "start": 178.62,
+          "end": 178.84
+        },
+        {
+          "text": "beer",
+          "start": 178.84,
+          "end": 179.04
+        },
+        {
+          "text": "do",
+          "start": 179.04,
+          "end": 179.2
+        },
+        {
+          "text": "you",
+          "start": 179.2,
+          "end": 179.32
+        },
+        {
+          "text": "have?",
+          "start": 179.32,
+          "end": 179.5
+        }
+      ]
+    },
+    {
+      "id": "seg-054",
+      "start": 184.78,
+      "end": 186.1,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "你有什么样的啤酒?",
+      "pinyin": "nǐ yǒu shén me yàng de pí jiǔ ?",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 184.78,
+          "end": 184.93
+        },
+        {
+          "hanzi": "有",
+          "pinyin": "yǒu",
+          "start": 184.93,
+          "end": 185.08
+        },
+        {
+          "hanzi": "什",
+          "pinyin": "shén",
+          "start": 185.08,
+          "end": 185.23
+        },
+        {
+          "hanzi": "么",
+          "pinyin": "me",
+          "start": 185.23,
+          "end": 185.38
+        },
+        {
+          "hanzi": "样",
+          "pinyin": "yàng",
+          "start": 185.38,
+          "end": 185.53
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 185.53,
+          "end": 185.68
+        },
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 185.68,
+          "end": 185.83
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 185.83,
+          "end": 185.98
+        }
+      ]
+    },
+    {
+      "id": "seg-055",
+      "start": 192.0,
+      "end": 193.32,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "你有什么样的啤酒?",
+      "pinyin": "nǐ yǒu shén me yàng de pí jiǔ ?",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 192.0,
+          "end": 192.15
+        },
+        {
+          "hanzi": "有",
+          "pinyin": "yǒu",
+          "start": 192.15,
+          "end": 192.3
+        },
+        {
+          "hanzi": "什",
+          "pinyin": "shén",
+          "start": 192.3,
+          "end": 192.45
+        },
+        {
+          "hanzi": "么",
+          "pinyin": "me",
+          "start": 192.45,
+          "end": 192.6
+        },
+        {
+          "hanzi": "样",
+          "pinyin": "yàng",
+          "start": 192.6,
+          "end": 192.75
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 192.75,
+          "end": 192.9
+        },
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 192.9,
+          "end": 193.05
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 193.05,
+          "end": 193.2
+        }
+      ]
+    },
+    {
+      "id": "seg-056",
+      "start": 194.84,
+      "end": 196.16,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "你有什么样的啤酒?",
+      "pinyin": "nǐ yǒu shén me yàng de pí jiǔ ?",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 194.84,
+          "end": 194.99
+        },
+        {
+          "hanzi": "有",
+          "pinyin": "yǒu",
+          "start": 194.99,
+          "end": 195.14
+        },
+        {
+          "hanzi": "什",
+          "pinyin": "shén",
+          "start": 195.14,
+          "end": 195.29
+        },
+        {
+          "hanzi": "么",
+          "pinyin": "me",
+          "start": 195.29,
+          "end": 195.44
+        },
+        {
+          "hanzi": "样",
+          "pinyin": "yàng",
+          "start": 195.44,
+          "end": 195.59
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 195.59,
+          "end": 195.74
+        },
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 195.74,
+          "end": 195.89
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 195.89,
+          "end": 196.04
+        }
+      ]
+    },
+    {
+      "id": "seg-057",
+      "start": 197.1,
+      "end": 201.06,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "We have Chinese beer and foreign beer.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "We",
+          "start": 197.1,
+          "end": 197.76
+        },
+        {
+          "text": "have",
+          "start": 197.76,
+          "end": 198.18
+        },
+        {
+          "text": "Chinese",
+          "start": 198.18,
+          "end": 199.02
+        },
+        {
+          "text": "beer",
+          "start": 199.02,
+          "end": 199.58
+        },
+        {
+          "text": "and",
+          "start": 199.58,
+          "end": 200.18
+        },
+        {
+          "text": "foreign",
+          "start": 200.18,
+          "end": 200.68
+        },
+        {
+          "text": "beer.",
+          "start": 200.68,
+          "end": 201.06
+        }
+      ]
+    },
+    {
+      "id": "seg-058",
+      "start": 208.08,
+      "end": 209.4,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "我们有中国啤酒。",
+      "pinyin": "wǒ men yǒu zhōng guó pí jiǔ .",
+      "words": [
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 208.08,
+          "end": 208.25
+        },
+        {
+          "hanzi": "们",
+          "pinyin": "men",
+          "start": 208.25,
+          "end": 208.41
+        },
+        {
+          "hanzi": "有",
+          "pinyin": "yǒu",
+          "start": 208.41,
+          "end": 208.57
+        },
+        {
+          "hanzi": "中",
+          "pinyin": "zhōng",
+          "start": 208.58,
+          "end": 208.75
+        },
+        {
+          "hanzi": "国",
+          "pinyin": "guó",
+          "start": 208.75,
+          "end": 208.91
+        },
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 208.91,
+          "end": 209.07
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 209.07,
+          "end": 209.23
+        }
+      ]
+    },
+    {
+      "id": "seg-059",
+      "start": 224.72,
+      "end": 226.12,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "我们有中国啤酒和外国啤酒。",
+      "pinyin": "wǒ men yǒu zhōng guó pí jiǔ hé wài guó pí jiǔ .",
+      "words": [
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 224.72,
+          "end": 224.83
+        },
+        {
+          "hanzi": "们",
+          "pinyin": "men",
+          "start": 224.83,
+          "end": 224.94
+        },
+        {
+          "hanzi": "有",
+          "pinyin": "yǒu",
+          "start": 224.94,
+          "end": 225.05
+        },
+        {
+          "hanzi": "中",
+          "pinyin": "zhōng",
+          "start": 225.05,
+          "end": 225.16
+        },
+        {
+          "hanzi": "国",
+          "pinyin": "guó",
+          "start": 225.16,
+          "end": 225.27
+        },
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 225.27,
+          "end": 225.38
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 225.38,
+          "end": 225.49
+        },
+        {
+          "hanzi": "和",
+          "pinyin": "hé",
+          "start": 225.49,
+          "end": 225.6
+        },
+        {
+          "hanzi": "外",
+          "pinyin": "wài",
+          "start": 225.6,
+          "end": 225.71
+        },
+        {
+          "hanzi": "国",
+          "pinyin": "guó",
+          "start": 225.71,
+          "end": 225.82
+        },
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 225.82,
+          "end": 225.93
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 225.93,
+          "end": 226.04
+        }
+      ]
+    },
+    {
+      "id": "seg-060",
+      "start": 228.24,
+      "end": 229.64,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "我们有中国啤酒和外国啤酒。",
+      "pinyin": "wǒ men yǒu zhōng guó pí jiǔ hé wài guó pí jiǔ .",
+      "words": [
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 228.24,
+          "end": 228.35
+        },
+        {
+          "hanzi": "们",
+          "pinyin": "men",
+          "start": 228.35,
+          "end": 228.46
+        },
+        {
+          "hanzi": "有",
+          "pinyin": "yǒu",
+          "start": 228.46,
+          "end": 228.57
+        },
+        {
+          "hanzi": "中",
+          "pinyin": "zhōng",
+          "start": 228.57,
+          "end": 228.68
+        },
+        {
+          "hanzi": "国",
+          "pinyin": "guó",
+          "start": 228.68,
+          "end": 228.79
+        },
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 228.79,
+          "end": 228.9
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 228.9,
+          "end": 229.01
+        },
+        {
+          "hanzi": "和",
+          "pinyin": "hé",
+          "start": 229.01,
+          "end": 229.12
+        },
+        {
+          "hanzi": "外",
+          "pinyin": "wài",
+          "start": 229.12,
+          "end": 229.23
+        },
+        {
+          "hanzi": "国",
+          "pinyin": "guó",
+          "start": 229.23,
+          "end": 229.34
+        },
+        {
+          "hanzi": "啤",
+          "pinyin": "pí",
+          "start": 229.34,
+          "end": 229.45
+        },
+        {
+          "hanzi": "酒",
+          "pinyin": "jiǔ",
+          "start": 229.45,
+          "end": 229.56
+        }
+      ]
+    }
+  ]
+}

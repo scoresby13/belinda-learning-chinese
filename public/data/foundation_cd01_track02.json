@@ -1,0 +1,2637 @@
+{
+  "trackId": "foundation-cd01-02",
+  "course": "Chinese Foundation",
+  "cd": 1,
+  "track": 2,
+  "title": "Chinese Foundation CD 1 - Track 2",
+  "audioUrl": "audio/foundation-cd01/track-02.mp3",
+  "durationSeconds": 183.35,
+  "segments": [
+    {
+      "id": "seg-001",
+      "start": 0.0,
+      "end": 5.3,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "One of the most striking characteristics of Chinese is that the language has no alphabet.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "One",
+          "start": 0.0,
+          "end": 1.12
+        },
+        {
+          "text": "of",
+          "start": 1.12,
+          "end": 1.26
+        },
+        {
+          "text": "the",
+          "start": 1.26,
+          "end": 1.36
+        },
+        {
+          "text": "most",
+          "start": 1.36,
+          "end": 1.58
+        },
+        {
+          "text": "striking",
+          "start": 1.58,
+          "end": 1.96
+        },
+        {
+          "text": "characteristics",
+          "start": 1.96,
+          "end": 2.58
+        },
+        {
+          "text": "of",
+          "start": 2.58,
+          "end": 3.04
+        },
+        {
+          "text": "Chinese",
+          "start": 3.04,
+          "end": 3.38
+        },
+        {
+          "text": "is",
+          "start": 3.38,
+          "end": 3.76
+        },
+        {
+          "text": "that",
+          "start": 3.76,
+          "end": 3.92
+        },
+        {
+          "text": "the",
+          "start": 3.92,
+          "end": 4.1
+        },
+        {
+          "text": "language",
+          "start": 4.1,
+          "end": 4.4
+        },
+        {
+          "text": "has",
+          "start": 4.4,
+          "end": 4.62
+        },
+        {
+          "text": "no",
+          "start": 4.62,
+          "end": 4.84
+        },
+        {
+          "text": "alphabet.",
+          "start": 4.84,
+          "end": 5.3
+        }
+      ]
+    },
+    {
+      "id": "seg-002",
+      "start": 5.9,
+      "end": 8.56,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Instead, as you may have seen, characters are used.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Instead,",
+          "start": 5.9,
+          "end": 6.46
+        },
+        {
+          "text": "as",
+          "start": 6.64,
+          "end": 6.78
+        },
+        {
+          "text": "you",
+          "start": 6.78,
+          "end": 6.86
+        },
+        {
+          "text": "may",
+          "start": 6.86,
+          "end": 7.0
+        },
+        {
+          "text": "have",
+          "start": 7.0,
+          "end": 7.16
+        },
+        {
+          "text": "seen,",
+          "start": 7.16,
+          "end": 7.44
+        },
+        {
+          "text": "characters",
+          "start": 7.6,
+          "end": 7.9
+        },
+        {
+          "text": "are",
+          "start": 7.9,
+          "end": 8.3
+        },
+        {
+          "text": "used.",
+          "start": 8.3,
+          "end": 8.56
+        }
+      ]
+    },
+    {
+      "id": "seg-003",
+      "start": 8.9,
+      "end": 13.32,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "This means that each word consists of one or more different written characters.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "This",
+          "start": 8.9,
+          "end": 9.46
+        },
+        {
+          "text": "means",
+          "start": 9.46,
+          "end": 9.76
+        },
+        {
+          "text": "that",
+          "start": 9.76,
+          "end": 10.02
+        },
+        {
+          "text": "each",
+          "start": 10.02,
+          "end": 10.32
+        },
+        {
+          "text": "word",
+          "start": 10.32,
+          "end": 10.64
+        },
+        {
+          "text": "consists",
+          "start": 10.64,
+          "end": 11.08
+        },
+        {
+          "text": "of",
+          "start": 11.08,
+          "end": 11.44
+        },
+        {
+          "text": "one",
+          "start": 11.44,
+          "end": 11.62
+        },
+        {
+          "text": "or",
+          "start": 11.62,
+          "end": 11.8
+        },
+        {
+          "text": "more",
+          "start": 11.8,
+          "end": 12.06
+        },
+        {
+          "text": "different",
+          "start": 12.06,
+          "end": 12.4
+        },
+        {
+          "text": "written",
+          "start": 12.4,
+          "end": 12.72
+        },
+        {
+          "text": "characters.",
+          "start": 12.72,
+          "end": 13.32
+        }
+      ]
+    },
+    {
+      "id": "seg-004",
+      "start": 14.06,
+      "end": 18.0,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "What makes the situation even more challenging is that the spoken language,",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "What",
+          "start": 14.06,
+          "end": 14.62
+        },
+        {
+          "text": "makes",
+          "start": 14.62,
+          "end": 14.9
+        },
+        {
+          "text": "the",
+          "start": 14.9,
+          "end": 15.02
+        },
+        {
+          "text": "situation",
+          "start": 15.02,
+          "end": 15.42
+        },
+        {
+          "text": "even",
+          "start": 15.42,
+          "end": 15.82
+        },
+        {
+          "text": "more",
+          "start": 15.82,
+          "end": 16.0
+        },
+        {
+          "text": "challenging",
+          "start": 16.0,
+          "end": 16.5
+        },
+        {
+          "text": "is",
+          "start": 16.5,
+          "end": 16.88
+        },
+        {
+          "text": "that",
+          "start": 16.88,
+          "end": 17.1
+        },
+        {
+          "text": "the",
+          "start": 17.1,
+          "end": 17.26
+        },
+        {
+          "text": "spoken",
+          "start": 17.26,
+          "end": 17.52
+        },
+        {
+          "text": "language,",
+          "start": 17.52,
+          "end": 18.0
+        }
+      ]
+    },
+    {
+      "id": "seg-005",
+      "start": 18.14,
+      "end": 23.04,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "which of course preceded the written one, doesn't have enough sounds to cover all the characters.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "which",
+          "start": 18.14,
+          "end": 18.46
+        },
+        {
+          "text": "of",
+          "start": 18.46,
+          "end": 18.6
+        },
+        {
+          "text": "course",
+          "start": 18.6,
+          "end": 18.86
+        },
+        {
+          "text": "preceded",
+          "start": 18.86,
+          "end": 19.4
+        },
+        {
+          "text": "the",
+          "start": 19.4,
+          "end": 19.48
+        },
+        {
+          "text": "written",
+          "start": 19.48,
+          "end": 19.7
+        },
+        {
+          "text": "one,",
+          "start": 19.7,
+          "end": 19.94
+        },
+        {
+          "text": "doesn't",
+          "start": 20.18,
+          "end": 20.86
+        },
+        {
+          "text": "have",
+          "start": 20.86,
+          "end": 21.04
+        },
+        {
+          "text": "enough",
+          "start": 21.04,
+          "end": 21.34
+        },
+        {
+          "text": "sounds",
+          "start": 21.34,
+          "end": 21.7
+        },
+        {
+          "text": "to",
+          "start": 21.7,
+          "end": 21.92
+        },
+        {
+          "text": "cover",
+          "start": 21.92,
+          "end": 22.18
+        },
+        {
+          "text": "all",
+          "start": 22.18,
+          "end": 22.44
+        },
+        {
+          "text": "the",
+          "start": 22.44,
+          "end": 22.6
+        },
+        {
+          "text": "characters.",
+          "start": 22.6,
+          "end": 23.04
+        }
+      ]
+    },
+    {
+      "id": "seg-006",
+      "start": 23.04,
+      "end": 29.18,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You know, of course, that in English we have sounds which, though identical, may have different meanings.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You",
+          "start": 23.04,
+          "end": 23.82
+        },
+        {
+          "text": "know,",
+          "start": 23.82,
+          "end": 24.7
+        },
+        {
+          "text": "of",
+          "start": 24.74,
+          "end": 24.92
+        },
+        {
+          "text": "course,",
+          "start": 24.92,
+          "end": 25.26
+        },
+        {
+          "text": "that",
+          "start": 25.3,
+          "end": 25.54
+        },
+        {
+          "text": "in",
+          "start": 25.54,
+          "end": 25.68
+        },
+        {
+          "text": "English",
+          "start": 25.68,
+          "end": 25.96
+        },
+        {
+          "text": "we",
+          "start": 25.96,
+          "end": 26.26
+        },
+        {
+          "text": "have",
+          "start": 26.26,
+          "end": 26.48
+        },
+        {
+          "text": "sounds",
+          "start": 26.48,
+          "end": 26.9
+        },
+        {
+          "text": "which,",
+          "start": 26.9,
+          "end": 27.2
+        },
+        {
+          "text": "though",
+          "start": 27.3,
+          "end": 27.58
+        },
+        {
+          "text": "identical,",
+          "start": 27.58,
+          "end": 28.02
+        },
+        {
+          "text": "may",
+          "start": 28.16,
+          "end": 28.32
+        },
+        {
+          "text": "have",
+          "start": 28.32,
+          "end": 28.48
+        },
+        {
+          "text": "different",
+          "start": 28.48,
+          "end": 28.78
+        },
+        {
+          "text": "meanings.",
+          "start": 28.78,
+          "end": 29.18
+        }
+      ]
+    },
+    {
+      "id": "seg-007",
+      "start": 29.6,
+      "end": 34.18,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Take the word weigh. One version is, how much do you weigh?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Take",
+          "start": 29.6,
+          "end": 30.2
+        },
+        {
+          "text": "the",
+          "start": 30.2,
+          "end": 30.42
+        },
+        {
+          "text": "word",
+          "start": 30.42,
+          "end": 30.68
+        },
+        {
+          "text": "weigh.",
+          "start": 30.68,
+          "end": 30.9
+        },
+        {
+          "text": "One",
+          "start": 31.5,
+          "end": 32.1
+        },
+        {
+          "text": "version",
+          "start": 32.1,
+          "end": 32.42
+        },
+        {
+          "text": "is,",
+          "start": 32.42,
+          "end": 32.78
+        },
+        {
+          "text": "how",
+          "start": 32.86,
+          "end": 33.3
+        },
+        {
+          "text": "much",
+          "start": 33.3,
+          "end": 33.58
+        },
+        {
+          "text": "do",
+          "start": 33.58,
+          "end": 33.76
+        },
+        {
+          "text": "you",
+          "start": 33.76,
+          "end": 33.92
+        },
+        {
+          "text": "weigh?",
+          "start": 33.92,
+          "end": 34.18
+        }
+      ]
+    },
+    {
+      "id": "seg-008",
+      "start": 34.72,
+      "end": 39.26,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "It means something totally different than, excuse me, I've lost my way.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "It",
+          "start": 34.72,
+          "end": 35.32
+        },
+        {
+          "text": "means",
+          "start": 35.32,
+          "end": 35.52
+        },
+        {
+          "text": "something",
+          "start": 35.52,
+          "end": 35.82
+        },
+        {
+          "text": "totally",
+          "start": 35.82,
+          "end": 36.24
+        },
+        {
+          "text": "different",
+          "start": 36.24,
+          "end": 36.62
+        },
+        {
+          "text": "than,",
+          "start": 36.62,
+          "end": 36.88
+        },
+        {
+          "text": "excuse",
+          "start": 37.0,
+          "end": 37.74
+        },
+        {
+          "text": "me,",
+          "start": 37.74,
+          "end": 38.16
+        },
+        {
+          "text": "I've",
+          "start": 38.22,
+          "end": 38.5
+        },
+        {
+          "text": "lost",
+          "start": 38.5,
+          "end": 38.74
+        },
+        {
+          "text": "my",
+          "start": 38.74,
+          "end": 39.0
+        },
+        {
+          "text": "way.",
+          "start": 39.0,
+          "end": 39.26
+        }
+      ]
+    },
+    {
+      "id": "seg-009",
+      "start": 40.16,
+      "end": 45.9,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Imagine if we only had a really small number of these sounds and sound combinations to express ourselves.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Imagine",
+          "start": 40.16,
+          "end": 40.76
+        },
+        {
+          "text": "if",
+          "start": 40.76,
+          "end": 41.06
+        },
+        {
+          "text": "we",
+          "start": 41.06,
+          "end": 41.22
+        },
+        {
+          "text": "only",
+          "start": 41.22,
+          "end": 41.58
+        },
+        {
+          "text": "had",
+          "start": 41.58,
+          "end": 41.88
+        },
+        {
+          "text": "a",
+          "start": 41.88,
+          "end": 42.08
+        },
+        {
+          "text": "really",
+          "start": 42.08,
+          "end": 42.4
+        },
+        {
+          "text": "small",
+          "start": 42.4,
+          "end": 42.74
+        },
+        {
+          "text": "number",
+          "start": 42.74,
+          "end": 43.12
+        },
+        {
+          "text": "of",
+          "start": 43.12,
+          "end": 43.32
+        },
+        {
+          "text": "these",
+          "start": 43.32,
+          "end": 43.42
+        },
+        {
+          "text": "sounds",
+          "start": 43.42,
+          "end": 43.8
+        },
+        {
+          "text": "and",
+          "start": 43.8,
+          "end": 43.98
+        },
+        {
+          "text": "sound",
+          "start": 43.98,
+          "end": 44.26
+        },
+        {
+          "text": "combinations",
+          "start": 44.26,
+          "end": 44.82
+        },
+        {
+          "text": "to",
+          "start": 44.82,
+          "end": 45.18
+        },
+        {
+          "text": "express",
+          "start": 45.18,
+          "end": 45.4
+        },
+        {
+          "text": "ourselves.",
+          "start": 45.4,
+          "end": 45.9
+        }
+      ]
+    },
+    {
+      "id": "seg-010",
+      "start": 46.5,
+      "end": 48.22,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "This could present a challenge.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "This",
+          "start": 46.5,
+          "end": 47.1
+        },
+        {
+          "text": "could",
+          "start": 47.1,
+          "end": 47.28
+        },
+        {
+          "text": "present",
+          "start": 47.28,
+          "end": 47.66
+        },
+        {
+          "text": "a",
+          "start": 47.66,
+          "end": 47.86
+        },
+        {
+          "text": "challenge.",
+          "start": 47.86,
+          "end": 48.22
+        }
+      ]
+    },
+    {
+      "id": "seg-011",
+      "start": 49.2,
+      "end": 53.02,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "The situation in Chinese is that they have infinite sounds.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "The",
+          "start": 49.2,
+          "end": 49.8
+        },
+        {
+          "text": "situation",
+          "start": 49.8,
+          "end": 50.3
+        },
+        {
+          "text": "in",
+          "start": 50.3,
+          "end": 50.72
+        },
+        {
+          "text": "Chinese",
+          "start": 50.72,
+          "end": 51.16
+        },
+        {
+          "text": "is",
+          "start": 51.16,
+          "end": 51.7
+        },
+        {
+          "text": "that",
+          "start": 51.7,
+          "end": 51.94
+        },
+        {
+          "text": "they",
+          "start": 51.94,
+          "end": 52.1
+        },
+        {
+          "text": "have",
+          "start": 52.1,
+          "end": 52.34
+        },
+        {
+          "text": "infinite",
+          "start": 52.34,
+          "end": 52.84
+        },
+        {
+          "text": "sounds.",
+          "start": 52.84,
+          "end": 53.02
+        }
+      ]
+    },
+    {
+      "id": "seg-012",
+      "start": 53.04,
+      "end": 56.78,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "There are exactly fewer sounds and sound combinations to work with than we do.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "There",
+          "start": 53.04,
+          "end": 53.2
+        },
+        {
+          "text": "are",
+          "start": 53.2,
+          "end": 53.25
+        },
+        {
+          "text": "exactly",
+          "start": 53.25,
+          "end": 53.3
+        },
+        {
+          "text": "fewer",
+          "start": 53.3,
+          "end": 53.42
+        },
+        {
+          "text": "sounds",
+          "start": 53.42,
+          "end": 54.14
+        },
+        {
+          "text": "and",
+          "start": 54.14,
+          "end": 54.42
+        },
+        {
+          "text": "sound",
+          "start": 54.42,
+          "end": 54.7
+        },
+        {
+          "text": "combinations",
+          "start": 54.7,
+          "end": 55.28
+        },
+        {
+          "text": "to",
+          "start": 55.28,
+          "end": 55.66
+        },
+        {
+          "text": "work",
+          "start": 55.66,
+          "end": 55.88
+        },
+        {
+          "text": "with",
+          "start": 55.88,
+          "end": 56.1
+        },
+        {
+          "text": "than",
+          "start": 56.1,
+          "end": 56.38
+        },
+        {
+          "text": "we",
+          "start": 56.38,
+          "end": 56.56
+        },
+        {
+          "text": "do.",
+          "start": 56.56,
+          "end": 56.78
+        }
+      ]
+    },
+    {
+      "id": "seg-013",
+      "start": 57.1,
+      "end": 63.5,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "And they simultaneously have to express all of the complicated ideas and thoughts that we must.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "And",
+          "start": 57.1,
+          "end": 57.7
+        },
+        {
+          "text": "they",
+          "start": 57.7,
+          "end": 57.9
+        },
+        {
+          "text": "simultaneously",
+          "start": 57.9,
+          "end": 58.54
+        },
+        {
+          "text": "have",
+          "start": 58.54,
+          "end": 59.16
+        },
+        {
+          "text": "to",
+          "start": 59.16,
+          "end": 59.36
+        },
+        {
+          "text": "express",
+          "start": 59.36,
+          "end": 59.78
+        },
+        {
+          "text": "all",
+          "start": 59.78,
+          "end": 60.52
+        },
+        {
+          "text": "of",
+          "start": 60.52,
+          "end": 60.84
+        },
+        {
+          "text": "the",
+          "start": 60.84,
+          "end": 61.0
+        },
+        {
+          "text": "complicated",
+          "start": 61.0,
+          "end": 61.44
+        },
+        {
+          "text": "ideas",
+          "start": 61.44,
+          "end": 62.04
+        },
+        {
+          "text": "and",
+          "start": 62.04,
+          "end": 62.34
+        },
+        {
+          "text": "thoughts",
+          "start": 62.34,
+          "end": 62.68
+        },
+        {
+          "text": "that",
+          "start": 62.68,
+          "end": 63.0
+        },
+        {
+          "text": "we",
+          "start": 63.0,
+          "end": 63.2
+        },
+        {
+          "text": "must.",
+          "start": 63.2,
+          "end": 63.5
+        }
+      ]
+    },
+    {
+      "id": "seg-014",
+      "start": 64.42,
+      "end": 69.36,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "They have solved this problem in a very ingenious fashion. They use tones.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "They",
+          "start": 64.42,
+          "end": 65.02
+        },
+        {
+          "text": "have",
+          "start": 65.02,
+          "end": 65.22
+        },
+        {
+          "text": "solved",
+          "start": 65.22,
+          "end": 65.78
+        },
+        {
+          "text": "this",
+          "start": 65.78,
+          "end": 65.98
+        },
+        {
+          "text": "problem",
+          "start": 65.98,
+          "end": 66.34
+        },
+        {
+          "text": "in",
+          "start": 66.34,
+          "end": 66.58
+        },
+        {
+          "text": "a",
+          "start": 66.58,
+          "end": 66.68
+        },
+        {
+          "text": "very",
+          "start": 66.68,
+          "end": 67.38
+        },
+        {
+          "text": "ingenious",
+          "start": 67.38,
+          "end": 68.1
+        },
+        {
+          "text": "fashion.",
+          "start": 68.1,
+          "end": 68.38
+        },
+        {
+          "text": "They",
+          "start": 68.6,
+          "end": 68.72
+        },
+        {
+          "text": "use",
+          "start": 68.72,
+          "end": 68.98
+        },
+        {
+          "text": "tones.",
+          "start": 68.98,
+          "end": 69.36
+        }
+      ]
+    },
+    {
+      "id": "seg-015",
+      "start": 70.22,
+      "end": 77.18,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "For example, one Chinese sound is ma, just like our word for mother. Ma.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "For",
+          "start": 70.22,
+          "end": 70.82
+        },
+        {
+          "text": "example,",
+          "start": 70.82,
+          "end": 71.32
+        },
+        {
+          "text": "one",
+          "start": 71.48,
+          "end": 72.08
+        },
+        {
+          "text": "Chinese",
+          "start": 72.08,
+          "end": 72.42
+        },
+        {
+          "text": "sound",
+          "start": 72.42,
+          "end": 73.04
+        },
+        {
+          "text": "is",
+          "start": 73.04,
+          "end": 73.46
+        },
+        {
+          "text": "ma,",
+          "start": 73.46,
+          "end": 73.92
+        },
+        {
+          "text": "just",
+          "start": 74.12,
+          "end": 74.86
+        },
+        {
+          "text": "like",
+          "start": 74.86,
+          "end": 75.14
+        },
+        {
+          "text": "our",
+          "start": 75.14,
+          "end": 75.38
+        },
+        {
+          "text": "word",
+          "start": 75.38,
+          "end": 75.76
+        },
+        {
+          "text": "for",
+          "start": 75.76,
+          "end": 75.92
+        },
+        {
+          "text": "mother.",
+          "start": 75.92,
+          "end": 76.22
+        },
+        {
+          "text": "Ma.",
+          "start": 76.58,
+          "end": 77.18
+        }
+      ]
+    },
+    {
+      "id": "seg-016",
+      "start": 78.42,
+      "end": 80.62,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "In Chinese, you will hear the following.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "In",
+          "start": 78.42,
+          "end": 79.02
+        },
+        {
+          "text": "Chinese,",
+          "start": 79.02,
+          "end": 79.46
+        },
+        {
+          "text": "you",
+          "start": 79.62,
+          "end": 79.82
+        },
+        {
+          "text": "will",
+          "start": 79.82,
+          "end": 79.88
+        },
+        {
+          "text": "hear",
+          "start": 79.88,
+          "end": 80.14
+        },
+        {
+          "text": "the",
+          "start": 80.14,
+          "end": 80.34
+        },
+        {
+          "text": "following.",
+          "start": 80.34,
+          "end": 80.62
+        }
+      ]
+    },
+    {
+      "id": "seg-017",
+      "start": 81.76,
+      "end": 82.36,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Ma.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Ma.",
+          "start": 81.76,
+          "end": 82.36
+        }
+      ]
+    },
+    {
+      "id": "seg-018",
+      "start": 83.04,
+      "end": 84.14,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Ma.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Ma.",
+          "start": 83.04,
+          "end": 84.14
+        }
+      ]
+    },
+    {
+      "id": "seg-019",
+      "start": 84.98,
+      "end": 85.45,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Ma.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Ma.",
+          "start": 84.98,
+          "end": 85.45
+        }
+      ]
+    },
+    {
+      "id": "seg-020",
+      "start": 86.48,
+      "end": 86.62,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Ma.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Ma.",
+          "start": 86.48,
+          "end": 86.62
+        }
+      ]
+    },
+    {
+      "id": "seg-021",
+      "start": 86.66,
+      "end": 87.13,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Ma.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Ma.",
+          "start": 86.66,
+          "end": 87.13
+        }
+      ]
+    },
+    {
+      "id": "seg-022",
+      "start": 87.6,
+      "end": 88.02,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Ma.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Ma.",
+          "start": 87.6,
+          "end": 88.02
+        }
+      ]
+    },
+    {
+      "id": "seg-023",
+      "start": 88.44,
+      "end": 88.66,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Ma.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Ma.",
+          "start": 88.44,
+          "end": 88.66
+        }
+      ]
+    },
+    {
+      "id": "seg-024",
+      "start": 89.44,
+      "end": 90.38,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Ma.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Ma.",
+          "start": 89.44,
+          "end": 90.38
+        }
+      ]
+    },
+    {
+      "id": "seg-025",
+      "start": 90.38,
+      "end": 90.92,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Ma.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Ma.",
+          "start": 90.38,
+          "end": 90.92
+        }
+      ]
+    },
+    {
+      "id": "seg-026",
+      "start": 90.92,
+      "end": 91.44,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Ma.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Ma.",
+          "start": 90.92,
+          "end": 91.44
+        }
+      ]
+    },
+    {
+      "id": "seg-027",
+      "start": 91.66,
+      "end": 92.06,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Ma.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Ma.",
+          "start": 91.66,
+          "end": 92.06
+        }
+      ]
+    },
+    {
+      "id": "seg-028",
+      "start": 92.98,
+      "end": 93.76,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Ma.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Ma.",
+          "start": 92.98,
+          "end": 93.76
+        }
+      ]
+    },
+    {
+      "id": "seg-029",
+      "start": 93.76,
+      "end": 93.86,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Ma.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Ma.",
+          "start": 93.76,
+          "end": 93.81
+        }
+      ]
+    },
+    {
+      "id": "seg-030",
+      "start": 113.04,
+      "end": 118.98,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "But English has over 158,000 sound combinations, so that's more than 420.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "But",
+          "start": 113.04,
+          "end": 113.26
+        },
+        {
+          "text": "English",
+          "start": 113.26,
+          "end": 113.6
+        },
+        {
+          "text": "has",
+          "start": 113.6,
+          "end": 114.02
+        },
+        {
+          "text": "over",
+          "start": 114.02,
+          "end": 114.38
+        },
+        {
+          "text": "158",
+          "start": 114.38,
+          "end": 115.36
+        },
+        {
+          "text": ",000",
+          "start": 115.36,
+          "end": 115.88
+        },
+        {
+          "text": "sound",
+          "start": 115.88,
+          "end": 116.22
+        },
+        {
+          "text": "combinations,",
+          "start": 116.22,
+          "end": 116.72
+        },
+        {
+          "text": "so",
+          "start": 117.24,
+          "end": 117.72
+        },
+        {
+          "text": "that's",
+          "start": 117.72,
+          "end": 118.02
+        },
+        {
+          "text": "more",
+          "start": 118.02,
+          "end": 118.24
+        },
+        {
+          "text": "than",
+          "start": 118.24,
+          "end": 118.46
+        },
+        {
+          "text": "420.",
+          "start": 118.46,
+          "end": 118.98
+        }
+      ]
+    },
+    {
+      "id": "seg-031",
+      "start": 120.72,
+      "end": 128.82,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "With the four tones, the Chinese can get those 420 sounds up to a total of 1,680 variations.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "With",
+          "start": 120.72,
+          "end": 121.32
+        },
+        {
+          "text": "the",
+          "start": 121.32,
+          "end": 121.46
+        },
+        {
+          "text": "four",
+          "start": 121.46,
+          "end": 121.68
+        },
+        {
+          "text": "tones,",
+          "start": 121.68,
+          "end": 122.1
+        },
+        {
+          "text": "the",
+          "start": 122.36,
+          "end": 122.76
+        },
+        {
+          "text": "Chinese",
+          "start": 122.76,
+          "end": 123.12
+        },
+        {
+          "text": "can",
+          "start": 123.12,
+          "end": 123.44
+        },
+        {
+          "text": "get",
+          "start": 123.44,
+          "end": 123.7
+        },
+        {
+          "text": "those",
+          "start": 123.7,
+          "end": 124.0
+        },
+        {
+          "text": "420",
+          "start": 124.0,
+          "end": 124.82
+        },
+        {
+          "text": "sounds",
+          "start": 124.82,
+          "end": 125.52
+        },
+        {
+          "text": "up",
+          "start": 125.52,
+          "end": 126.0
+        },
+        {
+          "text": "to",
+          "start": 126.0,
+          "end": 126.12
+        },
+        {
+          "text": "a",
+          "start": 126.12,
+          "end": 126.18
+        },
+        {
+          "text": "total",
+          "start": 126.18,
+          "end": 126.46
+        },
+        {
+          "text": "of",
+          "start": 126.46,
+          "end": 126.7
+        },
+        {
+          "text": "1",
+          "start": 126.7,
+          "end": 126.8
+        },
+        {
+          "text": ",680",
+          "start": 126.8,
+          "end": 128.06
+        },
+        {
+          "text": "variations.",
+          "start": 128.06,
+          "end": 128.82
+        }
+      ]
+    },
+    {
+      "id": "seg-032",
+      "start": 129.38,
+      "end": 133.9,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "That makes an enormous difference. But it's not 158,000.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "That",
+          "start": 129.38,
+          "end": 129.98
+        },
+        {
+          "text": "makes",
+          "start": 129.98,
+          "end": 130.24
+        },
+        {
+          "text": "an",
+          "start": 130.24,
+          "end": 130.44
+        },
+        {
+          "text": "enormous",
+          "start": 130.44,
+          "end": 130.72
+        },
+        {
+          "text": "difference.",
+          "start": 130.72,
+          "end": 131.12
+        },
+        {
+          "text": "But",
+          "start": 131.58,
+          "end": 132.18
+        },
+        {
+          "text": "it's",
+          "start": 132.18,
+          "end": 132.34
+        },
+        {
+          "text": "not",
+          "start": 132.34,
+          "end": 132.52
+        },
+        {
+          "text": "158",
+          "start": 132.52,
+          "end": 133.44
+        },
+        {
+          "text": ",000.",
+          "start": 133.44,
+          "end": 133.9
+        }
+      ]
+    },
+    {
+      "id": "seg-033",
+      "start": 134.2,
+      "end": 138.06,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "So how do they do it? Well, what they have done is pure genius.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "So",
+          "start": 134.2,
+          "end": 134.8
+        },
+        {
+          "text": "how",
+          "start": 134.8,
+          "end": 134.98
+        },
+        {
+          "text": "do",
+          "start": 134.98,
+          "end": 135.08
+        },
+        {
+          "text": "they",
+          "start": 135.08,
+          "end": 135.22
+        },
+        {
+          "text": "do",
+          "start": 135.22,
+          "end": 135.42
+        },
+        {
+          "text": "it?",
+          "start": 135.42,
+          "end": 135.66
+        },
+        {
+          "text": "Well,",
+          "start": 135.92,
+          "end": 136.44
+        },
+        {
+          "text": "what",
+          "start": 136.5,
+          "end": 136.64
+        },
+        {
+          "text": "they",
+          "start": 136.64,
+          "end": 136.76
+        },
+        {
+          "text": "have",
+          "start": 136.76,
+          "end": 136.86
+        },
+        {
+          "text": "done",
+          "start": 136.86,
+          "end": 137.08
+        },
+        {
+          "text": "is",
+          "start": 137.08,
+          "end": 137.28
+        },
+        {
+          "text": "pure",
+          "start": 137.28,
+          "end": 137.6
+        },
+        {
+          "text": "genius.",
+          "start": 137.6,
+          "end": 138.06
+        }
+      ]
+    },
+    {
+      "id": "seg-034",
+      "start": 138.96,
+      "end": 142.88,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "For me, this is one of the most exciting things about learning Chinese.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "For",
+          "start": 138.96,
+          "end": 139.56
+        },
+        {
+          "text": "me,",
+          "start": 139.56,
+          "end": 139.9
+        },
+        {
+          "text": "this",
+          "start": 140.0,
+          "end": 140.2
+        },
+        {
+          "text": "is",
+          "start": 140.2,
+          "end": 140.36
+        },
+        {
+          "text": "one",
+          "start": 140.36,
+          "end": 140.56
+        },
+        {
+          "text": "of",
+          "start": 140.56,
+          "end": 140.64
+        },
+        {
+          "text": "the",
+          "start": 140.64,
+          "end": 140.74
+        },
+        {
+          "text": "most",
+          "start": 140.74,
+          "end": 141.04
+        },
+        {
+          "text": "exciting",
+          "start": 141.04,
+          "end": 141.56
+        },
+        {
+          "text": "things",
+          "start": 141.56,
+          "end": 141.92
+        },
+        {
+          "text": "about",
+          "start": 141.92,
+          "end": 142.22
+        },
+        {
+          "text": "learning",
+          "start": 142.22,
+          "end": 142.56
+        },
+        {
+          "text": "Chinese.",
+          "start": 142.56,
+          "end": 142.88
+        }
+      ]
+    },
+    {
+      "id": "seg-035",
+      "start": 143.34,
+      "end": 148.38,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You get to see and have a sense of a totally new and absolutely brilliant way of approaching",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You",
+          "start": 143.34,
+          "end": 143.94
+        },
+        {
+          "text": "get",
+          "start": 143.94,
+          "end": 144.1
+        },
+        {
+          "text": "to",
+          "start": 144.1,
+          "end": 144.24
+        },
+        {
+          "text": "see",
+          "start": 144.24,
+          "end": 144.5
+        },
+        {
+          "text": "and",
+          "start": 144.5,
+          "end": 144.64
+        },
+        {
+          "text": "have",
+          "start": 144.64,
+          "end": 144.86
+        },
+        {
+          "text": "a",
+          "start": 144.86,
+          "end": 144.98
+        },
+        {
+          "text": "sense",
+          "start": 144.98,
+          "end": 145.38
+        },
+        {
+          "text": "of",
+          "start": 145.38,
+          "end": 145.56
+        },
+        {
+          "text": "a",
+          "start": 145.56,
+          "end": 145.68
+        },
+        {
+          "text": "totally",
+          "start": 145.68,
+          "end": 146.04
+        },
+        {
+          "text": "new",
+          "start": 146.04,
+          "end": 146.32
+        },
+        {
+          "text": "and",
+          "start": 146.32,
+          "end": 146.48
+        },
+        {
+          "text": "absolutely",
+          "start": 146.48,
+          "end": 147.06
+        },
+        {
+          "text": "brilliant",
+          "start": 147.06,
+          "end": 147.66
+        },
+        {
+          "text": "way",
+          "start": 147.66,
+          "end": 147.96
+        },
+        {
+          "text": "of",
+          "start": 147.96,
+          "end": 148.08
+        },
+        {
+          "text": "approaching",
+          "start": 148.08,
+          "end": 148.38
+        }
+      ]
+    },
+    {
+      "id": "seg-036",
+      "start": 148.38,
+      "end": 149.62,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "life and communication.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "life",
+          "start": 148.38,
+          "end": 148.82
+        },
+        {
+          "text": "and",
+          "start": 148.82,
+          "end": 149.1
+        },
+        {
+          "text": "communication.",
+          "start": 149.1,
+          "end": 149.62
+        }
+      ]
+    },
+    {
+      "id": "seg-037",
+      "start": 150.26,
+      "end": 152.62,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "As you know, necessity is the mother of invention.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "As",
+          "start": 150.26,
+          "end": 150.76
+        },
+        {
+          "text": "you",
+          "start": 150.76,
+          "end": 150.88
+        },
+        {
+          "text": "know,",
+          "start": 150.88,
+          "end": 151.06
+        },
+        {
+          "text": "necessity",
+          "start": 151.12,
+          "end": 151.48
+        },
+        {
+          "text": "is",
+          "start": 151.48,
+          "end": 151.82
+        },
+        {
+          "text": "the",
+          "start": 151.82,
+          "end": 151.94
+        },
+        {
+          "text": "mother",
+          "start": 151.94,
+          "end": 152.18
+        },
+        {
+          "text": "of",
+          "start": 152.18,
+          "end": 152.32
+        },
+        {
+          "text": "invention.",
+          "start": 152.32,
+          "end": 152.62
+        }
+      ]
+    },
+    {
+      "id": "seg-038",
+      "start": 153.28,
+      "end": 156.94,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "The Chinese are masters at this, as you shall learn for yourself.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "The",
+          "start": 153.28,
+          "end": 153.6
+        },
+        {
+          "text": "Chinese",
+          "start": 153.6,
+          "end": 153.96
+        },
+        {
+          "text": "are",
+          "start": 153.96,
+          "end": 154.28
+        },
+        {
+          "text": "masters",
+          "start": 154.28,
+          "end": 154.82
+        },
+        {
+          "text": "at",
+          "start": 154.82,
+          "end": 155.14
+        },
+        {
+          "text": "this,",
+          "start": 155.14,
+          "end": 155.42
+        },
+        {
+          "text": "as",
+          "start": 155.42,
+          "end": 155.6
+        },
+        {
+          "text": "you",
+          "start": 155.6,
+          "end": 155.76
+        },
+        {
+          "text": "shall",
+          "start": 155.76,
+          "end": 155.96
+        },
+        {
+          "text": "learn",
+          "start": 155.96,
+          "end": 156.28
+        },
+        {
+          "text": "for",
+          "start": 156.28,
+          "end": 156.54
+        },
+        {
+          "text": "yourself.",
+          "start": 156.54,
+          "end": 156.94
+        }
+      ]
+    },
+    {
+      "id": "seg-039",
+      "start": 157.84,
+      "end": 162.98,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "So studying Chinese will inspire you to think outside the box in all areas of your life.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "So",
+          "start": 157.84,
+          "end": 158.44
+        },
+        {
+          "text": "studying",
+          "start": 158.44,
+          "end": 158.84
+        },
+        {
+          "text": "Chinese",
+          "start": 158.84,
+          "end": 159.14
+        },
+        {
+          "text": "will",
+          "start": 159.14,
+          "end": 159.68
+        },
+        {
+          "text": "inspire",
+          "start": 159.68,
+          "end": 160.02
+        },
+        {
+          "text": "you",
+          "start": 160.02,
+          "end": 160.3
+        },
+        {
+          "text": "to",
+          "start": 160.3,
+          "end": 160.44
+        },
+        {
+          "text": "think",
+          "start": 160.44,
+          "end": 160.64
+        },
+        {
+          "text": "outside",
+          "start": 160.64,
+          "end": 160.94
+        },
+        {
+          "text": "the",
+          "start": 160.94,
+          "end": 161.24
+        },
+        {
+          "text": "box",
+          "start": 161.24,
+          "end": 161.5
+        },
+        {
+          "text": "in",
+          "start": 161.5,
+          "end": 161.7
+        },
+        {
+          "text": "all",
+          "start": 161.7,
+          "end": 161.92
+        },
+        {
+          "text": "areas",
+          "start": 161.92,
+          "end": 162.26
+        },
+        {
+          "text": "of",
+          "start": 162.26,
+          "end": 162.56
+        },
+        {
+          "text": "your",
+          "start": 162.56,
+          "end": 162.68
+        },
+        {
+          "text": "life.",
+          "start": 162.68,
+          "end": 162.98
+        }
+      ]
+    },
+    {
+      "id": "seg-040",
+      "start": 163.24,
+      "end": 166.86,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You will get a sense of the unlimited possibilities of the human mind,",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You",
+          "start": 163.24,
+          "end": 163.68
+        },
+        {
+          "text": "will",
+          "start": 163.68,
+          "end": 163.78
+        },
+        {
+          "text": "get",
+          "start": 163.78,
+          "end": 163.96
+        },
+        {
+          "text": "a",
+          "start": 163.96,
+          "end": 164.06
+        },
+        {
+          "text": "sense",
+          "start": 164.06,
+          "end": 164.34
+        },
+        {
+          "text": "of",
+          "start": 164.34,
+          "end": 164.54
+        },
+        {
+          "text": "the",
+          "start": 164.54,
+          "end": 164.64
+        },
+        {
+          "text": "unlimited",
+          "start": 164.64,
+          "end": 165.12
+        },
+        {
+          "text": "possibilities",
+          "start": 165.12,
+          "end": 165.74
+        },
+        {
+          "text": "of",
+          "start": 165.74,
+          "end": 166.22
+        },
+        {
+          "text": "the",
+          "start": 166.22,
+          "end": 166.34
+        },
+        {
+          "text": "human",
+          "start": 166.34,
+          "end": 166.48
+        },
+        {
+          "text": "mind,",
+          "start": 166.48,
+          "end": 166.86
+        }
+      ]
+    },
+    {
+      "id": "seg-041",
+      "start": 166.94,
+      "end": 168.04,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "and how an ancient,",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "and",
+          "start": 166.94,
+          "end": 167.34
+        },
+        {
+          "text": "how",
+          "start": 167.34,
+          "end": 167.46
+        },
+        {
+          "text": "an",
+          "start": 167.46,
+          "end": 167.62
+        },
+        {
+          "text": "ancient,",
+          "start": 167.62,
+          "end": 168.04
+        }
+      ]
+    },
+    {
+      "id": "seg-042",
+      "start": 168.04,
+      "end": 172.96,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "ancient culture has come up with one of the most simplified, uncomplicated ways to communicate.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "ancient",
+          "start": 168.04,
+          "end": 168.18
+        },
+        {
+          "text": "culture",
+          "start": 168.18,
+          "end": 168.52
+        },
+        {
+          "text": "has",
+          "start": 168.52,
+          "end": 168.74
+        },
+        {
+          "text": "come",
+          "start": 168.74,
+          "end": 168.92
+        },
+        {
+          "text": "up",
+          "start": 168.92,
+          "end": 169.08
+        },
+        {
+          "text": "with",
+          "start": 169.08,
+          "end": 169.24
+        },
+        {
+          "text": "one",
+          "start": 169.24,
+          "end": 169.4
+        },
+        {
+          "text": "of",
+          "start": 169.4,
+          "end": 169.52
+        },
+        {
+          "text": "the",
+          "start": 169.52,
+          "end": 169.62
+        },
+        {
+          "text": "most",
+          "start": 169.62,
+          "end": 169.84
+        },
+        {
+          "text": "simplified,",
+          "start": 169.84,
+          "end": 170.54
+        },
+        {
+          "text": "uncomplicated",
+          "start": 170.8,
+          "end": 171.9
+        },
+        {
+          "text": "ways",
+          "start": 171.9,
+          "end": 172.22
+        },
+        {
+          "text": "to",
+          "start": 172.22,
+          "end": 172.52
+        },
+        {
+          "text": "communicate.",
+          "start": 172.52,
+          "end": 172.96
+        }
+      ]
+    },
+    {
+      "id": "seg-043",
+      "start": 173.38,
+      "end": 178.74,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "And by the way, regarding the tones, you'll soon realize, you already know them.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "And",
+          "start": 173.38,
+          "end": 173.88
+        },
+        {
+          "text": "by",
+          "start": 173.88,
+          "end": 174.02
+        },
+        {
+          "text": "the",
+          "start": 174.02,
+          "end": 174.16
+        },
+        {
+          "text": "way,",
+          "start": 174.16,
+          "end": 174.38
+        },
+        {
+          "text": "regarding",
+          "start": 174.48,
+          "end": 175.04
+        },
+        {
+          "text": "the",
+          "start": 175.04,
+          "end": 175.3
+        },
+        {
+          "text": "tones,",
+          "start": 175.3,
+          "end": 175.64
+        },
+        {
+          "text": "you'll",
+          "start": 175.86,
+          "end": 176.6
+        },
+        {
+          "text": "soon",
+          "start": 176.6,
+          "end": 176.82
+        },
+        {
+          "text": "realize,",
+          "start": 176.82,
+          "end": 177.3
+        },
+        {
+          "text": "you",
+          "start": 177.54,
+          "end": 177.86
+        },
+        {
+          "text": "already",
+          "start": 177.86,
+          "end": 178.08
+        },
+        {
+          "text": "know",
+          "start": 178.08,
+          "end": 178.44
+        },
+        {
+          "text": "them.",
+          "start": 178.44,
+          "end": 178.74
+        }
+      ]
+    },
+    {
+      "id": "seg-044",
+      "start": 178.9,
+      "end": 182.1,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "So what follows is only a review of what you already know.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "So",
+          "start": 178.9,
+          "end": 179.38
+        },
+        {
+          "text": "what",
+          "start": 179.38,
+          "end": 179.5
+        },
+        {
+          "text": "follows",
+          "start": 179.5,
+          "end": 179.86
+        },
+        {
+          "text": "is",
+          "start": 179.86,
+          "end": 180.04
+        },
+        {
+          "text": "only",
+          "start": 180.04,
+          "end": 180.34
+        },
+        {
+          "text": "a",
+          "start": 180.34,
+          "end": 180.48
+        },
+        {
+          "text": "review",
+          "start": 180.48,
+          "end": 180.82
+        },
+        {
+          "text": "of",
+          "start": 180.82,
+          "end": 181.14
+        },
+        {
+          "text": "what",
+          "start": 181.14,
+          "end": 181.28
+        },
+        {
+          "text": "you",
+          "start": 181.28,
+          "end": 181.44
+        },
+        {
+          "text": "already",
+          "start": 181.44,
+          "end": 181.72
+        },
+        {
+          "text": "know.",
+          "start": 181.72,
+          "end": 182.1
+        }
+      ]
+    }
+  ]
+}

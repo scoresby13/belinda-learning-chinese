@@ -1,0 +1,8053 @@
+{
+  "trackId": "advanced-cd01-10",
+  "course": "Chinese Advanced",
+  "cd": 1,
+  "track": 10,
+  "title": "Chinese Advanced CD 1 - Track 10",
+  "audioUrl": "audio/advanced-cd01/track-10.mp3",
+  "durationSeconds": 579.64,
+  "segments": [
+    {
+      "id": "seg-001",
+      "start": 0.0,
+      "end": 2.58,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Do you remember the word for to learn?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Do",
+          "start": 0.0,
+          "end": 0.22
+        },
+        {
+          "text": "you",
+          "start": 0.22,
+          "end": 0.3
+        },
+        {
+          "text": "remember",
+          "start": 0.3,
+          "end": 0.66
+        },
+        {
+          "text": "the",
+          "start": 0.66,
+          "end": 0.94
+        },
+        {
+          "text": "word",
+          "start": 0.94,
+          "end": 1.3
+        },
+        {
+          "text": "for",
+          "start": 1.3,
+          "end": 1.62
+        },
+        {
+          "text": "to",
+          "start": 1.62,
+          "end": 2.24
+        },
+        {
+          "text": "learn?",
+          "start": 2.24,
+          "end": 2.58
+        }
+      ]
+    },
+    {
+      "id": "seg-002",
+      "start": 4.36,
+      "end": 5.32,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "学 shué",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "学",
+          "start": 4.36,
+          "end": 5.02
+        },
+        {
+          "text": "shué",
+          "start": 5.02,
+          "end": 5.32
+        }
+      ]
+    },
+    {
+      "id": "seg-003",
+      "start": 6.48,
+      "end": 10.78,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Now if we want to say to study, we would say",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Now",
+          "start": 6.48,
+          "end": 6.58
+        },
+        {
+          "text": "if",
+          "start": 6.58,
+          "end": 6.84
+        },
+        {
+          "text": "we",
+          "start": 6.84,
+          "end": 6.94
+        },
+        {
+          "text": "want",
+          "start": 6.94,
+          "end": 7.18
+        },
+        {
+          "text": "to",
+          "start": 7.18,
+          "end": 7.3
+        },
+        {
+          "text": "say",
+          "start": 7.3,
+          "end": 7.56
+        },
+        {
+          "text": "to",
+          "start": 7.56,
+          "end": 7.96
+        },
+        {
+          "text": "study,",
+          "start": 7.96,
+          "end": 8.46
+        },
+        {
+          "text": "we",
+          "start": 8.66,
+          "end": 10.2
+        },
+        {
+          "text": "would",
+          "start": 10.2,
+          "end": 10.44
+        },
+        {
+          "text": "say",
+          "start": 10.44,
+          "end": 10.78
+        }
+      ]
+    },
+    {
+      "id": "seg-004",
+      "start": 11.32,
+      "end": 13.38,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "学 xué xí",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "学",
+          "start": 11.32,
+          "end": 11.8
+        },
+        {
+          "text": "xué",
+          "start": 11.8,
+          "end": 11.94
+        },
+        {
+          "text": "xí",
+          "start": 11.94,
+          "end": 13.38
+        }
+      ]
+    },
+    {
+      "id": "seg-005",
+      "start": 14.36,
+      "end": 15.18,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "学 xué",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "学",
+          "start": 14.36,
+          "end": 15.02
+        },
+        {
+          "text": "xué",
+          "start": 15.02,
+          "end": 15.18
+        }
+      ]
+    },
+    {
+      "id": "seg-006",
+      "start": 15.92,
+      "end": 16.84,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Bluffing up.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Bluffing",
+          "start": 15.92,
+          "end": 16.58
+        },
+        {
+          "text": "up.",
+          "start": 16.58,
+          "end": 16.84
+        }
+      ]
+    },
+    {
+      "id": "seg-007",
+      "start": 17.7,
+      "end": 18.64,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "习 xí",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "习",
+          "start": 17.7,
+          "end": 18.36
+        },
+        {
+          "text": "xí",
+          "start": 18.36,
+          "end": 18.64
+        }
+      ]
+    },
+    {
+      "id": "seg-008",
+      "start": 19.32,
+      "end": 20.06,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Bluffing up.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Bluffing",
+          "start": 19.32,
+          "end": 19.84
+        },
+        {
+          "text": "up.",
+          "start": 19.84,
+          "end": 20.06
+        }
+      ]
+    },
+    {
+      "id": "seg-009",
+      "start": 20.82,
+      "end": 22.72,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "学 xué xí",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "学",
+          "start": 20.82,
+          "end": 21.48
+        },
+        {
+          "text": "xué",
+          "start": 21.48,
+          "end": 21.68
+        },
+        {
+          "text": "xí",
+          "start": 21.68,
+          "end": 22.72
+        }
+      ]
+    },
+    {
+      "id": "seg-010",
+      "start": 23.28,
+      "end": 23.9,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "For study.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "For",
+          "start": 23.28,
+          "end": 23.48
+        },
+        {
+          "text": "study.",
+          "start": 23.48,
+          "end": 23.9
+        }
+      ]
+    },
+    {
+      "id": "seg-011",
+      "start": 24.26,
+      "end": 26.48,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "The second part of this word",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "The",
+          "start": 24.26,
+          "end": 24.92
+        },
+        {
+          "text": "second",
+          "start": 24.92,
+          "end": 25.28
+        },
+        {
+          "text": "part",
+          "start": 25.28,
+          "end": 25.6
+        },
+        {
+          "text": "of",
+          "start": 25.6,
+          "end": 25.82
+        },
+        {
+          "text": "this",
+          "start": 25.82,
+          "end": 26.04
+        },
+        {
+          "text": "word",
+          "start": 26.04,
+          "end": 26.48
+        }
+      ]
+    },
+    {
+      "id": "seg-012",
+      "start": 26.48,
+      "end": 27.56,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "习 xí",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "习",
+          "start": 26.48,
+          "end": 27.2
+        },
+        {
+          "text": "xí",
+          "start": 27.2,
+          "end": 27.56
+        }
+      ]
+    },
+    {
+      "id": "seg-013",
+      "start": 28.44,
+      "end": 29.28,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "is a character.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "is",
+          "start": 28.44,
+          "end": 28.62
+        },
+        {
+          "text": "a",
+          "start": 28.62,
+          "end": 28.78
+        },
+        {
+          "text": "character.",
+          "start": 28.78,
+          "end": 29.28
+        }
+      ]
+    },
+    {
+      "id": "seg-014",
+      "start": 30.0,
+      "end": 32.08,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "That represents the flapping of wings.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "That",
+          "start": 30.0,
+          "end": 30.36
+        },
+        {
+          "text": "represents",
+          "start": 30.36,
+          "end": 30.8
+        },
+        {
+          "text": "the",
+          "start": 30.8,
+          "end": 31.18
+        },
+        {
+          "text": "flapping",
+          "start": 31.18,
+          "end": 31.64
+        },
+        {
+          "text": "of",
+          "start": 31.64,
+          "end": 31.78
+        },
+        {
+          "text": "wings.",
+          "start": 31.78,
+          "end": 32.08
+        }
+      ]
+    },
+    {
+      "id": "seg-015",
+      "start": 32.66,
+      "end": 35.24,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Or to do something over and over again.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Or",
+          "start": 32.66,
+          "end": 33.18
+        },
+        {
+          "text": "to",
+          "start": 33.18,
+          "end": 33.32
+        },
+        {
+          "text": "do",
+          "start": 33.32,
+          "end": 33.52
+        },
+        {
+          "text": "something",
+          "start": 33.52,
+          "end": 33.82
+        },
+        {
+          "text": "over",
+          "start": 33.82,
+          "end": 34.44
+        },
+        {
+          "text": "and",
+          "start": 34.44,
+          "end": 34.66
+        },
+        {
+          "text": "over",
+          "start": 34.66,
+          "end": 34.86
+        },
+        {
+          "text": "again.",
+          "start": 34.86,
+          "end": 35.24
+        }
+      ]
+    },
+    {
+      "id": "seg-016",
+      "start": 35.84,
+      "end": 37.96,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "And this is the Chinese,",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "And",
+          "start": 35.84,
+          "end": 36.36
+        },
+        {
+          "text": "this",
+          "start": 36.36,
+          "end": 36.58
+        },
+        {
+          "text": "is",
+          "start": 36.58,
+          "end": 36.78
+        },
+        {
+          "text": "the",
+          "start": 36.78,
+          "end": 36.92
+        },
+        {
+          "text": "Chinese,",
+          "start": 36.92,
+          "end": 37.96
+        }
+      ]
+    },
+    {
+      "id": "seg-017",
+      "start": 38.32,
+      "end": 40.18,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "and probably for many Westerners,",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "and",
+          "start": 38.32,
+          "end": 38.58
+        },
+        {
+          "text": "probably",
+          "start": 38.58,
+          "end": 38.94
+        },
+        {
+          "text": "for",
+          "start": 38.94,
+          "end": 39.34
+        },
+        {
+          "text": "many",
+          "start": 39.34,
+          "end": 39.56
+        },
+        {
+          "text": "Westerners,",
+          "start": 39.56,
+          "end": 40.18
+        }
+      ]
+    },
+    {
+      "id": "seg-018",
+      "start": 40.2,
+      "end": 41.6,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "understanding of study.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "understanding",
+          "start": 40.2,
+          "end": 40.84
+        },
+        {
+          "text": "of",
+          "start": 40.84,
+          "end": 41.26
+        },
+        {
+          "text": "study.",
+          "start": 41.26,
+          "end": 41.6
+        }
+      ]
+    },
+    {
+      "id": "seg-019",
+      "start": 41.82,
+      "end": 44.02,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Where you repeat something over and over again.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Where",
+          "start": 41.82,
+          "end": 42.34
+        },
+        {
+          "text": "you",
+          "start": 42.34,
+          "end": 42.46
+        },
+        {
+          "text": "repeat",
+          "start": 42.46,
+          "end": 42.74
+        },
+        {
+          "text": "something",
+          "start": 42.74,
+          "end": 43.04
+        },
+        {
+          "text": "over",
+          "start": 43.04,
+          "end": 43.42
+        },
+        {
+          "text": "and",
+          "start": 43.42,
+          "end": 43.58
+        },
+        {
+          "text": "over",
+          "start": 43.58,
+          "end": 43.74
+        },
+        {
+          "text": "again.",
+          "start": 43.74,
+          "end": 44.02
+        }
+      ]
+    },
+    {
+      "id": "seg-020",
+      "start": 44.76,
+      "end": 47.1,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Definitely not the way we're doing it in this course.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Definitely",
+          "start": 44.76,
+          "end": 45.28
+        },
+        {
+          "text": "not",
+          "start": 45.28,
+          "end": 45.58
+        },
+        {
+          "text": "the",
+          "start": 45.58,
+          "end": 45.76
+        },
+        {
+          "text": "way",
+          "start": 45.76,
+          "end": 45.94
+        },
+        {
+          "text": "we're",
+          "start": 45.94,
+          "end": 46.12
+        },
+        {
+          "text": "doing",
+          "start": 46.12,
+          "end": 46.32
+        },
+        {
+          "text": "it",
+          "start": 46.32,
+          "end": 46.52
+        },
+        {
+          "text": "in",
+          "start": 46.52,
+          "end": 46.64
+        },
+        {
+          "text": "this",
+          "start": 46.64,
+          "end": 46.8
+        },
+        {
+          "text": "course.",
+          "start": 46.8,
+          "end": 47.1
+        }
+      ]
+    },
+    {
+      "id": "seg-021",
+      "start": 47.44,
+      "end": 49.78,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "But this is how you would say it in Chinese.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "But",
+          "start": 47.44,
+          "end": 47.96
+        },
+        {
+          "text": "this",
+          "start": 47.96,
+          "end": 48.16
+        },
+        {
+          "text": "is",
+          "start": 48.16,
+          "end": 48.3
+        },
+        {
+          "text": "how",
+          "start": 48.3,
+          "end": 48.46
+        },
+        {
+          "text": "you",
+          "start": 48.46,
+          "end": 48.6
+        },
+        {
+          "text": "would",
+          "start": 48.6,
+          "end": 48.72
+        },
+        {
+          "text": "say",
+          "start": 48.72,
+          "end": 48.98
+        },
+        {
+          "text": "it",
+          "start": 48.98,
+          "end": 49.22
+        },
+        {
+          "text": "in",
+          "start": 49.22,
+          "end": 49.42
+        },
+        {
+          "text": "Chinese.",
+          "start": 49.42,
+          "end": 49.78
+        }
+      ]
+    },
+    {
+      "id": "seg-022",
+      "start": 49.92,
+      "end": 51.56,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "How would you say to study in Chinese?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "How",
+          "start": 49.92,
+          "end": 50.04
+        },
+        {
+          "text": "would",
+          "start": 50.04,
+          "end": 50.16
+        },
+        {
+          "text": "you",
+          "start": 50.16,
+          "end": 50.28
+        },
+        {
+          "text": "say",
+          "start": 50.28,
+          "end": 50.48
+        },
+        {
+          "text": "to",
+          "start": 50.48,
+          "end": 50.66
+        },
+        {
+          "text": "study",
+          "start": 50.66,
+          "end": 51.02
+        },
+        {
+          "text": "in",
+          "start": 51.02,
+          "end": 51.24
+        },
+        {
+          "text": "Chinese?",
+          "start": 51.24,
+          "end": 51.56
+        }
+      ]
+    },
+    {
+      "id": "seg-023",
+      "start": 53.64,
+      "end": 55.3,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "学 xué xí",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "学",
+          "start": 53.64,
+          "end": 54.16
+        },
+        {
+          "text": "xué",
+          "start": 54.16,
+          "end": 54.21
+        },
+        {
+          "text": "xí",
+          "start": 54.21,
+          "end": 55.3
+        }
+      ]
+    },
+    {
+      "id": "seg-024",
+      "start": 55.82,
+      "end": 57.78,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "My Yiddish name is Heshi.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "My",
+          "start": 55.82,
+          "end": 56.34
+        },
+        {
+          "text": "Yiddish",
+          "start": 56.34,
+          "end": 56.86
+        },
+        {
+          "text": "name",
+          "start": 56.86,
+          "end": 57.14
+        },
+        {
+          "text": "is",
+          "start": 57.14,
+          "end": 57.42
+        },
+        {
+          "text": "Heshi.",
+          "start": 57.42,
+          "end": 57.78
+        }
+      ]
+    },
+    {
+      "id": "seg-025",
+      "start": 58.02,
+      "end": 59.2,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "But when I study Chinese,",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "But",
+          "start": 58.02,
+          "end": 58.24
+        },
+        {
+          "text": "when",
+          "start": 58.24,
+          "end": 58.38
+        },
+        {
+          "text": "I",
+          "start": 58.38,
+          "end": 58.54
+        },
+        {
+          "text": "study",
+          "start": 58.54,
+          "end": 58.88
+        },
+        {
+          "text": "Chinese,",
+          "start": 58.88,
+          "end": 59.2
+        }
+      ]
+    },
+    {
+      "id": "seg-026",
+      "start": 59.2,
+      "end": 60.08,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "they call me",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "they",
+          "start": 59.2,
+          "end": 59.54
+        },
+        {
+          "text": "call",
+          "start": 59.54,
+          "end": 59.8
+        },
+        {
+          "text": "me",
+          "start": 59.8,
+          "end": 60.08
+        }
+      ]
+    },
+    {
+      "id": "seg-027",
+      "start": 60.08,
+      "end": 61.84,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "学 xí",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "学",
+          "start": 60.08,
+          "end": 61.06
+        },
+        {
+          "text": "xí",
+          "start": 61.06,
+          "end": 61.84
+        }
+      ]
+    },
+    {
+      "id": "seg-028",
+      "start": 62.36,
+      "end": 65.08,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "What's the word for to study?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "What's",
+          "start": 62.36,
+          "end": 63.26
+        },
+        {
+          "text": "the",
+          "start": 63.26,
+          "end": 63.36
+        },
+        {
+          "text": "word",
+          "start": 63.36,
+          "end": 63.66
+        },
+        {
+          "text": "for",
+          "start": 63.66,
+          "end": 63.94
+        },
+        {
+          "text": "to",
+          "start": 63.94,
+          "end": 64.68
+        },
+        {
+          "text": "study?",
+          "start": 64.68,
+          "end": 65.08
+        }
+      ]
+    },
+    {
+      "id": "seg-029",
+      "start": 66.36,
+      "end": 67.68,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "学 xí",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "学",
+          "start": 66.36,
+          "end": 66.68
+        },
+        {
+          "text": "xí",
+          "start": 66.68,
+          "end": 67.68
+        }
+      ]
+    },
+    {
+      "id": "seg-030",
+      "start": 68.36,
+      "end": 69.86,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You know, I can't go tomorrow.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You",
+          "start": 68.36,
+          "end": 68.56
+        },
+        {
+          "text": "know,",
+          "start": 68.56,
+          "end": 68.88
+        },
+        {
+          "text": "I",
+          "start": 68.9,
+          "end": 68.98
+        },
+        {
+          "text": "can't",
+          "start": 68.98,
+          "end": 69.34
+        },
+        {
+          "text": "go",
+          "start": 69.34,
+          "end": 69.42
+        },
+        {
+          "text": "tomorrow.",
+          "start": 69.42,
+          "end": 69.86
+        }
+      ]
+    },
+    {
+      "id": "seg-031",
+      "start": 70.0,
+      "end": 71.7,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "I study in my school tomorrow.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "I",
+          "start": 70.0,
+          "end": 70.12
+        },
+        {
+          "text": "study",
+          "start": 70.12,
+          "end": 70.38
+        },
+        {
+          "text": "in",
+          "start": 70.38,
+          "end": 70.6
+        },
+        {
+          "text": "my",
+          "start": 70.6,
+          "end": 70.74
+        },
+        {
+          "text": "school",
+          "start": 70.74,
+          "end": 71.14
+        },
+        {
+          "text": "tomorrow.",
+          "start": 71.14,
+          "end": 71.7
+        }
+      ]
+    },
+    {
+      "id": "seg-032",
+      "start": 72.04,
+      "end": 73.2,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You know.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You",
+          "start": 72.04,
+          "end": 72.76
+        },
+        {
+          "text": "know.",
+          "start": 72.76,
+          "end": 73.2
+        }
+      ]
+    },
+    {
+      "id": "seg-033",
+      "start": 75.74,
+      "end": 78.4,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "你 知道 nǐ zhē dào",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "你",
+          "start": 75.74,
+          "end": 76.62
+        },
+        {
+          "text": "知道",
+          "start": 76.62,
+          "end": 77.5
+        },
+        {
+          "text": "nǐ",
+          "start": 77.5,
+          "end": 77.55
+        },
+        {
+          "text": "zhē",
+          "start": 77.55,
+          "end": 77.66
+        },
+        {
+          "text": "dào",
+          "start": 77.66,
+          "end": 78.4
+        }
+      ]
+    },
+    {
+      "id": "seg-034",
+      "start": 78.4,
+      "end": 79.6,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "I tomorrow.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "I",
+          "start": 78.4,
+          "end": 79.14
+        },
+        {
+          "text": "tomorrow.",
+          "start": 79.14,
+          "end": 79.6
+        }
+      ]
+    },
+    {
+      "id": "seg-035",
+      "start": 80.46,
+      "end": 84.04,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "我 明 天 wǒ míng diān",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "我",
+          "start": 80.46,
+          "end": 81.34
+        },
+        {
+          "text": "明",
+          "start": 81.34,
+          "end": 82.98
+        },
+        {
+          "text": "天",
+          "start": 82.98,
+          "end": 83.74
+        },
+        {
+          "text": "wǒ",
+          "start": 83.74,
+          "end": 83.79
+        },
+        {
+          "text": "míng",
+          "start": 83.79,
+          "end": 83.84
+        },
+        {
+          "text": "diān",
+          "start": 83.84,
+          "end": 84.04
+        }
+      ]
+    },
+    {
+      "id": "seg-036",
+      "start": 85.36,
+      "end": 86.7,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "No can go.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "No",
+          "start": 85.36,
+          "end": 85.56
+        },
+        {
+          "text": "can",
+          "start": 85.56,
+          "end": 86.1
+        },
+        {
+          "text": "go.",
+          "start": 86.1,
+          "end": 86.7
+        }
+      ]
+    },
+    {
+      "id": "seg-037",
+      "start": 87.14,
+      "end": 88.44,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "不 bǔ",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "不",
+          "start": 87.14,
+          "end": 88.02
+        },
+        {
+          "text": "bǔ",
+          "start": 88.02,
+          "end": 88.44
+        }
+      ]
+    },
+    {
+      "id": "seg-038",
+      "start": 89.2,
+      "end": 89.6,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "去 chù",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "去",
+          "start": 89.2,
+          "end": 89.54
+        },
+        {
+          "text": "chù",
+          "start": 89.54,
+          "end": 89.6
+        }
+      ]
+    },
+    {
+      "id": "seg-039",
+      "start": 90.2,
+      "end": 90.94,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Or no can.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Or",
+          "start": 90.2,
+          "end": 90.42
+        },
+        {
+          "text": "no",
+          "start": 90.42,
+          "end": 90.66
+        },
+        {
+          "text": "can.",
+          "start": 90.66,
+          "end": 90.94
+        }
+      ]
+    },
+    {
+      "id": "seg-040",
+      "start": 91.58,
+      "end": 94.67,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "不 能 去 bù nǒng chù",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "不",
+          "start": 91.58,
+          "end": 92.26
+        },
+        {
+          "text": "能",
+          "start": 92.26,
+          "end": 92.9
+        },
+        {
+          "text": "去",
+          "start": 92.9,
+          "end": 94.52
+        },
+        {
+          "text": "bù",
+          "start": 94.52,
+          "end": 94.57
+        },
+        {
+          "text": "nǒng",
+          "start": 94.57,
+          "end": 94.62
+        },
+        {
+          "text": "chù",
+          "start": 94.62,
+          "end": 94.67
+        }
+      ]
+    },
+    {
+      "id": "seg-041",
+      "start": 95.56,
+      "end": 97.4,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "I study in my school tomorrow.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "I",
+          "start": 95.56,
+          "end": 95.68
+        },
+        {
+          "text": "study",
+          "start": 95.68,
+          "end": 96.1
+        },
+        {
+          "text": "in",
+          "start": 96.1,
+          "end": 96.38
+        },
+        {
+          "text": "my",
+          "start": 96.38,
+          "end": 96.56
+        },
+        {
+          "text": "school",
+          "start": 96.56,
+          "end": 96.92
+        },
+        {
+          "text": "tomorrow.",
+          "start": 96.92,
+          "end": 97.4
+        }
+      ]
+    },
+    {
+      "id": "seg-042",
+      "start": 97.92,
+      "end": 99.34,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "I tomorrow study in my school.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "I",
+          "start": 97.92,
+          "end": 98.24
+        },
+        {
+          "text": "tomorrow",
+          "start": 98.24,
+          "end": 98.62
+        },
+        {
+          "text": "study",
+          "start": 98.62,
+          "end": 99.0
+        },
+        {
+          "text": "in",
+          "start": 99.0,
+          "end": 99.14
+        },
+        {
+          "text": "my",
+          "start": 99.14,
+          "end": 99.2
+        },
+        {
+          "text": "school.",
+          "start": 99.2,
+          "end": 99.34
+        }
+      ]
+    },
+    {
+      "id": "seg-043",
+      "start": 99.5,
+      "end": 102.1,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "I tomorrow in my school study.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "I",
+          "start": 99.5,
+          "end": 99.86
+        },
+        {
+          "text": "tomorrow",
+          "start": 99.86,
+          "end": 100.78
+        },
+        {
+          "text": "in",
+          "start": 100.78,
+          "end": 101.24
+        },
+        {
+          "text": "my",
+          "start": 101.24,
+          "end": 101.48
+        },
+        {
+          "text": "school",
+          "start": 101.48,
+          "end": 101.78
+        },
+        {
+          "text": "study.",
+          "start": 101.78,
+          "end": 102.1
+        }
+      ]
+    },
+    {
+      "id": "seg-044",
+      "start": 102.62,
+      "end": 103.8,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "At my school study.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "At",
+          "start": 102.62,
+          "end": 102.67
+        },
+        {
+          "text": "my",
+          "start": 102.67,
+          "end": 102.76
+        },
+        {
+          "text": "school",
+          "start": 102.76,
+          "end": 103.32
+        },
+        {
+          "text": "study.",
+          "start": 103.32,
+          "end": 103.8
+        }
+      ]
+    },
+    {
+      "id": "seg-045",
+      "start": 103.98,
+      "end": 104.14,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Okay.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Okay.",
+          "start": 103.98,
+          "end": 104.14
+        }
+      ]
+    },
+    {
+      "id": "seg-046",
+      "start": 104.74,
+      "end": 107.56,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "我 现在 wǒ xiàn zài",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "我",
+          "start": 104.74,
+          "end": 105.42
+        },
+        {
+          "text": "现在",
+          "start": 105.42,
+          "end": 106.8
+        },
+        {
+          "text": "wǒ",
+          "start": 106.8,
+          "end": 106.85
+        },
+        {
+          "text": "xiàn",
+          "start": 106.85,
+          "end": 106.9
+        },
+        {
+          "text": "zài",
+          "start": 106.9,
+          "end": 107.56
+        }
+      ]
+    },
+    {
+      "id": "seg-047",
+      "start": 107.56,
+      "end": 109.54,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "When are you doing this?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "When",
+          "start": 107.56,
+          "end": 108.46
+        },
+        {
+          "text": "are",
+          "start": 108.46,
+          "end": 108.92
+        },
+        {
+          "text": "you",
+          "start": 108.92,
+          "end": 109.08
+        },
+        {
+          "text": "doing",
+          "start": 109.08,
+          "end": 109.36
+        },
+        {
+          "text": "this?",
+          "start": 109.36,
+          "end": 109.54
+        }
+      ]
+    },
+    {
+      "id": "seg-048",
+      "start": 109.6,
+      "end": 110.42,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Now or tomorrow?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Now",
+          "start": 109.6,
+          "end": 109.76
+        },
+        {
+          "text": "or",
+          "start": 109.76,
+          "end": 110.08
+        },
+        {
+          "text": "tomorrow?",
+          "start": 110.08,
+          "end": 110.42
+        }
+      ]
+    },
+    {
+      "id": "seg-049",
+      "start": 110.58,
+      "end": 110.76,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Tomorrow.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Tomorrow.",
+          "start": 110.58,
+          "end": 110.76
+        }
+      ]
+    },
+    {
+      "id": "seg-050",
+      "start": 111.12,
+      "end": 115.74,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "我 明 天 wǒ míng diān zài",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "我",
+          "start": 111.12,
+          "end": 111.54
+        },
+        {
+          "text": "明",
+          "start": 111.54,
+          "end": 113.06
+        },
+        {
+          "text": "天",
+          "start": 113.06,
+          "end": 113.11
+        },
+        {
+          "text": "wǒ",
+          "start": 113.11,
+          "end": 113.16
+        },
+        {
+          "text": "míng",
+          "start": 113.16,
+          "end": 113.32
+        },
+        {
+          "text": "diān",
+          "start": 113.32,
+          "end": 114.22
+        },
+        {
+          "text": "zài",
+          "start": 114.22,
+          "end": 115.74
+        }
+      ]
+    },
+    {
+      "id": "seg-051",
+      "start": 116.56,
+      "end": 117.4,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "学 xué",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "学",
+          "start": 116.56,
+          "end": 117.06
+        },
+        {
+          "text": "xué",
+          "start": 117.06,
+          "end": 117.4
+        }
+      ]
+    },
+    {
+      "id": "seg-052",
+      "start": 118.04,
+      "end": 118.18,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "My",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "My",
+          "start": 118.04,
+          "end": 118.18
+        }
+      ]
+    },
+    {
+      "id": "seg-053",
+      "start": 119.2,
+      "end": 120.82,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "我的 wǒ de",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "我的",
+          "start": 119.2,
+          "end": 120.06
+        },
+        {
+          "text": "wǒ",
+          "start": 120.06,
+          "end": 120.11
+        },
+        {
+          "text": "de",
+          "start": 120.11,
+          "end": 120.82
+        }
+      ]
+    },
+    {
+      "id": "seg-054",
+      "start": 120.82,
+      "end": 121.52,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "school",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "school",
+          "start": 120.82,
+          "end": 121.52
+        }
+      ]
+    },
+    {
+      "id": "seg-055",
+      "start": 122.04,
+      "end": 123.74,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "学 xué",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "学",
+          "start": 122.04,
+          "end": 123.66
+        },
+        {
+          "text": "xué",
+          "start": 123.66,
+          "end": 123.74
+        }
+      ]
+    },
+    {
+      "id": "seg-056",
+      "start": 125.04,
+      "end": 126.76,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Study 学 习",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Study",
+          "start": 125.04,
+          "end": 125.56
+        },
+        {
+          "text": "学",
+          "start": 125.56,
+          "end": 126.06
+        },
+        {
+          "text": "习",
+          "start": 126.06,
+          "end": 126.76
+        }
+      ]
+    },
+    {
+      "id": "seg-057",
+      "start": 126.76,
+      "end": 128.14,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "School 学",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "School",
+          "start": 126.76,
+          "end": 127.38
+        },
+        {
+          "text": "学",
+          "start": 127.38,
+          "end": 128.14
+        }
+      ]
+    },
+    {
+      "id": "seg-058",
+      "start": 129.04,
+      "end": 133.56,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "When you don't take a bath, you might take a shower.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "When",
+          "start": 129.04,
+          "end": 129.09
+        },
+        {
+          "text": "you",
+          "start": 129.09,
+          "end": 129.68
+        },
+        {
+          "text": "don't",
+          "start": 129.68,
+          "end": 130.58
+        },
+        {
+          "text": "take",
+          "start": 130.58,
+          "end": 130.92
+        },
+        {
+          "text": "a",
+          "start": 130.92,
+          "end": 131.06
+        },
+        {
+          "text": "bath,",
+          "start": 131.06,
+          "end": 131.42
+        },
+        {
+          "text": "you",
+          "start": 131.6,
+          "end": 131.7
+        },
+        {
+          "text": "might",
+          "start": 131.7,
+          "end": 131.94
+        },
+        {
+          "text": "take",
+          "start": 131.94,
+          "end": 132.26
+        },
+        {
+          "text": "a",
+          "start": 132.26,
+          "end": 132.56
+        },
+        {
+          "text": "shower.",
+          "start": 132.56,
+          "end": 133.56
+        }
+      ]
+    },
+    {
+      "id": "seg-059",
+      "start": 134.1,
+      "end": 139.02,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "学 校 xué xiào",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "学",
+          "start": 134.1,
+          "end": 134.58
+        },
+        {
+          "text": "校",
+          "start": 134.58,
+          "end": 135.96
+        },
+        {
+          "text": "xué",
+          "start": 135.96,
+          "end": 137.68
+        },
+        {
+          "text": "xiào",
+          "start": 137.68,
+          "end": 139.02
+        }
+      ]
+    },
+    {
+      "id": "seg-060",
+      "start": 139.02,
+      "end": 143.06,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "I tomorrow at my school.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "I",
+          "start": 139.02,
+          "end": 139.42
+        },
+        {
+          "text": "tomorrow",
+          "start": 139.42,
+          "end": 141.04
+        },
+        {
+          "text": "at",
+          "start": 141.04,
+          "end": 141.8
+        },
+        {
+          "text": "my",
+          "start": 141.8,
+          "end": 142.16
+        },
+        {
+          "text": "school.",
+          "start": 142.16,
+          "end": 143.06
+        }
+      ]
+    },
+    {
+      "id": "seg-061",
+      "start": 144.6,
+      "end": 148.18,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "我 明 天 wǒ míng diān",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "我",
+          "start": 144.6,
+          "end": 145.92
+        },
+        {
+          "text": "明",
+          "start": 145.92,
+          "end": 146.9
+        },
+        {
+          "text": "天",
+          "start": 146.9,
+          "end": 146.95
+        },
+        {
+          "text": "wǒ",
+          "start": 146.95,
+          "end": 147.0
+        },
+        {
+          "text": "míng",
+          "start": 147.0,
+          "end": 147.4
+        },
+        {
+          "text": "diān",
+          "start": 147.4,
+          "end": 148.18
+        }
+      ]
+    },
+    {
+      "id": "seg-062",
+      "start": 149.2,
+      "end": 150.74,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "在 学",
+      "pinyin": "zài xué",
+      "words": [
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "start": 149.2,
+          "end": 149.71
+        },
+        {
+          "hanzi": "学",
+          "pinyin": "xué",
+          "start": 150.23,
+          "end": 150.74
+        }
+      ]
+    },
+    {
+      "id": "seg-063",
+      "start": 150.74,
+      "end": 152.12,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "At my school.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "At",
+          "start": 150.74,
+          "end": 151.3
+        },
+        {
+          "text": "my",
+          "start": 151.3,
+          "end": 151.7
+        },
+        {
+          "text": "school.",
+          "start": 151.7,
+          "end": 152.12
+        }
+      ]
+    },
+    {
+      "id": "seg-064",
+      "start": 152.28,
+      "end": 156.87,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "在 我 的 学 下",
+      "pinyin": "zài wǒ de xué xià",
+      "words": [
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "start": 152.28,
+          "end": 152.79
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 153.3,
+          "end": 153.81
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 154.32,
+          "end": 154.83
+        },
+        {
+          "hanzi": "学",
+          "pinyin": "xué",
+          "start": 155.34,
+          "end": 155.85
+        },
+        {
+          "hanzi": "下",
+          "pinyin": "xià",
+          "start": 156.36,
+          "end": 156.87
+        }
+      ]
+    },
+    {
+      "id": "seg-065",
+      "start": 156.87,
+      "end": 160.28,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Study 学 习",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Study",
+          "start": 156.87,
+          "end": 157.82
+        },
+        {
+          "text": "学",
+          "start": 157.82,
+          "end": 159.52
+        },
+        {
+          "text": "习",
+          "start": 159.52,
+          "end": 160.28
+        }
+      ]
+    },
+    {
+      "id": "seg-066",
+      "start": 160.96,
+      "end": 162.88,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You know I can't go tomorrow.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You",
+          "start": 160.96,
+          "end": 161.54
+        },
+        {
+          "text": "know",
+          "start": 161.54,
+          "end": 161.76
+        },
+        {
+          "text": "I",
+          "start": 161.76,
+          "end": 161.92
+        },
+        {
+          "text": "can't",
+          "start": 161.92,
+          "end": 162.26
+        },
+        {
+          "text": "go",
+          "start": 162.26,
+          "end": 162.42
+        },
+        {
+          "text": "tomorrow.",
+          "start": 162.42,
+          "end": 162.88
+        }
+      ]
+    },
+    {
+      "id": "seg-067",
+      "start": 164.1,
+      "end": 170.4,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "你 知 道 我 明 天 不 能 去",
+      "pinyin": "nǐ zhī dào wǒ míng tiān bù néng qù",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 164.1,
+          "end": 164.47
+        },
+        {
+          "hanzi": "知",
+          "pinyin": "zhī",
+          "start": 164.84,
+          "end": 165.21
+        },
+        {
+          "hanzi": "道",
+          "pinyin": "dào",
+          "start": 165.58,
+          "end": 165.95
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 166.32,
+          "end": 166.69
+        },
+        {
+          "hanzi": "明",
+          "pinyin": "míng",
+          "start": 167.06,
+          "end": 167.43
+        },
+        {
+          "hanzi": "天",
+          "pinyin": "tiān",
+          "start": 167.81,
+          "end": 168.18
+        },
+        {
+          "hanzi": "不",
+          "pinyin": "bù",
+          "start": 168.55,
+          "end": 168.92
+        },
+        {
+          "hanzi": "能",
+          "pinyin": "néng",
+          "start": 169.29,
+          "end": 169.66
+        },
+        {
+          "hanzi": "去",
+          "pinyin": "qù",
+          "start": 170.03,
+          "end": 170.4
+        }
+      ]
+    },
+    {
+      "id": "seg-068",
+      "start": 170.96,
+      "end": 172.64,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "I study in my school tomorrow.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "I",
+          "start": 170.96,
+          "end": 171.18
+        },
+        {
+          "text": "study",
+          "start": 171.18,
+          "end": 171.44
+        },
+        {
+          "text": "in",
+          "start": 171.44,
+          "end": 171.7
+        },
+        {
+          "text": "my",
+          "start": 171.7,
+          "end": 171.84
+        },
+        {
+          "text": "school",
+          "start": 171.84,
+          "end": 172.24
+        },
+        {
+          "text": "tomorrow.",
+          "start": 172.24,
+          "end": 172.64
+        }
+      ]
+    },
+    {
+      "id": "seg-069",
+      "start": 173.96,
+      "end": 175.71,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "我 明 天",
+      "pinyin": "wǒ míng tiān",
+      "words": [
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 173.96,
+          "end": 174.31
+        },
+        {
+          "hanzi": "明",
+          "pinyin": "míng",
+          "start": 174.66,
+          "end": 175.01
+        },
+        {
+          "hanzi": "天",
+          "pinyin": "tiān",
+          "start": 175.36,
+          "end": 175.71
+        }
+      ]
+    },
+    {
+      "id": "seg-070",
+      "start": 175.71,
+      "end": 179.22,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "在 我 的 学 习",
+      "pinyin": "zài wǒ de xué xí",
+      "words": [
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "start": 175.71,
+          "end": 176.1
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 176.49,
+          "end": 176.88
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 177.27,
+          "end": 177.66
+        },
+        {
+          "hanzi": "学",
+          "pinyin": "xué",
+          "start": 178.05,
+          "end": 178.44
+        },
+        {
+          "hanzi": "习",
+          "pinyin": "xí",
+          "start": 178.83,
+          "end": 179.22
+        }
+      ]
+    },
+    {
+      "id": "seg-071",
+      "start": 179.22,
+      "end": 180.96,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "在 我 的 学 校 学 习",
+      "pinyin": "zài wǒ de xué xiào xué xí",
+      "words": [
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "start": 179.22,
+          "end": 179.35
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 179.49,
+          "end": 179.62
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 179.76,
+          "end": 179.89
+        },
+        {
+          "hanzi": "学",
+          "pinyin": "xué",
+          "start": 180.02,
+          "end": 180.15
+        },
+        {
+          "hanzi": "校",
+          "pinyin": "xiào",
+          "start": 180.29,
+          "end": 180.42
+        },
+        {
+          "hanzi": "学",
+          "pinyin": "xué",
+          "start": 180.56,
+          "end": 180.69
+        },
+        {
+          "hanzi": "习",
+          "pinyin": "xí",
+          "start": 180.83,
+          "end": 180.96
+        }
+      ]
+    },
+    {
+      "id": "seg-072",
+      "start": 182.18,
+      "end": 184.58,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You can study in your school tomorrow.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You",
+          "start": 182.18,
+          "end": 182.76
+        },
+        {
+          "text": "can",
+          "start": 182.76,
+          "end": 182.94
+        },
+        {
+          "text": "study",
+          "start": 182.94,
+          "end": 183.3
+        },
+        {
+          "text": "in",
+          "start": 183.3,
+          "end": 183.62
+        },
+        {
+          "text": "your",
+          "start": 183.62,
+          "end": 183.84
+        },
+        {
+          "text": "school",
+          "start": 183.84,
+          "end": 184.16
+        },
+        {
+          "text": "tomorrow.",
+          "start": 184.16,
+          "end": 184.58
+        }
+      ]
+    },
+    {
+      "id": "seg-073",
+      "start": 185.04,
+      "end": 189.3,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You tomorrow in your school can study.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You",
+          "start": 185.04,
+          "end": 185.56
+        },
+        {
+          "text": "tomorrow",
+          "start": 185.56,
+          "end": 186.8
+        },
+        {
+          "text": "in",
+          "start": 186.8,
+          "end": 187.54
+        },
+        {
+          "text": "your",
+          "start": 187.54,
+          "end": 187.8
+        },
+        {
+          "text": "school",
+          "start": 187.8,
+          "end": 188.12
+        },
+        {
+          "text": "can",
+          "start": 188.12,
+          "end": 188.96
+        },
+        {
+          "text": "study.",
+          "start": 188.96,
+          "end": 189.3
+        }
+      ]
+    },
+    {
+      "id": "seg-074",
+      "start": 190.32,
+      "end": 208.14,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "你 明 天 在 你 的 学 校 里 能 学 习",
+      "pinyin": "nǐ míng tiān zài nǐ de xué xiào lǐ néng xué xí",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 190.32,
+          "end": 191.09
+        },
+        {
+          "hanzi": "明",
+          "pinyin": "míng",
+          "start": 191.87,
+          "end": 192.64
+        },
+        {
+          "hanzi": "天",
+          "pinyin": "tiān",
+          "start": 193.42,
+          "end": 194.19
+        },
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "start": 194.97,
+          "end": 195.74
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 196.52,
+          "end": 197.29
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 198.07,
+          "end": 198.84
+        },
+        {
+          "hanzi": "学",
+          "pinyin": "xué",
+          "start": 199.62,
+          "end": 200.39
+        },
+        {
+          "hanzi": "校",
+          "pinyin": "xiào",
+          "start": 201.17,
+          "end": 201.94
+        },
+        {
+          "hanzi": "里",
+          "pinyin": "lǐ",
+          "start": 202.72,
+          "end": 203.49
+        },
+        {
+          "hanzi": "能",
+          "pinyin": "néng",
+          "start": 204.27,
+          "end": 205.04
+        },
+        {
+          "hanzi": "学",
+          "pinyin": "xué",
+          "start": 205.82,
+          "end": 206.59
+        },
+        {
+          "hanzi": "习",
+          "pinyin": "xí",
+          "start": 207.37,
+          "end": 208.14
+        }
+      ]
+    },
+    {
+      "id": "seg-075",
+      "start": 208.14,
+      "end": 209.52,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "你 明 天 在 你 的 学 校 里 能 学 习",
+      "pinyin": "nǐ míng tiān zài nǐ de xué xiào lǐ néng xué xí",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 208.14,
+          "end": 208.2
+        },
+        {
+          "hanzi": "明",
+          "pinyin": "míng",
+          "start": 208.26,
+          "end": 208.32
+        },
+        {
+          "hanzi": "天",
+          "pinyin": "tiān",
+          "start": 208.38,
+          "end": 208.44
+        },
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "start": 208.5,
+          "end": 208.56
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 208.62,
+          "end": 208.68
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 208.74,
+          "end": 208.8
+        },
+        {
+          "hanzi": "学",
+          "pinyin": "xué",
+          "start": 208.86,
+          "end": 208.92
+        },
+        {
+          "hanzi": "校",
+          "pinyin": "xiào",
+          "start": 208.98,
+          "end": 209.04
+        },
+        {
+          "hanzi": "里",
+          "pinyin": "lǐ",
+          "start": 209.1,
+          "end": 209.16
+        },
+        {
+          "hanzi": "能",
+          "pinyin": "néng",
+          "start": 209.22,
+          "end": 209.28
+        },
+        {
+          "hanzi": "学",
+          "pinyin": "xué",
+          "start": 209.34,
+          "end": 209.4
+        },
+        {
+          "hanzi": "习",
+          "pinyin": "xí",
+          "start": 209.46,
+          "end": 209.52
+        }
+      ]
+    },
+    {
+      "id": "seg-076",
+      "start": 209.52,
+      "end": 211.2,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You can study in your school tomorrow.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You",
+          "start": 209.52,
+          "end": 209.78
+        },
+        {
+          "text": "can",
+          "start": 209.78,
+          "end": 209.9
+        },
+        {
+          "text": "study",
+          "start": 209.9,
+          "end": 210.22
+        },
+        {
+          "text": "in",
+          "start": 210.22,
+          "end": 210.42
+        },
+        {
+          "text": "your",
+          "start": 210.42,
+          "end": 210.56
+        },
+        {
+          "text": "school",
+          "start": 210.56,
+          "end": 210.84
+        },
+        {
+          "text": "tomorrow.",
+          "start": 210.84,
+          "end": 211.2
+        }
+      ]
+    },
+    {
+      "id": "seg-077",
+      "start": 211.78,
+      "end": 220.78,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "你 明 天 在 你 的 学 校 里 能 学 习",
+      "pinyin": "nǐ míng tiān zài nǐ de xué xiào lǐ néng xué xí",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 211.78,
+          "end": 212.17
+        },
+        {
+          "hanzi": "明",
+          "pinyin": "míng",
+          "start": 212.56,
+          "end": 212.95
+        },
+        {
+          "hanzi": "天",
+          "pinyin": "tiān",
+          "start": 213.35,
+          "end": 213.74
+        },
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "start": 214.13,
+          "end": 214.52
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 214.91,
+          "end": 215.3
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 215.69,
+          "end": 216.08
+        },
+        {
+          "hanzi": "学",
+          "pinyin": "xué",
+          "start": 216.48,
+          "end": 216.87
+        },
+        {
+          "hanzi": "校",
+          "pinyin": "xiào",
+          "start": 217.26,
+          "end": 217.65
+        },
+        {
+          "hanzi": "里",
+          "pinyin": "lǐ",
+          "start": 218.04,
+          "end": 218.43
+        },
+        {
+          "hanzi": "能",
+          "pinyin": "néng",
+          "start": 218.82,
+          "end": 219.21
+        },
+        {
+          "hanzi": "学",
+          "pinyin": "xué",
+          "start": 219.61,
+          "end": 220.0
+        },
+        {
+          "hanzi": "习",
+          "pinyin": "xí",
+          "start": 220.39,
+          "end": 220.78
+        }
+      ]
+    },
+    {
+      "id": "seg-078",
+      "start": 220.78,
+      "end": 222.16,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "你 明 天 在 你 的 学 校 里 能 学 习",
+      "pinyin": "nǐ míng tiān zài nǐ de xué xiào lǐ néng xué xí",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 220.78,
+          "end": 220.84
+        },
+        {
+          "hanzi": "明",
+          "pinyin": "míng",
+          "start": 220.9,
+          "end": 220.96
+        },
+        {
+          "hanzi": "天",
+          "pinyin": "tiān",
+          "start": 221.02,
+          "end": 221.08
+        },
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "start": 221.14,
+          "end": 221.2
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 221.26,
+          "end": 221.32
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 221.38,
+          "end": 221.44
+        },
+        {
+          "hanzi": "学",
+          "pinyin": "xué",
+          "start": 221.5,
+          "end": 221.56
+        },
+        {
+          "hanzi": "校",
+          "pinyin": "xiào",
+          "start": 221.62,
+          "end": 221.68
+        },
+        {
+          "hanzi": "里",
+          "pinyin": "lǐ",
+          "start": 221.74,
+          "end": 221.8
+        },
+        {
+          "hanzi": "能",
+          "pinyin": "néng",
+          "start": 221.86,
+          "end": 221.92
+        },
+        {
+          "hanzi": "学",
+          "pinyin": "xué",
+          "start": 221.98,
+          "end": 222.04
+        },
+        {
+          "hanzi": "习",
+          "pinyin": "xí",
+          "start": 222.1,
+          "end": 222.16
+        }
+      ]
+    },
+    {
+      "id": "seg-079",
+      "start": 222.16,
+      "end": 224.5,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Today we can go to the restaurant to eat.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Today",
+          "start": 222.16,
+          "end": 222.21
+        },
+        {
+          "text": "we",
+          "start": 222.21,
+          "end": 222.26
+        },
+        {
+          "text": "can",
+          "start": 222.26,
+          "end": 222.36
+        },
+        {
+          "text": "go",
+          "start": 222.36,
+          "end": 222.62
+        },
+        {
+          "text": "to",
+          "start": 222.62,
+          "end": 223.28
+        },
+        {
+          "text": "the",
+          "start": 223.28,
+          "end": 223.44
+        },
+        {
+          "text": "restaurant",
+          "start": 223.44,
+          "end": 223.86
+        },
+        {
+          "text": "to",
+          "start": 223.86,
+          "end": 224.28
+        },
+        {
+          "text": "eat.",
+          "start": 224.28,
+          "end": 224.5
+        }
+      ]
+    },
+    {
+      "id": "seg-080",
+      "start": 225.46,
+      "end": 226.84,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "你 明 天 在 你 的 学 校 里 能 学 习",
+      "pinyin": "nǐ míng tiān zài nǐ de xué xiào lǐ néng xué xí",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 225.46,
+          "end": 225.52
+        },
+        {
+          "hanzi": "明",
+          "pinyin": "míng",
+          "start": 225.58,
+          "end": 225.64
+        },
+        {
+          "hanzi": "天",
+          "pinyin": "tiān",
+          "start": 225.7,
+          "end": 225.76
+        },
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "start": 225.82,
+          "end": 225.88
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 225.94,
+          "end": 226.0
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 226.06,
+          "end": 226.12
+        },
+        {
+          "hanzi": "学",
+          "pinyin": "xué",
+          "start": 226.18,
+          "end": 226.24
+        },
+        {
+          "hanzi": "校",
+          "pinyin": "xiào",
+          "start": 226.3,
+          "end": 226.36
+        },
+        {
+          "hanzi": "里",
+          "pinyin": "lǐ",
+          "start": 226.42,
+          "end": 226.48
+        },
+        {
+          "hanzi": "能",
+          "pinyin": "néng",
+          "start": 226.54,
+          "end": 226.6
+        },
+        {
+          "hanzi": "学",
+          "pinyin": "xué",
+          "start": 226.66,
+          "end": 226.72
+        },
+        {
+          "hanzi": "习",
+          "pinyin": "xí",
+          "start": 226.78,
+          "end": 226.84
+        }
+      ]
+    },
+    {
+      "id": "seg-081",
+      "start": 226.84,
+      "end": 227.24,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "We today",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "We",
+          "start": 226.84,
+          "end": 226.89
+        },
+        {
+          "text": "today",
+          "start": 226.89,
+          "end": 227.24
+        }
+      ]
+    },
+    {
+      "id": "seg-082",
+      "start": 228.18,
+      "end": 230.84,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "我 们 今 天",
+      "pinyin": "wǒ men jīn tiān",
+      "words": [
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 228.18,
+          "end": 228.56
+        },
+        {
+          "hanzi": "们",
+          "pinyin": "men",
+          "start": 228.94,
+          "end": 229.32
+        },
+        {
+          "hanzi": "今",
+          "pinyin": "jīn",
+          "start": 229.7,
+          "end": 230.08
+        },
+        {
+          "hanzi": "天",
+          "pinyin": "tiān",
+          "start": 230.46,
+          "end": 230.84
+        }
+      ]
+    },
+    {
+      "id": "seg-083",
+      "start": 230.84,
+      "end": 232.16,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Can go",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Can",
+          "start": 230.84,
+          "end": 231.8
+        },
+        {
+          "text": "go",
+          "start": 231.8,
+          "end": 232.16
+        }
+      ]
+    },
+    {
+      "id": "seg-084",
+      "start": 232.16,
+      "end": 234.9,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "能 去",
+      "pinyin": "néng qù",
+      "words": [
+        {
+          "hanzi": "能",
+          "pinyin": "néng",
+          "start": 232.16,
+          "end": 233.07
+        },
+        {
+          "hanzi": "去",
+          "pinyin": "qù",
+          "start": 233.99,
+          "end": 234.9
+        }
+      ]
+    },
+    {
+      "id": "seg-085",
+      "start": 234.9,
+      "end": 237.32,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Restaurant to eat",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Restaurant",
+          "start": 234.9,
+          "end": 236.58
+        },
+        {
+          "text": "to",
+          "start": 236.58,
+          "end": 237.06
+        },
+        {
+          "text": "eat",
+          "start": 237.06,
+          "end": 237.32
+        }
+      ]
+    },
+    {
+      "id": "seg-086",
+      "start": 237.32,
+      "end": 239.16,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "餐 館",
+      "pinyin": "cān guǎn",
+      "words": [
+        {
+          "hanzi": "餐",
+          "pinyin": "cān",
+          "start": 237.32,
+          "end": 237.93
+        },
+        {
+          "hanzi": "館",
+          "pinyin": "guǎn",
+          "start": 238.55,
+          "end": 239.16
+        }
+      ]
+    },
+    {
+      "id": "seg-087",
+      "start": 239.16,
+      "end": 239.86,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "餐 館",
+      "pinyin": "cān guǎn",
+      "words": [
+        {
+          "hanzi": "餐",
+          "pinyin": "cān",
+          "start": 239.16,
+          "end": 239.39
+        },
+        {
+          "hanzi": "館",
+          "pinyin": "guǎn",
+          "start": 239.63,
+          "end": 239.86
+        }
+      ]
+    },
+    {
+      "id": "seg-088",
+      "start": 240.9,
+      "end": 244.62,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "What did my southern friend say from Alabama?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "What",
+          "start": 240.9,
+          "end": 241.84
+        },
+        {
+          "text": "did",
+          "start": 241.84,
+          "end": 242.02
+        },
+        {
+          "text": "my",
+          "start": 242.02,
+          "end": 242.16
+        },
+        {
+          "text": "southern",
+          "start": 242.16,
+          "end": 242.5
+        },
+        {
+          "text": "friend",
+          "start": 242.5,
+          "end": 242.88
+        },
+        {
+          "text": "say",
+          "start": 242.88,
+          "end": 243.24
+        },
+        {
+          "text": "from",
+          "start": 243.24,
+          "end": 244.18
+        },
+        {
+          "text": "Alabama?",
+          "start": 244.18,
+          "end": 244.62
+        }
+      ]
+    },
+    {
+      "id": "seg-089",
+      "start": 245.74,
+      "end": 247.09,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "出 饭",
+      "pinyin": "chū fàn",
+      "words": [
+        {
+          "hanzi": "出",
+          "pinyin": "chū",
+          "start": 245.74,
+          "end": 246.19
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 246.64,
+          "end": 247.09
+        }
+      ]
+    },
+    {
+      "id": "seg-090",
+      "start": 247.09,
+      "end": 248.7,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "How do you say eat?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "How",
+          "start": 247.09,
+          "end": 247.9
+        },
+        {
+          "text": "do",
+          "start": 247.9,
+          "end": 248.16
+        },
+        {
+          "text": "you",
+          "start": 248.16,
+          "end": 248.26
+        },
+        {
+          "text": "say",
+          "start": 248.26,
+          "end": 248.4
+        },
+        {
+          "text": "eat?",
+          "start": 248.4,
+          "end": 248.7
+        }
+      ]
+    },
+    {
+      "id": "seg-091",
+      "start": 249.0,
+      "end": 250.47,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "吃 饭",
+      "pinyin": "chī fàn",
+      "words": [
+        {
+          "hanzi": "吃",
+          "pinyin": "chī",
+          "start": 249.0,
+          "end": 249.49
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 249.98,
+          "end": 250.47
+        }
+      ]
+    },
+    {
+      "id": "seg-092",
+      "start": 251.16,
+      "end": 252.51,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "吃 饭",
+      "pinyin": "chī fàn",
+      "words": [
+        {
+          "hanzi": "吃",
+          "pinyin": "chī",
+          "start": 251.16,
+          "end": 251.61
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 252.06,
+          "end": 252.51
+        }
+      ]
+    },
+    {
+      "id": "seg-093",
+      "start": 253.16,
+      "end": 254.36,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "吃 饭",
+      "pinyin": "chī fàn",
+      "words": [
+        {
+          "hanzi": "吃",
+          "pinyin": "chī",
+          "start": 253.16,
+          "end": 253.56
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 253.96,
+          "end": 254.36
+        }
+      ]
+    },
+    {
+      "id": "seg-094",
+      "start": 255.16,
+      "end": 256.74,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Southern eating is sure fun.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Southern",
+          "start": 255.16,
+          "end": 255.24
+        },
+        {
+          "text": "eating",
+          "start": 255.24,
+          "end": 255.6
+        },
+        {
+          "text": "is",
+          "start": 255.6,
+          "end": 255.9
+        },
+        {
+          "text": "sure",
+          "start": 255.9,
+          "end": 256.38
+        },
+        {
+          "text": "fun.",
+          "start": 256.38,
+          "end": 256.74
+        }
+      ]
+    },
+    {
+      "id": "seg-095",
+      "start": 257.14,
+      "end": 260.64,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Today we can go to the restaurant to eat.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Today",
+          "start": 257.14,
+          "end": 257.98
+        },
+        {
+          "text": "we",
+          "start": 257.98,
+          "end": 258.26
+        },
+        {
+          "text": "can",
+          "start": 258.26,
+          "end": 258.46
+        },
+        {
+          "text": "go",
+          "start": 258.46,
+          "end": 258.7
+        },
+        {
+          "text": "to",
+          "start": 258.7,
+          "end": 259.4
+        },
+        {
+          "text": "the",
+          "start": 259.4,
+          "end": 259.68
+        },
+        {
+          "text": "restaurant",
+          "start": 259.68,
+          "end": 260.1
+        },
+        {
+          "text": "to",
+          "start": 260.1,
+          "end": 260.44
+        },
+        {
+          "text": "eat.",
+          "start": 260.44,
+          "end": 260.64
+        }
+      ]
+    },
+    {
+      "id": "seg-096",
+      "start": 261.06,
+      "end": 265.13,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "我 们 今 天 能 去",
+      "pinyin": "wǒ men jīn tiān néng qù",
+      "words": [
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 261.06,
+          "end": 261.43
+        },
+        {
+          "hanzi": "们",
+          "pinyin": "men",
+          "start": 261.8,
+          "end": 262.17
+        },
+        {
+          "hanzi": "今",
+          "pinyin": "jīn",
+          "start": 262.54,
+          "end": 262.91
+        },
+        {
+          "hanzi": "天",
+          "pinyin": "tiān",
+          "start": 263.28,
+          "end": 263.65
+        },
+        {
+          "hanzi": "能",
+          "pinyin": "néng",
+          "start": 264.02,
+          "end": 264.39
+        },
+        {
+          "hanzi": "去",
+          "pinyin": "qù",
+          "start": 264.76,
+          "end": 265.13
+        }
+      ]
+    },
+    {
+      "id": "seg-097",
+      "start": 265.13,
+      "end": 268.1,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "餐 館 吃 饭",
+      "pinyin": "cān guǎn chī fàn",
+      "words": [
+        {
+          "hanzi": "餐",
+          "pinyin": "cān",
+          "start": 265.13,
+          "end": 265.55
+        },
+        {
+          "hanzi": "館",
+          "pinyin": "guǎn",
+          "start": 265.98,
+          "end": 266.4
+        },
+        {
+          "hanzi": "吃",
+          "pinyin": "chī",
+          "start": 266.83,
+          "end": 267.25
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 267.68,
+          "end": 268.1
+        }
+      ]
+    },
+    {
+      "id": "seg-098",
+      "start": 268.1,
+      "end": 271.12,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "So is there, can you change it?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "So",
+          "start": 268.1,
+          "end": 268.78
+        },
+        {
+          "text": "is",
+          "start": 268.78,
+          "end": 269.02
+        },
+        {
+          "text": "there,",
+          "start": 269.02,
+          "end": 269.22
+        },
+        {
+          "text": "can",
+          "start": 269.3,
+          "end": 269.56
+        },
+        {
+          "text": "you",
+          "start": 269.56,
+          "end": 269.8
+        },
+        {
+          "text": "change",
+          "start": 269.8,
+          "end": 270.84
+        },
+        {
+          "text": "it?",
+          "start": 270.84,
+          "end": 271.12
+        }
+      ]
+    },
+    {
+      "id": "seg-099",
+      "start": 271.16,
+      "end": 274.96,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Can you say today we go to the restaurant to eat?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Can",
+          "start": 271.16,
+          "end": 271.26
+        },
+        {
+          "text": "you",
+          "start": 271.26,
+          "end": 271.38
+        },
+        {
+          "text": "say",
+          "start": 271.38,
+          "end": 271.64
+        },
+        {
+          "text": "today",
+          "start": 271.64,
+          "end": 272.5
+        },
+        {
+          "text": "we",
+          "start": 272.5,
+          "end": 273.02
+        },
+        {
+          "text": "go",
+          "start": 273.02,
+          "end": 273.42
+        },
+        {
+          "text": "to",
+          "start": 273.42,
+          "end": 274.1
+        },
+        {
+          "text": "the",
+          "start": 274.1,
+          "end": 274.22
+        },
+        {
+          "text": "restaurant",
+          "start": 274.22,
+          "end": 274.58
+        },
+        {
+          "text": "to",
+          "start": 274.58,
+          "end": 274.74
+        },
+        {
+          "text": "eat?",
+          "start": 274.74,
+          "end": 274.96
+        }
+      ]
+    },
+    {
+      "id": "seg-100",
+      "start": 275.04,
+      "end": 278.68,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "And you can also say today at the restaurant we go to eat.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "And",
+          "start": 275.04,
+          "end": 275.42
+        },
+        {
+          "text": "you",
+          "start": 275.42,
+          "end": 275.64
+        },
+        {
+          "text": "can",
+          "start": 275.64,
+          "end": 275.74
+        },
+        {
+          "text": "also",
+          "start": 275.74,
+          "end": 275.94
+        },
+        {
+          "text": "say",
+          "start": 275.94,
+          "end": 276.22
+        },
+        {
+          "text": "today",
+          "start": 276.22,
+          "end": 276.6
+        },
+        {
+          "text": "at",
+          "start": 276.6,
+          "end": 277.44
+        },
+        {
+          "text": "the",
+          "start": 277.44,
+          "end": 277.58
+        },
+        {
+          "text": "restaurant",
+          "start": 277.58,
+          "end": 277.92
+        },
+        {
+          "text": "we",
+          "start": 277.92,
+          "end": 278.14
+        },
+        {
+          "text": "go",
+          "start": 278.14,
+          "end": 278.32
+        },
+        {
+          "text": "to",
+          "start": 278.32,
+          "end": 278.44
+        },
+        {
+          "text": "eat.",
+          "start": 278.44,
+          "end": 278.68
+        }
+      ]
+    },
+    {
+      "id": "seg-101",
+      "start": 278.8,
+      "end": 280.02,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You can say it both ways.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You",
+          "start": 278.8,
+          "end": 279.12
+        },
+        {
+          "text": "can",
+          "start": 279.12,
+          "end": 279.2
+        },
+        {
+          "text": "say",
+          "start": 279.2,
+          "end": 279.46
+        },
+        {
+          "text": "it",
+          "start": 279.46,
+          "end": 279.56
+        },
+        {
+          "text": "both",
+          "start": 279.56,
+          "end": 279.72
+        },
+        {
+          "text": "ways.",
+          "start": 279.72,
+          "end": 280.02
+        }
+      ]
+    },
+    {
+      "id": "seg-102",
+      "start": 280.54,
+      "end": 281.64,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "We can say",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "We",
+          "start": 280.54,
+          "end": 281.1
+        },
+        {
+          "text": "can",
+          "start": 281.1,
+          "end": 281.34
+        },
+        {
+          "text": "say",
+          "start": 281.34,
+          "end": 281.64
+        }
+      ]
+    },
+    {
+      "id": "seg-103",
+      "start": 281.64,
+      "end": 285.21,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "我 们 今 天 在 餐 館 吃 饭",
+      "pinyin": "wǒ men jīn tiān zài cān guǎn chī fàn",
+      "words": [
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 281.64,
+          "end": 281.85
+        },
+        {
+          "hanzi": "们",
+          "pinyin": "men",
+          "start": 282.06,
+          "end": 282.27
+        },
+        {
+          "hanzi": "今",
+          "pinyin": "jīn",
+          "start": 282.48,
+          "end": 282.69
+        },
+        {
+          "hanzi": "天",
+          "pinyin": "tiān",
+          "start": 282.9,
+          "end": 283.11
+        },
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "start": 283.32,
+          "end": 283.53
+        },
+        {
+          "hanzi": "餐",
+          "pinyin": "cān",
+          "start": 283.74,
+          "end": 283.95
+        },
+        {
+          "hanzi": "館",
+          "pinyin": "guǎn",
+          "start": 284.16,
+          "end": 284.37
+        },
+        {
+          "hanzi": "吃",
+          "pinyin": "chī",
+          "start": 284.58,
+          "end": 284.79
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 285.0,
+          "end": 285.21
+        }
+      ]
+    },
+    {
+      "id": "seg-104",
+      "start": 285.21,
+      "end": 285.98,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Totally right.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Totally",
+          "start": 285.21,
+          "end": 285.6
+        },
+        {
+          "text": "right.",
+          "start": 285.6,
+          "end": 285.98
+        }
+      ]
+    },
+    {
+      "id": "seg-105",
+      "start": 287.1,
+      "end": 290.16,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Like today we can go to eat in the restaurant.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Like",
+          "start": 287.1,
+          "end": 287.15
+        },
+        {
+          "text": "today",
+          "start": 287.15,
+          "end": 287.6
+        },
+        {
+          "text": "we",
+          "start": 287.6,
+          "end": 287.86
+        },
+        {
+          "text": "can",
+          "start": 287.86,
+          "end": 288.14
+        },
+        {
+          "text": "go",
+          "start": 288.14,
+          "end": 288.4
+        },
+        {
+          "text": "to",
+          "start": 288.4,
+          "end": 288.6
+        },
+        {
+          "text": "eat",
+          "start": 288.6,
+          "end": 289.06
+        },
+        {
+          "text": "in",
+          "start": 289.06,
+          "end": 289.52
+        },
+        {
+          "text": "the",
+          "start": 289.52,
+          "end": 289.68
+        },
+        {
+          "text": "restaurant.",
+          "start": 289.68,
+          "end": 290.16
+        }
+      ]
+    },
+    {
+      "id": "seg-106",
+      "start": 290.5,
+      "end": 291.42,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You will say",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You",
+          "start": 290.5,
+          "end": 290.94
+        },
+        {
+          "text": "will",
+          "start": 290.94,
+          "end": 291.12
+        },
+        {
+          "text": "say",
+          "start": 291.12,
+          "end": 291.42
+        }
+      ]
+    },
+    {
+      "id": "seg-107",
+      "start": 291.42,
+      "end": 295.12,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "我 们 今 天 在 餐 館 能 吃 饭",
+      "pinyin": "wǒ men jīn tiān zài cān guǎn néng chī fàn",
+      "words": [
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 291.42,
+          "end": 291.61
+        },
+        {
+          "hanzi": "们",
+          "pinyin": "men",
+          "start": 291.81,
+          "end": 292.0
+        },
+        {
+          "hanzi": "今",
+          "pinyin": "jīn",
+          "start": 292.2,
+          "end": 292.39
+        },
+        {
+          "hanzi": "天",
+          "pinyin": "tiān",
+          "start": 292.59,
+          "end": 292.78
+        },
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "start": 292.98,
+          "end": 293.17
+        },
+        {
+          "hanzi": "餐",
+          "pinyin": "cān",
+          "start": 293.37,
+          "end": 293.56
+        },
+        {
+          "hanzi": "館",
+          "pinyin": "guǎn",
+          "start": 293.76,
+          "end": 293.95
+        },
+        {
+          "hanzi": "能",
+          "pinyin": "néng",
+          "start": 294.15,
+          "end": 294.34
+        },
+        {
+          "hanzi": "吃",
+          "pinyin": "chī",
+          "start": 294.54,
+          "end": 294.73
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 294.93,
+          "end": 295.12
+        }
+      ]
+    },
+    {
+      "id": "seg-108",
+      "start": 295.12,
+      "end": 297.66,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "在 餐 館 means in the restaurant.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "在",
+          "start": 295.12,
+          "end": 295.82
+        },
+        {
+          "text": "餐",
+          "start": 295.82,
+          "end": 296.6
+        },
+        {
+          "text": "館",
+          "start": 296.6,
+          "end": 296.78
+        },
+        {
+          "text": "means",
+          "start": 296.78,
+          "end": 296.94
+        },
+        {
+          "text": "in",
+          "start": 296.94,
+          "end": 297.1
+        },
+        {
+          "text": "the",
+          "start": 297.1,
+          "end": 297.3
+        },
+        {
+          "text": "restaurant.",
+          "start": 297.3,
+          "end": 297.66
+        }
+      ]
+    },
+    {
+      "id": "seg-109",
+      "start": 298.1,
+      "end": 300.16,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "What you have are patterns.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "What",
+          "start": 298.1,
+          "end": 298.82
+        },
+        {
+          "text": "you",
+          "start": 298.82,
+          "end": 299.0
+        },
+        {
+          "text": "have",
+          "start": 299.0,
+          "end": 299.32
+        },
+        {
+          "text": "are",
+          "start": 299.32,
+          "end": 299.48
+        },
+        {
+          "text": "patterns.",
+          "start": 299.48,
+          "end": 300.16
+        }
+      ]
+    },
+    {
+      "id": "seg-110",
+      "start": 300.34,
+      "end": 302.14,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You have a number of different patterns.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You",
+          "start": 300.34,
+          "end": 300.82
+        },
+        {
+          "text": "have",
+          "start": 300.82,
+          "end": 301.0
+        },
+        {
+          "text": "a",
+          "start": 301.0,
+          "end": 301.08
+        },
+        {
+          "text": "number",
+          "start": 301.08,
+          "end": 301.34
+        },
+        {
+          "text": "of",
+          "start": 301.34,
+          "end": 301.44
+        },
+        {
+          "text": "different",
+          "start": 301.44,
+          "end": 301.64
+        },
+        {
+          "text": "patterns.",
+          "start": 301.64,
+          "end": 302.14
+        }
+      ]
+    },
+    {
+      "id": "seg-111",
+      "start": 302.68,
+      "end": 304.72,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "And they are like the little Legos.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "And",
+          "start": 302.68,
+          "end": 303.3
+        },
+        {
+          "text": "they",
+          "start": 303.3,
+          "end": 303.44
+        },
+        {
+          "text": "are",
+          "start": 303.44,
+          "end": 303.5
+        },
+        {
+          "text": "like",
+          "start": 303.5,
+          "end": 303.72
+        },
+        {
+          "text": "the",
+          "start": 303.72,
+          "end": 303.86
+        },
+        {
+          "text": "little",
+          "start": 303.86,
+          "end": 304.1
+        },
+        {
+          "text": "Legos.",
+          "start": 304.1,
+          "end": 304.72
+        }
+      ]
+    },
+    {
+      "id": "seg-112",
+      "start": 304.8,
+      "end": 308.12,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You can fit them together in many different ways.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You",
+          "start": 304.8,
+          "end": 305.2
+        },
+        {
+          "text": "can",
+          "start": 305.2,
+          "end": 305.38
+        },
+        {
+          "text": "fit",
+          "start": 305.38,
+          "end": 305.66
+        },
+        {
+          "text": "them",
+          "start": 305.66,
+          "end": 305.82
+        },
+        {
+          "text": "together",
+          "start": 305.82,
+          "end": 306.26
+        },
+        {
+          "text": "in",
+          "start": 306.26,
+          "end": 307.14
+        },
+        {
+          "text": "many",
+          "start": 307.14,
+          "end": 307.4
+        },
+        {
+          "text": "different",
+          "start": 307.4,
+          "end": 307.66
+        },
+        {
+          "text": "ways.",
+          "start": 307.66,
+          "end": 308.12
+        }
+      ]
+    },
+    {
+      "id": "seg-113",
+      "start": 308.66,
+      "end": 311.56,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "There are many ways to express these thoughts.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "There",
+          "start": 308.66,
+          "end": 309.28
+        },
+        {
+          "text": "are",
+          "start": 309.28,
+          "end": 309.42
+        },
+        {
+          "text": "many",
+          "start": 309.42,
+          "end": 309.64
+        },
+        {
+          "text": "ways",
+          "start": 309.64,
+          "end": 310.02
+        },
+        {
+          "text": "to",
+          "start": 310.02,
+          "end": 310.32
+        },
+        {
+          "text": "express",
+          "start": 310.32,
+          "end": 310.78
+        },
+        {
+          "text": "these",
+          "start": 310.78,
+          "end": 311.14
+        },
+        {
+          "text": "thoughts.",
+          "start": 311.14,
+          "end": 311.56
+        }
+      ]
+    },
+    {
+      "id": "seg-114",
+      "start": 312.36,
+      "end": 315.1,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Again, the object is communication.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Again,",
+          "start": 312.36,
+          "end": 312.98
+        },
+        {
+          "text": "the",
+          "start": 313.04,
+          "end": 313.24
+        },
+        {
+          "text": "object",
+          "start": 313.24,
+          "end": 314.26
+        },
+        {
+          "text": "is",
+          "start": 314.26,
+          "end": 314.66
+        },
+        {
+          "text": "communication.",
+          "start": 314.66,
+          "end": 315.1
+        }
+      ]
+    },
+    {
+      "id": "seg-115",
+      "start": 316.3,
+      "end": 322.04,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "So whatever you do, you will find out if it works by the way they reply.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "So",
+          "start": 316.3,
+          "end": 316.92
+        },
+        {
+          "text": "whatever",
+          "start": 316.92,
+          "end": 317.54
+        },
+        {
+          "text": "you",
+          "start": 317.54,
+          "end": 317.9
+        },
+        {
+          "text": "do,",
+          "start": 317.9,
+          "end": 318.28
+        },
+        {
+          "text": "you",
+          "start": 318.42,
+          "end": 319.16
+        },
+        {
+          "text": "will",
+          "start": 319.16,
+          "end": 319.28
+        },
+        {
+          "text": "find",
+          "start": 319.28,
+          "end": 319.64
+        },
+        {
+          "text": "out",
+          "start": 319.64,
+          "end": 319.88
+        },
+        {
+          "text": "if",
+          "start": 319.88,
+          "end": 320.04
+        },
+        {
+          "text": "it",
+          "start": 320.04,
+          "end": 320.14
+        },
+        {
+          "text": "works",
+          "start": 320.14,
+          "end": 320.54
+        },
+        {
+          "text": "by",
+          "start": 320.54,
+          "end": 321.32
+        },
+        {
+          "text": "the",
+          "start": 321.32,
+          "end": 321.46
+        },
+        {
+          "text": "way",
+          "start": 321.46,
+          "end": 321.64
+        },
+        {
+          "text": "they",
+          "start": 321.64,
+          "end": 321.78
+        },
+        {
+          "text": "reply.",
+          "start": 321.78,
+          "end": 322.04
+        }
+      ]
+    },
+    {
+      "id": "seg-116",
+      "start": 323.34,
+      "end": 325.74,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Does he stay in a big hotel?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Does",
+          "start": 323.34,
+          "end": 323.96
+        },
+        {
+          "text": "he",
+          "start": 323.96,
+          "end": 324.14
+        },
+        {
+          "text": "stay",
+          "start": 324.14,
+          "end": 324.44
+        },
+        {
+          "text": "in",
+          "start": 324.44,
+          "end": 324.72
+        },
+        {
+          "text": "a",
+          "start": 324.72,
+          "end": 324.84
+        },
+        {
+          "text": "big",
+          "start": 324.84,
+          "end": 325.18
+        },
+        {
+          "text": "hotel?",
+          "start": 325.18,
+          "end": 325.74
+        }
+      ]
+    },
+    {
+      "id": "seg-117",
+      "start": 325.74,
+      "end": 326.74,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "He",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "He",
+          "start": 325.74,
+          "end": 326.74
+        }
+      ]
+    },
+    {
+      "id": "seg-118",
+      "start": 328.32,
+      "end": 329.2,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "他",
+      "pinyin": "tā",
+      "words": [
+        {
+          "hanzi": "他",
+          "pinyin": "tā",
+          "start": 328.32,
+          "end": 329.2
+        }
+      ]
+    },
+    {
+      "id": "seg-119",
+      "start": 329.74,
+      "end": 330.78,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "stay",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "stay",
+          "start": 329.74,
+          "end": 330.78
+        }
+      ]
+    },
+    {
+      "id": "seg-120",
+      "start": 331.74,
+      "end": 334.5,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "It's the name of a religion or ethnic group.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "It's",
+          "start": 331.74,
+          "end": 332.46
+        },
+        {
+          "text": "the",
+          "start": 332.46,
+          "end": 332.56
+        },
+        {
+          "text": "name",
+          "start": 332.56,
+          "end": 332.88
+        },
+        {
+          "text": "of",
+          "start": 332.88,
+          "end": 333.02
+        },
+        {
+          "text": "a",
+          "start": 333.02,
+          "end": 333.12
+        },
+        {
+          "text": "religion",
+          "start": 333.12,
+          "end": 333.46
+        },
+        {
+          "text": "or",
+          "start": 333.46,
+          "end": 333.78
+        },
+        {
+          "text": "ethnic",
+          "start": 333.78,
+          "end": 334.06
+        },
+        {
+          "text": "group.",
+          "start": 334.06,
+          "end": 334.5
+        }
+      ]
+    },
+    {
+      "id": "seg-121",
+      "start": 335.66,
+      "end": 336.54,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "他住",
+      "pinyin": "tā zhù",
+      "words": [
+        {
+          "hanzi": "他",
+          "pinyin": "tā",
+          "start": 335.66,
+          "end": 336.1
+        },
+        {
+          "hanzi": "住",
+          "pinyin": "zhù",
+          "start": 336.1,
+          "end": 336.54
+        }
+      ]
+    },
+    {
+      "id": "seg-122",
+      "start": 336.54,
+      "end": 339.44,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "At a big hotel.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "At",
+          "start": 336.54,
+          "end": 337.6
+        },
+        {
+          "text": "a",
+          "start": 337.6,
+          "end": 338.02
+        },
+        {
+          "text": "big",
+          "start": 338.02,
+          "end": 338.78
+        },
+        {
+          "text": "hotel.",
+          "start": 338.78,
+          "end": 339.44
+        }
+      ]
+    },
+    {
+      "id": "seg-123",
+      "start": 339.72,
+      "end": 340.36,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Question.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Question.",
+          "start": 339.72,
+          "end": 340.36
+        }
+      ]
+    },
+    {
+      "id": "seg-124",
+      "start": 341.54,
+      "end": 343.3,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "在 一个",
+      "pinyin": "zài yī gè",
+      "words": [
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "start": 341.54,
+          "end": 341.98
+        },
+        {
+          "hanzi": "一",
+          "pinyin": "yī",
+          "start": 342.42,
+          "end": 342.86
+        },
+        {
+          "hanzi": "个",
+          "pinyin": "gè",
+          "start": 342.86,
+          "end": 343.3
+        }
+      ]
+    },
+    {
+      "id": "seg-125",
+      "start": 343.3,
+      "end": 344.82,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "big",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "big",
+          "start": 343.3,
+          "end": 344.82
+        }
+      ]
+    },
+    {
+      "id": "seg-126",
+      "start": 345.74,
+      "end": 347.1,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "What's the Russian word for yes?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "What's",
+          "start": 345.74,
+          "end": 346.02
+        },
+        {
+          "text": "the",
+          "start": 346.02,
+          "end": 346.1
+        },
+        {
+          "text": "Russian",
+          "start": 346.1,
+          "end": 346.34
+        },
+        {
+          "text": "word",
+          "start": 346.34,
+          "end": 346.68
+        },
+        {
+          "text": "for",
+          "start": 346.68,
+          "end": 346.92
+        },
+        {
+          "text": "yes?",
+          "start": 346.92,
+          "end": 347.1
+        }
+      ]
+    },
+    {
+      "id": "seg-127",
+      "start": 347.72,
+      "end": 348.06,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "大",
+      "pinyin": "dà",
+      "words": [
+        {
+          "hanzi": "大",
+          "pinyin": "dà",
+          "start": 347.72,
+          "end": 348.06
+        }
+      ]
+    },
+    {
+      "id": "seg-128",
+      "start": 348.06,
+      "end": 350.02,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "At a big hotel.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "At",
+          "start": 348.06,
+          "end": 349.3
+        },
+        {
+          "text": "a",
+          "start": 349.3,
+          "end": 349.48
+        },
+        {
+          "text": "big",
+          "start": 349.48,
+          "end": 349.78
+        },
+        {
+          "text": "hotel.",
+          "start": 349.78,
+          "end": 350.02
+        }
+      ]
+    },
+    {
+      "id": "seg-129",
+      "start": 350.14,
+      "end": 354.04,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "大 饭 店 吧 饵 吗",
+      "pinyin": "dà fàn diàn ba ěr ma",
+      "words": [
+        {
+          "hanzi": "大",
+          "pinyin": "dà",
+          "start": 350.14,
+          "end": 350.49
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 350.85,
+          "end": 351.2
+        },
+        {
+          "hanzi": "店",
+          "pinyin": "diàn",
+          "start": 351.56,
+          "end": 351.91
+        },
+        {
+          "hanzi": "吧",
+          "pinyin": "ba",
+          "start": 352.27,
+          "end": 352.62
+        },
+        {
+          "hanzi": "饵",
+          "pinyin": "ěr",
+          "start": 352.98,
+          "end": 353.33
+        },
+        {
+          "hanzi": "吗",
+          "pinyin": "ma",
+          "start": 353.69,
+          "end": 354.04
+        }
+      ]
+    },
+    {
+      "id": "seg-130",
+      "start": 354.04,
+      "end": 356.36,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Does he stay in a big hotel?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Does",
+          "start": 354.04,
+          "end": 355.1
+        },
+        {
+          "text": "he",
+          "start": 355.1,
+          "end": 355.3
+        },
+        {
+          "text": "stay",
+          "start": 355.3,
+          "end": 355.58
+        },
+        {
+          "text": "in",
+          "start": 355.58,
+          "end": 355.76
+        },
+        {
+          "text": "a",
+          "start": 355.76,
+          "end": 355.86
+        },
+        {
+          "text": "big",
+          "start": 355.86,
+          "end": 356.06
+        },
+        {
+          "text": "hotel?",
+          "start": 356.06,
+          "end": 356.36
+        }
+      ]
+    },
+    {
+      "id": "seg-131",
+      "start": 362.12,
+      "end": 362.82,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "他住在一个大饭店吗?",
+      "pinyin": "tā zhù zài yī gè dà fàn diàn ma ?",
+      "words": [
+        {
+          "hanzi": "他",
+          "pinyin": "tā",
+          "start": 362.12,
+          "end": 362.19
+        },
+        {
+          "hanzi": "住",
+          "pinyin": "zhù",
+          "start": 362.19,
+          "end": 362.26
+        },
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "start": 362.26,
+          "end": 362.33
+        },
+        {
+          "hanzi": "一",
+          "pinyin": "yī",
+          "start": 362.33,
+          "end": 362.4
+        },
+        {
+          "hanzi": "个",
+          "pinyin": "gè",
+          "start": 362.4,
+          "end": 362.47
+        },
+        {
+          "hanzi": "大",
+          "pinyin": "dà",
+          "start": 362.47,
+          "end": 362.54
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 362.54,
+          "end": 362.61
+        },
+        {
+          "hanzi": "店",
+          "pinyin": "diàn",
+          "start": 362.61,
+          "end": 362.68
+        },
+        {
+          "hanzi": "吗",
+          "pinyin": "ma",
+          "start": 362.68,
+          "end": 362.75
+        }
+      ]
+    },
+    {
+      "id": "seg-132",
+      "start": 363.56,
+      "end": 365.88,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "He says that it is a big hotel.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "He",
+          "start": 363.56,
+          "end": 364.26
+        },
+        {
+          "text": "says",
+          "start": 364.26,
+          "end": 364.6
+        },
+        {
+          "text": "that",
+          "start": 364.6,
+          "end": 364.84
+        },
+        {
+          "text": "it",
+          "start": 364.84,
+          "end": 365.08
+        },
+        {
+          "text": "is",
+          "start": 365.08,
+          "end": 365.24
+        },
+        {
+          "text": "a",
+          "start": 365.24,
+          "end": 365.36
+        },
+        {
+          "text": "big",
+          "start": 365.36,
+          "end": 365.54
+        },
+        {
+          "text": "hotel.",
+          "start": 365.54,
+          "end": 365.88
+        }
+      ]
+    },
+    {
+      "id": "seg-133",
+      "start": 366.12,
+      "end": 367.14,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "He says",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "He",
+          "start": 366.12,
+          "end": 366.74
+        },
+        {
+          "text": "says",
+          "start": 366.74,
+          "end": 367.14
+        }
+      ]
+    },
+    {
+      "id": "seg-134",
+      "start": 369.0,
+      "end": 369.7,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "他说",
+      "pinyin": "tā shuō",
+      "words": [
+        {
+          "hanzi": "他",
+          "pinyin": "tā",
+          "start": 369.0,
+          "end": 369.35
+        },
+        {
+          "hanzi": "说",
+          "pinyin": "shuō",
+          "start": 369.35,
+          "end": 369.7
+        }
+      ]
+    },
+    {
+      "id": "seg-135",
+      "start": 369.7,
+      "end": 374.0,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "That is a big hotel.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "That",
+          "start": 369.7,
+          "end": 371.0
+        },
+        {
+          "text": "is",
+          "start": 371.0,
+          "end": 371.52
+        },
+        {
+          "text": "a",
+          "start": 371.52,
+          "end": 372.56
+        },
+        {
+          "text": "big",
+          "start": 372.56,
+          "end": 373.56
+        },
+        {
+          "text": "hotel.",
+          "start": 373.56,
+          "end": 374.0
+        }
+      ]
+    },
+    {
+      "id": "seg-136",
+      "start": 374.9,
+      "end": 375.6,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "That",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "That",
+          "start": 374.9,
+          "end": 375.6
+        }
+      ]
+    },
+    {
+      "id": "seg-137",
+      "start": 375.6,
+      "end": 375.96,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "那",
+      "pinyin": "nà",
+      "words": [
+        {
+          "hanzi": "那",
+          "pinyin": "nà",
+          "start": 375.6,
+          "end": 375.96
+        }
+      ]
+    },
+    {
+      "id": "seg-138",
+      "start": 375.96,
+      "end": 377.68,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Yes, is",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Yes,",
+          "start": 375.96,
+          "end": 376.74
+        },
+        {
+          "text": "is",
+          "start": 376.96,
+          "end": 377.68
+        }
+      ]
+    },
+    {
+      "id": "seg-139",
+      "start": 381.68,
+      "end": 382.4,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "是大饭店",
+      "pinyin": "shì dà fàn diàn",
+      "words": [
+        {
+          "hanzi": "是",
+          "pinyin": "shì",
+          "start": 381.68,
+          "end": 381.86
+        },
+        {
+          "hanzi": "大",
+          "pinyin": "dà",
+          "start": 381.86,
+          "end": 382.04
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 382.04,
+          "end": 382.22
+        },
+        {
+          "hanzi": "店",
+          "pinyin": "diàn",
+          "start": 382.22,
+          "end": 382.4
+        }
+      ]
+    },
+    {
+      "id": "seg-140",
+      "start": 382.4,
+      "end": 384.5,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "A big hotel.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "A",
+          "start": 382.4,
+          "end": 383.06
+        },
+        {
+          "text": "big",
+          "start": 383.06,
+          "end": 384.0
+        },
+        {
+          "text": "hotel.",
+          "start": 384.0,
+          "end": 384.5
+        }
+      ]
+    },
+    {
+      "id": "seg-141",
+      "start": 388.18,
+      "end": 388.94,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "一个大饭店",
+      "pinyin": "yī gè dà fàn diàn",
+      "words": [
+        {
+          "hanzi": "一",
+          "pinyin": "yī",
+          "start": 388.18,
+          "end": 388.33
+        },
+        {
+          "hanzi": "个",
+          "pinyin": "gè",
+          "start": 388.33,
+          "end": 388.48
+        },
+        {
+          "hanzi": "大",
+          "pinyin": "dà",
+          "start": 388.48,
+          "end": 388.63
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 388.64,
+          "end": 388.79
+        },
+        {
+          "hanzi": "店",
+          "pinyin": "diàn",
+          "start": 388.79,
+          "end": 388.94
+        }
+      ]
+    },
+    {
+      "id": "seg-142",
+      "start": 388.94,
+      "end": 391.78,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "He says that it is a big hotel.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "He",
+          "start": 388.94,
+          "end": 389.64
+        },
+        {
+          "text": "says",
+          "start": 389.64,
+          "end": 390.28
+        },
+        {
+          "text": "that",
+          "start": 390.28,
+          "end": 390.56
+        },
+        {
+          "text": "it",
+          "start": 390.56,
+          "end": 390.76
+        },
+        {
+          "text": "is",
+          "start": 390.76,
+          "end": 390.98
+        },
+        {
+          "text": "a",
+          "start": 390.98,
+          "end": 391.1
+        },
+        {
+          "text": "big",
+          "start": 391.1,
+          "end": 391.36
+        },
+        {
+          "text": "hotel.",
+          "start": 391.36,
+          "end": 391.78
+        }
+      ]
+    },
+    {
+      "id": "seg-143",
+      "start": 397.88,
+      "end": 398.64,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "他说那是一个大饭店。",
+      "pinyin": "tā shuō nà shì yī gè dà fàn diàn .",
+      "words": [
+        {
+          "hanzi": "他",
+          "pinyin": "tā",
+          "start": 397.88,
+          "end": 397.96
+        },
+        {
+          "hanzi": "说",
+          "pinyin": "shuō",
+          "start": 397.96,
+          "end": 398.04
+        },
+        {
+          "hanzi": "那",
+          "pinyin": "nà",
+          "start": 398.04,
+          "end": 398.12
+        },
+        {
+          "hanzi": "是",
+          "pinyin": "shì",
+          "start": 398.12,
+          "end": 398.2
+        },
+        {
+          "hanzi": "一",
+          "pinyin": "yī",
+          "start": 398.2,
+          "end": 398.28
+        },
+        {
+          "hanzi": "个",
+          "pinyin": "gè",
+          "start": 398.28,
+          "end": 398.36
+        },
+        {
+          "hanzi": "大",
+          "pinyin": "dà",
+          "start": 398.36,
+          "end": 398.44
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 398.44,
+          "end": 398.52
+        },
+        {
+          "hanzi": "店",
+          "pinyin": "diàn",
+          "start": 398.52,
+          "end": 398.6
+        }
+      ]
+    },
+    {
+      "id": "seg-144",
+      "start": 399.38,
+      "end": 401.88,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Are these hotels big hotels too?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Are",
+          "start": 399.38,
+          "end": 399.88
+        },
+        {
+          "text": "these",
+          "start": 399.88,
+          "end": 400.12
+        },
+        {
+          "text": "hotels",
+          "start": 400.12,
+          "end": 400.5
+        },
+        {
+          "text": "big",
+          "start": 400.5,
+          "end": 401.0
+        },
+        {
+          "text": "hotels",
+          "start": 401.0,
+          "end": 401.34
+        },
+        {
+          "text": "too?",
+          "start": 401.34,
+          "end": 401.88
+        }
+      ]
+    },
+    {
+      "id": "seg-145",
+      "start": 402.1,
+      "end": 404.42,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "These hotels also are big hotels.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "These",
+          "start": 402.1,
+          "end": 402.56
+        },
+        {
+          "text": "hotels",
+          "start": 402.56,
+          "end": 402.8
+        },
+        {
+          "text": "also",
+          "start": 402.8,
+          "end": 403.4
+        },
+        {
+          "text": "are",
+          "start": 403.4,
+          "end": 403.76
+        },
+        {
+          "text": "big",
+          "start": 403.76,
+          "end": 404.06
+        },
+        {
+          "text": "hotels.",
+          "start": 404.06,
+          "end": 404.42
+        }
+      ]
+    },
+    {
+      "id": "seg-146",
+      "start": 404.64,
+      "end": 404.94,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Correct.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Correct.",
+          "start": 404.64,
+          "end": 404.94
+        }
+      ]
+    },
+    {
+      "id": "seg-147",
+      "start": 409.48,
+      "end": 410.24,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "这是饭店。",
+      "pinyin": "zhè shì fàn diàn .",
+      "words": [
+        {
+          "hanzi": "这",
+          "pinyin": "zhè",
+          "start": 409.48,
+          "end": 409.63
+        },
+        {
+          "hanzi": "是",
+          "pinyin": "shì",
+          "start": 409.63,
+          "end": 409.78
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 409.78,
+          "end": 409.93
+        },
+        {
+          "hanzi": "店",
+          "pinyin": "diàn",
+          "start": 409.94,
+          "end": 410.09
+        }
+      ]
+    },
+    {
+      "id": "seg-148",
+      "start": 417.86,
+      "end": 418.74,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "也是大饭店吗?",
+      "pinyin": "yě shì dà fàn diàn ma ?",
+      "words": [
+        {
+          "hanzi": "也",
+          "pinyin": "yě",
+          "start": 417.86,
+          "end": 417.99
+        },
+        {
+          "hanzi": "是",
+          "pinyin": "shì",
+          "start": 417.99,
+          "end": 418.12
+        },
+        {
+          "hanzi": "大",
+          "pinyin": "dà",
+          "start": 418.12,
+          "end": 418.25
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 418.25,
+          "end": 418.38
+        },
+        {
+          "hanzi": "店",
+          "pinyin": "diàn",
+          "start": 418.38,
+          "end": 418.51
+        },
+        {
+          "hanzi": "吗",
+          "pinyin": "ma",
+          "start": 418.51,
+          "end": 418.64
+        }
+      ]
+    },
+    {
+      "id": "seg-149",
+      "start": 418.92,
+      "end": 421.38,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Are these hotels big hotels too?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Are",
+          "start": 418.92,
+          "end": 419.72
+        },
+        {
+          "text": "these",
+          "start": 419.72,
+          "end": 419.94
+        },
+        {
+          "text": "hotels",
+          "start": 419.94,
+          "end": 420.34
+        },
+        {
+          "text": "big",
+          "start": 420.34,
+          "end": 420.6
+        },
+        {
+          "text": "hotels",
+          "start": 420.6,
+          "end": 420.94
+        },
+        {
+          "text": "too?",
+          "start": 420.94,
+          "end": 421.38
+        }
+      ]
+    },
+    {
+      "id": "seg-150",
+      "start": 427.7,
+      "end": 428.58,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "这些饭店也是大饭店吗?",
+      "pinyin": "zhè xiē fàn diàn yě shì dà fàn diàn ma ?",
+      "words": [
+        {
+          "hanzi": "这",
+          "pinyin": "zhè",
+          "start": 427.7,
+          "end": 427.78
+        },
+        {
+          "hanzi": "些",
+          "pinyin": "xiē",
+          "start": 427.78,
+          "end": 427.86
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 427.86,
+          "end": 427.94
+        },
+        {
+          "hanzi": "店",
+          "pinyin": "diàn",
+          "start": 427.94,
+          "end": 428.02
+        },
+        {
+          "hanzi": "也",
+          "pinyin": "yě",
+          "start": 428.02,
+          "end": 428.1
+        },
+        {
+          "hanzi": "是",
+          "pinyin": "shì",
+          "start": 428.1,
+          "end": 428.18
+        },
+        {
+          "hanzi": "大",
+          "pinyin": "dà",
+          "start": 428.18,
+          "end": 428.26
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 428.26,
+          "end": 428.34
+        },
+        {
+          "hanzi": "店",
+          "pinyin": "diàn",
+          "start": 428.34,
+          "end": 428.42
+        },
+        {
+          "hanzi": "吗",
+          "pinyin": "ma",
+          "start": 428.42,
+          "end": 428.5
+        }
+      ]
+    },
+    {
+      "id": "seg-151",
+      "start": 429.4,
+      "end": 432.1,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Our hotel is not too big.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Our",
+          "start": 429.4,
+          "end": 430.28
+        },
+        {
+          "text": "hotel",
+          "start": 430.28,
+          "end": 430.72
+        },
+        {
+          "text": "is",
+          "start": 430.72,
+          "end": 431.08
+        },
+        {
+          "text": "not",
+          "start": 431.08,
+          "end": 431.38
+        },
+        {
+          "text": "too",
+          "start": 431.38,
+          "end": 431.66
+        },
+        {
+          "text": "big.",
+          "start": 431.66,
+          "end": 432.1
+        }
+      ]
+    },
+    {
+      "id": "seg-152",
+      "start": 438.48,
+      "end": 439.36,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "我们的饭店。",
+      "pinyin": "wǒ men de fàn diàn .",
+      "words": [
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 438.48,
+          "end": 438.63
+        },
+        {
+          "hanzi": "们",
+          "pinyin": "men",
+          "start": 438.63,
+          "end": 438.78
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 438.78,
+          "end": 438.93
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 438.93,
+          "end": 439.08
+        },
+        {
+          "hanzi": "店",
+          "pinyin": "diàn",
+          "start": 439.08,
+          "end": 439.23
+        }
+      ]
+    },
+    {
+      "id": "seg-153",
+      "start": 443.48,
+      "end": 444.2,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "是不太大。",
+      "pinyin": "shì bù tài dà .",
+      "words": [
+        {
+          "hanzi": "是",
+          "pinyin": "shì",
+          "start": 443.48,
+          "end": 443.62
+        },
+        {
+          "hanzi": "不",
+          "pinyin": "bù",
+          "start": 443.62,
+          "end": 443.76
+        },
+        {
+          "hanzi": "太",
+          "pinyin": "tài",
+          "start": 443.77,
+          "end": 443.91
+        },
+        {
+          "hanzi": "大",
+          "pinyin": "dà",
+          "start": 443.91,
+          "end": 444.05
+        }
+      ]
+    },
+    {
+      "id": "seg-154",
+      "start": 444.2,
+      "end": 448.94,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Chinese way is put the 不 in front of that to be.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Chinese",
+          "start": 444.2,
+          "end": 445.18
+        },
+        {
+          "text": "way",
+          "start": 445.18,
+          "end": 445.68
+        },
+        {
+          "text": "is",
+          "start": 445.68,
+          "end": 445.92
+        },
+        {
+          "text": "put",
+          "start": 445.92,
+          "end": 446.16
+        },
+        {
+          "text": "the",
+          "start": 446.16,
+          "end": 446.5
+        },
+        {
+          "text": "不",
+          "start": 446.5,
+          "end": 446.78
+        },
+        {
+          "text": "in",
+          "start": 446.78,
+          "end": 447.16
+        },
+        {
+          "text": "front",
+          "start": 447.16,
+          "end": 447.7
+        },
+        {
+          "text": "of",
+          "start": 447.7,
+          "end": 448.06
+        },
+        {
+          "text": "that",
+          "start": 448.06,
+          "end": 448.34
+        },
+        {
+          "text": "to",
+          "start": 448.34,
+          "end": 448.7
+        },
+        {
+          "text": "be.",
+          "start": 448.7,
+          "end": 448.94
+        }
+      ]
+    },
+    {
+      "id": "seg-155",
+      "start": 449.16,
+      "end": 451.4,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "So how would you say not to be?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "So",
+          "start": 449.16,
+          "end": 449.86
+        },
+        {
+          "text": "how",
+          "start": 449.86,
+          "end": 450.1
+        },
+        {
+          "text": "would",
+          "start": 450.1,
+          "end": 450.26
+        },
+        {
+          "text": "you",
+          "start": 450.26,
+          "end": 450.32
+        },
+        {
+          "text": "say",
+          "start": 450.32,
+          "end": 450.56
+        },
+        {
+          "text": "not",
+          "start": 450.56,
+          "end": 450.9
+        },
+        {
+          "text": "to",
+          "start": 450.9,
+          "end": 451.16
+        },
+        {
+          "text": "be?",
+          "start": 451.16,
+          "end": 451.4
+        }
+      ]
+    },
+    {
+      "id": "seg-156",
+      "start": 452.34,
+      "end": 453.06,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "不是",
+      "pinyin": "bù shì",
+      "words": [
+        {
+          "hanzi": "不",
+          "pinyin": "bù",
+          "start": 452.34,
+          "end": 452.7
+        },
+        {
+          "hanzi": "是",
+          "pinyin": "shì",
+          "start": 452.7,
+          "end": 453.06
+        }
+      ]
+    },
+    {
+      "id": "seg-157",
+      "start": 453.06,
+      "end": 454.64,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Too big.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Too",
+          "start": 453.06,
+          "end": 454.12
+        },
+        {
+          "text": "big.",
+          "start": 454.12,
+          "end": 454.64
+        }
+      ]
+    },
+    {
+      "id": "seg-158",
+      "start": 456.58,
+      "end": 457.3,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "太大。",
+      "pinyin": "tài dà .",
+      "words": [
+        {
+          "hanzi": "太",
+          "pinyin": "tài",
+          "start": 456.58,
+          "end": 456.82
+        },
+        {
+          "hanzi": "大",
+          "pinyin": "dà",
+          "start": 456.82,
+          "end": 457.06
+        }
+      ]
+    },
+    {
+      "id": "seg-159",
+      "start": 457.3,
+      "end": 460.86,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Our hotel is not too big.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Our",
+          "start": 457.3,
+          "end": 457.86
+        },
+        {
+          "text": "hotel",
+          "start": 457.86,
+          "end": 458.26
+        },
+        {
+          "text": "is",
+          "start": 458.26,
+          "end": 458.94
+        },
+        {
+          "text": "not",
+          "start": 458.94,
+          "end": 459.68
+        },
+        {
+          "text": "too",
+          "start": 459.68,
+          "end": 460.3
+        },
+        {
+          "text": "big.",
+          "start": 460.3,
+          "end": 460.86
+        }
+      ]
+    },
+    {
+      "id": "seg-160",
+      "start": 467.24,
+      "end": 467.96,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "我们的饭店不是太大。",
+      "pinyin": "wǒ men de fàn diàn bù shì tài dà .",
+      "words": [
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 467.24,
+          "end": 467.31
+        },
+        {
+          "hanzi": "们",
+          "pinyin": "men",
+          "start": 467.31,
+          "end": 467.38
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 467.38,
+          "end": 467.45
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 467.46,
+          "end": 467.53
+        },
+        {
+          "hanzi": "店",
+          "pinyin": "diàn",
+          "start": 467.53,
+          "end": 467.6
+        },
+        {
+          "hanzi": "不",
+          "pinyin": "bù",
+          "start": 467.6,
+          "end": 467.67
+        },
+        {
+          "hanzi": "是",
+          "pinyin": "shì",
+          "start": 467.67,
+          "end": 467.74
+        },
+        {
+          "hanzi": "太",
+          "pinyin": "tài",
+          "start": 467.74,
+          "end": 467.81
+        },
+        {
+          "hanzi": "大",
+          "pinyin": "dà",
+          "start": 467.82,
+          "end": 467.89
+        }
+      ]
+    },
+    {
+      "id": "seg-161",
+      "start": 468.72,
+      "end": 470.76,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Another way of saying this would be",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Another",
+          "start": 468.72,
+          "end": 469.22
+        },
+        {
+          "text": "way",
+          "start": 469.22,
+          "end": 469.5
+        },
+        {
+          "text": "of",
+          "start": 469.5,
+          "end": 469.64
+        },
+        {
+          "text": "saying",
+          "start": 469.64,
+          "end": 469.84
+        },
+        {
+          "text": "this",
+          "start": 469.84,
+          "end": 470.16
+        },
+        {
+          "text": "would",
+          "start": 470.16,
+          "end": 470.44
+        },
+        {
+          "text": "be",
+          "start": 470.44,
+          "end": 470.76
+        }
+      ]
+    },
+    {
+      "id": "seg-162",
+      "start": 475.78,
+      "end": 476.28,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "我们的饭店不太大。",
+      "pinyin": "wǒ men de fàn diàn bù tài dà .",
+      "words": [
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 475.78,
+          "end": 475.84
+        },
+        {
+          "hanzi": "们",
+          "pinyin": "men",
+          "start": 475.84,
+          "end": 475.9
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 475.9,
+          "end": 475.96
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 475.96,
+          "end": 476.02
+        },
+        {
+          "hanzi": "店",
+          "pinyin": "diàn",
+          "start": 476.02,
+          "end": 476.08
+        },
+        {
+          "hanzi": "不",
+          "pinyin": "bù",
+          "start": 476.08,
+          "end": 476.14
+        },
+        {
+          "hanzi": "太",
+          "pinyin": "tài",
+          "start": 476.14,
+          "end": 476.2
+        },
+        {
+          "hanzi": "大",
+          "pinyin": "dà",
+          "start": 476.2,
+          "end": 476.26
+        }
+      ]
+    },
+    {
+      "id": "seg-163",
+      "start": 476.28,
+      "end": 477.2,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Without the 是.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Without",
+          "start": 476.28,
+          "end": 476.86
+        },
+        {
+          "text": "the",
+          "start": 476.86,
+          "end": 477.14
+        },
+        {
+          "text": "是.",
+          "start": 477.14,
+          "end": 477.2
+        }
+      ]
+    },
+    {
+      "id": "seg-164",
+      "start": 477.38,
+      "end": 477.94,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Without the 是.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Without",
+          "start": 477.38,
+          "end": 477.62
+        },
+        {
+          "text": "the",
+          "start": 477.62,
+          "end": 477.86
+        },
+        {
+          "text": "是.",
+          "start": 477.86,
+          "end": 477.94
+        }
+      ]
+    },
+    {
+      "id": "seg-165",
+      "start": 478.16,
+      "end": 478.5,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Yeah.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Yeah.",
+          "start": 478.16,
+          "end": 478.5
+        }
+      ]
+    },
+    {
+      "id": "seg-166",
+      "start": 479.36,
+      "end": 481.92,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "But if we use the 是, it has to be 不是.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "But",
+          "start": 479.36,
+          "end": 479.86
+        },
+        {
+          "text": "if",
+          "start": 479.86,
+          "end": 480.02
+        },
+        {
+          "text": "we",
+          "start": 480.02,
+          "end": 480.16
+        },
+        {
+          "text": "use",
+          "start": 480.16,
+          "end": 480.42
+        },
+        {
+          "text": "the",
+          "start": 480.42,
+          "end": 480.6
+        },
+        {
+          "text": "是,",
+          "start": 480.6,
+          "end": 480.65
+        },
+        {
+          "text": "it",
+          "start": 480.84,
+          "end": 481.0
+        },
+        {
+          "text": "has",
+          "start": 481.0,
+          "end": 481.12
+        },
+        {
+          "text": "to",
+          "start": 481.12,
+          "end": 481.2
+        },
+        {
+          "text": "be",
+          "start": 481.2,
+          "end": 481.3
+        },
+        {
+          "text": "不是.",
+          "start": 481.3,
+          "end": 481.92
+        }
+      ]
+    },
+    {
+      "id": "seg-167",
+      "start": 482.2,
+      "end": 482.64,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Yeah.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Yeah.",
+          "start": 482.2,
+          "end": 482.64
+        }
+      ]
+    },
+    {
+      "id": "seg-168",
+      "start": 482.76,
+      "end": 484.94,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "So you can't have 是不.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "So",
+          "start": 482.76,
+          "end": 483.24
+        },
+        {
+          "text": "you",
+          "start": 483.24,
+          "end": 483.36
+        },
+        {
+          "text": "can't",
+          "start": 483.36,
+          "end": 483.56
+        },
+        {
+          "text": "have",
+          "start": 483.56,
+          "end": 483.76
+        },
+        {
+          "text": "是不.",
+          "start": 483.76,
+          "end": 484.94
+        }
+      ]
+    },
+    {
+      "id": "seg-169",
+      "start": 485.42,
+      "end": 486.48,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "That's why I was wrong.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "That's",
+          "start": 485.42,
+          "end": 485.92
+        },
+        {
+          "text": "why",
+          "start": 485.92,
+          "end": 486.04
+        },
+        {
+          "text": "I",
+          "start": 486.04,
+          "end": 486.14
+        },
+        {
+          "text": "was",
+          "start": 486.14,
+          "end": 486.26
+        },
+        {
+          "text": "wrong.",
+          "start": 486.26,
+          "end": 486.48
+        }
+      ]
+    },
+    {
+      "id": "seg-170",
+      "start": 487.94,
+      "end": 495.34,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "English people stay in those hotels and Americans stay in these hotels. English people stay.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "English",
+          "start": 487.94,
+          "end": 488.44
+        },
+        {
+          "text": "people",
+          "start": 488.44,
+          "end": 488.84
+        },
+        {
+          "text": "stay",
+          "start": 488.84,
+          "end": 489.28
+        },
+        {
+          "text": "in",
+          "start": 489.28,
+          "end": 489.5
+        },
+        {
+          "text": "those",
+          "start": 489.5,
+          "end": 489.74
+        },
+        {
+          "text": "hotels",
+          "start": 489.74,
+          "end": 490.2
+        },
+        {
+          "text": "and",
+          "start": 490.2,
+          "end": 491.0
+        },
+        {
+          "text": "Americans",
+          "start": 491.0,
+          "end": 491.46
+        },
+        {
+          "text": "stay",
+          "start": 491.46,
+          "end": 491.9
+        },
+        {
+          "text": "in",
+          "start": 491.9,
+          "end": 492.16
+        },
+        {
+          "text": "these",
+          "start": 492.16,
+          "end": 492.42
+        },
+        {
+          "text": "hotels.",
+          "start": 492.42,
+          "end": 492.86
+        },
+        {
+          "text": "English",
+          "start": 493.54,
+          "end": 494.04
+        },
+        {
+          "text": "people",
+          "start": 494.04,
+          "end": 494.52
+        },
+        {
+          "text": "stay.",
+          "start": 494.52,
+          "end": 495.34
+        }
+      ]
+    },
+    {
+      "id": "seg-171",
+      "start": 501.9,
+      "end": 503.3,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "英国人住在。",
+      "pinyin": "yīng guó rén zhù zài .",
+      "words": [
+        {
+          "hanzi": "英",
+          "pinyin": "yīng",
+          "start": 501.9,
+          "end": 502.13
+        },
+        {
+          "hanzi": "国",
+          "pinyin": "guó",
+          "start": 502.13,
+          "end": 502.36
+        },
+        {
+          "hanzi": "人",
+          "pinyin": "rén",
+          "start": 502.37,
+          "end": 502.6
+        },
+        {
+          "hanzi": "住",
+          "pinyin": "zhù",
+          "start": 502.6,
+          "end": 502.83
+        },
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "start": 502.83,
+          "end": 503.06
+        }
+      ]
+    },
+    {
+      "id": "seg-172",
+      "start": 503.3,
+      "end": 504.9,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Those hotels.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Those",
+          "start": 503.3,
+          "end": 504.46
+        },
+        {
+          "text": "hotels.",
+          "start": 504.46,
+          "end": 504.9
+        }
+      ]
+    },
+    {
+      "id": "seg-173",
+      "start": 506.14,
+      "end": 507.54,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "这些。",
+      "pinyin": "zhè xiē .",
+      "words": [
+        {
+          "hanzi": "这",
+          "pinyin": "zhè",
+          "start": 506.14,
+          "end": 506.61
+        },
+        {
+          "hanzi": "些",
+          "pinyin": "xiē",
+          "start": 506.61,
+          "end": 507.08
+        }
+      ]
+    },
+    {
+      "id": "seg-174",
+      "start": 507.54,
+      "end": 508.62,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Those.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Those.",
+          "start": 507.54,
+          "end": 508.62
+        }
+      ]
+    },
+    {
+      "id": "seg-175",
+      "start": 512.48,
+      "end": 513.34,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "那些饭店。",
+      "pinyin": "nà xiē fàn diàn .",
+      "words": [
+        {
+          "hanzi": "那",
+          "pinyin": "nà",
+          "start": 512.48,
+          "end": 512.65
+        },
+        {
+          "hanzi": "些",
+          "pinyin": "xiē",
+          "start": 512.65,
+          "end": 512.82
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 512.82,
+          "end": 512.99
+        },
+        {
+          "hanzi": "店",
+          "pinyin": "diàn",
+          "start": 513.0,
+          "end": 513.17
+        }
+      ]
+    },
+    {
+      "id": "seg-176",
+      "start": 513.88,
+      "end": 516.1,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "American people stay.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "American",
+          "start": 513.88,
+          "end": 515.04
+        },
+        {
+          "text": "people",
+          "start": 515.04,
+          "end": 515.4
+        },
+        {
+          "text": "stay.",
+          "start": 515.4,
+          "end": 516.1
+        }
+      ]
+    },
+    {
+      "id": "seg-177",
+      "start": 521.24,
+      "end": 522.64,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "美国人住在。",
+      "pinyin": "měi guó rén zhù zài .",
+      "words": [
+        {
+          "hanzi": "美",
+          "pinyin": "měi",
+          "start": 521.24,
+          "end": 521.47
+        },
+        {
+          "hanzi": "国",
+          "pinyin": "guó",
+          "start": 521.47,
+          "end": 521.7
+        },
+        {
+          "hanzi": "人",
+          "pinyin": "rén",
+          "start": 521.71,
+          "end": 521.94
+        },
+        {
+          "hanzi": "住",
+          "pinyin": "zhù",
+          "start": 521.94,
+          "end": 522.17
+        },
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "start": 522.17,
+          "end": 522.4
+        }
+      ]
+    },
+    {
+      "id": "seg-178",
+      "start": 522.64,
+      "end": 523.96,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "These hotels.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "These",
+          "start": 522.64,
+          "end": 523.56
+        },
+        {
+          "text": "hotels.",
+          "start": 523.56,
+          "end": 523.96
+        }
+      ]
+    },
+    {
+      "id": "seg-179",
+      "start": 528.16,
+      "end": 528.72,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "这些饭店。",
+      "pinyin": "zhè xiē fàn diàn .",
+      "words": [
+        {
+          "hanzi": "这",
+          "pinyin": "zhè",
+          "start": 528.16,
+          "end": 528.27
+        },
+        {
+          "hanzi": "些",
+          "pinyin": "xiē",
+          "start": 528.27,
+          "end": 528.38
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 528.38,
+          "end": 528.49
+        },
+        {
+          "hanzi": "店",
+          "pinyin": "diàn",
+          "start": 528.5,
+          "end": 528.61
+        }
+      ]
+    },
+    {
+      "id": "seg-180",
+      "start": 529.3,
+      "end": 534.06,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "English people stay in those hotels and Americans stay in these hotels.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "English",
+          "start": 529.3,
+          "end": 529.86
+        },
+        {
+          "text": "people",
+          "start": 529.86,
+          "end": 530.26
+        },
+        {
+          "text": "stay",
+          "start": 530.26,
+          "end": 530.62
+        },
+        {
+          "text": "in",
+          "start": 530.62,
+          "end": 530.9
+        },
+        {
+          "text": "those",
+          "start": 530.9,
+          "end": 531.14
+        },
+        {
+          "text": "hotels",
+          "start": 531.14,
+          "end": 531.58
+        },
+        {
+          "text": "and",
+          "start": 531.58,
+          "end": 532.22
+        },
+        {
+          "text": "Americans",
+          "start": 532.22,
+          "end": 532.72
+        },
+        {
+          "text": "stay",
+          "start": 532.72,
+          "end": 533.1
+        },
+        {
+          "text": "in",
+          "start": 533.1,
+          "end": 533.34
+        },
+        {
+          "text": "these",
+          "start": 533.34,
+          "end": 533.64
+        },
+        {
+          "text": "hotels.",
+          "start": 533.64,
+          "end": 534.06
+        }
+      ]
+    },
+    {
+      "id": "seg-181",
+      "start": 540.46,
+      "end": 541.02,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "英国人住在那些饭店。",
+      "pinyin": "yīng guó rén zhù zài nà xiē fàn diàn .",
+      "words": [
+        {
+          "hanzi": "英",
+          "pinyin": "yīng",
+          "start": 540.46,
+          "end": 540.52
+        },
+        {
+          "hanzi": "国",
+          "pinyin": "guó",
+          "start": 540.52,
+          "end": 540.58
+        },
+        {
+          "hanzi": "人",
+          "pinyin": "rén",
+          "start": 540.58,
+          "end": 540.64
+        },
+        {
+          "hanzi": "住",
+          "pinyin": "zhù",
+          "start": 540.64,
+          "end": 540.7
+        },
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "start": 540.7,
+          "end": 540.76
+        },
+        {
+          "hanzi": "那",
+          "pinyin": "nà",
+          "start": 540.76,
+          "end": 540.82
+        },
+        {
+          "hanzi": "些",
+          "pinyin": "xiē",
+          "start": 540.82,
+          "end": 540.88
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 540.88,
+          "end": 540.94
+        },
+        {
+          "hanzi": "店",
+          "pinyin": "diàn",
+          "start": 540.94,
+          "end": 541.0
+        }
+      ]
+    },
+    {
+      "id": "seg-182",
+      "start": 547.58,
+      "end": 548.14,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "美国人住在这些饭店。",
+      "pinyin": "měi guó rén zhù zài zhè xiē fàn diàn .",
+      "words": [
+        {
+          "hanzi": "美",
+          "pinyin": "měi",
+          "start": 547.58,
+          "end": 547.64
+        },
+        {
+          "hanzi": "国",
+          "pinyin": "guó",
+          "start": 547.64,
+          "end": 547.7
+        },
+        {
+          "hanzi": "人",
+          "pinyin": "rén",
+          "start": 547.7,
+          "end": 547.76
+        },
+        {
+          "hanzi": "住",
+          "pinyin": "zhù",
+          "start": 547.76,
+          "end": 547.82
+        },
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "start": 547.82,
+          "end": 547.88
+        },
+        {
+          "hanzi": "这",
+          "pinyin": "zhè",
+          "start": 547.88,
+          "end": 547.94
+        },
+        {
+          "hanzi": "些",
+          "pinyin": "xiē",
+          "start": 547.94,
+          "end": 548.0
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 548.0,
+          "end": 548.06
+        },
+        {
+          "hanzi": "店",
+          "pinyin": "diàn",
+          "start": 548.06,
+          "end": 548.12
+        }
+      ]
+    },
+    {
+      "id": "seg-183",
+      "start": 548.14,
+      "end": 551.76,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "And I didn't need to say the and there, I didn't need to say 和。",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "And",
+          "start": 548.14,
+          "end": 548.58
+        },
+        {
+          "text": "I",
+          "start": 548.58,
+          "end": 548.66
+        },
+        {
+          "text": "didn't",
+          "start": 548.66,
+          "end": 548.88
+        },
+        {
+          "text": "need",
+          "start": 548.88,
+          "end": 549.02
+        },
+        {
+          "text": "to",
+          "start": 549.02,
+          "end": 549.16
+        },
+        {
+          "text": "say",
+          "start": 549.16,
+          "end": 549.34
+        },
+        {
+          "text": "the",
+          "start": 549.34,
+          "end": 549.56
+        },
+        {
+          "text": "and",
+          "start": 549.56,
+          "end": 550.34
+        },
+        {
+          "text": "there,",
+          "start": 550.34,
+          "end": 550.56
+        },
+        {
+          "text": "I",
+          "start": 550.58,
+          "end": 550.68
+        },
+        {
+          "text": "didn't",
+          "start": 550.68,
+          "end": 550.78
+        },
+        {
+          "text": "need",
+          "start": 550.78,
+          "end": 550.9
+        },
+        {
+          "text": "to",
+          "start": 550.9,
+          "end": 551.0
+        },
+        {
+          "text": "say",
+          "start": 551.0,
+          "end": 551.16
+        },
+        {
+          "text": "和。",
+          "start": 551.16,
+          "end": 551.76
+        }
+      ]
+    },
+    {
+      "id": "seg-184",
+      "start": 551.76,
+      "end": 553.3,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "That's a good question.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "That's",
+          "start": 551.76,
+          "end": 552.62
+        },
+        {
+          "text": "a",
+          "start": 552.62,
+          "end": 552.68
+        },
+        {
+          "text": "good",
+          "start": 552.68,
+          "end": 552.86
+        },
+        {
+          "text": "question.",
+          "start": 552.86,
+          "end": 553.3
+        }
+      ]
+    },
+    {
+      "id": "seg-185",
+      "start": 553.3,
+      "end": 553.74,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Yeah.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Yeah.",
+          "start": 553.3,
+          "end": 553.74
+        }
+      ]
+    },
+    {
+      "id": "seg-186",
+      "start": 553.8,
+      "end": 562.02,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "The only time we're using 和 or and is when we have two separate objects together, like",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "The",
+          "start": 553.8,
+          "end": 554.04
+        },
+        {
+          "text": "only",
+          "start": 554.04,
+          "end": 554.32
+        },
+        {
+          "text": "time",
+          "start": 554.32,
+          "end": 554.62
+        },
+        {
+          "text": "we're",
+          "start": 554.62,
+          "end": 554.9
+        },
+        {
+          "text": "using",
+          "start": 554.9,
+          "end": 555.34
+        },
+        {
+          "text": "和",
+          "start": 555.34,
+          "end": 556.28
+        },
+        {
+          "text": "or",
+          "start": 556.28,
+          "end": 557.06
+        },
+        {
+          "text": "and",
+          "start": 557.06,
+          "end": 557.64
+        },
+        {
+          "text": "is",
+          "start": 557.64,
+          "end": 558.28
+        },
+        {
+          "text": "when",
+          "start": 558.28,
+          "end": 558.64
+        },
+        {
+          "text": "we",
+          "start": 558.64,
+          "end": 558.88
+        },
+        {
+          "text": "have",
+          "start": 558.88,
+          "end": 559.2
+        },
+        {
+          "text": "two",
+          "start": 559.2,
+          "end": 559.68
+        },
+        {
+          "text": "separate",
+          "start": 559.68,
+          "end": 560.1
+        },
+        {
+          "text": "objects",
+          "start": 560.1,
+          "end": 560.48
+        },
+        {
+          "text": "together,",
+          "start": 560.48,
+          "end": 560.96
+        },
+        {
+          "text": "like",
+          "start": 561.16,
+          "end": 562.02
+        }
+      ]
+    },
+    {
+      "id": "seg-187",
+      "start": 562.02,
+      "end": 564.52,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "I and my mother.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "I",
+          "start": 562.02,
+          "end": 562.38
+        },
+        {
+          "text": "and",
+          "start": 562.38,
+          "end": 563.2
+        },
+        {
+          "text": "my",
+          "start": 563.2,
+          "end": 564.1
+        },
+        {
+          "text": "mother.",
+          "start": 564.1,
+          "end": 564.52
+        }
+      ]
+    },
+    {
+      "id": "seg-188",
+      "start": 564.8,
+      "end": 566.46,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "So like a list of things, kind of.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "So",
+          "start": 564.8,
+          "end": 564.96
+        },
+        {
+          "text": "like",
+          "start": 564.96,
+          "end": 565.14
+        },
+        {
+          "text": "a",
+          "start": 565.14,
+          "end": 565.26
+        },
+        {
+          "text": "list",
+          "start": 565.26,
+          "end": 565.5
+        },
+        {
+          "text": "of",
+          "start": 565.5,
+          "end": 565.64
+        },
+        {
+          "text": "things,",
+          "start": 565.64,
+          "end": 565.92
+        },
+        {
+          "text": "kind",
+          "start": 566.02,
+          "end": 566.3
+        },
+        {
+          "text": "of.",
+          "start": 566.3,
+          "end": 566.46
+        }
+      ]
+    },
+    {
+      "id": "seg-189",
+      "start": 566.88,
+      "end": 570.46,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "But when you connect the two sentences, we don't say 和。",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "But",
+          "start": 566.88,
+          "end": 567.52
+        },
+        {
+          "text": "when",
+          "start": 567.52,
+          "end": 567.68
+        },
+        {
+          "text": "you",
+          "start": 567.68,
+          "end": 567.84
+        },
+        {
+          "text": "connect",
+          "start": 567.84,
+          "end": 568.22
+        },
+        {
+          "text": "the",
+          "start": 568.22,
+          "end": 568.44
+        },
+        {
+          "text": "two",
+          "start": 568.44,
+          "end": 568.6
+        },
+        {
+          "text": "sentences,",
+          "start": 568.6,
+          "end": 569.06
+        },
+        {
+          "text": "we",
+          "start": 569.12,
+          "end": 569.36
+        },
+        {
+          "text": "don't",
+          "start": 569.36,
+          "end": 569.72
+        },
+        {
+          "text": "say",
+          "start": 569.72,
+          "end": 569.96
+        },
+        {
+          "text": "和。",
+          "start": 569.96,
+          "end": 570.46
+        }
+      ]
+    },
+    {
+      "id": "seg-190",
+      "start": 570.46,
+      "end": 577.08,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "So these are considered two separate sentences, two separate ideas in Chinese.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "So",
+          "start": 570.46,
+          "end": 570.9
+        },
+        {
+          "text": "these",
+          "start": 570.9,
+          "end": 571.1
+        },
+        {
+          "text": "are",
+          "start": 571.1,
+          "end": 571.26
+        },
+        {
+          "text": "considered",
+          "start": 571.26,
+          "end": 571.66
+        },
+        {
+          "text": "two",
+          "start": 571.66,
+          "end": 571.94
+        },
+        {
+          "text": "separate",
+          "start": 571.94,
+          "end": 572.44
+        },
+        {
+          "text": "sentences,",
+          "start": 572.44,
+          "end": 573.0
+        },
+        {
+          "text": "two",
+          "start": 573.22,
+          "end": 573.96
+        },
+        {
+          "text": "separate",
+          "start": 573.96,
+          "end": 574.96
+        },
+        {
+          "text": "ideas",
+          "start": 574.96,
+          "end": 576.26
+        },
+        {
+          "text": "in",
+          "start": 576.26,
+          "end": 576.78
+        },
+        {
+          "text": "Chinese.",
+          "start": 576.78,
+          "end": 577.08
+        }
+      ]
+    },
+    {
+      "id": "seg-191",
+      "start": 577.08,
+      "end": 578.08,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "So the two sentences we're going to get into today almost every single afternoon and",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "So",
+          "start": 577.08,
+          "end": 577.38
+        },
+        {
+          "text": "the",
+          "start": 577.38,
+          "end": 577.43
+        },
+        {
+          "text": "two",
+          "start": 577.43,
+          "end": 577.48
+        },
+        {
+          "text": "sentences",
+          "start": 577.48,
+          "end": 577.53
+        },
+        {
+          "text": "we're",
+          "start": 577.53,
+          "end": 577.58
+        },
+        {
+          "text": "going",
+          "start": 577.58,
+          "end": 577.63
+        },
+        {
+          "text": "to",
+          "start": 577.63,
+          "end": 577.68
+        },
+        {
+          "text": "get",
+          "start": 577.68,
+          "end": 577.73
+        },
+        {
+          "text": "into",
+          "start": 577.73,
+          "end": 577.78
+        },
+        {
+          "text": "today",
+          "start": 577.78,
+          "end": 577.83
+        },
+        {
+          "text": "almost",
+          "start": 577.83,
+          "end": 577.88
+        },
+        {
+          "text": "every",
+          "start": 577.88,
+          "end": 577.93
+        },
+        {
+          "text": "single",
+          "start": 577.93,
+          "end": 577.98
+        },
+        {
+          "text": "afternoon",
+          "start": 577.98,
+          "end": 578.03
+        },
+        {
+          "text": "and",
+          "start": 578.03,
+          "end": 578.08
+        }
+      ]
+    },
+    {
+      "id": "seg-192",
+      "start": 578.08,
+      "end": 579.62,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "in Chinese.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "in",
+          "start": 578.08,
+          "end": 578.13
+        },
+        {
+          "text": "Chinese.",
+          "start": 578.13,
+          "end": 579.62
+        }
+      ]
+    }
+  ]
+}

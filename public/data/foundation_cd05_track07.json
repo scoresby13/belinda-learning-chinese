@@ -1,0 +1,1508 @@
+{
+  "trackId": "foundation-cd05-07",
+  "course": "Chinese Foundation",
+  "cd": 5,
+  "track": 7,
+  "title": "Chinese Foundation CD 5 - Track 7",
+  "audioUrl": "audio/foundation-cd05/track-07.mp3",
+  "durationSeconds": 188.21,
+  "segments": [
+    {
+      "id": "seg-001",
+      "start": 0.0,
+      "end": 2.24,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Where does he live?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Where",
+          "start": 0.0,
+          "end": 1.34
+        },
+        {
+          "text": "does",
+          "start": 1.34,
+          "end": 1.6
+        },
+        {
+          "text": "he",
+          "start": 1.6,
+          "end": 1.9
+        },
+        {
+          "text": "live?",
+          "start": 1.9,
+          "end": 2.24
+        }
+      ]
+    },
+    {
+      "id": "seg-002",
+      "start": 7.7,
+      "end": 14.1,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Where does he live?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Where",
+          "start": 7.7,
+          "end": 8.98
+        },
+        {
+          "text": "does",
+          "start": 8.98,
+          "end": 10.26
+        },
+        {
+          "text": "he",
+          "start": 10.26,
+          "end": 13.9
+        },
+        {
+          "text": "live?",
+          "start": 13.9,
+          "end": 14.1
+        }
+      ]
+    },
+    {
+      "id": "seg-003",
+      "start": 14.38,
+      "end": 21.34,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "He lives in Shanghai.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "He",
+          "start": 14.38,
+          "end": 15.36
+        },
+        {
+          "text": "lives",
+          "start": 15.36,
+          "end": 19.92
+        },
+        {
+          "text": "in",
+          "start": 19.92,
+          "end": 20.3
+        },
+        {
+          "text": "Shanghai.",
+          "start": 20.3,
+          "end": 21.34
+        }
+      ]
+    },
+    {
+      "id": "seg-004",
+      "start": 26.44,
+      "end": 29.2,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "To live or to stay.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "To",
+          "start": 26.44,
+          "end": 27.16
+        },
+        {
+          "text": "live",
+          "start": 27.16,
+          "end": 28.44
+        },
+        {
+          "text": "or",
+          "start": 28.44,
+          "end": 28.7
+        },
+        {
+          "text": "to",
+          "start": 28.7,
+          "end": 28.84
+        },
+        {
+          "text": "stay.",
+          "start": 28.84,
+          "end": 29.2
+        }
+      ]
+    },
+    {
+      "id": "seg-005",
+      "start": 30.0,
+      "end": 40.22,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "In Romanized, pinyin, Chinese, is spelled Z or Z-H-U, black finger down.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "In",
+          "start": 30.0,
+          "end": 30.22
+        },
+        {
+          "text": "Romanized,",
+          "start": 30.22,
+          "end": 31.02
+        },
+        {
+          "text": "pinyin,",
+          "start": 31.02,
+          "end": 32.18
+        },
+        {
+          "text": "Chinese,",
+          "start": 32.2,
+          "end": 32.76
+        },
+        {
+          "text": "is",
+          "start": 33.14,
+          "end": 33.72
+        },
+        {
+          "text": "spelled",
+          "start": 33.72,
+          "end": 34.1
+        },
+        {
+          "text": "Z",
+          "start": 34.1,
+          "end": 35.76
+        },
+        {
+          "text": "or",
+          "start": 35.76,
+          "end": 36.28
+        },
+        {
+          "text": "Z",
+          "start": 36.28,
+          "end": 37.02
+        },
+        {
+          "text": "-H",
+          "start": 37.02,
+          "end": 38.02
+        },
+        {
+          "text": "-U,",
+          "start": 38.02,
+          "end": 38.7
+        },
+        {
+          "text": "black",
+          "start": 39.02,
+          "end": 39.62
+        },
+        {
+          "text": "finger",
+          "start": 39.62,
+          "end": 39.96
+        },
+        {
+          "text": "down.",
+          "start": 39.96,
+          "end": 40.22
+        }
+      ]
+    },
+    {
+      "id": "seg-006",
+      "start": 41.54,
+      "end": 45.08,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "As in an orthodox,",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "As",
+          "start": 41.54,
+          "end": 42.3
+        },
+        {
+          "text": "in",
+          "start": 42.3,
+          "end": 43.9
+        },
+        {
+          "text": "an",
+          "start": 43.9,
+          "end": 44.36
+        },
+        {
+          "text": "orthodox,",
+          "start": 44.36,
+          "end": 45.08
+        }
+      ]
+    },
+    {
+      "id": "seg-007",
+      "start": 45.14,
+      "end": 50.5,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "He lives in Shanghai.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "He",
+          "start": 45.14,
+          "end": 45.82
+        },
+        {
+          "text": "lives",
+          "start": 45.82,
+          "end": 48.36
+        },
+        {
+          "text": "in",
+          "start": 48.36,
+          "end": 48.78
+        },
+        {
+          "text": "Shanghai.",
+          "start": 48.78,
+          "end": 50.5
+        }
+      ]
+    },
+    {
+      "id": "seg-008",
+      "start": 53.2,
+      "end": 54.48,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "At.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "At.",
+          "start": 53.2,
+          "end": 54.48
+        }
+      ]
+    },
+    {
+      "id": "seg-009",
+      "start": 66.6,
+      "end": 69.2,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "He lives in Shanghai.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "He",
+          "start": 66.6,
+          "end": 67.0
+        },
+        {
+          "text": "lives",
+          "start": 67.0,
+          "end": 67.4
+        },
+        {
+          "text": "in",
+          "start": 67.4,
+          "end": 67.92
+        },
+        {
+          "text": "Shanghai.",
+          "start": 67.92,
+          "end": 69.2
+        }
+      ]
+    },
+    {
+      "id": "seg-010",
+      "start": 71.26,
+      "end": 73.8,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "He lives in Shanghai.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "He",
+          "start": 71.26,
+          "end": 71.66
+        },
+        {
+          "text": "lives",
+          "start": 71.66,
+          "end": 72.06
+        },
+        {
+          "text": "in",
+          "start": 72.06,
+          "end": 72.96
+        },
+        {
+          "text": "Shanghai.",
+          "start": 72.96,
+          "end": 73.8
+        }
+      ]
+    },
+    {
+      "id": "seg-011",
+      "start": 75.2,
+      "end": 76.3,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Is it far?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Is",
+          "start": 75.2,
+          "end": 75.6
+        },
+        {
+          "text": "it",
+          "start": 75.6,
+          "end": 76.0
+        },
+        {
+          "text": "far?",
+          "start": 76.0,
+          "end": 76.3
+        }
+      ]
+    },
+    {
+      "id": "seg-012",
+      "start": 77.44,
+      "end": 80.18,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Do I need to say anything for it, or should I just say is far?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Do",
+          "start": 77.44,
+          "end": 77.84
+        },
+        {
+          "text": "I",
+          "start": 77.84,
+          "end": 77.98
+        },
+        {
+          "text": "need",
+          "start": 77.98,
+          "end": 78.14
+        },
+        {
+          "text": "to",
+          "start": 78.14,
+          "end": 78.24
+        },
+        {
+          "text": "say",
+          "start": 78.24,
+          "end": 78.42
+        },
+        {
+          "text": "anything",
+          "start": 78.42,
+          "end": 78.58
+        },
+        {
+          "text": "for",
+          "start": 78.58,
+          "end": 78.84
+        },
+        {
+          "text": "it,",
+          "start": 78.84,
+          "end": 79.08
+        },
+        {
+          "text": "or",
+          "start": 79.1,
+          "end": 79.22
+        },
+        {
+          "text": "should",
+          "start": 79.22,
+          "end": 79.34
+        },
+        {
+          "text": "I",
+          "start": 79.34,
+          "end": 79.44
+        },
+        {
+          "text": "just",
+          "start": 79.44,
+          "end": 79.58
+        },
+        {
+          "text": "say",
+          "start": 79.58,
+          "end": 79.74
+        },
+        {
+          "text": "is",
+          "start": 79.74,
+          "end": 79.92
+        },
+        {
+          "text": "far?",
+          "start": 79.92,
+          "end": 80.18
+        }
+      ]
+    },
+    {
+      "id": "seg-013",
+      "start": 80.62,
+      "end": 81.52,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You have a choice.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You",
+          "start": 80.62,
+          "end": 81.02
+        },
+        {
+          "text": "have",
+          "start": 81.02,
+          "end": 81.18
+        },
+        {
+          "text": "a",
+          "start": 81.18,
+          "end": 81.28
+        },
+        {
+          "text": "choice.",
+          "start": 81.28,
+          "end": 81.52
+        }
+      ]
+    },
+    {
+      "id": "seg-014",
+      "start": 82.26,
+      "end": 87.7,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You can do both and you will be understood perfectly, whichever way you choose.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You",
+          "start": 82.26,
+          "end": 82.66
+        },
+        {
+          "text": "can",
+          "start": 82.66,
+          "end": 82.86
+        },
+        {
+          "text": "do",
+          "start": 82.86,
+          "end": 83.02
+        },
+        {
+          "text": "both",
+          "start": 83.02,
+          "end": 83.3
+        },
+        {
+          "text": "and",
+          "start": 83.3,
+          "end": 83.48
+        },
+        {
+          "text": "you",
+          "start": 83.48,
+          "end": 83.6
+        },
+        {
+          "text": "will",
+          "start": 83.6,
+          "end": 83.7
+        },
+        {
+          "text": "be",
+          "start": 83.7,
+          "end": 83.88
+        },
+        {
+          "text": "understood",
+          "start": 83.88,
+          "end": 84.52
+        },
+        {
+          "text": "perfectly,",
+          "start": 84.52,
+          "end": 85.82
+        },
+        {
+          "text": "whichever",
+          "start": 85.98,
+          "end": 86.7
+        },
+        {
+          "text": "way",
+          "start": 86.7,
+          "end": 87.2
+        },
+        {
+          "text": "you",
+          "start": 87.2,
+          "end": 87.36
+        },
+        {
+          "text": "choose.",
+          "start": 87.36,
+          "end": 87.7
+        }
+      ]
+    },
+    {
+      "id": "seg-015",
+      "start": 87.84,
+      "end": 88.86,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "The choice is up to you.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "The",
+          "start": 87.84,
+          "end": 87.96
+        },
+        {
+          "text": "choice",
+          "start": 87.96,
+          "end": 88.26
+        },
+        {
+          "text": "is",
+          "start": 88.26,
+          "end": 88.42
+        },
+        {
+          "text": "up",
+          "start": 88.42,
+          "end": 88.6
+        },
+        {
+          "text": "to",
+          "start": 88.6,
+          "end": 88.66
+        },
+        {
+          "text": "you.",
+          "start": 88.66,
+          "end": 88.86
+        }
+      ]
+    },
+    {
+      "id": "seg-016",
+      "start": 96.66,
+      "end": 98.08,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Is it far?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Is",
+          "start": 96.66,
+          "end": 97.22
+        },
+        {
+          "text": "it",
+          "start": 97.22,
+          "end": 97.78
+        },
+        {
+          "text": "far?",
+          "start": 97.78,
+          "end": 98.08
+        }
+      ]
+    },
+    {
+      "id": "seg-017",
+      "start": 98.84,
+      "end": 99.34,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Is it far?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Is",
+          "start": 98.84,
+          "end": 99.08
+        },
+        {
+          "text": "it",
+          "start": 99.08,
+          "end": 99.2
+        },
+        {
+          "text": "far?",
+          "start": 99.2,
+          "end": 99.34
+        }
+      ]
+    },
+    {
+      "id": "seg-018",
+      "start": 100.7,
+      "end": 103.32,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "But if you ask is it very far?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "But",
+          "start": 100.7,
+          "end": 101.26
+        },
+        {
+          "text": "if",
+          "start": 101.26,
+          "end": 101.54
+        },
+        {
+          "text": "you",
+          "start": 101.54,
+          "end": 101.78
+        },
+        {
+          "text": "ask",
+          "start": 101.78,
+          "end": 102.1
+        },
+        {
+          "text": "is",
+          "start": 102.1,
+          "end": 102.38
+        },
+        {
+          "text": "it",
+          "start": 102.38,
+          "end": 102.64
+        },
+        {
+          "text": "very",
+          "start": 102.64,
+          "end": 102.84
+        },
+        {
+          "text": "far?",
+          "start": 102.84,
+          "end": 103.32
+        }
+      ]
+    },
+    {
+      "id": "seg-019",
+      "start": 104.04,
+      "end": 105.1,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "And you also can say,",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "And",
+          "start": 104.04,
+          "end": 104.09
+        },
+        {
+          "text": "you",
+          "start": 104.09,
+          "end": 104.26
+        },
+        {
+          "text": "also",
+          "start": 104.26,
+          "end": 104.58
+        },
+        {
+          "text": "can",
+          "start": 104.58,
+          "end": 104.82
+        },
+        {
+          "text": "say,",
+          "start": 104.82,
+          "end": 105.1
+        }
+      ]
+    },
+    {
+      "id": "seg-020",
+      "start": 106.0,
+      "end": 106.42,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Is it far?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Is",
+          "start": 106.0,
+          "end": 106.06
+        },
+        {
+          "text": "it",
+          "start": 106.06,
+          "end": 106.34
+        },
+        {
+          "text": "far?",
+          "start": 106.34,
+          "end": 106.42
+        }
+      ]
+    },
+    {
+      "id": "seg-021",
+      "start": 106.92,
+      "end": 107.72,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "That's fine.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "That's",
+          "start": 106.92,
+          "end": 107.48
+        },
+        {
+          "text": "fine.",
+          "start": 107.48,
+          "end": 107.72
+        }
+      ]
+    },
+    {
+      "id": "seg-022",
+      "start": 108.22,
+      "end": 109.64,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "No, it's not too far.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "No,",
+          "start": 108.22,
+          "end": 108.78
+        },
+        {
+          "text": "it's",
+          "start": 108.78,
+          "end": 108.94
+        },
+        {
+          "text": "not",
+          "start": 108.94,
+          "end": 109.08
+        },
+        {
+          "text": "too",
+          "start": 109.08,
+          "end": 109.3
+        },
+        {
+          "text": "far.",
+          "start": 109.3,
+          "end": 109.64
+        }
+      ]
+    },
+    {
+      "id": "seg-023",
+      "start": 110.42,
+      "end": 112.74,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "So first you say no.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "So",
+          "start": 110.42,
+          "end": 110.98
+        },
+        {
+          "text": "first",
+          "start": 110.98,
+          "end": 111.4
+        },
+        {
+          "text": "you",
+          "start": 111.4,
+          "end": 111.64
+        },
+        {
+          "text": "say",
+          "start": 111.64,
+          "end": 111.88
+        },
+        {
+          "text": "no.",
+          "start": 111.88,
+          "end": 112.74
+        }
+      ]
+    },
+    {
+      "id": "seg-024",
+      "start": 113.44,
+      "end": 115.54,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "That is, not far.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "That",
+          "start": 113.44,
+          "end": 114.0
+        },
+        {
+          "text": "is,",
+          "start": 114.0,
+          "end": 114.32
+        },
+        {
+          "text": "not",
+          "start": 114.38,
+          "end": 115.16
+        },
+        {
+          "text": "far.",
+          "start": 115.16,
+          "end": 115.54
+        }
+      ]
+    },
+    {
+      "id": "seg-025",
+      "start": 116.24,
+      "end": 117.24,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Is not far.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Is",
+          "start": 116.24,
+          "end": 116.8
+        },
+        {
+          "text": "not",
+          "start": 116.8,
+          "end": 116.96
+        },
+        {
+          "text": "far.",
+          "start": 116.96,
+          "end": 117.24
+        }
+      ]
+    },
+    {
+      "id": "seg-026",
+      "start": 122.12,
+      "end": 124.36,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "it's not far it is not too far",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "it's",
+          "start": 122.12,
+          "end": 122.68
+        },
+        {
+          "text": "not",
+          "start": 122.68,
+          "end": 122.76
+        },
+        {
+          "text": "far",
+          "start": 122.76,
+          "end": 123.0
+        },
+        {
+          "text": "it",
+          "start": 123.0,
+          "end": 123.36
+        },
+        {
+          "text": "is",
+          "start": 123.36,
+          "end": 123.54
+        },
+        {
+          "text": "not",
+          "start": 123.54,
+          "end": 123.76
+        },
+        {
+          "text": "too",
+          "start": 123.76,
+          "end": 123.96
+        },
+        {
+          "text": "far",
+          "start": 123.96,
+          "end": 124.36
+        }
+      ]
+    },
+    {
+      "id": "seg-027",
+      "start": 134.84,
+      "end": 142.54,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "so you said is not far and how do you say that it's not far",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "so",
+          "start": 134.84,
+          "end": 135.4
+        },
+        {
+          "text": "you",
+          "start": 135.4,
+          "end": 135.96
+        },
+        {
+          "text": "said",
+          "start": 135.96,
+          "end": 136.36
+        },
+        {
+          "text": "is",
+          "start": 136.36,
+          "end": 137.38
+        },
+        {
+          "text": "not",
+          "start": 137.38,
+          "end": 137.68
+        },
+        {
+          "text": "far",
+          "start": 137.68,
+          "end": 138.44
+        },
+        {
+          "text": "and",
+          "start": 138.44,
+          "end": 139.32
+        },
+        {
+          "text": "how",
+          "start": 139.32,
+          "end": 139.58
+        },
+        {
+          "text": "do",
+          "start": 139.58,
+          "end": 139.72
+        },
+        {
+          "text": "you",
+          "start": 139.72,
+          "end": 139.9
+        },
+        {
+          "text": "say",
+          "start": 139.9,
+          "end": 140.12
+        },
+        {
+          "text": "that",
+          "start": 140.12,
+          "end": 140.4
+        },
+        {
+          "text": "it's",
+          "start": 140.4,
+          "end": 142.16
+        },
+        {
+          "text": "not",
+          "start": 142.16,
+          "end": 142.3
+        },
+        {
+          "text": "far",
+          "start": 142.3,
+          "end": 142.54
+        }
+      ]
+    },
+    {
+      "id": "seg-028",
+      "start": 146.22,
+      "end": 148.9,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "how do you say to be far",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "how",
+          "start": 146.22,
+          "end": 146.8
+        },
+        {
+          "text": "do",
+          "start": 146.8,
+          "end": 147.38
+        },
+        {
+          "text": "you",
+          "start": 147.38,
+          "end": 147.52
+        },
+        {
+          "text": "say",
+          "start": 147.52,
+          "end": 147.82
+        },
+        {
+          "text": "to",
+          "start": 147.82,
+          "end": 148.3
+        },
+        {
+          "text": "be",
+          "start": 148.3,
+          "end": 148.5
+        },
+        {
+          "text": "far",
+          "start": 148.5,
+          "end": 148.9
+        }
+      ]
+    },
+    {
+      "id": "seg-029",
+      "start": 151.76,
+      "end": 154.66,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "and how would you say it is not far",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "and",
+          "start": 151.76,
+          "end": 152.34
+        },
+        {
+          "text": "how",
+          "start": 152.34,
+          "end": 152.92
+        },
+        {
+          "text": "would",
+          "start": 152.92,
+          "end": 153.08
+        },
+        {
+          "text": "you",
+          "start": 153.08,
+          "end": 153.22
+        },
+        {
+          "text": "say",
+          "start": 153.22,
+          "end": 153.48
+        },
+        {
+          "text": "it",
+          "start": 153.48,
+          "end": 154.0
+        },
+        {
+          "text": "is",
+          "start": 154.0,
+          "end": 154.12
+        },
+        {
+          "text": "not",
+          "start": 154.12,
+          "end": 154.36
+        },
+        {
+          "text": "far",
+          "start": 154.36,
+          "end": 154.66
+        }
+      ]
+    },
+    {
+      "id": "seg-030",
+      "start": 158.06,
+      "end": 161.6,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "and how would you say it is not too far",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "and",
+          "start": 158.06,
+          "end": 158.64
+        },
+        {
+          "text": "how",
+          "start": 158.64,
+          "end": 159.22
+        },
+        {
+          "text": "would",
+          "start": 159.22,
+          "end": 159.4
+        },
+        {
+          "text": "you",
+          "start": 159.4,
+          "end": 159.56
+        },
+        {
+          "text": "say",
+          "start": 159.56,
+          "end": 159.84
+        },
+        {
+          "text": "it",
+          "start": 159.84,
+          "end": 160.64
+        },
+        {
+          "text": "is",
+          "start": 160.64,
+          "end": 160.76
+        },
+        {
+          "text": "not",
+          "start": 160.76,
+          "end": 160.98
+        },
+        {
+          "text": "too",
+          "start": 160.98,
+          "end": 161.26
+        },
+        {
+          "text": "far",
+          "start": 161.26,
+          "end": 161.6
+        }
+      ]
+    },
+    {
+      "id": "seg-031",
+      "start": 167.5,
+      "end": 171.26,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "so i need to do the trampoline on boo yes",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "so",
+          "start": 167.5,
+          "end": 168.08
+        },
+        {
+          "text": "i",
+          "start": 168.08,
+          "end": 168.66
+        },
+        {
+          "text": "need",
+          "start": 168.66,
+          "end": 169.7
+        },
+        {
+          "text": "to",
+          "start": 169.7,
+          "end": 169.78
+        },
+        {
+          "text": "do",
+          "start": 169.78,
+          "end": 169.83
+        },
+        {
+          "text": "the",
+          "start": 169.83,
+          "end": 169.94
+        },
+        {
+          "text": "trampoline",
+          "start": 169.94,
+          "end": 170.32
+        },
+        {
+          "text": "on",
+          "start": 170.32,
+          "end": 170.5
+        },
+        {
+          "text": "boo",
+          "start": 170.5,
+          "end": 170.68
+        },
+        {
+          "text": "yes",
+          "start": 170.68,
+          "end": 171.26
+        }
+      ]
+    },
+    {
+      "id": "seg-032",
+      "start": 172.54,
+      "end": 181.24,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "tie you on right you don't need sure no it's not too far",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "tie",
+          "start": 172.54,
+          "end": 172.68
+        },
+        {
+          "text": "you",
+          "start": 172.68,
+          "end": 173.44
+        },
+        {
+          "text": "on",
+          "start": 173.44,
+          "end": 173.72
+        },
+        {
+          "text": "right",
+          "start": 173.72,
+          "end": 174.56
+        },
+        {
+          "text": "you",
+          "start": 174.56,
+          "end": 175.52
+        },
+        {
+          "text": "don't",
+          "start": 175.52,
+          "end": 176.06
+        },
+        {
+          "text": "need",
+          "start": 176.06,
+          "end": 176.28
+        },
+        {
+          "text": "sure",
+          "start": 176.28,
+          "end": 176.8
+        },
+        {
+          "text": "no",
+          "start": 176.8,
+          "end": 178.72
+        },
+        {
+          "text": "it's",
+          "start": 178.72,
+          "end": 180.44
+        },
+        {
+          "text": "not",
+          "start": 180.44,
+          "end": 180.66
+        },
+        {
+          "text": "too",
+          "start": 180.66,
+          "end": 180.86
+        },
+        {
+          "text": "far",
+          "start": 180.86,
+          "end": 181.24
+        }
+      ]
+    },
+    {
+      "id": "seg-033",
+      "start": 181.24,
+      "end": 186.7,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "ta bo tai yuan",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "ta",
+          "start": 181.24,
+          "end": 183.14
+        },
+        {
+          "text": "bo",
+          "start": 183.14,
+          "end": 185.14
+        },
+        {
+          "text": "tai",
+          "start": 185.14,
+          "end": 185.86
+        },
+        {
+          "text": "yuan",
+          "start": 185.86,
+          "end": 186.7
+        }
+      ]
+    }
+  ]
+}

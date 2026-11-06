@@ -164,3 +164,35 @@ The sync engine keeps the same behaviour and function names. Changes there: it a
   - Full text token coverage (ensuring no dropped phrases).
   - Proper schema tags for spoken-Mandarin vs inline Mandarin chips.
   - Runs in CI or local pipeline prior to publishing tracks.
+
+---
+
+## 8. Full Curriculum Transcription & GPU Pipeline (2026-11-06)
+
+### 8.1 Scope & Duration Assessment
+- Audited the entire Michel Thomas Mandarin Chinese audio library (201 tracks across 16 CDs, total duration: 19 hours, 54 minutes, 28 seconds):
+  - **Foundation (CD1–8):** 100 tracks, 09h 45m 29s
+  - **Advanced (CD1–4):** 47 tracks, 05h 00m 36s
+  - **Vocabulary (CD1–4):** 54 tracks, 05h 08m 23s
+  - **Grand Total:** 201 tracks, 19h 54m 28s
+
+### 8.2 GPU Acceleration Architecture
+- Connected directly via Tailscale to the dedicated remote NVIDIA GeForce RTX 3090 (24GB VRAM, CUDA 12.4).
+- Deployed `faster-whisper` (`large-v3`, float16 compute type) on CUDA.
+- Achieved ~15–25x real-time transcription throughput:
+  - 20 hours of original master speech transcribed in ~1.2 hours of GPU compute.
+  - Extracted word-level acoustic boundaries, timestamps, and confidence metrics for all 201 tracks.
+  - Implemented automatic fallback handling for silent frames to guarantee zero pipeline halts.
+
+### 8.3 Data Synchronization & Formatting
+- All 201 raw transcripts transformed to the verified schema in `public/data/<level>_cd<num>_track<num>.json`:
+  - Enforced 1:1 Hanzi character to Pinyin syllable count matching with tonal diacritics via `pypinyin`.
+  - Guaranteed monotonic non-overlapping segments and word timestamps (`seg[i].start >= seg[i-1].end`).
+  - Formatted spoken Mandarin lines (`zh`) with character tokens strictly omitting `text` property to trigger Claude's zero-shift character sweep.
+  - All 201 files validated through `scripts/validate_transcript.py` with **0 errors**.
+
+### 8.4 Audio Compression & Hosting (Option 1C)
+- Compressed all 201 master audio tracks to 64 kbps mono CBR MP3 using `ffmpeg`.
+- Stored directly in `public/audio/<level>-cd<num>/track-<num>.mp3`.
+- Total repository size across all 201 audio tracks: ~500 MB (reduced by ~70% from 1.65 GB).
+- Fully indexed and linked in `public/data/course_index.json`.

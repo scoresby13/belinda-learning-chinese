@@ -1,0 +1,4132 @@
+{
+  "trackId": "foundation-cd01-05",
+  "course": "Chinese Foundation",
+  "cd": 1,
+  "track": 5,
+  "title": "Chinese Foundation CD 1 - Track 5",
+  "audioUrl": "audio/foundation-cd01/track-05.mp3",
+  "durationSeconds": 280.8,
+  "segments": [
+    {
+      "id": "seg-001",
+      "start": 0.0,
+      "end": 19.98,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "A new scene. You and your friends are all together on the terrace of a restaurant. You are the guest of honor. It's nice and relaxed. Dessert arrives. A half watermelon. A sea of delicious red fruit is staring you in the face. Everyone is expectantly waiting, salivating.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "A",
+          "start": 0.0,
+          "end": 1.04
+        },
+        {
+          "text": "new",
+          "start": 1.04,
+          "end": 1.2
+        },
+        {
+          "text": "scene.",
+          "start": 1.2,
+          "end": 1.48
+        },
+        {
+          "text": "You",
+          "start": 1.82,
+          "end": 2.46
+        },
+        {
+          "text": "and",
+          "start": 2.46,
+          "end": 2.68
+        },
+        {
+          "text": "your",
+          "start": 2.68,
+          "end": 2.82
+        },
+        {
+          "text": "friends",
+          "start": 2.82,
+          "end": 3.12
+        },
+        {
+          "text": "are",
+          "start": 3.12,
+          "end": 3.32
+        },
+        {
+          "text": "all",
+          "start": 3.32,
+          "end": 3.54
+        },
+        {
+          "text": "together",
+          "start": 3.54,
+          "end": 3.88
+        },
+        {
+          "text": "on",
+          "start": 3.88,
+          "end": 4.1
+        },
+        {
+          "text": "the",
+          "start": 4.1,
+          "end": 4.18
+        },
+        {
+          "text": "terrace",
+          "start": 4.18,
+          "end": 4.54
+        },
+        {
+          "text": "of",
+          "start": 4.54,
+          "end": 4.7
+        },
+        {
+          "text": "a",
+          "start": 4.7,
+          "end": 4.8
+        },
+        {
+          "text": "restaurant.",
+          "start": 4.8,
+          "end": 5.2
+        },
+        {
+          "text": "You",
+          "start": 5.66,
+          "end": 6.3
+        },
+        {
+          "text": "are",
+          "start": 6.3,
+          "end": 6.38
+        },
+        {
+          "text": "the",
+          "start": 6.38,
+          "end": 6.48
+        },
+        {
+          "text": "guest",
+          "start": 6.48,
+          "end": 6.68
+        },
+        {
+          "text": "of",
+          "start": 6.68,
+          "end": 6.86
+        },
+        {
+          "text": "honor.",
+          "start": 6.86,
+          "end": 7.14
+        },
+        {
+          "text": "It's",
+          "start": 7.28,
+          "end": 7.6
+        },
+        {
+          "text": "nice",
+          "start": 7.6,
+          "end": 7.88
+        },
+        {
+          "text": "and",
+          "start": 7.88,
+          "end": 8.14
+        },
+        {
+          "text": "relaxed.",
+          "start": 8.14,
+          "end": 8.5
+        },
+        {
+          "text": "Dessert",
+          "start": 9.36,
+          "end": 10.0
+        },
+        {
+          "text": "arrives.",
+          "start": 10.0,
+          "end": 10.26
+        },
+        {
+          "text": "A",
+          "start": 10.6,
+          "end": 11.06
+        },
+        {
+          "text": "half",
+          "start": 11.06,
+          "end": 11.26
+        },
+        {
+          "text": "watermelon.",
+          "start": 11.26,
+          "end": 11.66
+        },
+        {
+          "text": "A",
+          "start": 12.12,
+          "end": 12.76
+        },
+        {
+          "text": "sea",
+          "start": 12.76,
+          "end": 13.02
+        },
+        {
+          "text": "of",
+          "start": 13.02,
+          "end": 13.2
+        },
+        {
+          "text": "delicious",
+          "start": 13.2,
+          "end": 13.58
+        },
+        {
+          "text": "red",
+          "start": 13.58,
+          "end": 14.08
+        },
+        {
+          "text": "fruit",
+          "start": 14.08,
+          "end": 14.48
+        },
+        {
+          "text": "is",
+          "start": 14.48,
+          "end": 14.7
+        },
+        {
+          "text": "staring",
+          "start": 14.7,
+          "end": 15.02
+        },
+        {
+          "text": "you",
+          "start": 15.02,
+          "end": 15.28
+        },
+        {
+          "text": "in",
+          "start": 15.28,
+          "end": 15.4
+        },
+        {
+          "text": "the",
+          "start": 15.4,
+          "end": 15.5
+        },
+        {
+          "text": "face.",
+          "start": 15.5,
+          "end": 15.86
+        },
+        {
+          "text": "Everyone",
+          "start": 16.28,
+          "end": 16.92
+        },
+        {
+          "text": "is",
+          "start": 16.92,
+          "end": 17.3
+        },
+        {
+          "text": "expectantly",
+          "start": 17.3,
+          "end": 18.22
+        },
+        {
+          "text": "waiting,",
+          "start": 18.22,
+          "end": 18.64
+        },
+        {
+          "text": "salivating.",
+          "start": 18.9,
+          "end": 19.98
+        }
+      ]
+    },
+    {
+      "id": "seg-002",
+      "start": 19.98,
+      "end": 36.62,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You're handed a big spoon. You plunge it down into the fruit. Down you go, and up you come with a giant piece of red, delicious watermelon. Down and up.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You're",
+          "start": 19.98,
+          "end": 21.22
+        },
+        {
+          "text": "handed",
+          "start": 21.22,
+          "end": 21.64
+        },
+        {
+          "text": "a",
+          "start": 21.64,
+          "end": 21.8
+        },
+        {
+          "text": "big",
+          "start": 21.8,
+          "end": 22.12
+        },
+        {
+          "text": "spoon.",
+          "start": 22.12,
+          "end": 22.64
+        },
+        {
+          "text": "You",
+          "start": 22.7,
+          "end": 23.02
+        },
+        {
+          "text": "plunge",
+          "start": 23.02,
+          "end": 23.66
+        },
+        {
+          "text": "it",
+          "start": 23.66,
+          "end": 23.84
+        },
+        {
+          "text": "down",
+          "start": 23.84,
+          "end": 24.3
+        },
+        {
+          "text": "into",
+          "start": 24.3,
+          "end": 24.94
+        },
+        {
+          "text": "the",
+          "start": 24.94,
+          "end": 25.18
+        },
+        {
+          "text": "fruit.",
+          "start": 25.18,
+          "end": 25.54
+        },
+        {
+          "text": "Down",
+          "start": 26.14,
+          "end": 26.82
+        },
+        {
+          "text": "you",
+          "start": 26.82,
+          "end": 27.42
+        },
+        {
+          "text": "go,",
+          "start": 27.42,
+          "end": 27.68
+        },
+        {
+          "text": "and",
+          "start": 27.76,
+          "end": 28.38
+        },
+        {
+          "text": "up",
+          "start": 28.38,
+          "end": 28.66
+        },
+        {
+          "text": "you",
+          "start": 28.66,
+          "end": 28.96
+        },
+        {
+          "text": "come",
+          "start": 28.96,
+          "end": 29.3
+        },
+        {
+          "text": "with",
+          "start": 29.3,
+          "end": 29.58
+        },
+        {
+          "text": "a",
+          "start": 29.58,
+          "end": 29.7
+        },
+        {
+          "text": "giant",
+          "start": 29.7,
+          "end": 30.14
+        },
+        {
+          "text": "piece",
+          "start": 30.14,
+          "end": 30.5
+        },
+        {
+          "text": "of",
+          "start": 30.5,
+          "end": 30.82
+        },
+        {
+          "text": "red,",
+          "start": 30.82,
+          "end": 31.38
+        },
+        {
+          "text": "delicious",
+          "start": 31.5,
+          "end": 33.04
+        },
+        {
+          "text": "watermelon.",
+          "start": 33.04,
+          "end": 33.84
+        },
+        {
+          "text": "Down",
+          "start": 35.0,
+          "end": 35.68
+        },
+        {
+          "text": "and",
+          "start": 35.68,
+          "end": 36.12
+        },
+        {
+          "text": "up.",
+          "start": 36.12,
+          "end": 36.62
+        }
+      ]
+    },
+    {
+      "id": "seg-003",
+      "start": 37.5,
+      "end": 46.58,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "This down and up tone will be associated forever in your mind and body with your index and middle fingers forming a red V.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "This",
+          "start": 37.5,
+          "end": 38.18
+        },
+        {
+          "text": "down",
+          "start": 38.18,
+          "end": 38.7
+        },
+        {
+          "text": "and",
+          "start": 38.7,
+          "end": 39.02
+        },
+        {
+          "text": "up",
+          "start": 39.02,
+          "end": 39.44
+        },
+        {
+          "text": "tone",
+          "start": 39.44,
+          "end": 39.78
+        },
+        {
+          "text": "will",
+          "start": 39.78,
+          "end": 40.48
+        },
+        {
+          "text": "be",
+          "start": 40.48,
+          "end": 40.62
+        },
+        {
+          "text": "associated",
+          "start": 40.62,
+          "end": 41.1
+        },
+        {
+          "text": "forever",
+          "start": 41.1,
+          "end": 41.76
+        },
+        {
+          "text": "in",
+          "start": 41.76,
+          "end": 42.14
+        },
+        {
+          "text": "your",
+          "start": 42.14,
+          "end": 42.28
+        },
+        {
+          "text": "mind",
+          "start": 42.28,
+          "end": 42.56
+        },
+        {
+          "text": "and",
+          "start": 42.56,
+          "end": 42.74
+        },
+        {
+          "text": "body",
+          "start": 42.74,
+          "end": 43.08
+        },
+        {
+          "text": "with",
+          "start": 43.08,
+          "end": 43.44
+        },
+        {
+          "text": "your",
+          "start": 43.44,
+          "end": 43.58
+        },
+        {
+          "text": "index",
+          "start": 43.58,
+          "end": 43.96
+        },
+        {
+          "text": "and",
+          "start": 43.96,
+          "end": 44.38
+        },
+        {
+          "text": "middle",
+          "start": 44.38,
+          "end": 44.72
+        },
+        {
+          "text": "fingers",
+          "start": 44.72,
+          "end": 45.18
+        },
+        {
+          "text": "forming",
+          "start": 45.18,
+          "end": 45.8
+        },
+        {
+          "text": "a",
+          "start": 45.8,
+          "end": 46.12
+        },
+        {
+          "text": "red",
+          "start": 46.12,
+          "end": 46.38
+        },
+        {
+          "text": "V.",
+          "start": 46.38,
+          "end": 46.58
+        }
+      ]
+    },
+    {
+      "id": "seg-004",
+      "start": 46.96,
+      "end": 49.96,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "It's red because you use it to scoop out the red watermelon.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "It's",
+          "start": 46.96,
+          "end": 47.64
+        },
+        {
+          "text": "red",
+          "start": 47.64,
+          "end": 47.78
+        },
+        {
+          "text": "because",
+          "start": 47.78,
+          "end": 48.08
+        },
+        {
+          "text": "you",
+          "start": 48.08,
+          "end": 48.32
+        },
+        {
+          "text": "use",
+          "start": 48.32,
+          "end": 48.6
+        },
+        {
+          "text": "it",
+          "start": 48.6,
+          "end": 48.74
+        },
+        {
+          "text": "to",
+          "start": 48.74,
+          "end": 48.88
+        },
+        {
+          "text": "scoop",
+          "start": 48.88,
+          "end": 49.08
+        },
+        {
+          "text": "out",
+          "start": 49.08,
+          "end": 49.34
+        },
+        {
+          "text": "the",
+          "start": 49.34,
+          "end": 49.5
+        },
+        {
+          "text": "red",
+          "start": 49.5,
+          "end": 49.62
+        },
+        {
+          "text": "watermelon.",
+          "start": 49.62,
+          "end": 49.96
+        }
+      ]
+    },
+    {
+      "id": "seg-005",
+      "start": 49.98,
+      "end": 59.4,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Please make a fist. Take your index and middle fingers, which you will notice have now turned red, and make a red V.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Please",
+          "start": 49.98,
+          "end": 50.62
+        },
+        {
+          "text": "make",
+          "start": 50.62,
+          "end": 51.52
+        },
+        {
+          "text": "a",
+          "start": 51.52,
+          "end": 51.68
+        },
+        {
+          "text": "fist.",
+          "start": 51.68,
+          "end": 51.92
+        },
+        {
+          "text": "Take",
+          "start": 53.14,
+          "end": 53.74
+        },
+        {
+          "text": "your",
+          "start": 53.74,
+          "end": 53.94
+        },
+        {
+          "text": "index",
+          "start": 53.94,
+          "end": 54.34
+        },
+        {
+          "text": "and",
+          "start": 54.34,
+          "end": 54.66
+        },
+        {
+          "text": "middle",
+          "start": 54.66,
+          "end": 54.98
+        },
+        {
+          "text": "fingers,",
+          "start": 54.98,
+          "end": 55.34
+        },
+        {
+          "text": "which",
+          "start": 55.5,
+          "end": 55.74
+        },
+        {
+          "text": "you",
+          "start": 55.74,
+          "end": 55.96
+        },
+        {
+          "text": "will",
+          "start": 55.96,
+          "end": 56.1
+        },
+        {
+          "text": "notice",
+          "start": 56.1,
+          "end": 56.52
+        },
+        {
+          "text": "have",
+          "start": 56.52,
+          "end": 56.74
+        },
+        {
+          "text": "now",
+          "start": 56.74,
+          "end": 56.98
+        },
+        {
+          "text": "turned",
+          "start": 56.98,
+          "end": 57.42
+        },
+        {
+          "text": "red,",
+          "start": 57.42,
+          "end": 57.78
+        },
+        {
+          "text": "and",
+          "start": 57.9,
+          "end": 58.26
+        },
+        {
+          "text": "make",
+          "start": 58.26,
+          "end": 58.6
+        },
+        {
+          "text": "a",
+          "start": 58.6,
+          "end": 58.9
+        },
+        {
+          "text": "red",
+          "start": 58.9,
+          "end": 59.18
+        },
+        {
+          "text": "V.",
+          "start": 59.18,
+          "end": 59.4
+        }
+      ]
+    },
+    {
+      "id": "seg-006",
+      "start": 61.4,
+      "end": 68.56,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Look at the shape formed by the two fingers. Imagine a large tick mark or check mark.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Look",
+          "start": 61.4,
+          "end": 62.0
+        },
+        {
+          "text": "at",
+          "start": 62.0,
+          "end": 62.16
+        },
+        {
+          "text": "the",
+          "start": 62.16,
+          "end": 62.24
+        },
+        {
+          "text": "shape",
+          "start": 62.24,
+          "end": 62.54
+        },
+        {
+          "text": "formed",
+          "start": 62.54,
+          "end": 62.88
+        },
+        {
+          "text": "by",
+          "start": 62.88,
+          "end": 63.2
+        },
+        {
+          "text": "the",
+          "start": 63.2,
+          "end": 63.28
+        },
+        {
+          "text": "two",
+          "start": 63.28,
+          "end": 63.44
+        },
+        {
+          "text": "fingers.",
+          "start": 63.44,
+          "end": 63.86
+        },
+        {
+          "text": "Imagine",
+          "start": 65.02,
+          "end": 65.62
+        },
+        {
+          "text": "a",
+          "start": 65.62,
+          "end": 65.92
+        },
+        {
+          "text": "large",
+          "start": 65.92,
+          "end": 66.32
+        },
+        {
+          "text": "tick",
+          "start": 66.32,
+          "end": 66.74
+        },
+        {
+          "text": "mark",
+          "start": 66.74,
+          "end": 67.02
+        },
+        {
+          "text": "or",
+          "start": 67.02,
+          "end": 67.64
+        },
+        {
+          "text": "check",
+          "start": 67.64,
+          "end": 68.26
+        },
+        {
+          "text": "mark.",
+          "start": 68.26,
+          "end": 68.56
+        }
+      ]
+    },
+    {
+      "id": "seg-007",
+      "start": 69.48,
+      "end": 76.6,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "See and feel the sound going from the middle of the finger to your left, down to the bottom of the V,",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "See",
+          "start": 69.48,
+          "end": 70.08
+        },
+        {
+          "text": "and",
+          "start": 70.08,
+          "end": 70.62
+        },
+        {
+          "text": "feel",
+          "start": 70.62,
+          "end": 70.96
+        },
+        {
+          "text": "the",
+          "start": 70.96,
+          "end": 71.26
+        },
+        {
+          "text": "sound",
+          "start": 71.26,
+          "end": 71.58
+        },
+        {
+          "text": "going",
+          "start": 71.58,
+          "end": 71.88
+        },
+        {
+          "text": "from",
+          "start": 71.88,
+          "end": 72.22
+        },
+        {
+          "text": "the",
+          "start": 72.22,
+          "end": 72.38
+        },
+        {
+          "text": "middle",
+          "start": 72.38,
+          "end": 72.66
+        },
+        {
+          "text": "of",
+          "start": 72.66,
+          "end": 72.9
+        },
+        {
+          "text": "the",
+          "start": 72.9,
+          "end": 73.0
+        },
+        {
+          "text": "finger",
+          "start": 73.0,
+          "end": 73.3
+        },
+        {
+          "text": "to",
+          "start": 73.3,
+          "end": 73.48
+        },
+        {
+          "text": "your",
+          "start": 73.48,
+          "end": 73.66
+        },
+        {
+          "text": "left,",
+          "start": 73.66,
+          "end": 74.02
+        },
+        {
+          "text": "down",
+          "start": 74.14,
+          "end": 75.0
+        },
+        {
+          "text": "to",
+          "start": 75.0,
+          "end": 75.48
+        },
+        {
+          "text": "the",
+          "start": 75.48,
+          "end": 75.56
+        },
+        {
+          "text": "bottom",
+          "start": 75.56,
+          "end": 75.88
+        },
+        {
+          "text": "of",
+          "start": 75.88,
+          "end": 76.06
+        },
+        {
+          "text": "the",
+          "start": 76.06,
+          "end": 76.22
+        },
+        {
+          "text": "V,",
+          "start": 76.22,
+          "end": 76.6
+        }
+      ]
+    },
+    {
+      "id": "seg-008",
+      "start": 76.78,
+      "end": 79.99,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "and then traveling all the way up to the bottom.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "and",
+          "start": 76.78,
+          "end": 77.36
+        },
+        {
+          "text": "then",
+          "start": 77.36,
+          "end": 77.58
+        },
+        {
+          "text": "traveling",
+          "start": 77.58,
+          "end": 78.36
+        },
+        {
+          "text": "all",
+          "start": 78.36,
+          "end": 78.76
+        },
+        {
+          "text": "the",
+          "start": 78.76,
+          "end": 79.18
+        },
+        {
+          "text": "way",
+          "start": 79.18,
+          "end": 79.38
+        },
+        {
+          "text": "up",
+          "start": 79.38,
+          "end": 79.64
+        },
+        {
+          "text": "to",
+          "start": 79.64,
+          "end": 79.8
+        },
+        {
+          "text": "the",
+          "start": 79.8,
+          "end": 79.94
+        },
+        {
+          "text": "bottom.",
+          "start": 79.94,
+          "end": 79.99
+        }
+      ]
+    },
+    {
+      "id": "seg-009",
+      "start": 79.99,
+      "end": 81.42,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Look at the shape formed by the two fingers. See and feel the sound going from the middle of the finger to the top of the right finger.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Look",
+          "start": 79.99,
+          "end": 80.04
+        },
+        {
+          "text": "at",
+          "start": 80.04,
+          "end": 80.09
+        },
+        {
+          "text": "the",
+          "start": 80.09,
+          "end": 80.14
+        },
+        {
+          "text": "shape",
+          "start": 80.14,
+          "end": 80.19
+        },
+        {
+          "text": "formed",
+          "start": 80.19,
+          "end": 80.24
+        },
+        {
+          "text": "by",
+          "start": 80.24,
+          "end": 80.29
+        },
+        {
+          "text": "the",
+          "start": 80.29,
+          "end": 80.34
+        },
+        {
+          "text": "two",
+          "start": 80.34,
+          "end": 80.39
+        },
+        {
+          "text": "fingers.",
+          "start": 80.39,
+          "end": 80.44
+        },
+        {
+          "text": "See",
+          "start": 80.44,
+          "end": 80.49
+        },
+        {
+          "text": "and",
+          "start": 80.49,
+          "end": 80.54
+        },
+        {
+          "text": "feel",
+          "start": 80.54,
+          "end": 80.59
+        },
+        {
+          "text": "the",
+          "start": 80.59,
+          "end": 80.64
+        },
+        {
+          "text": "sound",
+          "start": 80.64,
+          "end": 80.69
+        },
+        {
+          "text": "going",
+          "start": 80.69,
+          "end": 80.74
+        },
+        {
+          "text": "from",
+          "start": 80.74,
+          "end": 80.79
+        },
+        {
+          "text": "the",
+          "start": 80.79,
+          "end": 80.84
+        },
+        {
+          "text": "middle",
+          "start": 80.84,
+          "end": 80.89
+        },
+        {
+          "text": "of",
+          "start": 80.89,
+          "end": 80.94
+        },
+        {
+          "text": "the",
+          "start": 80.94,
+          "end": 80.99
+        },
+        {
+          "text": "finger",
+          "start": 80.99,
+          "end": 81.04
+        },
+        {
+          "text": "to",
+          "start": 81.04,
+          "end": 81.09
+        },
+        {
+          "text": "the",
+          "start": 81.09,
+          "end": 81.14
+        },
+        {
+          "text": "top",
+          "start": 81.14,
+          "end": 81.19
+        },
+        {
+          "text": "of",
+          "start": 81.19,
+          "end": 81.24
+        },
+        {
+          "text": "the",
+          "start": 81.24,
+          "end": 81.29
+        },
+        {
+          "text": "right",
+          "start": 81.29,
+          "end": 81.34
+        },
+        {
+          "text": "finger.",
+          "start": 81.34,
+          "end": 81.42
+        }
+      ]
+    },
+    {
+      "id": "seg-010",
+      "start": 82.98,
+      "end": 87.52,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "The watermelon is red. Your V is red. The tone is red.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "The",
+          "start": 82.98,
+          "end": 83.03
+        },
+        {
+          "text": "watermelon",
+          "start": 83.03,
+          "end": 83.46
+        },
+        {
+          "text": "is",
+          "start": 83.46,
+          "end": 83.82
+        },
+        {
+          "text": "red.",
+          "start": 83.82,
+          "end": 84.08
+        },
+        {
+          "text": "Your",
+          "start": 84.16,
+          "end": 84.32
+        },
+        {
+          "text": "V",
+          "start": 84.32,
+          "end": 84.48
+        },
+        {
+          "text": "is",
+          "start": 84.48,
+          "end": 84.84
+        },
+        {
+          "text": "red.",
+          "start": 84.84,
+          "end": 85.24
+        },
+        {
+          "text": "The",
+          "start": 86.0,
+          "end": 86.72
+        },
+        {
+          "text": "tone",
+          "start": 86.72,
+          "end": 87.02
+        },
+        {
+          "text": "is",
+          "start": 87.02,
+          "end": 87.26
+        },
+        {
+          "text": "red.",
+          "start": 87.26,
+          "end": 87.52
+        }
+      ]
+    },
+    {
+      "id": "seg-011",
+      "start": 87.74,
+      "end": 91.58,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "We shall associate this red V with a down and up tone.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "We",
+          "start": 87.74,
+          "end": 88.18
+        },
+        {
+          "text": "shall",
+          "start": 88.18,
+          "end": 88.4
+        },
+        {
+          "text": "associate",
+          "start": 88.4,
+          "end": 88.92
+        },
+        {
+          "text": "this",
+          "start": 88.92,
+          "end": 89.22
+        },
+        {
+          "text": "red",
+          "start": 89.22,
+          "end": 89.44
+        },
+        {
+          "text": "V",
+          "start": 89.44,
+          "end": 89.68
+        },
+        {
+          "text": "with",
+          "start": 89.68,
+          "end": 89.94
+        },
+        {
+          "text": "a",
+          "start": 89.94,
+          "end": 90.06
+        },
+        {
+          "text": "down",
+          "start": 90.06,
+          "end": 90.64
+        },
+        {
+          "text": "and",
+          "start": 90.64,
+          "end": 91.0
+        },
+        {
+          "text": "up",
+          "start": 91.0,
+          "end": 91.24
+        },
+        {
+          "text": "tone.",
+          "start": 91.24,
+          "end": 91.58
+        }
+      ]
+    },
+    {
+      "id": "seg-012",
+      "start": 92.66,
+      "end": 93.93,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "We shall associate this red V with a down and up tone.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "We",
+          "start": 92.66,
+          "end": 93.38
+        },
+        {
+          "text": "shall",
+          "start": 93.38,
+          "end": 93.43
+        },
+        {
+          "text": "associate",
+          "start": 93.43,
+          "end": 93.48
+        },
+        {
+          "text": "this",
+          "start": 93.48,
+          "end": 93.53
+        },
+        {
+          "text": "red",
+          "start": 93.53,
+          "end": 93.58
+        },
+        {
+          "text": "V",
+          "start": 93.58,
+          "end": 93.63
+        },
+        {
+          "text": "with",
+          "start": 93.63,
+          "end": 93.68
+        },
+        {
+          "text": "a",
+          "start": 93.68,
+          "end": 93.73
+        },
+        {
+          "text": "down",
+          "start": 93.73,
+          "end": 93.78
+        },
+        {
+          "text": "and",
+          "start": 93.78,
+          "end": 93.83
+        },
+        {
+          "text": "up",
+          "start": 93.83,
+          "end": 93.88
+        },
+        {
+          "text": "tone.",
+          "start": 93.88,
+          "end": 93.93
+        }
+      ]
+    },
+    {
+      "id": "seg-013",
+      "start": 94.88,
+      "end": 99.24,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "The word for I, or me in Chinese, is",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "The",
+          "start": 94.88,
+          "end": 94.98
+        },
+        {
+          "text": "word",
+          "start": 94.98,
+          "end": 95.34
+        },
+        {
+          "text": "for",
+          "start": 95.34,
+          "end": 95.78
+        },
+        {
+          "text": "I,",
+          "start": 95.78,
+          "end": 96.58
+        },
+        {
+          "text": "or",
+          "start": 96.84,
+          "end": 97.66
+        },
+        {
+          "text": "me",
+          "start": 97.66,
+          "end": 97.94
+        },
+        {
+          "text": "in",
+          "start": 97.94,
+          "end": 98.28
+        },
+        {
+          "text": "Chinese,",
+          "start": 98.28,
+          "end": 98.66
+        },
+        {
+          "text": "is",
+          "start": 98.92,
+          "end": 99.24
+        }
+      ]
+    },
+    {
+      "id": "seg-014",
+      "start": 99.24,
+      "end": 101.3,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "The word for I, or me in Chinese, is",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "The",
+          "start": 99.24,
+          "end": 100.04
+        },
+        {
+          "text": "word",
+          "start": 100.04,
+          "end": 100.09
+        },
+        {
+          "text": "for",
+          "start": 100.09,
+          "end": 100.22
+        },
+        {
+          "text": "I,",
+          "start": 100.22,
+          "end": 100.27
+        },
+        {
+          "text": "or",
+          "start": 100.38,
+          "end": 101.1
+        },
+        {
+          "text": "me",
+          "start": 101.1,
+          "end": 101.15
+        },
+        {
+          "text": "in",
+          "start": 101.15,
+          "end": 101.2
+        },
+        {
+          "text": "Chinese,",
+          "start": 101.2,
+          "end": 101.25
+        },
+        {
+          "text": "is",
+          "start": 101.25,
+          "end": 101.3
+        }
+      ]
+    },
+    {
+      "id": "seg-015",
+      "start": 101.3,
+      "end": 102.6,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "red V for victory.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "red",
+          "start": 101.3,
+          "end": 101.35
+        },
+        {
+          "text": "V",
+          "start": 101.35,
+          "end": 101.74
+        },
+        {
+          "text": "for",
+          "start": 101.74,
+          "end": 102.12
+        },
+        {
+          "text": "victory.",
+          "start": 102.12,
+          "end": 102.6
+        }
+      ]
+    },
+    {
+      "id": "seg-016",
+      "start": 103.0,
+      "end": 103.35,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "red V for victory.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "red",
+          "start": 103.0,
+          "end": 103.2
+        },
+        {
+          "text": "V",
+          "start": 103.2,
+          "end": 103.25
+        },
+        {
+          "text": "for",
+          "start": 103.25,
+          "end": 103.3
+        },
+        {
+          "text": "victory.",
+          "start": 103.3,
+          "end": 103.35
+        }
+      ]
+    },
+    {
+      "id": "seg-017",
+      "start": 104.94,
+      "end": 108.08,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "How would you say I in Chinese?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "How",
+          "start": 104.94,
+          "end": 105.66
+        },
+        {
+          "text": "would",
+          "start": 105.66,
+          "end": 106.38
+        },
+        {
+          "text": "you",
+          "start": 106.38,
+          "end": 106.54
+        },
+        {
+          "text": "say",
+          "start": 106.54,
+          "end": 106.88
+        },
+        {
+          "text": "I",
+          "start": 106.88,
+          "end": 107.28
+        },
+        {
+          "text": "in",
+          "start": 107.28,
+          "end": 107.68
+        },
+        {
+          "text": "Chinese?",
+          "start": 107.68,
+          "end": 108.08
+        }
+      ]
+    },
+    {
+      "id": "seg-018",
+      "start": 108.66,
+      "end": 109.56,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "How would you say I in Chinese?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "How",
+          "start": 108.66,
+          "end": 109.26
+        },
+        {
+          "text": "would",
+          "start": 109.26,
+          "end": 109.31
+        },
+        {
+          "text": "you",
+          "start": 109.31,
+          "end": 109.36
+        },
+        {
+          "text": "say",
+          "start": 109.36,
+          "end": 109.41
+        },
+        {
+          "text": "I",
+          "start": 109.41,
+          "end": 109.46
+        },
+        {
+          "text": "in",
+          "start": 109.46,
+          "end": 109.51
+        },
+        {
+          "text": "Chinese?",
+          "start": 109.51,
+          "end": 109.56
+        }
+      ]
+    },
+    {
+      "id": "seg-019",
+      "start": 109.56,
+      "end": 109.94,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "How would you say I in Chinese?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "How",
+          "start": 109.56,
+          "end": 109.64
+        },
+        {
+          "text": "would",
+          "start": 109.64,
+          "end": 109.69
+        },
+        {
+          "text": "you",
+          "start": 109.69,
+          "end": 109.74
+        },
+        {
+          "text": "say",
+          "start": 109.74,
+          "end": 109.79
+        },
+        {
+          "text": "I",
+          "start": 109.79,
+          "end": 109.84
+        },
+        {
+          "text": "in",
+          "start": 109.84,
+          "end": 109.89
+        },
+        {
+          "text": "Chinese?",
+          "start": 109.89,
+          "end": 109.94
+        }
+      ]
+    },
+    {
+      "id": "seg-020",
+      "start": 111.6,
+      "end": 114.92,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "How would you say I in Chinese?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "How",
+          "start": 111.6,
+          "end": 112.76
+        },
+        {
+          "text": "would",
+          "start": 112.76,
+          "end": 113.5
+        },
+        {
+          "text": "you",
+          "start": 113.5,
+          "end": 113.68
+        },
+        {
+          "text": "say",
+          "start": 113.68,
+          "end": 113.86
+        },
+        {
+          "text": "I",
+          "start": 113.86,
+          "end": 114.16
+        },
+        {
+          "text": "in",
+          "start": 114.16,
+          "end": 114.48
+        },
+        {
+          "text": "Chinese?",
+          "start": 114.48,
+          "end": 114.92
+        }
+      ]
+    },
+    {
+      "id": "seg-021",
+      "start": 117.8,
+      "end": 120.01,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "How would you say I in Chinese?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "How",
+          "start": 117.8,
+          "end": 118.82
+        },
+        {
+          "text": "would",
+          "start": 118.82,
+          "end": 119.26
+        },
+        {
+          "text": "you",
+          "start": 119.26,
+          "end": 119.31
+        },
+        {
+          "text": "say",
+          "start": 119.31,
+          "end": 119.36
+        },
+        {
+          "text": "I",
+          "start": 119.36,
+          "end": 119.41
+        },
+        {
+          "text": "in",
+          "start": 119.41,
+          "end": 119.96
+        },
+        {
+          "text": "Chinese?",
+          "start": 119.96,
+          "end": 120.01
+        }
+      ]
+    },
+    {
+      "id": "seg-022",
+      "start": 120.01,
+      "end": 120.71,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "How would you say I in Chinese?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "How",
+          "start": 120.01,
+          "end": 120.06
+        },
+        {
+          "text": "would",
+          "start": 120.06,
+          "end": 120.11
+        },
+        {
+          "text": "you",
+          "start": 120.11,
+          "end": 120.16
+        },
+        {
+          "text": "say",
+          "start": 120.16,
+          "end": 120.21
+        },
+        {
+          "text": "I",
+          "start": 120.21,
+          "end": 120.26
+        },
+        {
+          "text": "in",
+          "start": 120.26,
+          "end": 120.66
+        },
+        {
+          "text": "Chinese?",
+          "start": 120.66,
+          "end": 120.71
+        }
+      ]
+    },
+    {
+      "id": "seg-023",
+      "start": 120.86,
+      "end": 122.29,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "How would you say I in Chinese?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "How",
+          "start": 120.86,
+          "end": 121.64
+        },
+        {
+          "text": "would",
+          "start": 121.64,
+          "end": 121.78
+        },
+        {
+          "text": "you",
+          "start": 121.78,
+          "end": 121.94
+        },
+        {
+          "text": "say",
+          "start": 121.94,
+          "end": 122.14
+        },
+        {
+          "text": "I",
+          "start": 122.14,
+          "end": 122.19
+        },
+        {
+          "text": "in",
+          "start": 122.19,
+          "end": 122.24
+        },
+        {
+          "text": "Chinese?",
+          "start": 122.24,
+          "end": 122.29
+        }
+      ]
+    },
+    {
+      "id": "seg-024",
+      "start": 122.29,
+      "end": 124.36,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "How would you use the red V?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "How",
+          "start": 122.29,
+          "end": 122.34
+        },
+        {
+          "text": "would",
+          "start": 122.34,
+          "end": 122.39
+        },
+        {
+          "text": "you",
+          "start": 122.39,
+          "end": 122.44
+        },
+        {
+          "text": "use",
+          "start": 122.44,
+          "end": 122.49
+        },
+        {
+          "text": "the",
+          "start": 122.49,
+          "end": 122.86
+        },
+        {
+          "text": "red",
+          "start": 122.86,
+          "end": 123.72
+        },
+        {
+          "text": "V?",
+          "start": 123.72,
+          "end": 124.36
+        }
+      ]
+    },
+    {
+      "id": "seg-025",
+      "start": 125.4,
+      "end": 128.08,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Down and up sound with dog",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Down",
+          "start": 125.4,
+          "end": 125.8
+        },
+        {
+          "text": "and",
+          "start": 125.8,
+          "end": 126.16
+        },
+        {
+          "text": "up",
+          "start": 126.16,
+          "end": 126.36
+        },
+        {
+          "text": "sound",
+          "start": 126.36,
+          "end": 126.68
+        },
+        {
+          "text": "with",
+          "start": 126.68,
+          "end": 127.28
+        },
+        {
+          "text": "dog",
+          "start": 127.28,
+          "end": 128.08
+        }
+      ]
+    },
+    {
+      "id": "seg-026",
+      "start": 128.08,
+      "end": 133.56,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Dog house",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Dog",
+          "start": 128.08,
+          "end": 129.82
+        },
+        {
+          "text": "house",
+          "start": 129.82,
+          "end": 133.56
+        }
+      ]
+    },
+    {
+      "id": "seg-027",
+      "start": 137.48,
+      "end": 137.78,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "House",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "House",
+          "start": 137.48,
+          "end": 137.78
+        }
+      ]
+    },
+    {
+      "id": "seg-028",
+      "start": 139.64,
+      "end": 139.94,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Car.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Car.",
+          "start": 139.64,
+          "end": 139.94
+        }
+      ]
+    },
+    {
+      "id": "seg-029",
+      "start": 143.2,
+      "end": 143.3,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Car.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Car.",
+          "start": 143.2,
+          "end": 143.26
+        }
+      ]
+    },
+    {
+      "id": "seg-030",
+      "start": 144.58,
+      "end": 148.76,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Move your hand to draw out the sound of down and up",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Move",
+          "start": 144.58,
+          "end": 144.63
+        },
+        {
+          "text": "your",
+          "start": 144.63,
+          "end": 144.82
+        },
+        {
+          "text": "hand",
+          "start": 144.82,
+          "end": 145.22
+        },
+        {
+          "text": "to",
+          "start": 145.22,
+          "end": 145.4
+        },
+        {
+          "text": "draw",
+          "start": 145.4,
+          "end": 145.64
+        },
+        {
+          "text": "out",
+          "start": 145.64,
+          "end": 146.2
+        },
+        {
+          "text": "the",
+          "start": 146.2,
+          "end": 146.44
+        },
+        {
+          "text": "sound",
+          "start": 146.44,
+          "end": 146.84
+        },
+        {
+          "text": "of",
+          "start": 146.84,
+          "end": 147.18
+        },
+        {
+          "text": "down",
+          "start": 147.18,
+          "end": 147.72
+        },
+        {
+          "text": "and",
+          "start": 147.72,
+          "end": 148.34
+        },
+        {
+          "text": "up",
+          "start": 148.34,
+          "end": 148.76
+        }
+      ]
+    },
+    {
+      "id": "seg-031",
+      "start": 148.76,
+      "end": 150.18,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "as you scoop the red watermelon.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "as",
+          "start": 148.76,
+          "end": 148.98
+        },
+        {
+          "text": "you",
+          "start": 148.98,
+          "end": 149.1
+        },
+        {
+          "text": "scoop",
+          "start": 149.1,
+          "end": 149.44
+        },
+        {
+          "text": "the",
+          "start": 149.44,
+          "end": 149.66
+        },
+        {
+          "text": "red",
+          "start": 149.66,
+          "end": 149.86
+        },
+        {
+          "text": "watermelon.",
+          "start": 149.86,
+          "end": 150.18
+        }
+      ]
+    },
+    {
+      "id": "seg-032",
+      "start": 150.56,
+      "end": 153.52,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "So you can actually use your hand if you want,",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "So",
+          "start": 150.56,
+          "end": 150.96
+        },
+        {
+          "text": "you",
+          "start": 150.96,
+          "end": 151.08
+        },
+        {
+          "text": "can",
+          "start": 151.08,
+          "end": 151.22
+        },
+        {
+          "text": "actually",
+          "start": 151.22,
+          "end": 151.7
+        },
+        {
+          "text": "use",
+          "start": 151.7,
+          "end": 152.14
+        },
+        {
+          "text": "your",
+          "start": 152.14,
+          "end": 152.46
+        },
+        {
+          "text": "hand",
+          "start": 152.46,
+          "end": 152.84
+        },
+        {
+          "text": "if",
+          "start": 152.84,
+          "end": 153.08
+        },
+        {
+          "text": "you",
+          "start": 153.08,
+          "end": 153.22
+        },
+        {
+          "text": "want,",
+          "start": 153.22,
+          "end": 153.52
+        }
+      ]
+    },
+    {
+      "id": "seg-033",
+      "start": 153.66,
+      "end": 156.22,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "in whatever way works for you.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "in",
+          "start": 153.66,
+          "end": 154.04
+        },
+        {
+          "text": "whatever",
+          "start": 154.04,
+          "end": 154.36
+        },
+        {
+          "text": "way",
+          "start": 154.36,
+          "end": 154.84
+        },
+        {
+          "text": "works",
+          "start": 154.84,
+          "end": 155.66
+        },
+        {
+          "text": "for",
+          "start": 155.66,
+          "end": 155.96
+        },
+        {
+          "text": "you.",
+          "start": 155.96,
+          "end": 156.22
+        }
+      ]
+    },
+    {
+      "id": "seg-034",
+      "start": 157.38,
+      "end": 158.72,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You are dipping into the red watermelon",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You",
+          "start": 157.38,
+          "end": 157.43
+        },
+        {
+          "text": "are",
+          "start": 157.43,
+          "end": 157.52
+        },
+        {
+          "text": "dipping",
+          "start": 157.52,
+          "end": 157.8
+        },
+        {
+          "text": "into",
+          "start": 157.8,
+          "end": 158.1
+        },
+        {
+          "text": "the",
+          "start": 158.1,
+          "end": 158.24
+        },
+        {
+          "text": "red",
+          "start": 158.24,
+          "end": 158.38
+        },
+        {
+          "text": "watermelon",
+          "start": 158.38,
+          "end": 158.72
+        }
+      ]
+    },
+    {
+      "id": "seg-035",
+      "start": 158.72,
+      "end": 162.12,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "and using your red V fingers to go down",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "and",
+          "start": 158.72,
+          "end": 159.12
+        },
+        {
+          "text": "using",
+          "start": 159.12,
+          "end": 159.44
+        },
+        {
+          "text": "your",
+          "start": 159.44,
+          "end": 159.6
+        },
+        {
+          "text": "red",
+          "start": 159.6,
+          "end": 159.96
+        },
+        {
+          "text": "V",
+          "start": 159.96,
+          "end": 160.5
+        },
+        {
+          "text": "fingers",
+          "start": 160.5,
+          "end": 161.24
+        },
+        {
+          "text": "to",
+          "start": 161.24,
+          "end": 161.58
+        },
+        {
+          "text": "go",
+          "start": 161.58,
+          "end": 161.72
+        },
+        {
+          "text": "down",
+          "start": 161.72,
+          "end": 162.12
+        }
+      ]
+    },
+    {
+      "id": "seg-036",
+      "start": 162.12,
+      "end": 164.18,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "and come up with a red scoop of fruit.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "and",
+          "start": 162.12,
+          "end": 162.34
+        },
+        {
+          "text": "come",
+          "start": 162.34,
+          "end": 162.54
+        },
+        {
+          "text": "up",
+          "start": 162.54,
+          "end": 162.7
+        },
+        {
+          "text": "with",
+          "start": 162.7,
+          "end": 162.92
+        },
+        {
+          "text": "a",
+          "start": 162.92,
+          "end": 163.08
+        },
+        {
+          "text": "red",
+          "start": 163.08,
+          "end": 163.32
+        },
+        {
+          "text": "scoop",
+          "start": 163.32,
+          "end": 163.66
+        },
+        {
+          "text": "of",
+          "start": 163.66,
+          "end": 163.9
+        },
+        {
+          "text": "fruit.",
+          "start": 163.9,
+          "end": 164.18
+        }
+      ]
+    },
+    {
+      "id": "seg-037",
+      "start": 165.0,
+      "end": 166.38,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "It's all about me.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "It's",
+          "start": 165.0,
+          "end": 165.6
+        },
+        {
+          "text": "all",
+          "start": 165.6,
+          "end": 165.74
+        },
+        {
+          "text": "about",
+          "start": 165.74,
+          "end": 166.02
+        },
+        {
+          "text": "me.",
+          "start": 166.02,
+          "end": 166.38
+        }
+      ]
+    },
+    {
+      "id": "seg-038",
+      "start": 166.42,
+      "end": 167.72,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "This is my celebration.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "This",
+          "start": 166.42,
+          "end": 166.6
+        },
+        {
+          "text": "is",
+          "start": 166.6,
+          "end": 166.8
+        },
+        {
+          "text": "my",
+          "start": 166.8,
+          "end": 167.1
+        },
+        {
+          "text": "celebration.",
+          "start": 167.1,
+          "end": 167.72
+        }
+      ]
+    },
+    {
+      "id": "seg-039",
+      "start": 167.72,
+      "end": 171.46,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "The word for me is .",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "The",
+          "start": 167.72,
+          "end": 168.6
+        },
+        {
+          "text": "word",
+          "start": 168.6,
+          "end": 169.42
+        },
+        {
+          "text": "for",
+          "start": 169.42,
+          "end": 169.82
+        },
+        {
+          "text": "me",
+          "start": 169.82,
+          "end": 170.02
+        },
+        {
+          "text": "is",
+          "start": 170.02,
+          "end": 170.8
+        },
+        {
+          "text": ".",
+          "start": 170.8,
+          "end": 171.46
+        }
+      ]
+    },
+    {
+      "id": "seg-040",
+      "start": 174.04,
+      "end": 177.06,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "I want water.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "I",
+          "start": 174.04,
+          "end": 175.06
+        },
+        {
+          "text": "want",
+          "start": 175.06,
+          "end": 176.08
+        },
+        {
+          "text": "water.",
+          "start": 176.08,
+          "end": 177.06
+        }
+      ]
+    },
+    {
+      "id": "seg-041",
+      "start": 177.82,
+      "end": 178.34,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "I'm tasty.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "I'm",
+          "start": 177.82,
+          "end": 177.94
+        },
+        {
+          "text": "tasty.",
+          "start": 177.94,
+          "end": 178.34
+        }
+      ]
+    },
+    {
+      "id": "seg-042",
+      "start": 179.72,
+      "end": 179.98,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Water.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Water.",
+          "start": 179.72,
+          "end": 179.98
+        }
+      ]
+    },
+    {
+      "id": "seg-043",
+      "start": 182.2,
+      "end": 183.6,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "So how would you say I?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "So",
+          "start": 182.2,
+          "end": 182.26
+        },
+        {
+          "text": "how",
+          "start": 182.26,
+          "end": 182.5
+        },
+        {
+          "text": "would",
+          "start": 182.5,
+          "end": 182.66
+        },
+        {
+          "text": "you",
+          "start": 182.66,
+          "end": 182.76
+        },
+        {
+          "text": "say",
+          "start": 182.76,
+          "end": 183.04
+        },
+        {
+          "text": "I?",
+          "start": 183.04,
+          "end": 183.6
+        }
+      ]
+    },
+    {
+      "id": "seg-044",
+      "start": 188.52,
+      "end": 188.84,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "It's.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "It's.",
+          "start": 188.52,
+          "end": 188.84
+        }
+      ]
+    },
+    {
+      "id": "seg-045",
+      "start": 189.9,
+      "end": 190.92,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Exactly.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Exactly.",
+          "start": 189.9,
+          "end": 190.92
+        }
+      ]
+    },
+    {
+      "id": "seg-046",
+      "start": 192.2,
+      "end": 193.36,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Wo is me.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Wo",
+          "start": 192.2,
+          "end": 192.76
+        },
+        {
+          "text": "is",
+          "start": 192.76,
+          "end": 193.12
+        },
+        {
+          "text": "me.",
+          "start": 193.12,
+          "end": 193.36
+        }
+      ]
+    },
+    {
+      "id": "seg-047",
+      "start": 193.44,
+      "end": 194.36,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Or if you're Chinese.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Or",
+          "start": 193.44,
+          "end": 193.64
+        },
+        {
+          "text": "if",
+          "start": 193.64,
+          "end": 193.84
+        },
+        {
+          "text": "you're",
+          "start": 193.84,
+          "end": 194.0
+        },
+        {
+          "text": "Chinese.",
+          "start": 194.0,
+          "end": 194.36
+        }
+      ]
+    },
+    {
+      "id": "seg-048",
+      "start": 197.72,
+      "end": 200.6,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "The voice goes down and comes back up.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "The",
+          "start": 197.72,
+          "end": 197.96
+        },
+        {
+          "text": "voice",
+          "start": 197.96,
+          "end": 198.2
+        },
+        {
+          "text": "goes",
+          "start": 198.2,
+          "end": 198.52
+        },
+        {
+          "text": "down",
+          "start": 198.52,
+          "end": 199.06
+        },
+        {
+          "text": "and",
+          "start": 199.06,
+          "end": 199.42
+        },
+        {
+          "text": "comes",
+          "start": 199.42,
+          "end": 199.8
+        },
+        {
+          "text": "back",
+          "start": 199.8,
+          "end": 200.16
+        },
+        {
+          "text": "up.",
+          "start": 200.16,
+          "end": 200.6
+        }
+      ]
+    },
+    {
+      "id": "seg-049",
+      "start": 201.72,
+      "end": 201.82,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Wo.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Wo.",
+          "start": 201.72,
+          "end": 201.8
+        }
+      ]
+    },
+    {
+      "id": "seg-050",
+      "start": 204.1,
+      "end": 206.24,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "So take your hand and make a red V for victory.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "So",
+          "start": 204.1,
+          "end": 204.15
+        },
+        {
+          "text": "take",
+          "start": 204.15,
+          "end": 204.38
+        },
+        {
+          "text": "your",
+          "start": 204.38,
+          "end": 204.56
+        },
+        {
+          "text": "hand",
+          "start": 204.56,
+          "end": 204.86
+        },
+        {
+          "text": "and",
+          "start": 204.86,
+          "end": 204.96
+        },
+        {
+          "text": "make",
+          "start": 204.96,
+          "end": 205.14
+        },
+        {
+          "text": "a",
+          "start": 205.14,
+          "end": 205.26
+        },
+        {
+          "text": "red",
+          "start": 205.26,
+          "end": 205.46
+        },
+        {
+          "text": "V",
+          "start": 205.46,
+          "end": 205.62
+        },
+        {
+          "text": "for",
+          "start": 205.62,
+          "end": 205.9
+        },
+        {
+          "text": "victory.",
+          "start": 205.9,
+          "end": 206.24
+        }
+      ]
+    },
+    {
+      "id": "seg-051",
+      "start": 207.6,
+      "end": 208.24,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "How do you say I?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "How",
+          "start": 207.6,
+          "end": 207.65
+        },
+        {
+          "text": "do",
+          "start": 207.65,
+          "end": 207.76
+        },
+        {
+          "text": "you",
+          "start": 207.76,
+          "end": 207.81
+        },
+        {
+          "text": "say",
+          "start": 207.81,
+          "end": 207.96
+        },
+        {
+          "text": "I?",
+          "start": 207.96,
+          "end": 208.24
+        }
+      ]
+    },
+    {
+      "id": "seg-052",
+      "start": 208.6,
+      "end": 209.12,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 208.6,
+          "end": 209.12
+        }
+      ]
+    },
+    {
+      "id": "seg-053",
+      "start": 211.66,
+      "end": 211.76,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Wo.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Wo.",
+          "start": 211.66,
+          "end": 211.76
+        }
+      ]
+    },
+    {
+      "id": "seg-054",
+      "start": 213.2,
+      "end": 214.22,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "What color is the watermelon?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "What",
+          "start": 213.2,
+          "end": 213.25
+        },
+        {
+          "text": "color",
+          "start": 213.25,
+          "end": 213.52
+        },
+        {
+          "text": "is",
+          "start": 213.52,
+          "end": 213.76
+        },
+        {
+          "text": "the",
+          "start": 213.76,
+          "end": 213.88
+        },
+        {
+          "text": "watermelon?",
+          "start": 213.88,
+          "end": 214.22
+        }
+      ]
+    },
+    {
+      "id": "seg-055",
+      "start": 216.7,
+      "end": 216.86,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Red.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Red.",
+          "start": 216.7,
+          "end": 216.86
+        }
+      ]
+    },
+    {
+      "id": "seg-056",
+      "start": 217.94,
+      "end": 219.76,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You know, every educated New Yorker",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You",
+          "start": 217.94,
+          "end": 217.99
+        },
+        {
+          "text": "know,",
+          "start": 217.99,
+          "end": 218.06
+        },
+        {
+          "text": "every",
+          "start": 218.1,
+          "end": 218.36
+        },
+        {
+          "text": "educated",
+          "start": 218.36,
+          "end": 218.92
+        },
+        {
+          "text": "New",
+          "start": 218.92,
+          "end": 219.36
+        },
+        {
+          "text": "Yorker",
+          "start": 219.36,
+          "end": 219.76
+        }
+      ]
+    },
+    {
+      "id": "seg-057",
+      "start": 219.76,
+      "end": 225.22,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "knows that I am over 70% water.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "knows",
+          "start": 219.76,
+          "end": 220.0
+        },
+        {
+          "text": "that",
+          "start": 220.0,
+          "end": 220.46
+        },
+        {
+          "text": "I",
+          "start": 220.46,
+          "end": 221.08
+        },
+        {
+          "text": "am",
+          "start": 221.08,
+          "end": 222.58
+        },
+        {
+          "text": "over",
+          "start": 222.58,
+          "end": 222.94
+        },
+        {
+          "text": "70",
+          "start": 222.94,
+          "end": 223.52
+        },
+        {
+          "text": "%",
+          "start": 223.52,
+          "end": 224.08
+        },
+        {
+          "text": "water.",
+          "start": 224.08,
+          "end": 225.22
+        }
+      ]
+    },
+    {
+      "id": "seg-058",
+      "start": 225.58,
+      "end": 226.18,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Ha ha.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Ha",
+          "start": 225.58,
+          "end": 226.12
+        },
+        {
+          "text": "ha.",
+          "start": 226.12,
+          "end": 226.18
+        }
+      ]
+    },
+    {
+      "id": "seg-059",
+      "start": 226.62,
+      "end": 227.39,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Ha ha.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Ha",
+          "start": 226.62,
+          "end": 227.34
+        },
+        {
+          "text": "ha.",
+          "start": 227.34,
+          "end": 227.39
+        }
+      ]
+    },
+    {
+      "id": "seg-060",
+      "start": 227.39,
+      "end": 228.68,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "I'll make the red sign.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "I'll",
+          "start": 227.39,
+          "end": 227.44
+        },
+        {
+          "text": "make",
+          "start": 227.44,
+          "end": 227.49
+        },
+        {
+          "text": "the",
+          "start": 227.49,
+          "end": 227.66
+        },
+        {
+          "text": "red",
+          "start": 227.66,
+          "end": 227.92
+        },
+        {
+          "text": "sign.",
+          "start": 227.92,
+          "end": 228.68
+        }
+      ]
+    },
+    {
+      "id": "seg-061",
+      "start": 229.1,
+      "end": 230.94,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "And what is the word for I?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "And",
+          "start": 229.1,
+          "end": 229.5
+        },
+        {
+          "text": "what",
+          "start": 229.5,
+          "end": 229.7
+        },
+        {
+          "text": "is",
+          "start": 229.7,
+          "end": 229.88
+        },
+        {
+          "text": "the",
+          "start": 229.88,
+          "end": 230.02
+        },
+        {
+          "text": "word",
+          "start": 230.02,
+          "end": 230.36
+        },
+        {
+          "text": "for",
+          "start": 230.36,
+          "end": 230.6
+        },
+        {
+          "text": "I?",
+          "start": 230.6,
+          "end": 230.94
+        }
+      ]
+    },
+    {
+      "id": "seg-062",
+      "start": 231.42,
+      "end": 231.52,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 231.42,
+          "end": 231.48
+        }
+      ]
+    },
+    {
+      "id": "seg-063",
+      "start": 234.32,
+      "end": 234.42,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Wo.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Wo.",
+          "start": 234.32,
+          "end": 234.4
+        }
+      ]
+    },
+    {
+      "id": "seg-064",
+      "start": 235.76,
+      "end": 238.08,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "By the way, how would you say middle?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "By",
+          "start": 235.76,
+          "end": 236.46
+        },
+        {
+          "text": "the",
+          "start": 236.46,
+          "end": 236.6
+        },
+        {
+          "text": "way,",
+          "start": 236.6,
+          "end": 236.78
+        },
+        {
+          "text": "how",
+          "start": 236.8,
+          "end": 236.92
+        },
+        {
+          "text": "would",
+          "start": 236.92,
+          "end": 237.08
+        },
+        {
+          "text": "you",
+          "start": 237.08,
+          "end": 237.16
+        },
+        {
+          "text": "say",
+          "start": 237.16,
+          "end": 237.4
+        },
+        {
+          "text": "middle?",
+          "start": 237.4,
+          "end": 238.08
+        }
+      ]
+    },
+    {
+      "id": "seg-065",
+      "start": 239.22,
+      "end": 239.92,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 239.22,
+          "end": 239.92
+        }
+      ]
+    },
+    {
+      "id": "seg-066",
+      "start": 241.06,
+      "end": 241.76,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 241.06,
+          "end": 241.76
+        }
+      ]
+    },
+    {
+      "id": "seg-067",
+      "start": 243.06,
+      "end": 244.22,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "So green thumb.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "So",
+          "start": 243.06,
+          "end": 243.11
+        },
+        {
+          "text": "green",
+          "start": 243.11,
+          "end": 243.52
+        },
+        {
+          "text": "thumb.",
+          "start": 243.52,
+          "end": 244.22
+        }
+      ]
+    },
+    {
+      "id": "seg-068",
+      "start": 244.8,
+      "end": 245.5,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 244.8,
+          "end": 245.5
+        }
+      ]
+    },
+    {
+      "id": "seg-069",
+      "start": 245.5,
+      "end": 245.64,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 245.5,
+          "end": 245.64
+        }
+      ]
+    },
+    {
+      "id": "seg-070",
+      "start": 251.0,
+      "end": 253.14,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "How would you say person?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "How",
+          "start": 251.0,
+          "end": 251.7
+        },
+        {
+          "text": "would",
+          "start": 251.7,
+          "end": 252.4
+        },
+        {
+          "text": "you",
+          "start": 252.4,
+          "end": 252.48
+        },
+        {
+          "text": "say",
+          "start": 252.48,
+          "end": 252.66
+        },
+        {
+          "text": "person?",
+          "start": 252.66,
+          "end": 253.14
+        }
+      ]
+    },
+    {
+      "id": "seg-071",
+      "start": 253.46,
+      "end": 253.9,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 253.46,
+          "end": 253.9
+        }
+      ]
+    },
+    {
+      "id": "seg-072",
+      "start": 254.78,
+      "end": 255.24,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 254.78,
+          "end": 255.24
+        }
+      ]
+    },
+    {
+      "id": "seg-073",
+      "start": 256.76,
+      "end": 257.42,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 256.76,
+          "end": 257.42
+        }
+      ]
+    },
+    {
+      "id": "seg-074",
+      "start": 257.42,
+      "end": 257.86,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 257.42,
+          "end": 257.86
+        }
+      ]
+    },
+    {
+      "id": "seg-075",
+      "start": 257.86,
+      "end": 258.52,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 257.86,
+          "end": 258.52
+        }
+      ]
+    },
+    {
+      "id": "seg-076",
+      "start": 260.04,
+      "end": 260.7,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 260.04,
+          "end": 260.7
+        }
+      ]
+    },
+    {
+      "id": "seg-077",
+      "start": 260.7,
+      "end": 261.34,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "One.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "One.",
+          "start": 260.7,
+          "end": 261.34
+        }
+      ]
+    },
+    {
+      "id": "seg-078",
+      "start": 261.78,
+      "end": 264.18,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "I ordered two and you're bringing me one.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "I",
+          "start": 261.78,
+          "end": 262.44
+        },
+        {
+          "text": "ordered",
+          "start": 262.44,
+          "end": 262.76
+        },
+        {
+          "text": "two",
+          "start": 262.76,
+          "end": 263.06
+        },
+        {
+          "text": "and",
+          "start": 263.06,
+          "end": 263.28
+        },
+        {
+          "text": "you're",
+          "start": 263.28,
+          "end": 263.48
+        },
+        {
+          "text": "bringing",
+          "start": 263.48,
+          "end": 263.64
+        },
+        {
+          "text": "me",
+          "start": 263.64,
+          "end": 263.86
+        },
+        {
+          "text": "one.",
+          "start": 263.86,
+          "end": 264.18
+        }
+      ]
+    },
+    {
+      "id": "seg-079",
+      "start": 264.98,
+      "end": 266.36,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "How would you say person?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "How",
+          "start": 264.98,
+          "end": 265.64
+        },
+        {
+          "text": "would",
+          "start": 265.64,
+          "end": 265.82
+        },
+        {
+          "text": "you",
+          "start": 265.82,
+          "end": 265.87
+        },
+        {
+          "text": "say",
+          "start": 265.87,
+          "end": 266.0
+        },
+        {
+          "text": "person?",
+          "start": 266.0,
+          "end": 266.36
+        }
+      ]
+    },
+    {
+      "id": "seg-080",
+      "start": 266.7,
+      "end": 267.3,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 266.7,
+          "end": 267.3
+        }
+      ]
+    },
+    {
+      "id": "seg-081",
+      "start": 269.12,
+      "end": 269.78,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 269.12,
+          "end": 269.78
+        }
+      ]
+    },
+    {
+      "id": "seg-082",
+      "start": 269.78,
+      "end": 270.52,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 269.78,
+          "end": 270.52
+        }
+      ]
+    },
+    {
+      "id": "seg-083",
+      "start": 270.52,
+      "end": 270.72,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 270.52,
+          "end": 270.72
+        }
+      ]
+    },
+    {
+      "id": "seg-084",
+      "start": 272.2,
+      "end": 274.04,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "How would you say I?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "How",
+          "start": 272.2,
+          "end": 272.86
+        },
+        {
+          "text": "would",
+          "start": 272.86,
+          "end": 273.52
+        },
+        {
+          "text": "you",
+          "start": 273.52,
+          "end": 273.62
+        },
+        {
+          "text": "say",
+          "start": 273.62,
+          "end": 273.82
+        },
+        {
+          "text": "I?",
+          "start": 273.82,
+          "end": 274.04
+        }
+      ]
+    },
+    {
+      "id": "seg-085",
+      "start": 274.4,
+      "end": 275.0,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 274.4,
+          "end": 275.0
+        }
+      ]
+    },
+    {
+      "id": "seg-086",
+      "start": 275.0,
+      "end": 275.3,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 275.0,
+          "end": 275.3
+        }
+      ]
+    },
+    {
+      "id": "seg-087",
+      "start": 277.04,
+      "end": 277.7,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Wo.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Wo.",
+          "start": 277.04,
+          "end": 277.7
+        }
+      ]
+    },
+    {
+      "id": "seg-088",
+      "start": 278.22,
+      "end": 278.64,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 278.22,
+          "end": 278.64
+        }
+      ]
+    },
+    {
+      "id": "seg-089",
+      "start": 278.64,
+      "end": 278.82,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 278.64,
+          "end": 278.82
+        }
+      ]
+    },
+    {
+      "id": "seg-090",
+      "start": 278.82,
+      "end": 279.38,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 278.82,
+          "end": 279.38
+        }
+      ]
+    },
+    {
+      "id": "seg-091",
+      "start": 279.38,
+      "end": 279.48,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 279.38,
+          "end": 279.46
+        }
+      ]
+    },
+    {
+      "id": "seg-092",
+      "start": 279.48,
+      "end": 279.58,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 279.48,
+          "end": 279.56
+        }
+      ]
+    },
+    {
+      "id": "seg-093",
+      "start": 279.58,
+      "end": 279.76,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 279.58,
+          "end": 279.76
+        }
+      ]
+    },
+    {
+      "id": "seg-094",
+      "start": 279.76,
+      "end": 280.74,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": ".",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": ".",
+          "start": 279.76,
+          "end": 280.74
+        }
+      ]
+    }
+  ]
+}

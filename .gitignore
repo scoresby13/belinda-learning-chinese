@@ -28,3 +28,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+
+# Scratch and intermediate raw files
+raw_transcripts/
+scratch_whisper_cd01_tr01.json
+__pycache__/
+*.pyc

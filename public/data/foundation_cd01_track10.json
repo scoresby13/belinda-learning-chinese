@@ -1,0 +1,1801 @@
+{
+  "trackId": "foundation-cd01-10",
+  "course": "Chinese Foundation",
+  "cd": 1,
+  "track": 10,
+  "title": "Chinese Foundation CD 1 - Track 10",
+  "audioUrl": "audio/foundation-cd01/track-10.mp3",
+  "durationSeconds": 297.29,
+  "segments": [
+    {
+      "id": "seg-001",
+      "start": 1.26,
+      "end": 12.6,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "is a great word green thumb out I call it the three for one word it can mean he it can mean",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "is",
+          "start": 1.26,
+          "end": 1.98
+        },
+        {
+          "text": "a",
+          "start": 1.98,
+          "end": 2.7
+        },
+        {
+          "text": "great",
+          "start": 2.7,
+          "end": 3.1
+        },
+        {
+          "text": "word",
+          "start": 3.1,
+          "end": 3.64
+        },
+        {
+          "text": "green",
+          "start": 3.64,
+          "end": 6.04
+        },
+        {
+          "text": "thumb",
+          "start": 6.04,
+          "end": 6.88
+        },
+        {
+          "text": "out",
+          "start": 6.88,
+          "end": 7.24
+        },
+        {
+          "text": "I",
+          "start": 7.24,
+          "end": 7.72
+        },
+        {
+          "text": "call",
+          "start": 7.72,
+          "end": 8.06
+        },
+        {
+          "text": "it",
+          "start": 8.06,
+          "end": 8.2
+        },
+        {
+          "text": "the",
+          "start": 8.2,
+          "end": 8.3
+        },
+        {
+          "text": "three",
+          "start": 8.3,
+          "end": 8.66
+        },
+        {
+          "text": "for",
+          "start": 8.66,
+          "end": 8.86
+        },
+        {
+          "text": "one",
+          "start": 8.86,
+          "end": 9.08
+        },
+        {
+          "text": "word",
+          "start": 9.08,
+          "end": 9.48
+        },
+        {
+          "text": "it",
+          "start": 9.48,
+          "end": 10.24
+        },
+        {
+          "text": "can",
+          "start": 10.24,
+          "end": 10.46
+        },
+        {
+          "text": "mean",
+          "start": 10.46,
+          "end": 10.76
+        },
+        {
+          "text": "he",
+          "start": 10.76,
+          "end": 11.28
+        },
+        {
+          "text": "it",
+          "start": 11.28,
+          "end": 11.94
+        },
+        {
+          "text": "can",
+          "start": 11.94,
+          "end": 12.42
+        },
+        {
+          "text": "mean",
+          "start": 12.42,
+          "end": 12.6
+        }
+      ]
+    },
+    {
+      "id": "seg-002",
+      "start": 12.6,
+      "end": 29.06,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "she it can mean it whatever you like green thumb out how do you say he how would you say",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "she",
+          "start": 12.6,
+          "end": 12.78
+        },
+        {
+          "text": "it",
+          "start": 12.78,
+          "end": 13.48
+        },
+        {
+          "text": "can",
+          "start": 13.48,
+          "end": 13.66
+        },
+        {
+          "text": "mean",
+          "start": 13.66,
+          "end": 13.86
+        },
+        {
+          "text": "it",
+          "start": 13.86,
+          "end": 14.18
+        },
+        {
+          "text": "whatever",
+          "start": 14.18,
+          "end": 15.38
+        },
+        {
+          "text": "you",
+          "start": 15.38,
+          "end": 15.62
+        },
+        {
+          "text": "like",
+          "start": 15.62,
+          "end": 15.94
+        },
+        {
+          "text": "green",
+          "start": 15.94,
+          "end": 19.26
+        },
+        {
+          "text": "thumb",
+          "start": 19.26,
+          "end": 21.1
+        },
+        {
+          "text": "out",
+          "start": 21.1,
+          "end": 21.46
+        },
+        {
+          "text": "how",
+          "start": 21.46,
+          "end": 22.82
+        },
+        {
+          "text": "do",
+          "start": 22.82,
+          "end": 22.96
+        },
+        {
+          "text": "you",
+          "start": 22.96,
+          "end": 23.06
+        },
+        {
+          "text": "say",
+          "start": 23.06,
+          "end": 23.36
+        },
+        {
+          "text": "he",
+          "start": 23.36,
+          "end": 23.68
+        },
+        {
+          "text": "how",
+          "start": 23.68,
+          "end": 27.46
+        },
+        {
+          "text": "would",
+          "start": 27.46,
+          "end": 28.7
+        },
+        {
+          "text": "you",
+          "start": 28.7,
+          "end": 28.82
+        },
+        {
+          "text": "say",
+          "start": 28.82,
+          "end": 29.06
+        }
+      ]
+    },
+    {
+      "id": "seg-003",
+      "start": 29.06,
+      "end": 56.32,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "she and how would you say it so how would you say he is Chinese he is China chung-guo person",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "she",
+          "start": 29.06,
+          "end": 29.28
+        },
+        {
+          "text": "and",
+          "start": 29.28,
+          "end": 32.46
+        },
+        {
+          "text": "how",
+          "start": 32.46,
+          "end": 34.1
+        },
+        {
+          "text": "would",
+          "start": 34.1,
+          "end": 34.3
+        },
+        {
+          "text": "you",
+          "start": 34.3,
+          "end": 34.46
+        },
+        {
+          "text": "say",
+          "start": 34.46,
+          "end": 34.74
+        },
+        {
+          "text": "it",
+          "start": 34.74,
+          "end": 35.2
+        },
+        {
+          "text": "so",
+          "start": 35.2,
+          "end": 38.8
+        },
+        {
+          "text": "how",
+          "start": 38.8,
+          "end": 41.08
+        },
+        {
+          "text": "would",
+          "start": 41.08,
+          "end": 41.36
+        },
+        {
+          "text": "you",
+          "start": 41.36,
+          "end": 41.5
+        },
+        {
+          "text": "say",
+          "start": 41.5,
+          "end": 41.88
+        },
+        {
+          "text": "he",
+          "start": 41.88,
+          "end": 42.88
+        },
+        {
+          "text": "is",
+          "start": 42.88,
+          "end": 43.8
+        },
+        {
+          "text": "Chinese",
+          "start": 43.8,
+          "end": 44.46
+        },
+        {
+          "text": "he",
+          "start": 44.46,
+          "end": 44.88
+        },
+        {
+          "text": "is",
+          "start": 44.88,
+          "end": 48.96
+        },
+        {
+          "text": "China",
+          "start": 48.96,
+          "end": 50.66
+        },
+        {
+          "text": "chung",
+          "start": 50.66,
+          "end": 53.46
+        },
+        {
+          "text": "-guo",
+          "start": 53.46,
+          "end": 54.7
+        },
+        {
+          "text": "person",
+          "start": 54.7,
+          "end": 56.32
+        }
+      ]
+    },
+    {
+      "id": "seg-004",
+      "start": 56.32,
+      "end": 80.52,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "ran ta she chung-guo ran she is Chinese she is she China chung-guo person",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "ran",
+          "start": 56.32,
+          "end": 57.4
+        },
+        {
+          "text": "ta",
+          "start": 57.4,
+          "end": 59.02
+        },
+        {
+          "text": "she",
+          "start": 59.02,
+          "end": 60.58
+        },
+        {
+          "text": "chung",
+          "start": 60.58,
+          "end": 62.18
+        },
+        {
+          "text": "-guo",
+          "start": 62.18,
+          "end": 63.6
+        },
+        {
+          "text": "ran",
+          "start": 63.6,
+          "end": 64.92
+        },
+        {
+          "text": "she",
+          "start": 64.92,
+          "end": 66.82
+        },
+        {
+          "text": "is",
+          "start": 66.82,
+          "end": 67.44
+        },
+        {
+          "text": "Chinese",
+          "start": 67.44,
+          "end": 67.98
+        },
+        {
+          "text": "she",
+          "start": 67.98,
+          "end": 68.64
+        },
+        {
+          "text": "is",
+          "start": 68.64,
+          "end": 72.62
+        },
+        {
+          "text": "she",
+          "start": 72.62,
+          "end": 74.66
+        },
+        {
+          "text": "China",
+          "start": 74.66,
+          "end": 76.0
+        },
+        {
+          "text": "chung",
+          "start": 76.0,
+          "end": 77.8
+        },
+        {
+          "text": "-guo",
+          "start": 77.8,
+          "end": 79.26
+        },
+        {
+          "text": "person",
+          "start": 79.26,
+          "end": 80.52
+        }
+      ]
+    },
+    {
+      "id": "seg-005",
+      "start": 80.52,
+      "end": 86.35,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "she chung-guo person ran ta she chung-guo person",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "she",
+          "start": 80.52,
+          "end": 81.26
+        },
+        {
+          "text": "chung",
+          "start": 81.26,
+          "end": 81.31
+        },
+        {
+          "text": "-guo",
+          "start": 81.31,
+          "end": 81.36
+        },
+        {
+          "text": "person",
+          "start": 81.36,
+          "end": 81.41
+        },
+        {
+          "text": "ran",
+          "start": 81.41,
+          "end": 81.46
+        },
+        {
+          "text": "ta",
+          "start": 81.46,
+          "end": 82.84
+        },
+        {
+          "text": "she",
+          "start": 82.84,
+          "end": 84.3
+        },
+        {
+          "text": "chung",
+          "start": 84.3,
+          "end": 85.96
+        },
+        {
+          "text": "-guo",
+          "start": 85.96,
+          "end": 86.3
+        },
+        {
+          "text": "person",
+          "start": 86.3,
+          "end": 86.35
+        }
+      ]
+    },
+    {
+      "id": "seg-006",
+      "start": 86.35,
+      "end": 100.58,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "she chung-guo person the word for both or all in Chinese is though green thumb out though as in",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "she",
+          "start": 86.35,
+          "end": 86.42
+        },
+        {
+          "text": "chung",
+          "start": 86.42,
+          "end": 86.47
+        },
+        {
+          "text": "-guo",
+          "start": 86.47,
+          "end": 87.58
+        },
+        {
+          "text": "person",
+          "start": 87.58,
+          "end": 88.76
+        },
+        {
+          "text": "the",
+          "start": 88.76,
+          "end": 90.26
+        },
+        {
+          "text": "word",
+          "start": 90.26,
+          "end": 91.32
+        },
+        {
+          "text": "for",
+          "start": 91.32,
+          "end": 91.56
+        },
+        {
+          "text": "both",
+          "start": 91.56,
+          "end": 91.98
+        },
+        {
+          "text": "or",
+          "start": 91.98,
+          "end": 92.3
+        },
+        {
+          "text": "all",
+          "start": 92.3,
+          "end": 92.72
+        },
+        {
+          "text": "in",
+          "start": 92.72,
+          "end": 92.96
+        },
+        {
+          "text": "Chinese",
+          "start": 92.96,
+          "end": 93.32
+        },
+        {
+          "text": "is",
+          "start": 93.32,
+          "end": 93.84
+        },
+        {
+          "text": "though",
+          "start": 93.84,
+          "end": 94.5
+        },
+        {
+          "text": "green",
+          "start": 94.5,
+          "end": 96.58
+        },
+        {
+          "text": "thumb",
+          "start": 96.58,
+          "end": 96.94
+        },
+        {
+          "text": "out",
+          "start": 96.94,
+          "end": 97.34
+        },
+        {
+          "text": "though",
+          "start": 97.34,
+          "end": 98.28
+        },
+        {
+          "text": "as",
+          "start": 98.28,
+          "end": 100.26
+        },
+        {
+          "text": "in",
+          "start": 100.26,
+          "end": 100.58
+        }
+      ]
+    },
+    {
+      "id": "seg-007",
+      "start": 100.58,
+      "end": 116.18,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "though Ray me all bread needs dough all bread so the word for all is though green thumb out",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "though",
+          "start": 100.58,
+          "end": 101.08
+        },
+        {
+          "text": "Ray",
+          "start": 101.08,
+          "end": 101.96
+        },
+        {
+          "text": "me",
+          "start": 101.96,
+          "end": 102.76
+        },
+        {
+          "text": "all",
+          "start": 102.76,
+          "end": 104.88
+        },
+        {
+          "text": "bread",
+          "start": 104.88,
+          "end": 105.32
+        },
+        {
+          "text": "needs",
+          "start": 105.32,
+          "end": 105.86
+        },
+        {
+          "text": "dough",
+          "start": 105.86,
+          "end": 106.36
+        },
+        {
+          "text": "all",
+          "start": 106.36,
+          "end": 107.24
+        },
+        {
+          "text": "bread",
+          "start": 107.24,
+          "end": 107.74
+        },
+        {
+          "text": "so",
+          "start": 107.74,
+          "end": 108.78
+        },
+        {
+          "text": "the",
+          "start": 108.78,
+          "end": 108.92
+        },
+        {
+          "text": "word",
+          "start": 108.92,
+          "end": 109.16
+        },
+        {
+          "text": "for",
+          "start": 109.16,
+          "end": 109.36
+        },
+        {
+          "text": "all",
+          "start": 109.36,
+          "end": 109.64
+        },
+        {
+          "text": "is",
+          "start": 109.64,
+          "end": 110.18
+        },
+        {
+          "text": "though",
+          "start": 110.18,
+          "end": 113.64
+        },
+        {
+          "text": "green",
+          "start": 113.64,
+          "end": 115.2
+        },
+        {
+          "text": "thumb",
+          "start": 115.2,
+          "end": 115.74
+        },
+        {
+          "text": "out",
+          "start": 115.74,
+          "end": 116.18
+        }
+      ]
+    },
+    {
+      "id": "seg-008",
+      "start": 116.32,
+      "end": 132.44,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "though the word for and a and D is blue finger up how would you say and in Chinese",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "though",
+          "start": 116.32,
+          "end": 117.1
+        },
+        {
+          "text": "the",
+          "start": 117.1,
+          "end": 119.7
+        },
+        {
+          "text": "word",
+          "start": 119.7,
+          "end": 120.36
+        },
+        {
+          "text": "for",
+          "start": 120.36,
+          "end": 120.56
+        },
+        {
+          "text": "and",
+          "start": 120.56,
+          "end": 121.04
+        },
+        {
+          "text": "a",
+          "start": 121.04,
+          "end": 121.84
+        },
+        {
+          "text": "and",
+          "start": 121.84,
+          "end": 122.08
+        },
+        {
+          "text": "D",
+          "start": 122.08,
+          "end": 122.44
+        },
+        {
+          "text": "is",
+          "start": 122.44,
+          "end": 123.18
+        },
+        {
+          "text": "blue",
+          "start": 123.18,
+          "end": 124.44
+        },
+        {
+          "text": "finger",
+          "start": 124.44,
+          "end": 126.28
+        },
+        {
+          "text": "up",
+          "start": 126.28,
+          "end": 126.74
+        },
+        {
+          "text": "how",
+          "start": 126.74,
+          "end": 127.92
+        },
+        {
+          "text": "would",
+          "start": 127.92,
+          "end": 129.86
+        },
+        {
+          "text": "you",
+          "start": 129.86,
+          "end": 130.02
+        },
+        {
+          "text": "say",
+          "start": 130.02,
+          "end": 130.36
+        },
+        {
+          "text": "and",
+          "start": 130.36,
+          "end": 131.38
+        },
+        {
+          "text": "in",
+          "start": 131.38,
+          "end": 132.0
+        },
+        {
+          "text": "Chinese",
+          "start": 132.0,
+          "end": 132.44
+        }
+      ]
+    },
+    {
+      "id": "seg-009",
+      "start": 140.04,
+      "end": 145.52,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "one I ordered two when you're only bringing me one how would you say and",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "one",
+          "start": 140.04,
+          "end": 140.9
+        },
+        {
+          "text": "I",
+          "start": 140.9,
+          "end": 141.76
+        },
+        {
+          "text": "ordered",
+          "start": 141.76,
+          "end": 142.18
+        },
+        {
+          "text": "two",
+          "start": 142.18,
+          "end": 142.42
+        },
+        {
+          "text": "when",
+          "start": 142.42,
+          "end": 142.66
+        },
+        {
+          "text": "you're",
+          "start": 142.66,
+          "end": 142.84
+        },
+        {
+          "text": "only",
+          "start": 142.84,
+          "end": 143.02
+        },
+        {
+          "text": "bringing",
+          "start": 143.02,
+          "end": 143.3
+        },
+        {
+          "text": "me",
+          "start": 143.3,
+          "end": 143.54
+        },
+        {
+          "text": "one",
+          "start": 143.54,
+          "end": 143.96
+        },
+        {
+          "text": "how",
+          "start": 143.96,
+          "end": 144.82
+        },
+        {
+          "text": "would",
+          "start": 144.82,
+          "end": 144.96
+        },
+        {
+          "text": "you",
+          "start": 144.96,
+          "end": 145.08
+        },
+        {
+          "text": "say",
+          "start": 145.08,
+          "end": 145.26
+        },
+        {
+          "text": "and",
+          "start": 145.26,
+          "end": 145.52
+        }
+      ]
+    },
+    {
+      "id": "seg-010",
+      "start": 149.68,
+      "end": 156.38,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "my Bulgarian neighbor used to wake me in the middle of the night with his incessant foo and",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "my",
+          "start": 149.68,
+          "end": 150.38
+        },
+        {
+          "text": "Bulgarian",
+          "start": 150.38,
+          "end": 151.08
+        },
+        {
+          "text": "neighbor",
+          "start": 151.08,
+          "end": 151.32
+        },
+        {
+          "text": "used",
+          "start": 151.32,
+          "end": 151.66
+        },
+        {
+          "text": "to",
+          "start": 151.66,
+          "end": 151.9
+        },
+        {
+          "text": "wake",
+          "start": 151.9,
+          "end": 152.14
+        },
+        {
+          "text": "me",
+          "start": 152.14,
+          "end": 152.34
+        },
+        {
+          "text": "in",
+          "start": 152.34,
+          "end": 152.48
+        },
+        {
+          "text": "the",
+          "start": 152.48,
+          "end": 152.56
+        },
+        {
+          "text": "middle",
+          "start": 152.56,
+          "end": 152.92
+        },
+        {
+          "text": "of",
+          "start": 152.92,
+          "end": 153.1
+        },
+        {
+          "text": "the",
+          "start": 153.1,
+          "end": 153.22
+        },
+        {
+          "text": "night",
+          "start": 153.22,
+          "end": 153.54
+        },
+        {
+          "text": "with",
+          "start": 153.54,
+          "end": 153.78
+        },
+        {
+          "text": "his",
+          "start": 153.78,
+          "end": 153.98
+        },
+        {
+          "text": "incessant",
+          "start": 153.98,
+          "end": 154.7
+        },
+        {
+          "text": "foo",
+          "start": 154.7,
+          "end": 155.54
+        },
+        {
+          "text": "and",
+          "start": 155.54,
+          "end": 156.38
+        }
+      ]
+    },
+    {
+      "id": "seg-011",
+      "start": 156.38,
+      "end": 170.9,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "hoo and hoo so to say you and he are both Chinese you would say you her he all are China person so",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "hoo",
+          "start": 156.38,
+          "end": 157.1
+        },
+        {
+          "text": "and",
+          "start": 157.1,
+          "end": 158.04
+        },
+        {
+          "text": "hoo",
+          "start": 158.04,
+          "end": 158.5
+        },
+        {
+          "text": "so",
+          "start": 158.5,
+          "end": 160.82
+        },
+        {
+          "text": "to",
+          "start": 160.82,
+          "end": 161.02
+        },
+        {
+          "text": "say",
+          "start": 161.02,
+          "end": 161.34
+        },
+        {
+          "text": "you",
+          "start": 161.34,
+          "end": 161.8
+        },
+        {
+          "text": "and",
+          "start": 161.8,
+          "end": 162.2
+        },
+        {
+          "text": "he",
+          "start": 162.2,
+          "end": 162.4
+        },
+        {
+          "text": "are",
+          "start": 162.4,
+          "end": 162.76
+        },
+        {
+          "text": "both",
+          "start": 162.76,
+          "end": 163.08
+        },
+        {
+          "text": "Chinese",
+          "start": 163.08,
+          "end": 163.48
+        },
+        {
+          "text": "you",
+          "start": 163.48,
+          "end": 163.98
+        },
+        {
+          "text": "would",
+          "start": 163.98,
+          "end": 164.18
+        },
+        {
+          "text": "say",
+          "start": 164.18,
+          "end": 164.46
+        },
+        {
+          "text": "you",
+          "start": 164.46,
+          "end": 164.98
+        },
+        {
+          "text": "her",
+          "start": 164.98,
+          "end": 165.62
+        },
+        {
+          "text": "he",
+          "start": 165.62,
+          "end": 166.66
+        },
+        {
+          "text": "all",
+          "start": 166.66,
+          "end": 168.16
+        },
+        {
+          "text": "are",
+          "start": 168.16,
+          "end": 168.76
+        },
+        {
+          "text": "China",
+          "start": 168.76,
+          "end": 169.84
+        },
+        {
+          "text": "person",
+          "start": 169.84,
+          "end": 170.26
+        },
+        {
+          "text": "so",
+          "start": 170.26,
+          "end": 170.9
+        }
+      ]
+    },
+    {
+      "id": "seg-012",
+      "start": 170.9,
+      "end": 173.96,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "how would you say you and he are both Chinese you",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "how",
+          "start": 170.9,
+          "end": 171.06
+        },
+        {
+          "text": "would",
+          "start": 171.06,
+          "end": 171.2
+        },
+        {
+          "text": "you",
+          "start": 171.2,
+          "end": 171.28
+        },
+        {
+          "text": "say",
+          "start": 171.28,
+          "end": 171.56
+        },
+        {
+          "text": "you",
+          "start": 171.56,
+          "end": 171.82
+        },
+        {
+          "text": "and",
+          "start": 171.82,
+          "end": 172.24
+        },
+        {
+          "text": "he",
+          "start": 172.24,
+          "end": 172.44
+        },
+        {
+          "text": "are",
+          "start": 172.44,
+          "end": 172.74
+        },
+        {
+          "text": "both",
+          "start": 172.74,
+          "end": 173.06
+        },
+        {
+          "text": "Chinese",
+          "start": 173.06,
+          "end": 173.48
+        },
+        {
+          "text": "you",
+          "start": 173.48,
+          "end": 173.96
+        }
+      ]
+    },
+    {
+      "id": "seg-013",
+      "start": 176.42,
+      "end": 195.38,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "你, and, 和, he, 他, all, 都, are, 是, China, 中国, person, 人,",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "你,",
+          "start": 176.42,
+          "end": 177.46
+        },
+        {
+          "text": "and,",
+          "start": 177.9,
+          "end": 178.82
+        },
+        {
+          "text": "和,",
+          "start": 179.3,
+          "end": 180.74
+        },
+        {
+          "text": "he,",
+          "start": 181.1,
+          "end": 182.86
+        },
+        {
+          "text": "他,",
+          "start": 183.22,
+          "end": 183.88
+        },
+        {
+          "text": "all,",
+          "start": 184.24,
+          "end": 185.58
+        },
+        {
+          "text": "都,",
+          "start": 185.88,
+          "end": 186.64
+        },
+        {
+          "text": "are,",
+          "start": 186.96,
+          "end": 188.12
+        },
+        {
+          "text": "是,",
+          "start": 188.44,
+          "end": 188.96
+        },
+        {
+          "text": "China,",
+          "start": 189.22,
+          "end": 190.4
+        },
+        {
+          "text": "中国,",
+          "start": 190.58,
+          "end": 192.6
+        },
+        {
+          "text": "person,",
+          "start": 192.6,
+          "end": 194.32
+        },
+        {
+          "text": "人,",
+          "start": 194.7,
+          "end": 195.38
+        }
+      ]
+    },
+    {
+      "id": "seg-014",
+      "start": 195.38,
+      "end": 212.78,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "How would you say you? 你, 你, 和, 他, 都, 是, 中国, 人,",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "How",
+          "start": 195.38,
+          "end": 196.88
+        },
+        {
+          "text": "would",
+          "start": 196.88,
+          "end": 197.16
+        },
+        {
+          "text": "you",
+          "start": 197.16,
+          "end": 197.28
+        },
+        {
+          "text": "say",
+          "start": 197.28,
+          "end": 197.64
+        },
+        {
+          "text": "you?",
+          "start": 197.64,
+          "end": 198.18
+        },
+        {
+          "text": "你,",
+          "start": 199.46,
+          "end": 200.86
+        },
+        {
+          "text": "你,",
+          "start": 201.22,
+          "end": 202.08
+        },
+        {
+          "text": "和,",
+          "start": 203.12,
+          "end": 204.04
+        },
+        {
+          "text": "他,",
+          "start": 204.38,
+          "end": 205.28
+        },
+        {
+          "text": "都,",
+          "start": 205.62,
+          "end": 207.24
+        },
+        {
+          "text": "是,",
+          "start": 207.26,
+          "end": 208.48
+        },
+        {
+          "text": "中国,",
+          "start": 208.94,
+          "end": 210.66
+        },
+        {
+          "text": "人,",
+          "start": 210.66,
+          "end": 212.78
+        }
+      ]
+    },
+    {
+      "id": "seg-015",
+      "start": 213.06,
+      "end": 221.82,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You and I are both Chinese. You?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You",
+          "start": 213.06,
+          "end": 215.5
+        },
+        {
+          "text": "and",
+          "start": 215.5,
+          "end": 216.38
+        },
+        {
+          "text": "I",
+          "start": 216.38,
+          "end": 217.0
+        },
+        {
+          "text": "are",
+          "start": 217.0,
+          "end": 218.88
+        },
+        {
+          "text": "both",
+          "start": 218.88,
+          "end": 219.58
+        },
+        {
+          "text": "Chinese.",
+          "start": 219.58,
+          "end": 220.48
+        },
+        {
+          "text": "You?",
+          "start": 220.7,
+          "end": 221.82
+        }
+      ]
+    },
+    {
+      "id": "seg-016",
+      "start": 225.38,
+      "end": 242.9,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "你, and, 和, I, 我, both, 都, are, 是, China, 中国, person, 人,",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "你,",
+          "start": 225.38,
+          "end": 225.54
+        },
+        {
+          "text": "and,",
+          "start": 225.9,
+          "end": 226.86
+        },
+        {
+          "text": "和,",
+          "start": 227.34,
+          "end": 228.12
+        },
+        {
+          "text": "I,",
+          "start": 228.54,
+          "end": 229.66
+        },
+        {
+          "text": "我,",
+          "start": 230.02,
+          "end": 231.08
+        },
+        {
+          "text": "both,",
+          "start": 231.32,
+          "end": 232.74
+        },
+        {
+          "text": "都,",
+          "start": 232.86,
+          "end": 234.14
+        },
+        {
+          "text": "are,",
+          "start": 234.14,
+          "end": 235.74
+        },
+        {
+          "text": "是,",
+          "start": 235.96,
+          "end": 236.88
+        },
+        {
+          "text": "China,",
+          "start": 237.14,
+          "end": 238.32
+        },
+        {
+          "text": "中国,",
+          "start": 238.5,
+          "end": 240.18
+        },
+        {
+          "text": "person,",
+          "start": 240.18,
+          "end": 241.88
+        },
+        {
+          "text": "人,",
+          "start": 242.12,
+          "end": 242.9
+        }
+      ]
+    },
+    {
+      "id": "seg-017",
+      "start": 253.96,
+      "end": 255.36,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "你和我都是中国人。",
+      "pinyin": "nǐ hé wǒ dōu shì zhōng guó rén .",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 253.96,
+          "end": 254.12
+        },
+        {
+          "hanzi": "和",
+          "pinyin": "hé",
+          "start": 254.12,
+          "end": 254.27
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 254.27,
+          "end": 254.43
+        },
+        {
+          "hanzi": "都",
+          "pinyin": "dōu",
+          "start": 254.43,
+          "end": 254.58
+        },
+        {
+          "hanzi": "是",
+          "pinyin": "shì",
+          "start": 254.58,
+          "end": 254.74
+        },
+        {
+          "hanzi": "中",
+          "pinyin": "zhōng",
+          "start": 254.74,
+          "end": 254.89
+        },
+        {
+          "hanzi": "国",
+          "pinyin": "guó",
+          "start": 254.89,
+          "end": 255.05
+        },
+        {
+          "hanzi": "人",
+          "pinyin": "rén",
+          "start": 255.05,
+          "end": 255.2
+        }
+      ]
+    },
+    {
+      "id": "seg-018",
+      "start": 255.38,
+      "end": 260.26,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "She and I are both Chinese.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "She",
+          "start": 255.38,
+          "end": 256.8
+        },
+        {
+          "text": "and",
+          "start": 256.8,
+          "end": 257.46
+        },
+        {
+          "text": "I",
+          "start": 257.46,
+          "end": 258.08
+        },
+        {
+          "text": "are",
+          "start": 258.08,
+          "end": 259.02
+        },
+        {
+          "text": "both",
+          "start": 259.02,
+          "end": 259.72
+        },
+        {
+          "text": "Chinese.",
+          "start": 259.72,
+          "end": 260.26
+        }
+      ]
+    },
+    {
+      "id": "seg-019",
+      "start": 260.64,
+      "end": 282.42,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "She, 他, and, 和, I, 我, both, 都, are, 是, China, 中国, person, 人,",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "She,",
+          "start": 260.64,
+          "end": 261.26
+        },
+        {
+          "text": "他,",
+          "start": 261.26,
+          "end": 264.38
+        },
+        {
+          "text": "and,",
+          "start": 264.8,
+          "end": 265.74
+        },
+        {
+          "text": "和,",
+          "start": 266.2,
+          "end": 268.0
+        },
+        {
+          "text": "I,",
+          "start": 268.26,
+          "end": 270.0
+        },
+        {
+          "text": "我,",
+          "start": 270.32,
+          "end": 271.14
+        },
+        {
+          "text": "both,",
+          "start": 271.66,
+          "end": 273.12
+        },
+        {
+          "text": "都,",
+          "start": 273.3,
+          "end": 274.46
+        },
+        {
+          "text": "are,",
+          "start": 274.46,
+          "end": 275.42
+        },
+        {
+          "text": "是,",
+          "start": 275.76,
+          "end": 276.4
+        },
+        {
+          "text": "China,",
+          "start": 276.62,
+          "end": 277.78
+        },
+        {
+          "text": "中国,",
+          "start": 277.94,
+          "end": 279.34
+        },
+        {
+          "text": "person,",
+          "start": 279.34,
+          "end": 281.32
+        },
+        {
+          "text": "人,",
+          "start": 281.66,
+          "end": 282.42
+        }
+      ]
+    },
+    {
+      "id": "seg-020",
+      "start": 282.64,
+      "end": 283.94,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "他,",
+      "pinyin": "tā ,",
+      "words": [
+        {
+          "hanzi": "他",
+          "pinyin": "tā",
+          "start": 282.64,
+          "end": 283.29
+        }
+      ]
+    },
+    {
+      "id": "seg-021",
+      "start": 285.38,
+      "end": 296.12,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "和, 我, 都, 是, 中国, 人。",
+      "pinyin": "hé , wǒ , dōu , shì , zhōng guó , rén .",
+      "words": [
+        {
+          "hanzi": "和",
+          "pinyin": "hé",
+          "start": 285.38,
+          "end": 285.98
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 287.17,
+          "end": 287.77
+        },
+        {
+          "hanzi": "都",
+          "pinyin": "dōu",
+          "start": 288.96,
+          "end": 289.56
+        },
+        {
+          "hanzi": "是",
+          "pinyin": "shì",
+          "start": 290.75,
+          "end": 291.35
+        },
+        {
+          "hanzi": "中",
+          "pinyin": "zhōng",
+          "start": 292.54,
+          "end": 293.14
+        },
+        {
+          "hanzi": "国",
+          "pinyin": "guó",
+          "start": 293.14,
+          "end": 293.73
+        },
+        {
+          "hanzi": "人",
+          "pinyin": "rén",
+          "start": 294.93,
+          "end": 295.52
+        }
+      ]
+    }
+  ]
+}

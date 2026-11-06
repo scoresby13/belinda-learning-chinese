@@ -1,0 +1,3318 @@
+{
+  "trackId": "vocabulary-cd03-14",
+  "course": "Chinese Vocabulary",
+  "cd": 3,
+  "track": 14,
+  "title": "Chinese Vocabulary CD 3 - Track 14",
+  "audioUrl": "audio/vocabulary-cd03/track-14.mp3",
+  "durationSeconds": 259.96,
+  "segments": [
+    {
+      "id": "seg-001",
+      "start": 0.0,
+      "end": 2.16,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You know, I really don't have a lot of money.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You",
+          "start": 0.0,
+          "end": 0.34
+        },
+        {
+          "text": "know,",
+          "start": 0.34,
+          "end": 0.48
+        },
+        {
+          "text": "I",
+          "start": 0.56,
+          "end": 0.82
+        },
+        {
+          "text": "really",
+          "start": 0.82,
+          "end": 1.08
+        },
+        {
+          "text": "don't",
+          "start": 1.08,
+          "end": 1.3
+        },
+        {
+          "text": "have",
+          "start": 1.3,
+          "end": 1.46
+        },
+        {
+          "text": "a",
+          "start": 1.46,
+          "end": 1.54
+        },
+        {
+          "text": "lot",
+          "start": 1.54,
+          "end": 1.74
+        },
+        {
+          "text": "of",
+          "start": 1.74,
+          "end": 1.86
+        },
+        {
+          "text": "money.",
+          "start": 1.86,
+          "end": 2.16
+        }
+      ]
+    },
+    {
+      "id": "seg-002",
+      "start": 3.24,
+      "end": 3.8,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You know?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You",
+          "start": 3.24,
+          "end": 3.64
+        },
+        {
+          "text": "know?",
+          "start": 3.64,
+          "end": 3.8
+        }
+      ]
+    },
+    {
+      "id": "seg-003",
+      "start": 15.7,
+      "end": 16.36,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "你知道我真的没有很多钱?",
+      "pinyin": "nǐ zhī dào wǒ zhēn de méi yǒu hěn duō qián ?",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 15.7,
+          "end": 15.76
+        },
+        {
+          "hanzi": "知",
+          "pinyin": "zhī",
+          "start": 15.76,
+          "end": 15.82
+        },
+        {
+          "hanzi": "道",
+          "pinyin": "dào",
+          "start": 15.82,
+          "end": 15.88
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 15.88,
+          "end": 15.94
+        },
+        {
+          "hanzi": "真",
+          "pinyin": "zhēn",
+          "start": 15.94,
+          "end": 16.0
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 16.0,
+          "end": 16.06
+        },
+        {
+          "hanzi": "没",
+          "pinyin": "méi",
+          "start": 16.06,
+          "end": 16.12
+        },
+        {
+          "hanzi": "有",
+          "pinyin": "yǒu",
+          "start": 16.12,
+          "end": 16.18
+        },
+        {
+          "hanzi": "很",
+          "pinyin": "hěn",
+          "start": 16.18,
+          "end": 16.24
+        },
+        {
+          "hanzi": "多",
+          "pinyin": "duō",
+          "start": 16.24,
+          "end": 16.3
+        },
+        {
+          "hanzi": "钱",
+          "pinyin": "qián",
+          "start": 16.3,
+          "end": 16.36
+        }
+      ]
+    },
+    {
+      "id": "seg-004",
+      "start": 24.0,
+      "end": 24.66,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "你知道我真的没有很多钱?",
+      "pinyin": "nǐ zhī dào wǒ zhēn de méi yǒu hěn duō qián ?",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 24.0,
+          "end": 24.06
+        },
+        {
+          "hanzi": "知",
+          "pinyin": "zhī",
+          "start": 24.06,
+          "end": 24.12
+        },
+        {
+          "hanzi": "道",
+          "pinyin": "dào",
+          "start": 24.12,
+          "end": 24.18
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "start": 24.18,
+          "end": 24.24
+        },
+        {
+          "hanzi": "真",
+          "pinyin": "zhēn",
+          "start": 24.24,
+          "end": 24.3
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 24.3,
+          "end": 24.36
+        },
+        {
+          "hanzi": "没",
+          "pinyin": "méi",
+          "start": 24.36,
+          "end": 24.42
+        },
+        {
+          "hanzi": "有",
+          "pinyin": "yǒu",
+          "start": 24.42,
+          "end": 24.48
+        },
+        {
+          "hanzi": "很",
+          "pinyin": "hěn",
+          "start": 24.48,
+          "end": 24.54
+        },
+        {
+          "hanzi": "多",
+          "pinyin": "duō",
+          "start": 24.54,
+          "end": 24.6
+        },
+        {
+          "hanzi": "钱",
+          "pinyin": "qián",
+          "start": 24.6,
+          "end": 24.66
+        }
+      ]
+    },
+    {
+      "id": "seg-005",
+      "start": 28.44,
+      "end": 31.66,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "If you want to say would like,",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "If",
+          "start": 28.44,
+          "end": 29.08
+        },
+        {
+          "text": "you",
+          "start": 29.08,
+          "end": 29.72
+        },
+        {
+          "text": "want",
+          "start": 29.72,
+          "end": 30.32
+        },
+        {
+          "text": "to",
+          "start": 30.32,
+          "end": 30.48
+        },
+        {
+          "text": "say",
+          "start": 30.48,
+          "end": 30.8
+        },
+        {
+          "text": "would",
+          "start": 30.8,
+          "end": 31.32
+        },
+        {
+          "text": "like,",
+          "start": 31.32,
+          "end": 31.66
+        }
+      ]
+    },
+    {
+      "id": "seg-006",
+      "start": 31.92,
+      "end": 33.26,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "how would you say would like?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "how",
+          "start": 31.92,
+          "end": 32.28
+        },
+        {
+          "text": "would",
+          "start": 32.28,
+          "end": 32.44
+        },
+        {
+          "text": "you",
+          "start": 32.44,
+          "end": 32.56
+        },
+        {
+          "text": "say",
+          "start": 32.56,
+          "end": 32.74
+        },
+        {
+          "text": "would",
+          "start": 32.74,
+          "end": 32.96
+        },
+        {
+          "text": "like?",
+          "start": 32.96,
+          "end": 33.26
+        }
+      ]
+    },
+    {
+      "id": "seg-007",
+      "start": 34.68,
+      "end": 35.04,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "想",
+      "pinyin": "xiǎng",
+      "words": [
+        {
+          "hanzi": "想",
+          "pinyin": "xiǎng",
+          "start": 34.68,
+          "end": 35.04
+        }
+      ]
+    },
+    {
+      "id": "seg-008",
+      "start": 35.04,
+      "end": 37.88,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "How would you say want?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "How",
+          "start": 35.04,
+          "end": 36.32
+        },
+        {
+          "text": "would",
+          "start": 36.32,
+          "end": 36.62
+        },
+        {
+          "text": "you",
+          "start": 36.62,
+          "end": 36.78
+        },
+        {
+          "text": "say",
+          "start": 36.78,
+          "end": 37.1
+        },
+        {
+          "text": "want?",
+          "start": 37.1,
+          "end": 37.88
+        }
+      ]
+    },
+    {
+      "id": "seg-009",
+      "start": 39.0,
+      "end": 39.64,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "要",
+      "pinyin": "yào",
+      "words": [
+        {
+          "hanzi": "要",
+          "pinyin": "yào",
+          "start": 39.0,
+          "end": 39.64
+        }
+      ]
+    },
+    {
+      "id": "seg-010",
+      "start": 40.52,
+      "end": 43.94,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "There's another word that is used a lot in Chinese.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "There's",
+          "start": 40.52,
+          "end": 41.16
+        },
+        {
+          "text": "another",
+          "start": 41.16,
+          "end": 41.36
+        },
+        {
+          "text": "word",
+          "start": 41.36,
+          "end": 41.8
+        },
+        {
+          "text": "that",
+          "start": 41.8,
+          "end": 42.18
+        },
+        {
+          "text": "is",
+          "start": 42.18,
+          "end": 42.32
+        },
+        {
+          "text": "used",
+          "start": 42.32,
+          "end": 42.6
+        },
+        {
+          "text": "a",
+          "start": 42.6,
+          "end": 42.84
+        },
+        {
+          "text": "lot",
+          "start": 42.84,
+          "end": 43.2
+        },
+        {
+          "text": "in",
+          "start": 43.2,
+          "end": 43.5
+        },
+        {
+          "text": "Chinese.",
+          "start": 43.5,
+          "end": 43.94
+        }
+      ]
+    },
+    {
+      "id": "seg-011",
+      "start": 44.24,
+      "end": 45.74,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "It's to like something.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "It's",
+          "start": 44.24,
+          "end": 44.88
+        },
+        {
+          "text": "to",
+          "start": 44.88,
+          "end": 45.04
+        },
+        {
+          "text": "like",
+          "start": 45.04,
+          "end": 45.42
+        },
+        {
+          "text": "something.",
+          "start": 45.42,
+          "end": 45.74
+        }
+      ]
+    },
+    {
+      "id": "seg-012",
+      "start": 46.94,
+      "end": 49.46,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "So we make a distinction between I want something,",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "So",
+          "start": 46.94,
+          "end": 47.06
+        },
+        {
+          "text": "we",
+          "start": 47.06,
+          "end": 47.18
+        },
+        {
+          "text": "make",
+          "start": 47.18,
+          "end": 47.4
+        },
+        {
+          "text": "a",
+          "start": 47.4,
+          "end": 47.5
+        },
+        {
+          "text": "distinction",
+          "start": 47.5,
+          "end": 47.9
+        },
+        {
+          "text": "between",
+          "start": 47.9,
+          "end": 48.42
+        },
+        {
+          "text": "I",
+          "start": 48.42,
+          "end": 48.74
+        },
+        {
+          "text": "want",
+          "start": 48.74,
+          "end": 49.02
+        },
+        {
+          "text": "something,",
+          "start": 49.02,
+          "end": 49.46
+        }
+      ]
+    },
+    {
+      "id": "seg-013",
+      "start": 49.64,
+      "end": 52.34,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "I would like to do something,",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "I",
+          "start": 49.64,
+          "end": 50.58
+        },
+        {
+          "text": "would",
+          "start": 50.58,
+          "end": 50.78
+        },
+        {
+          "text": "like",
+          "start": 50.78,
+          "end": 51.18
+        },
+        {
+          "text": "to",
+          "start": 51.18,
+          "end": 51.64
+        },
+        {
+          "text": "do",
+          "start": 51.64,
+          "end": 51.86
+        },
+        {
+          "text": "something,",
+          "start": 51.86,
+          "end": 52.34
+        }
+      ]
+    },
+    {
+      "id": "seg-014",
+      "start": 52.54,
+      "end": 54.18,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "and I like something.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "and",
+          "start": 52.54,
+          "end": 53.2
+        },
+        {
+          "text": "I",
+          "start": 53.2,
+          "end": 53.56
+        },
+        {
+          "text": "like",
+          "start": 53.56,
+          "end": 53.8
+        },
+        {
+          "text": "something.",
+          "start": 53.8,
+          "end": 54.18
+        }
+      ]
+    },
+    {
+      "id": "seg-015",
+      "start": 54.4,
+      "end": 55.78,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "I like to drink tea.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "I",
+          "start": 54.4,
+          "end": 54.84
+        },
+        {
+          "text": "like",
+          "start": 54.84,
+          "end": 55.06
+        },
+        {
+          "text": "to",
+          "start": 55.06,
+          "end": 55.24
+        },
+        {
+          "text": "drink",
+          "start": 55.24,
+          "end": 55.46
+        },
+        {
+          "text": "tea.",
+          "start": 55.46,
+          "end": 55.78
+        }
+      ]
+    },
+    {
+      "id": "seg-016",
+      "start": 56.54,
+      "end": 58.34,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "I like to go for a walk.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "I",
+          "start": 56.54,
+          "end": 57.18
+        },
+        {
+          "text": "like",
+          "start": 57.18,
+          "end": 57.4
+        },
+        {
+          "text": "to",
+          "start": 57.4,
+          "end": 57.54
+        },
+        {
+          "text": "go",
+          "start": 57.54,
+          "end": 57.68
+        },
+        {
+          "text": "for",
+          "start": 57.68,
+          "end": 57.84
+        },
+        {
+          "text": "a",
+          "start": 57.84,
+          "end": 58.02
+        },
+        {
+          "text": "walk.",
+          "start": 58.02,
+          "end": 58.34
+        }
+      ]
+    },
+    {
+      "id": "seg-017",
+      "start": 59.12,
+      "end": 62.62,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "I really like to go to the museum and look at paintings.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "I",
+          "start": 59.12,
+          "end": 59.76
+        },
+        {
+          "text": "really",
+          "start": 59.76,
+          "end": 60.04
+        },
+        {
+          "text": "like",
+          "start": 60.04,
+          "end": 60.46
+        },
+        {
+          "text": "to",
+          "start": 60.46,
+          "end": 60.76
+        },
+        {
+          "text": "go",
+          "start": 60.76,
+          "end": 60.92
+        },
+        {
+          "text": "to",
+          "start": 60.92,
+          "end": 61.04
+        },
+        {
+          "text": "the",
+          "start": 61.04,
+          "end": 61.16
+        },
+        {
+          "text": "museum",
+          "start": 61.16,
+          "end": 61.56
+        },
+        {
+          "text": "and",
+          "start": 61.56,
+          "end": 61.88
+        },
+        {
+          "text": "look",
+          "start": 61.88,
+          "end": 62.04
+        },
+        {
+          "text": "at",
+          "start": 62.04,
+          "end": 62.18
+        },
+        {
+          "text": "paintings.",
+          "start": 62.18,
+          "end": 62.62
+        }
+      ]
+    },
+    {
+      "id": "seg-018",
+      "start": 63.36,
+      "end": 66.26,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "And the word to like something is",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "And",
+          "start": 63.36,
+          "end": 64.0
+        },
+        {
+          "text": "the",
+          "start": 64.0,
+          "end": 64.32
+        },
+        {
+          "text": "word",
+          "start": 64.32,
+          "end": 64.64
+        },
+        {
+          "text": "to",
+          "start": 64.64,
+          "end": 64.82
+        },
+        {
+          "text": "like",
+          "start": 64.82,
+          "end": 65.18
+        },
+        {
+          "text": "something",
+          "start": 65.18,
+          "end": 65.62
+        },
+        {
+          "text": "is",
+          "start": 65.62,
+          "end": 66.26
+        }
+      ]
+    },
+    {
+      "id": "seg-019",
+      "start": 67.6,
+      "end": 68.24,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "喜欢",
+      "pinyin": "xǐ huān",
+      "words": [
+        {
+          "hanzi": "喜",
+          "pinyin": "xǐ",
+          "start": 67.6,
+          "end": 67.92
+        },
+        {
+          "hanzi": "欢",
+          "pinyin": "huān",
+          "start": 67.92,
+          "end": 68.24
+        }
+      ]
+    },
+    {
+      "id": "seg-020",
+      "start": 70.48,
+      "end": 71.12,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "喜欢",
+      "pinyin": "xǐ huān",
+      "words": [
+        {
+          "hanzi": "喜",
+          "pinyin": "xǐ",
+          "start": 70.48,
+          "end": 70.8
+        },
+        {
+          "hanzi": "欢",
+          "pinyin": "huān",
+          "start": 70.8,
+          "end": 71.12
+        }
+      ]
+    },
+    {
+      "id": "seg-021",
+      "start": 72.42,
+      "end": 73.06,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "喜欢",
+      "pinyin": "xǐ huān",
+      "words": [
+        {
+          "hanzi": "喜",
+          "pinyin": "xǐ",
+          "start": 72.42,
+          "end": 72.74
+        },
+        {
+          "hanzi": "欢",
+          "pinyin": "huān",
+          "start": 72.74,
+          "end": 73.06
+        }
+      ]
+    },
+    {
+      "id": "seg-022",
+      "start": 73.06,
+      "end": 73.6,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "喜欢",
+      "pinyin": "xǐ huān",
+      "words": [
+        {
+          "hanzi": "喜",
+          "pinyin": "xǐ",
+          "start": 73.06,
+          "end": 73.33
+        },
+        {
+          "hanzi": "欢",
+          "pinyin": "huān",
+          "start": 73.33,
+          "end": 73.6
+        }
+      ]
+    },
+    {
+      "id": "seg-023",
+      "start": 73.6,
+      "end": 74.84,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Red V for victory.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Red",
+          "start": 73.6,
+          "end": 73.84
+        },
+        {
+          "text": "V",
+          "start": 73.84,
+          "end": 74.12
+        },
+        {
+          "text": "for",
+          "start": 74.12,
+          "end": 74.32
+        },
+        {
+          "text": "victory.",
+          "start": 74.32,
+          "end": 74.84
+        }
+      ]
+    },
+    {
+      "id": "seg-024",
+      "start": 75.18,
+      "end": 75.82,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "欢",
+      "pinyin": "huān",
+      "words": [
+        {
+          "hanzi": "欢",
+          "pinyin": "huān",
+          "start": 75.18,
+          "end": 75.82
+        }
+      ]
+    },
+    {
+      "id": "seg-025",
+      "start": 75.82,
+      "end": 77.32,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Green thumb out.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Green",
+          "start": 75.82,
+          "end": 76.6
+        },
+        {
+          "text": "thumb",
+          "start": 76.6,
+          "end": 77.0
+        },
+        {
+          "text": "out.",
+          "start": 77.0,
+          "end": 77.32
+        }
+      ]
+    },
+    {
+      "id": "seg-026",
+      "start": 77.54,
+      "end": 78.32,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "喜",
+      "pinyin": "xǐ",
+      "words": [
+        {
+          "hanzi": "喜",
+          "pinyin": "xǐ",
+          "start": 77.54,
+          "end": 78.32
+        }
+      ]
+    },
+    {
+      "id": "seg-027",
+      "start": 78.32,
+      "end": 79.24,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "欢",
+      "pinyin": "huān",
+      "words": [
+        {
+          "hanzi": "欢",
+          "pinyin": "huān",
+          "start": 78.32,
+          "end": 79.24
+        }
+      ]
+    },
+    {
+      "id": "seg-028",
+      "start": 79.24,
+      "end": 80.2,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "For like.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "For",
+          "start": 79.24,
+          "end": 79.8
+        },
+        {
+          "text": "like.",
+          "start": 79.8,
+          "end": 80.2
+        }
+      ]
+    },
+    {
+      "id": "seg-029",
+      "start": 81.62,
+      "end": 82.6,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Imelda Marcos.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Imelda",
+          "start": 81.62,
+          "end": 82.02
+        },
+        {
+          "text": "Marcos.",
+          "start": 82.02,
+          "end": 82.6
+        }
+      ]
+    },
+    {
+      "id": "seg-030",
+      "start": 83.42,
+      "end": 84.96,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "She want more chews.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "She",
+          "start": 83.42,
+          "end": 83.47
+        },
+        {
+          "text": "want",
+          "start": 83.47,
+          "end": 84.18
+        },
+        {
+          "text": "more",
+          "start": 84.18,
+          "end": 84.5
+        },
+        {
+          "text": "chews.",
+          "start": 84.5,
+          "end": 84.96
+        }
+      ]
+    },
+    {
+      "id": "seg-031",
+      "start": 85.3,
+      "end": 88.48,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "You know, that lady really likes chews.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "You",
+          "start": 85.3,
+          "end": 86.12
+        },
+        {
+          "text": "know,",
+          "start": 86.12,
+          "end": 86.24
+        },
+        {
+          "text": "that",
+          "start": 86.24,
+          "end": 86.4
+        },
+        {
+          "text": "lady",
+          "start": 86.4,
+          "end": 86.82
+        },
+        {
+          "text": "really",
+          "start": 86.82,
+          "end": 87.14
+        },
+        {
+          "text": "likes",
+          "start": 87.14,
+          "end": 87.78
+        },
+        {
+          "text": "chews.",
+          "start": 87.78,
+          "end": 88.48
+        }
+      ]
+    },
+    {
+      "id": "seg-032",
+      "start": 89.38,
+      "end": 89.98,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "喜欢",
+      "pinyin": "xǐ huān",
+      "words": [
+        {
+          "hanzi": "喜",
+          "pinyin": "xǐ",
+          "start": 89.38,
+          "end": 89.68
+        },
+        {
+          "hanzi": "欢",
+          "pinyin": "huān",
+          "start": 89.68,
+          "end": 89.98
+        }
+      ]
+    },
+    {
+      "id": "seg-033",
+      "start": 90.62,
+      "end": 93.3,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Do you like Chinese food?",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Do",
+          "start": 90.62,
+          "end": 91.52
+        },
+        {
+          "text": "you",
+          "start": 91.52,
+          "end": 92.12
+        },
+        {
+          "text": "like",
+          "start": 92.12,
+          "end": 92.46
+        },
+        {
+          "text": "Chinese",
+          "start": 92.46,
+          "end": 92.82
+        },
+        {
+          "text": "food?",
+          "start": 92.82,
+          "end": 93.3
+        }
+      ]
+    },
+    {
+      "id": "seg-034",
+      "start": 100.34,
+      "end": 101.46,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "你喜欢中国菜?",
+      "pinyin": "nǐ xǐ huān zhōng guó cài ?",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 100.34,
+          "end": 100.5
+        },
+        {
+          "hanzi": "喜",
+          "pinyin": "xǐ",
+          "start": 100.5,
+          "end": 100.66
+        },
+        {
+          "hanzi": "欢",
+          "pinyin": "huān",
+          "start": 100.66,
+          "end": 100.82
+        },
+        {
+          "hanzi": "中",
+          "pinyin": "zhōng",
+          "start": 100.82,
+          "end": 100.98
+        },
+        {
+          "hanzi": "国",
+          "pinyin": "guó",
+          "start": 100.98,
+          "end": 101.14
+        },
+        {
+          "hanzi": "菜",
+          "pinyin": "cài",
+          "start": 101.14,
+          "end": 101.3
+        }
+      ]
+    },
+    {
+      "id": "seg-035",
+      "start": 101.78,
+      "end": 102.54,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Question.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Question.",
+          "start": 101.78,
+          "end": 102.54
+        }
+      ]
+    },
+    {
+      "id": "seg-036",
+      "start": 103.9,
+      "end": 104.0,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "吗?",
+      "pinyin": "ma ?",
+      "words": [
+        {
+          "hanzi": "吗",
+          "pinyin": "ma",
+          "start": 103.9,
+          "end": 103.96
+        }
+      ]
+    },
+    {
+      "id": "seg-037",
+      "start": 105.4,
+      "end": 105.8,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "你喜欢中国菜?",
+      "pinyin": "nǐ xǐ huān zhōng guó cài ?",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 105.4,
+          "end": 105.46
+        },
+        {
+          "hanzi": "喜",
+          "pinyin": "xǐ",
+          "start": 105.46,
+          "end": 105.52
+        },
+        {
+          "hanzi": "欢",
+          "pinyin": "huān",
+          "start": 105.52,
+          "end": 105.58
+        },
+        {
+          "hanzi": "中",
+          "pinyin": "zhōng",
+          "start": 105.58,
+          "end": 105.64
+        },
+        {
+          "hanzi": "国",
+          "pinyin": "guó",
+          "start": 105.64,
+          "end": 105.7
+        },
+        {
+          "hanzi": "菜",
+          "pinyin": "cài",
+          "start": 105.7,
+          "end": 105.76
+        }
+      ]
+    },
+    {
+      "id": "seg-038",
+      "start": 109.54,
+      "end": 110.18,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "你喜欢中国菜吗?",
+      "pinyin": "nǐ xǐ huān zhōng guó cài ma ?",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 109.54,
+          "end": 109.62
+        },
+        {
+          "hanzi": "喜",
+          "pinyin": "xǐ",
+          "start": 109.62,
+          "end": 109.7
+        },
+        {
+          "hanzi": "欢",
+          "pinyin": "huān",
+          "start": 109.7,
+          "end": 109.78
+        },
+        {
+          "hanzi": "中",
+          "pinyin": "zhōng",
+          "start": 109.78,
+          "end": 109.86
+        },
+        {
+          "hanzi": "国",
+          "pinyin": "guó",
+          "start": 109.86,
+          "end": 109.94
+        },
+        {
+          "hanzi": "菜",
+          "pinyin": "cài",
+          "start": 109.94,
+          "end": 110.02
+        },
+        {
+          "hanzi": "吗",
+          "pinyin": "ma",
+          "start": 110.02,
+          "end": 110.1
+        }
+      ]
+    },
+    {
+      "id": "seg-039",
+      "start": 112.56,
+      "end": 113.2,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "你喜欢中国菜吗?",
+      "pinyin": "nǐ xǐ huān zhōng guó cài ma ?",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "start": 112.56,
+          "end": 112.64
+        },
+        {
+          "hanzi": "喜",
+          "pinyin": "xǐ",
+          "start": 112.64,
+          "end": 112.72
+        },
+        {
+          "hanzi": "欢",
+          "pinyin": "huān",
+          "start": 112.72,
+          "end": 112.8
+        },
+        {
+          "hanzi": "中",
+          "pinyin": "zhōng",
+          "start": 112.8,
+          "end": 112.88
+        },
+        {
+          "hanzi": "国",
+          "pinyin": "guó",
+          "start": 112.88,
+          "end": 112.96
+        },
+        {
+          "hanzi": "菜",
+          "pinyin": "cài",
+          "start": 112.96,
+          "end": 113.04
+        },
+        {
+          "hanzi": "吗",
+          "pinyin": "ma",
+          "start": 113.04,
+          "end": 113.12
+        }
+      ]
+    },
+    {
+      "id": "seg-040",
+      "start": 114.12,
+      "end": 116.36,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "These two rich men are the same.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "These",
+          "start": 114.12,
+          "end": 114.76
+        },
+        {
+          "text": "two",
+          "start": 114.76,
+          "end": 115.0
+        },
+        {
+          "text": "rich",
+          "start": 115.0,
+          "end": 115.26
+        },
+        {
+          "text": "men",
+          "start": 115.26,
+          "end": 115.48
+        },
+        {
+          "text": "are",
+          "start": 115.48,
+          "end": 115.8
+        },
+        {
+          "text": "the",
+          "start": 115.8,
+          "end": 116.02
+        },
+        {
+          "text": "same.",
+          "start": 116.02,
+          "end": 116.36
+        }
+      ]
+    },
+    {
+      "id": "seg-041",
+      "start": 116.46,
+      "end": 118.08,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "They both like to eat in the hotel.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "They",
+          "start": 116.46,
+          "end": 116.62
+        },
+        {
+          "text": "both",
+          "start": 116.62,
+          "end": 116.86
+        },
+        {
+          "text": "like",
+          "start": 116.86,
+          "end": 117.16
+        },
+        {
+          "text": "to",
+          "start": 117.16,
+          "end": 117.34
+        },
+        {
+          "text": "eat",
+          "start": 117.34,
+          "end": 117.52
+        },
+        {
+          "text": "in",
+          "start": 117.52,
+          "end": 117.66
+        },
+        {
+          "text": "the",
+          "start": 117.66,
+          "end": 117.74
+        },
+        {
+          "text": "hotel.",
+          "start": 117.74,
+          "end": 118.08
+        }
+      ]
+    },
+    {
+      "id": "seg-042",
+      "start": 119.42,
+      "end": 123.72,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "These two rich men both the same.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "These",
+          "start": 119.42,
+          "end": 120.06
+        },
+        {
+          "text": "two",
+          "start": 120.06,
+          "end": 120.64
+        },
+        {
+          "text": "rich",
+          "start": 120.64,
+          "end": 122.06
+        },
+        {
+          "text": "men",
+          "start": 122.06,
+          "end": 122.4
+        },
+        {
+          "text": "both",
+          "start": 122.4,
+          "end": 123.12
+        },
+        {
+          "text": "the",
+          "start": 123.12,
+          "end": 123.38
+        },
+        {
+          "text": "same.",
+          "start": 123.38,
+          "end": 123.72
+        }
+      ]
+    },
+    {
+      "id": "seg-043",
+      "start": 130.54,
+      "end": 131.2,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "这些有钱的人",
+      "pinyin": "zhè xiē yǒu qián de rén",
+      "words": [
+        {
+          "hanzi": "这",
+          "pinyin": "zhè",
+          "start": 130.54,
+          "end": 130.65
+        },
+        {
+          "hanzi": "些",
+          "pinyin": "xiē",
+          "start": 130.65,
+          "end": 130.76
+        },
+        {
+          "hanzi": "有",
+          "pinyin": "yǒu",
+          "start": 130.76,
+          "end": 130.87
+        },
+        {
+          "hanzi": "钱",
+          "pinyin": "qián",
+          "start": 130.87,
+          "end": 130.98
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 130.98,
+          "end": 131.09
+        },
+        {
+          "hanzi": "人",
+          "pinyin": "rén",
+          "start": 131.09,
+          "end": 131.2
+        }
+      ]
+    },
+    {
+      "id": "seg-044",
+      "start": 131.86,
+      "end": 132.64,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Oh, two.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Oh,",
+          "start": 131.86,
+          "end": 132.5
+        },
+        {
+          "text": "two.",
+          "start": 132.5,
+          "end": 132.64
+        }
+      ]
+    },
+    {
+      "id": "seg-045",
+      "start": 133.54,
+      "end": 133.96,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Yeah, so.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Yeah,",
+          "start": 133.54,
+          "end": 133.66
+        },
+        {
+          "text": "so.",
+          "start": 133.68,
+          "end": 133.96
+        }
+      ]
+    },
+    {
+      "id": "seg-046",
+      "start": 134.96,
+      "end": 135.38,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "A pair of.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "A",
+          "start": 134.96,
+          "end": 135.02
+        },
+        {
+          "text": "pair",
+          "start": 135.02,
+          "end": 135.22
+        },
+        {
+          "text": "of.",
+          "start": 135.22,
+          "end": 135.38
+        }
+      ]
+    },
+    {
+      "id": "seg-047",
+      "start": 135.8,
+      "end": 139.68,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Yeah, so you say this pair of 个.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Yeah,",
+          "start": 135.8,
+          "end": 135.94
+        },
+        {
+          "text": "so",
+          "start": 135.94,
+          "end": 136.56
+        },
+        {
+          "text": "you",
+          "start": 136.56,
+          "end": 136.76
+        },
+        {
+          "text": "say",
+          "start": 136.76,
+          "end": 136.96
+        },
+        {
+          "text": "this",
+          "start": 136.96,
+          "end": 137.58
+        },
+        {
+          "text": "pair",
+          "start": 137.58,
+          "end": 138.58
+        },
+        {
+          "text": "of",
+          "start": 138.58,
+          "end": 138.98
+        },
+        {
+          "text": "个.",
+          "start": 138.98,
+          "end": 139.68
+        }
+      ]
+    },
+    {
+      "id": "seg-048",
+      "start": 146.3,
+      "end": 146.93,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "这两个有钱的人",
+      "pinyin": "zhè liǎng gè yǒu qián de rén",
+      "words": [
+        {
+          "hanzi": "这",
+          "pinyin": "zhè",
+          "start": 146.3,
+          "end": 146.39
+        },
+        {
+          "hanzi": "两",
+          "pinyin": "liǎng",
+          "start": 146.39,
+          "end": 146.48
+        },
+        {
+          "hanzi": "个",
+          "pinyin": "gè",
+          "start": 146.48,
+          "end": 146.57
+        },
+        {
+          "hanzi": "有",
+          "pinyin": "yǒu",
+          "start": 146.57,
+          "end": 146.66
+        },
+        {
+          "hanzi": "钱",
+          "pinyin": "qián",
+          "start": 146.66,
+          "end": 146.75
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 146.75,
+          "end": 146.84
+        },
+        {
+          "hanzi": "人",
+          "pinyin": "rén",
+          "start": 146.84,
+          "end": 146.93
+        }
+      ]
+    },
+    {
+      "id": "seg-049",
+      "start": 148.84,
+      "end": 150.42,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Both the same.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Both",
+          "start": 148.84,
+          "end": 149.46
+        },
+        {
+          "text": "the",
+          "start": 149.46,
+          "end": 149.96
+        },
+        {
+          "text": "same.",
+          "start": 149.96,
+          "end": 150.42
+        }
+      ]
+    },
+    {
+      "id": "seg-050",
+      "start": 151.42,
+      "end": 152.04,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "都",
+      "pinyin": "dōu",
+      "words": [
+        {
+          "hanzi": "都",
+          "pinyin": "dōu",
+          "start": 151.42,
+          "end": 152.04
+        }
+      ]
+    },
+    {
+      "id": "seg-051",
+      "start": 153.12,
+      "end": 155.86,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Old MacDonald had a clone farm.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Old",
+          "start": 153.12,
+          "end": 153.74
+        },
+        {
+          "text": "MacDonald",
+          "start": 153.74,
+          "end": 154.36
+        },
+        {
+          "text": "had",
+          "start": 154.36,
+          "end": 154.78
+        },
+        {
+          "text": "a",
+          "start": 154.78,
+          "end": 155.06
+        },
+        {
+          "text": "clone",
+          "start": 155.06,
+          "end": 155.36
+        },
+        {
+          "text": "farm.",
+          "start": 155.36,
+          "end": 155.86
+        }
+      ]
+    },
+    {
+      "id": "seg-052",
+      "start": 157.36,
+      "end": 157.98,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "一样一样哦",
+      "pinyin": "yī yàng yī yàng ó",
+      "words": [
+        {
+          "hanzi": "一",
+          "pinyin": "yī",
+          "start": 157.36,
+          "end": 157.48
+        },
+        {
+          "hanzi": "样",
+          "pinyin": "yàng",
+          "start": 157.48,
+          "end": 157.6
+        },
+        {
+          "hanzi": "一",
+          "pinyin": "yī",
+          "start": 157.61,
+          "end": 157.73
+        },
+        {
+          "hanzi": "样",
+          "pinyin": "yàng",
+          "start": 157.73,
+          "end": 157.85
+        },
+        {
+          "hanzi": "哦",
+          "pinyin": "ó",
+          "start": 157.86,
+          "end": 157.98
+        }
+      ]
+    },
+    {
+      "id": "seg-053",
+      "start": 159.96,
+      "end": 160.58,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "一样",
+      "pinyin": "yī yàng",
+      "words": [
+        {
+          "hanzi": "一",
+          "pinyin": "yī",
+          "start": 159.96,
+          "end": 160.27
+        },
+        {
+          "hanzi": "样",
+          "pinyin": "yàng",
+          "start": 160.27,
+          "end": 160.58
+        }
+      ]
+    },
+    {
+      "id": "seg-054",
+      "start": 161.22,
+      "end": 163.64,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "So these two rich men are the same.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "So",
+          "start": 161.22,
+          "end": 161.84
+        },
+        {
+          "text": "these",
+          "start": 161.84,
+          "end": 162.42
+        },
+        {
+          "text": "two",
+          "start": 162.42,
+          "end": 162.58
+        },
+        {
+          "text": "rich",
+          "start": 162.58,
+          "end": 162.8
+        },
+        {
+          "text": "men",
+          "start": 162.8,
+          "end": 163.02
+        },
+        {
+          "text": "are",
+          "start": 163.02,
+          "end": 163.22
+        },
+        {
+          "text": "the",
+          "start": 163.22,
+          "end": 163.38
+        },
+        {
+          "text": "same.",
+          "start": 163.38,
+          "end": 163.64
+        }
+      ]
+    },
+    {
+      "id": "seg-055",
+      "start": 163.68,
+      "end": 165.64,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "They both like to eat in the hotel.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "They",
+          "start": 163.68,
+          "end": 163.84
+        },
+        {
+          "text": "both",
+          "start": 163.84,
+          "end": 164.16
+        },
+        {
+          "text": "like",
+          "start": 164.16,
+          "end": 164.5
+        },
+        {
+          "text": "to",
+          "start": 164.5,
+          "end": 164.8
+        },
+        {
+          "text": "eat",
+          "start": 164.8,
+          "end": 165.06
+        },
+        {
+          "text": "in",
+          "start": 165.06,
+          "end": 165.22
+        },
+        {
+          "text": "the",
+          "start": 165.22,
+          "end": 165.32
+        },
+        {
+          "text": "hotel.",
+          "start": 165.32,
+          "end": 165.64
+        }
+      ]
+    },
+    {
+      "id": "seg-056",
+      "start": 165.8,
+      "end": 169.28,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "They both like at the hotel to eat.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "They",
+          "start": 165.8,
+          "end": 166.34
+        },
+        {
+          "text": "both",
+          "start": 166.34,
+          "end": 166.62
+        },
+        {
+          "text": "like",
+          "start": 166.62,
+          "end": 167.28
+        },
+        {
+          "text": "at",
+          "start": 167.28,
+          "end": 167.96
+        },
+        {
+          "text": "the",
+          "start": 167.96,
+          "end": 168.16
+        },
+        {
+          "text": "hotel",
+          "start": 168.16,
+          "end": 168.54
+        },
+        {
+          "text": "to",
+          "start": 168.54,
+          "end": 169.0
+        },
+        {
+          "text": "eat.",
+          "start": 169.0,
+          "end": 169.28
+        }
+      ]
+    },
+    {
+      "id": "seg-057",
+      "start": 171.68,
+      "end": 172.56,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "他们都",
+      "pinyin": "tā men dōu",
+      "words": [
+        {
+          "hanzi": "他",
+          "pinyin": "tā",
+          "start": 171.68,
+          "end": 171.97
+        },
+        {
+          "hanzi": "们",
+          "pinyin": "men",
+          "start": 171.97,
+          "end": 172.26
+        },
+        {
+          "hanzi": "都",
+          "pinyin": "dōu",
+          "start": 172.27,
+          "end": 172.56
+        }
+      ]
+    },
+    {
+      "id": "seg-058",
+      "start": 173.7,
+      "end": 174.58,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Like.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Like.",
+          "start": 173.7,
+          "end": 174.58
+        }
+      ]
+    },
+    {
+      "id": "seg-059",
+      "start": 175.6,
+      "end": 177.26,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Imelda Marcos.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Imelda",
+          "start": 175.6,
+          "end": 176.48
+        },
+        {
+          "text": "Marcos.",
+          "start": 176.48,
+          "end": 177.26
+        }
+      ]
+    },
+    {
+      "id": "seg-060",
+      "start": 177.42,
+      "end": 179.78,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "She want many chews.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "She",
+          "start": 177.42,
+          "end": 178.26
+        },
+        {
+          "text": "want",
+          "start": 178.26,
+          "end": 178.76
+        },
+        {
+          "text": "many",
+          "start": 178.76,
+          "end": 179.2
+        },
+        {
+          "text": "chews.",
+          "start": 179.2,
+          "end": 179.78
+        }
+      ]
+    },
+    {
+      "id": "seg-061",
+      "start": 180.96,
+      "end": 182.72,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "She want",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "She",
+          "start": 180.96,
+          "end": 181.84
+        },
+        {
+          "text": "want",
+          "start": 181.84,
+          "end": 182.72
+        }
+      ]
+    },
+    {
+      "id": "seg-062",
+      "start": 182.72,
+      "end": 185.76,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "At the hotel to eat.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "At",
+          "start": 182.72,
+          "end": 184.22
+        },
+        {
+          "text": "the",
+          "start": 184.22,
+          "end": 184.62
+        },
+        {
+          "text": "hotel",
+          "start": 184.62,
+          "end": 185.18
+        },
+        {
+          "text": "to",
+          "start": 185.18,
+          "end": 185.52
+        },
+        {
+          "text": "eat.",
+          "start": 185.52,
+          "end": 185.76
+        }
+      ]
+    },
+    {
+      "id": "seg-063",
+      "start": 191.44,
+      "end": 192.34,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "在饭店吃饭",
+      "pinyin": "zài fàn diàn chī fàn",
+      "words": [
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "start": 191.44,
+          "end": 191.62
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 191.62,
+          "end": 191.8
+        },
+        {
+          "hanzi": "店",
+          "pinyin": "diàn",
+          "start": 191.8,
+          "end": 191.98
+        },
+        {
+          "hanzi": "吃",
+          "pinyin": "chī",
+          "start": 191.98,
+          "end": 192.16
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 192.16,
+          "end": 192.34
+        }
+      ]
+    },
+    {
+      "id": "seg-064",
+      "start": 192.34,
+      "end": 194.52,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "So let's take it again.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "So",
+          "start": 192.34,
+          "end": 193.68
+        },
+        {
+          "text": "let's",
+          "start": 193.68,
+          "end": 193.98
+        },
+        {
+          "text": "take",
+          "start": 193.98,
+          "end": 194.12
+        },
+        {
+          "text": "it",
+          "start": 194.12,
+          "end": 194.26
+        },
+        {
+          "text": "again.",
+          "start": 194.26,
+          "end": 194.52
+        }
+      ]
+    },
+    {
+      "id": "seg-065",
+      "start": 194.54,
+      "end": 194.78,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "Again.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "Again.",
+          "start": 194.54,
+          "end": 194.78
+        }
+      ]
+    },
+    {
+      "id": "seg-066",
+      "start": 194.78,
+      "end": 197.06,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "These two rich men are the same.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "These",
+          "start": 194.78,
+          "end": 194.94
+        },
+        {
+          "text": "two",
+          "start": 194.94,
+          "end": 195.52
+        },
+        {
+          "text": "rich",
+          "start": 195.52,
+          "end": 196.0
+        },
+        {
+          "text": "men",
+          "start": 196.0,
+          "end": 196.2
+        },
+        {
+          "text": "are",
+          "start": 196.2,
+          "end": 196.46
+        },
+        {
+          "text": "the",
+          "start": 196.46,
+          "end": 196.68
+        },
+        {
+          "text": "same.",
+          "start": 196.68,
+          "end": 197.06
+        }
+      ]
+    },
+    {
+      "id": "seg-067",
+      "start": 198.2,
+      "end": 202.4,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "This pair rich men both the same.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "This",
+          "start": 198.2,
+          "end": 198.8
+        },
+        {
+          "text": "pair",
+          "start": 198.8,
+          "end": 199.4
+        },
+        {
+          "text": "rich",
+          "start": 199.4,
+          "end": 200.54
+        },
+        {
+          "text": "men",
+          "start": 200.54,
+          "end": 200.88
+        },
+        {
+          "text": "both",
+          "start": 200.88,
+          "end": 201.76
+        },
+        {
+          "text": "the",
+          "start": 201.76,
+          "end": 202.08
+        },
+        {
+          "text": "same.",
+          "start": 202.08,
+          "end": 202.4
+        }
+      ]
+    },
+    {
+      "id": "seg-068",
+      "start": 202.52,
+      "end": 204.52,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "These two rich men are the same.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "These",
+          "start": 202.52,
+          "end": 203.02
+        },
+        {
+          "text": "two",
+          "start": 203.02,
+          "end": 203.24
+        },
+        {
+          "text": "rich",
+          "start": 203.24,
+          "end": 203.46
+        },
+        {
+          "text": "men",
+          "start": 203.46,
+          "end": 203.7
+        },
+        {
+          "text": "are",
+          "start": 203.7,
+          "end": 204.02
+        },
+        {
+          "text": "the",
+          "start": 204.02,
+          "end": 204.16
+        },
+        {
+          "text": "same.",
+          "start": 204.16,
+          "end": 204.52
+        }
+      ]
+    },
+    {
+      "id": "seg-069",
+      "start": 214.9,
+      "end": 215.53,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "这两个有钱的人一样",
+      "pinyin": "zhè liǎng gè yǒu qián de rén yī yàng",
+      "words": [
+        {
+          "hanzi": "这",
+          "pinyin": "zhè",
+          "start": 214.9,
+          "end": 214.97
+        },
+        {
+          "hanzi": "两",
+          "pinyin": "liǎng",
+          "start": 214.97,
+          "end": 215.04
+        },
+        {
+          "hanzi": "个",
+          "pinyin": "gè",
+          "start": 215.04,
+          "end": 215.11
+        },
+        {
+          "hanzi": "有",
+          "pinyin": "yǒu",
+          "start": 215.11,
+          "end": 215.18
+        },
+        {
+          "hanzi": "钱",
+          "pinyin": "qián",
+          "start": 215.18,
+          "end": 215.25
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 215.25,
+          "end": 215.32
+        },
+        {
+          "hanzi": "人",
+          "pinyin": "rén",
+          "start": 215.32,
+          "end": 215.39
+        },
+        {
+          "hanzi": "一",
+          "pinyin": "yī",
+          "start": 215.39,
+          "end": 215.46
+        },
+        {
+          "hanzi": "样",
+          "pinyin": "yàng",
+          "start": 215.46,
+          "end": 215.53
+        }
+      ]
+    },
+    {
+      "id": "seg-070",
+      "start": 215.53,
+      "end": 216.82,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "They're both the same.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "They're",
+          "start": 215.53,
+          "end": 216.0
+        },
+        {
+          "text": "both",
+          "start": 216.0,
+          "end": 216.26
+        },
+        {
+          "text": "the",
+          "start": 216.26,
+          "end": 216.5
+        },
+        {
+          "text": "same.",
+          "start": 216.5,
+          "end": 216.82
+        }
+      ]
+    },
+    {
+      "id": "seg-071",
+      "start": 219.54,
+      "end": 220.14,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "都一样",
+      "pinyin": "dōu yī yàng",
+      "words": [
+        {
+          "hanzi": "都",
+          "pinyin": "dōu",
+          "start": 219.54,
+          "end": 219.74
+        },
+        {
+          "hanzi": "一",
+          "pinyin": "yī",
+          "start": 219.74,
+          "end": 219.94
+        },
+        {
+          "hanzi": "样",
+          "pinyin": "yàng",
+          "start": 219.94,
+          "end": 220.14
+        }
+      ]
+    },
+    {
+      "id": "seg-072",
+      "start": 221.08,
+      "end": 223.18,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "en",
+      "english": "They both like to eat in the hotel.",
+      "hanzi": "",
+      "pinyin": "",
+      "words": [
+        {
+          "text": "They",
+          "start": 221.08,
+          "end": 221.68
+        },
+        {
+          "text": "both",
+          "start": 221.68,
+          "end": 222.02
+        },
+        {
+          "text": "like",
+          "start": 222.02,
+          "end": 222.3
+        },
+        {
+          "text": "to",
+          "start": 222.3,
+          "end": 222.5
+        },
+        {
+          "text": "eat",
+          "start": 222.5,
+          "end": 222.68
+        },
+        {
+          "text": "in",
+          "start": 222.68,
+          "end": 222.8
+        },
+        {
+          "text": "the",
+          "start": 222.8,
+          "end": 222.92
+        },
+        {
+          "text": "hotel.",
+          "start": 222.92,
+          "end": 223.18
+        }
+      ]
+    },
+    {
+      "id": "seg-073",
+      "start": 233.12,
+      "end": 234.52,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "他们都喜欢在饭店吃饭",
+      "pinyin": "tā men dōu xǐ huān zài fàn diàn chī fàn",
+      "words": [
+        {
+          "hanzi": "他",
+          "pinyin": "tā",
+          "start": 233.12,
+          "end": 233.26
+        },
+        {
+          "hanzi": "们",
+          "pinyin": "men",
+          "start": 233.26,
+          "end": 233.4
+        },
+        {
+          "hanzi": "都",
+          "pinyin": "dōu",
+          "start": 233.4,
+          "end": 233.54
+        },
+        {
+          "hanzi": "喜",
+          "pinyin": "xǐ",
+          "start": 233.54,
+          "end": 233.68
+        },
+        {
+          "hanzi": "欢",
+          "pinyin": "huān",
+          "start": 233.68,
+          "end": 233.82
+        },
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "start": 233.82,
+          "end": 233.96
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 233.96,
+          "end": 234.1
+        },
+        {
+          "hanzi": "店",
+          "pinyin": "diàn",
+          "start": 234.1,
+          "end": 234.24
+        },
+        {
+          "hanzi": "吃",
+          "pinyin": "chī",
+          "start": 234.24,
+          "end": 234.38
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 234.38,
+          "end": 234.52
+        }
+      ]
+    },
+    {
+      "id": "seg-074",
+      "start": 242.42,
+      "end": 243.82,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "这两个有钱的人都一样",
+      "pinyin": "zhè liǎng gè yǒu qián de rén dōu yī yàng",
+      "words": [
+        {
+          "hanzi": "这",
+          "pinyin": "zhè",
+          "start": 242.42,
+          "end": 242.56
+        },
+        {
+          "hanzi": "两",
+          "pinyin": "liǎng",
+          "start": 242.56,
+          "end": 242.7
+        },
+        {
+          "hanzi": "个",
+          "pinyin": "gè",
+          "start": 242.7,
+          "end": 242.84
+        },
+        {
+          "hanzi": "有",
+          "pinyin": "yǒu",
+          "start": 242.84,
+          "end": 242.98
+        },
+        {
+          "hanzi": "钱",
+          "pinyin": "qián",
+          "start": 242.98,
+          "end": 243.12
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 243.12,
+          "end": 243.26
+        },
+        {
+          "hanzi": "人",
+          "pinyin": "rén",
+          "start": 243.26,
+          "end": 243.4
+        },
+        {
+          "hanzi": "都",
+          "pinyin": "dōu",
+          "start": 243.4,
+          "end": 243.54
+        },
+        {
+          "hanzi": "一",
+          "pinyin": "yī",
+          "start": 243.54,
+          "end": 243.68
+        },
+        {
+          "hanzi": "样",
+          "pinyin": "yàng",
+          "start": 243.68,
+          "end": 243.82
+        }
+      ]
+    },
+    {
+      "id": "seg-075",
+      "start": 250.1,
+      "end": 251.5,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "他们都喜欢在饭店吃饭",
+      "pinyin": "tā men dōu xǐ huān zài fàn diàn chī fàn",
+      "words": [
+        {
+          "hanzi": "他",
+          "pinyin": "tā",
+          "start": 250.1,
+          "end": 250.24
+        },
+        {
+          "hanzi": "们",
+          "pinyin": "men",
+          "start": 250.24,
+          "end": 250.38
+        },
+        {
+          "hanzi": "都",
+          "pinyin": "dōu",
+          "start": 250.38,
+          "end": 250.52
+        },
+        {
+          "hanzi": "喜",
+          "pinyin": "xǐ",
+          "start": 250.52,
+          "end": 250.66
+        },
+        {
+          "hanzi": "欢",
+          "pinyin": "huān",
+          "start": 250.66,
+          "end": 250.8
+        },
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "start": 250.8,
+          "end": 250.94
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 250.94,
+          "end": 251.08
+        },
+        {
+          "hanzi": "店",
+          "pinyin": "diàn",
+          "start": 251.08,
+          "end": 251.22
+        },
+        {
+          "hanzi": "吃",
+          "pinyin": "chī",
+          "start": 251.22,
+          "end": 251.36
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 251.36,
+          "end": 251.5
+        }
+      ]
+    },
+    {
+      "id": "seg-076",
+      "start": 253.36,
+      "end": 254.76,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "这两个有钱的人都一样",
+      "pinyin": "zhè liǎng gè yǒu qián de rén dōu yī yàng",
+      "words": [
+        {
+          "hanzi": "这",
+          "pinyin": "zhè",
+          "start": 253.36,
+          "end": 253.5
+        },
+        {
+          "hanzi": "两",
+          "pinyin": "liǎng",
+          "start": 253.5,
+          "end": 253.64
+        },
+        {
+          "hanzi": "个",
+          "pinyin": "gè",
+          "start": 253.64,
+          "end": 253.78
+        },
+        {
+          "hanzi": "有",
+          "pinyin": "yǒu",
+          "start": 253.78,
+          "end": 253.92
+        },
+        {
+          "hanzi": "钱",
+          "pinyin": "qián",
+          "start": 253.92,
+          "end": 254.06
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 254.06,
+          "end": 254.2
+        },
+        {
+          "hanzi": "人",
+          "pinyin": "rén",
+          "start": 254.2,
+          "end": 254.34
+        },
+        {
+          "hanzi": "都",
+          "pinyin": "dōu",
+          "start": 254.34,
+          "end": 254.48
+        },
+        {
+          "hanzi": "一",
+          "pinyin": "yī",
+          "start": 254.48,
+          "end": 254.62
+        },
+        {
+          "hanzi": "样",
+          "pinyin": "yàng",
+          "start": 254.62,
+          "end": 254.76
+        }
+      ]
+    },
+    {
+      "id": "seg-077",
+      "start": 256.58,
+      "end": 257.98,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "他们都喜欢在饭店吃饭",
+      "pinyin": "tā men dōu xǐ huān zài fàn diàn chī fàn",
+      "words": [
+        {
+          "hanzi": "他",
+          "pinyin": "tā",
+          "start": 256.58,
+          "end": 256.72
+        },
+        {
+          "hanzi": "们",
+          "pinyin": "men",
+          "start": 256.72,
+          "end": 256.86
+        },
+        {
+          "hanzi": "都",
+          "pinyin": "dōu",
+          "start": 256.86,
+          "end": 257.0
+        },
+        {
+          "hanzi": "喜",
+          "pinyin": "xǐ",
+          "start": 257.0,
+          "end": 257.14
+        },
+        {
+          "hanzi": "欢",
+          "pinyin": "huān",
+          "start": 257.14,
+          "end": 257.28
+        },
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "start": 257.28,
+          "end": 257.42
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 257.42,
+          "end": 257.56
+        },
+        {
+          "hanzi": "店",
+          "pinyin": "diàn",
+          "start": 257.56,
+          "end": 257.7
+        },
+        {
+          "hanzi": "吃",
+          "pinyin": "chī",
+          "start": 257.7,
+          "end": 257.84
+        },
+        {
+          "hanzi": "饭",
+          "pinyin": "fàn",
+          "start": 257.84,
+          "end": 257.98
+        }
+      ]
+    },
+    {
+      "id": "seg-078",
+      "start": 257.98,
+      "end": 259.98,
+      "speaker": "teacher",
+      "speakerName": "Harold Goodman (Teacher)",
+      "type": "instruction",
+      "language": "zh",
+      "english": "",
+      "hanzi": "这两个有钱的人都一样",
+      "pinyin": "zhè liǎng gè yǒu qián de rén dōu yī yàng",
+      "words": [
+        {
+          "hanzi": "这",
+          "pinyin": "zhè",
+          "start": 257.98,
+          "end": 258.18
+        },
+        {
+          "hanzi": "两",
+          "pinyin": "liǎng",
+          "start": 258.18,
+          "end": 258.38
+        },
+        {
+          "hanzi": "个",
+          "pinyin": "gè",
+          "start": 258.38,
+          "end": 258.58
+        },
+        {
+          "hanzi": "有",
+          "pinyin": "yǒu",
+          "start": 258.58,
+          "end": 258.78
+        },
+        {
+          "hanzi": "钱",
+          "pinyin": "qián",
+          "start": 258.78,
+          "end": 258.98
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "start": 258.98,
+          "end": 259.18
+        },
+        {
+          "hanzi": "人",
+          "pinyin": "rén",
+          "start": 259.18,
+          "end": 259.38
+        },
+        {
+          "hanzi": "都",
+          "pinyin": "dōu",
+          "start": 259.38,
+          "end": 259.58
+        },
+        {
+          "hanzi": "一",
+          "pinyin": "yī",
+          "start": 259.58,
+          "end": 259.78
+        },
+        {
+          "hanzi": "样",
+          "pinyin": "yàng",
+          "start": 259.78,
+          "end": 259.98
+        }
+      ]
+    }
+  ]
+}

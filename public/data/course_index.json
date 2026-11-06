@@ -10,23 +10,722 @@
           "cd": 1,
           "title": "Foundation CD 1",
           "tracks": [
-            { "track": 1, "id": "foundation-cd01-01", "title": "Track 1: Introduction, Tones & 'Hǎo' (Good)", "dataFile": "data/foundation_cd01_track01.json", "audioUrl": "audio/cd1_01_preview.mp3" },
-            { "track": 2, "id": "foundation-cd01-02", "title": "Track 2: 'Bù' (Not) and 'Bù Hǎo' (Not good)", "dataFile": "", "audioUrl": "" },
-            { "track": 3, "id": "foundation-cd01-03", "title": "Track 3: 'Tài' (Too / Extremely) & 'Bù Tài Hǎo'", "dataFile": "", "audioUrl": "" },
-            { "track": 4, "id": "foundation-cd01-04", "title": "Track 4: 'Nǐ' (You) & 'Nǐ Hǎo' (Hello)", "dataFile": "", "audioUrl": "" },
-            { "track": 5, "id": "foundation-cd01-05", "title": "Track 5: 'Ma' (Question particle) & 'Nǐ Hǎo Ma?'", "dataFile": "", "audioUrl": "" },
-            { "track": 6, "id": "foundation-cd01-06", "title": "Track 6: 'Wǒ' (I / Me) & 'Hěn' (Very)", "dataFile": "", "audioUrl": "" },
-            { "track": 7, "id": "foundation-cd01-07", "title": "Track 7: 'Xièxie' (Thank you) & 'Nǐ Ne?' (And you?)", "dataFile": "", "audioUrl": "" },
-            { "track": 8, "id": "foundation-cd01-08", "title": "Track 8: 'Yào' (To want / desire)", "dataFile": "", "audioUrl": "" }
+            {
+              "track": 1,
+              "id": "foundation-cd01-01",
+              "title": "Track 1",
+              "dataFile": "data/foundation_cd01_track01.json",
+              "audioUrl": "audio/foundation-cd01/track-01.mp3"
+            },
+            {
+              "track": 2,
+              "id": "foundation-cd01-02",
+              "title": "Track 2",
+              "dataFile": "data/foundation_cd01_track02.json",
+              "audioUrl": "audio/foundation-cd01/track-02.mp3"
+            },
+            {
+              "track": 3,
+              "id": "foundation-cd01-03",
+              "title": "Track 3",
+              "dataFile": "data/foundation_cd01_track03.json",
+              "audioUrl": "audio/foundation-cd01/track-03.mp3"
+            },
+            {
+              "track": 4,
+              "id": "foundation-cd01-04",
+              "title": "Track 4",
+              "dataFile": "data/foundation_cd01_track04.json",
+              "audioUrl": "audio/foundation-cd01/track-04.mp3"
+            },
+            {
+              "track": 5,
+              "id": "foundation-cd01-05",
+              "title": "Track 5",
+              "dataFile": "data/foundation_cd01_track05.json",
+              "audioUrl": "audio/foundation-cd01/track-05.mp3"
+            },
+            {
+              "track": 6,
+              "id": "foundation-cd01-06",
+              "title": "Track 6",
+              "dataFile": "data/foundation_cd01_track06.json",
+              "audioUrl": "audio/foundation-cd01/track-06.mp3"
+            },
+            {
+              "track": 7,
+              "id": "foundation-cd01-07",
+              "title": "Track 7",
+              "dataFile": "data/foundation_cd01_track07.json",
+              "audioUrl": "audio/foundation-cd01/track-07.mp3"
+            },
+            {
+              "track": 8,
+              "id": "foundation-cd01-08",
+              "title": "Track 8",
+              "dataFile": "data/foundation_cd01_track08.json",
+              "audioUrl": "audio/foundation-cd01/track-08.mp3"
+            },
+            {
+              "track": 9,
+              "id": "foundation-cd01-09",
+              "title": "Track 9",
+              "dataFile": "data/foundation_cd01_track09.json",
+              "audioUrl": "audio/foundation-cd01/track-09.mp3"
+            },
+            {
+              "track": 10,
+              "id": "foundation-cd01-10",
+              "title": "Track 10",
+              "dataFile": "data/foundation_cd01_track10.json",
+              "audioUrl": "audio/foundation-cd01/track-10.mp3"
+            },
+            {
+              "track": 11,
+              "id": "foundation-cd01-11",
+              "title": "Track 11",
+              "dataFile": "data/foundation_cd01_track11.json",
+              "audioUrl": "audio/foundation-cd01/track-11.mp3"
+            },
+            {
+              "track": 12,
+              "id": "foundation-cd01-12",
+              "title": "Track 12",
+              "dataFile": "data/foundation_cd01_track12.json",
+              "audioUrl": "audio/foundation-cd01/track-12.mp3"
+            },
+            {
+              "track": 13,
+              "id": "foundation-cd01-13",
+              "title": "Track 13",
+              "dataFile": "data/foundation_cd01_track13.json",
+              "audioUrl": "audio/foundation-cd01/track-13.mp3"
+            },
+            {
+              "track": 14,
+              "id": "foundation-cd01-14",
+              "title": "Track 14",
+              "dataFile": "data/foundation_cd01_track14.json",
+              "audioUrl": "audio/foundation-cd01/track-14.mp3"
+            },
+            {
+              "track": 15,
+              "id": "foundation-cd01-15",
+              "title": "Track 15",
+              "dataFile": "data/foundation_cd01_track15.json",
+              "audioUrl": "audio/foundation-cd01/track-15.mp3"
+            },
+            {
+              "track": 16,
+              "id": "foundation-cd01-16",
+              "title": "Track 16",
+              "dataFile": "data/foundation_cd01_track16.json",
+              "audioUrl": "audio/foundation-cd01/track-16.mp3"
+            }
           ]
         },
-        { "cd": 2, "title": "Foundation CD 2", "tracks": [] },
-        { "cd": 3, "title": "Foundation CD 3", "tracks": [] },
-        { "cd": 4, "title": "Foundation CD 4", "tracks": [] },
-        { "cd": 5, "title": "Foundation CD 5", "tracks": [] },
-        { "cd": 6, "title": "Foundation CD 6", "tracks": [] },
-        { "cd": 7, "title": "Foundation CD 7", "tracks": [] },
-        { "cd": 8, "title": "Foundation CD 8", "tracks": [] }
+        {
+          "cd": 2,
+          "title": "Foundation CD 2",
+          "tracks": [
+            {
+              "track": 1,
+              "id": "foundation-cd02-01",
+              "title": "Track 1",
+              "dataFile": "data/foundation_cd02_track01.json",
+              "audioUrl": "audio/foundation-cd02/track-01.mp3"
+            },
+            {
+              "track": 2,
+              "id": "foundation-cd02-02",
+              "title": "Track 2",
+              "dataFile": "data/foundation_cd02_track02.json",
+              "audioUrl": "audio/foundation-cd02/track-02.mp3"
+            },
+            {
+              "track": 3,
+              "id": "foundation-cd02-03",
+              "title": "Track 3",
+              "dataFile": "data/foundation_cd02_track03.json",
+              "audioUrl": "audio/foundation-cd02/track-03.mp3"
+            },
+            {
+              "track": 4,
+              "id": "foundation-cd02-04",
+              "title": "Track 4",
+              "dataFile": "data/foundation_cd02_track04.json",
+              "audioUrl": "audio/foundation-cd02/track-04.mp3"
+            },
+            {
+              "track": 5,
+              "id": "foundation-cd02-05",
+              "title": "Track 5",
+              "dataFile": "data/foundation_cd02_track05.json",
+              "audioUrl": "audio/foundation-cd02/track-05.mp3"
+            },
+            {
+              "track": 6,
+              "id": "foundation-cd02-06",
+              "title": "Track 6",
+              "dataFile": "data/foundation_cd02_track06.json",
+              "audioUrl": "audio/foundation-cd02/track-06.mp3"
+            },
+            {
+              "track": 7,
+              "id": "foundation-cd02-07",
+              "title": "Track 7",
+              "dataFile": "data/foundation_cd02_track07.json",
+              "audioUrl": "audio/foundation-cd02/track-07.mp3"
+            },
+            {
+              "track": 8,
+              "id": "foundation-cd02-08",
+              "title": "Track 8",
+              "dataFile": "data/foundation_cd02_track08.json",
+              "audioUrl": "audio/foundation-cd02/track-08.mp3"
+            },
+            {
+              "track": 9,
+              "id": "foundation-cd02-09",
+              "title": "Track 9",
+              "dataFile": "data/foundation_cd02_track09.json",
+              "audioUrl": "audio/foundation-cd02/track-09.mp3"
+            },
+            {
+              "track": 10,
+              "id": "foundation-cd02-10",
+              "title": "Track 10",
+              "dataFile": "data/foundation_cd02_track10.json",
+              "audioUrl": "audio/foundation-cd02/track-10.mp3"
+            },
+            {
+              "track": 11,
+              "id": "foundation-cd02-11",
+              "title": "Track 11",
+              "dataFile": "data/foundation_cd02_track11.json",
+              "audioUrl": "audio/foundation-cd02/track-11.mp3"
+            },
+            {
+              "track": 12,
+              "id": "foundation-cd02-12",
+              "title": "Track 12",
+              "dataFile": "data/foundation_cd02_track12.json",
+              "audioUrl": "audio/foundation-cd02/track-12.mp3"
+            },
+            {
+              "track": 13,
+              "id": "foundation-cd02-13",
+              "title": "Track 13",
+              "dataFile": "data/foundation_cd02_track13.json",
+              "audioUrl": "audio/foundation-cd02/track-13.mp3"
+            },
+            {
+              "track": 14,
+              "id": "foundation-cd02-14",
+              "title": "Track 14",
+              "dataFile": "data/foundation_cd02_track14.json",
+              "audioUrl": "audio/foundation-cd02/track-14.mp3"
+            }
+          ]
+        },
+        {
+          "cd": 3,
+          "title": "Foundation CD 3",
+          "tracks": [
+            {
+              "track": 1,
+              "id": "foundation-cd03-01",
+              "title": "Track 1",
+              "dataFile": "data/foundation_cd03_track01.json",
+              "audioUrl": "audio/foundation-cd03/track-01.mp3"
+            },
+            {
+              "track": 2,
+              "id": "foundation-cd03-02",
+              "title": "Track 2",
+              "dataFile": "data/foundation_cd03_track02.json",
+              "audioUrl": "audio/foundation-cd03/track-02.mp3"
+            },
+            {
+              "track": 3,
+              "id": "foundation-cd03-03",
+              "title": "Track 3",
+              "dataFile": "data/foundation_cd03_track03.json",
+              "audioUrl": "audio/foundation-cd03/track-03.mp3"
+            },
+            {
+              "track": 4,
+              "id": "foundation-cd03-04",
+              "title": "Track 4",
+              "dataFile": "data/foundation_cd03_track04.json",
+              "audioUrl": "audio/foundation-cd03/track-04.mp3"
+            },
+            {
+              "track": 5,
+              "id": "foundation-cd03-05",
+              "title": "Track 5",
+              "dataFile": "data/foundation_cd03_track05.json",
+              "audioUrl": "audio/foundation-cd03/track-05.mp3"
+            },
+            {
+              "track": 6,
+              "id": "foundation-cd03-06",
+              "title": "Track 6",
+              "dataFile": "data/foundation_cd03_track06.json",
+              "audioUrl": "audio/foundation-cd03/track-06.mp3"
+            },
+            {
+              "track": 7,
+              "id": "foundation-cd03-07",
+              "title": "Track 7",
+              "dataFile": "data/foundation_cd03_track07.json",
+              "audioUrl": "audio/foundation-cd03/track-07.mp3"
+            },
+            {
+              "track": 8,
+              "id": "foundation-cd03-08",
+              "title": "Track 8",
+              "dataFile": "data/foundation_cd03_track08.json",
+              "audioUrl": "audio/foundation-cd03/track-08.mp3"
+            },
+            {
+              "track": 9,
+              "id": "foundation-cd03-09",
+              "title": "Track 9",
+              "dataFile": "data/foundation_cd03_track09.json",
+              "audioUrl": "audio/foundation-cd03/track-09.mp3"
+            },
+            {
+              "track": 10,
+              "id": "foundation-cd03-10",
+              "title": "Track 10",
+              "dataFile": "data/foundation_cd03_track10.json",
+              "audioUrl": "audio/foundation-cd03/track-10.mp3"
+            }
+          ]
+        },
+        {
+          "cd": 4,
+          "title": "Foundation CD 4",
+          "tracks": [
+            {
+              "track": 1,
+              "id": "foundation-cd04-01",
+              "title": "Track 1",
+              "dataFile": "data/foundation_cd04_track01.json",
+              "audioUrl": "audio/foundation-cd04/track-01.mp3"
+            },
+            {
+              "track": 2,
+              "id": "foundation-cd04-02",
+              "title": "Track 2",
+              "dataFile": "data/foundation_cd04_track02.json",
+              "audioUrl": "audio/foundation-cd04/track-02.mp3"
+            },
+            {
+              "track": 3,
+              "id": "foundation-cd04-03",
+              "title": "Track 3",
+              "dataFile": "data/foundation_cd04_track03.json",
+              "audioUrl": "audio/foundation-cd04/track-03.mp3"
+            },
+            {
+              "track": 4,
+              "id": "foundation-cd04-04",
+              "title": "Track 4",
+              "dataFile": "data/foundation_cd04_track04.json",
+              "audioUrl": "audio/foundation-cd04/track-04.mp3"
+            },
+            {
+              "track": 5,
+              "id": "foundation-cd04-05",
+              "title": "Track 5",
+              "dataFile": "data/foundation_cd04_track05.json",
+              "audioUrl": "audio/foundation-cd04/track-05.mp3"
+            },
+            {
+              "track": 6,
+              "id": "foundation-cd04-06",
+              "title": "Track 6",
+              "dataFile": "data/foundation_cd04_track06.json",
+              "audioUrl": "audio/foundation-cd04/track-06.mp3"
+            },
+            {
+              "track": 7,
+              "id": "foundation-cd04-07",
+              "title": "Track 7",
+              "dataFile": "data/foundation_cd04_track07.json",
+              "audioUrl": "audio/foundation-cd04/track-07.mp3"
+            },
+            {
+              "track": 8,
+              "id": "foundation-cd04-08",
+              "title": "Track 8",
+              "dataFile": "data/foundation_cd04_track08.json",
+              "audioUrl": "audio/foundation-cd04/track-08.mp3"
+            },
+            {
+              "track": 9,
+              "id": "foundation-cd04-09",
+              "title": "Track 9",
+              "dataFile": "data/foundation_cd04_track09.json",
+              "audioUrl": "audio/foundation-cd04/track-09.mp3"
+            },
+            {
+              "track": 10,
+              "id": "foundation-cd04-10",
+              "title": "Track 10",
+              "dataFile": "data/foundation_cd04_track10.json",
+              "audioUrl": "audio/foundation-cd04/track-10.mp3"
+            }
+          ]
+        },
+        {
+          "cd": 5,
+          "title": "Foundation CD 5",
+          "tracks": [
+            {
+              "track": 1,
+              "id": "foundation-cd05-01",
+              "title": "Track 1",
+              "dataFile": "data/foundation_cd05_track01.json",
+              "audioUrl": "audio/foundation-cd05/track-01.mp3"
+            },
+            {
+              "track": 2,
+              "id": "foundation-cd05-02",
+              "title": "Track 2",
+              "dataFile": "data/foundation_cd05_track02.json",
+              "audioUrl": "audio/foundation-cd05/track-02.mp3"
+            },
+            {
+              "track": 3,
+              "id": "foundation-cd05-03",
+              "title": "Track 3",
+              "dataFile": "data/foundation_cd05_track03.json",
+              "audioUrl": "audio/foundation-cd05/track-03.mp3"
+            },
+            {
+              "track": 4,
+              "id": "foundation-cd05-04",
+              "title": "Track 4",
+              "dataFile": "data/foundation_cd05_track04.json",
+              "audioUrl": "audio/foundation-cd05/track-04.mp3"
+            },
+            {
+              "track": 5,
+              "id": "foundation-cd05-05",
+              "title": "Track 5",
+              "dataFile": "data/foundation_cd05_track05.json",
+              "audioUrl": "audio/foundation-cd05/track-05.mp3"
+            },
+            {
+              "track": 6,
+              "id": "foundation-cd05-06",
+              "title": "Track 6",
+              "dataFile": "data/foundation_cd05_track06.json",
+              "audioUrl": "audio/foundation-cd05/track-06.mp3"
+            },
+            {
+              "track": 7,
+              "id": "foundation-cd05-07",
+              "title": "Track 7",
+              "dataFile": "data/foundation_cd05_track07.json",
+              "audioUrl": "audio/foundation-cd05/track-07.mp3"
+            },
+            {
+              "track": 8,
+              "id": "foundation-cd05-08",
+              "title": "Track 8",
+              "dataFile": "data/foundation_cd05_track08.json",
+              "audioUrl": "audio/foundation-cd05/track-08.mp3"
+            },
+            {
+              "track": 9,
+              "id": "foundation-cd05-09",
+              "title": "Track 9",
+              "dataFile": "data/foundation_cd05_track09.json",
+              "audioUrl": "audio/foundation-cd05/track-09.mp3"
+            },
+            {
+              "track": 10,
+              "id": "foundation-cd05-10",
+              "title": "Track 10",
+              "dataFile": "data/foundation_cd05_track10.json",
+              "audioUrl": "audio/foundation-cd05/track-10.mp3"
+            },
+            {
+              "track": 11,
+              "id": "foundation-cd05-11",
+              "title": "Track 11",
+              "dataFile": "data/foundation_cd05_track11.json",
+              "audioUrl": "audio/foundation-cd05/track-11.mp3"
+            },
+            {
+              "track": 12,
+              "id": "foundation-cd05-12",
+              "title": "Track 12",
+              "dataFile": "data/foundation_cd05_track12.json",
+              "audioUrl": "audio/foundation-cd05/track-12.mp3"
+            },
+            {
+              "track": 13,
+              "id": "foundation-cd05-13",
+              "title": "Track 13",
+              "dataFile": "data/foundation_cd05_track13.json",
+              "audioUrl": "audio/foundation-cd05/track-13.mp3"
+            }
+          ]
+        },
+        {
+          "cd": 6,
+          "title": "Foundation CD 6",
+          "tracks": [
+            {
+              "track": 1,
+              "id": "foundation-cd06-01",
+              "title": "Track 1",
+              "dataFile": "data/foundation_cd06_track01.json",
+              "audioUrl": "audio/foundation-cd06/track-01.mp3"
+            },
+            {
+              "track": 2,
+              "id": "foundation-cd06-02",
+              "title": "Track 2",
+              "dataFile": "data/foundation_cd06_track02.json",
+              "audioUrl": "audio/foundation-cd06/track-02.mp3"
+            },
+            {
+              "track": 3,
+              "id": "foundation-cd06-03",
+              "title": "Track 3",
+              "dataFile": "data/foundation_cd06_track03.json",
+              "audioUrl": "audio/foundation-cd06/track-03.mp3"
+            },
+            {
+              "track": 4,
+              "id": "foundation-cd06-04",
+              "title": "Track 4",
+              "dataFile": "data/foundation_cd06_track04.json",
+              "audioUrl": "audio/foundation-cd06/track-04.mp3"
+            },
+            {
+              "track": 5,
+              "id": "foundation-cd06-05",
+              "title": "Track 5",
+              "dataFile": "data/foundation_cd06_track05.json",
+              "audioUrl": "audio/foundation-cd06/track-05.mp3"
+            },
+            {
+              "track": 6,
+              "id": "foundation-cd06-06",
+              "title": "Track 6",
+              "dataFile": "data/foundation_cd06_track06.json",
+              "audioUrl": "audio/foundation-cd06/track-06.mp3"
+            },
+            {
+              "track": 7,
+              "id": "foundation-cd06-07",
+              "title": "Track 7",
+              "dataFile": "data/foundation_cd06_track07.json",
+              "audioUrl": "audio/foundation-cd06/track-07.mp3"
+            },
+            {
+              "track": 8,
+              "id": "foundation-cd06-08",
+              "title": "Track 8",
+              "dataFile": "data/foundation_cd06_track08.json",
+              "audioUrl": "audio/foundation-cd06/track-08.mp3"
+            },
+            {
+              "track": 9,
+              "id": "foundation-cd06-09",
+              "title": "Track 9",
+              "dataFile": "data/foundation_cd06_track09.json",
+              "audioUrl": "audio/foundation-cd06/track-09.mp3"
+            },
+            {
+              "track": 10,
+              "id": "foundation-cd06-10",
+              "title": "Track 10",
+              "dataFile": "data/foundation_cd06_track10.json",
+              "audioUrl": "audio/foundation-cd06/track-10.mp3"
+            },
+            {
+              "track": 11,
+              "id": "foundation-cd06-11",
+              "title": "Track 11",
+              "dataFile": "data/foundation_cd06_track11.json",
+              "audioUrl": "audio/foundation-cd06/track-11.mp3"
+            }
+          ]
+        },
+        {
+          "cd": 7,
+          "title": "Foundation CD 7",
+          "tracks": [
+            {
+              "track": 1,
+              "id": "foundation-cd07-01",
+              "title": "Track 1",
+              "dataFile": "data/foundation_cd07_track01.json",
+              "audioUrl": "audio/foundation-cd07/track-01.mp3"
+            },
+            {
+              "track": 2,
+              "id": "foundation-cd07-02",
+              "title": "Track 2",
+              "dataFile": "data/foundation_cd07_track02.json",
+              "audioUrl": "audio/foundation-cd07/track-02.mp3"
+            },
+            {
+              "track": 3,
+              "id": "foundation-cd07-03",
+              "title": "Track 3",
+              "dataFile": "data/foundation_cd07_track03.json",
+              "audioUrl": "audio/foundation-cd07/track-03.mp3"
+            },
+            {
+              "track": 4,
+              "id": "foundation-cd07-04",
+              "title": "Track 4",
+              "dataFile": "data/foundation_cd07_track04.json",
+              "audioUrl": "audio/foundation-cd07/track-04.mp3"
+            },
+            {
+              "track": 5,
+              "id": "foundation-cd07-05",
+              "title": "Track 5",
+              "dataFile": "data/foundation_cd07_track05.json",
+              "audioUrl": "audio/foundation-cd07/track-05.mp3"
+            },
+            {
+              "track": 6,
+              "id": "foundation-cd07-06",
+              "title": "Track 6",
+              "dataFile": "data/foundation_cd07_track06.json",
+              "audioUrl": "audio/foundation-cd07/track-06.mp3"
+            },
+            {
+              "track": 7,
+              "id": "foundation-cd07-07",
+              "title": "Track 7",
+              "dataFile": "data/foundation_cd07_track07.json",
+              "audioUrl": "audio/foundation-cd07/track-07.mp3"
+            },
+            {
+              "track": 8,
+              "id": "foundation-cd07-08",
+              "title": "Track 8",
+              "dataFile": "data/foundation_cd07_track08.json",
+              "audioUrl": "audio/foundation-cd07/track-08.mp3"
+            },
+            {
+              "track": 9,
+              "id": "foundation-cd07-09",
+              "title": "Track 9",
+              "dataFile": "data/foundation_cd07_track09.json",
+              "audioUrl": "audio/foundation-cd07/track-09.mp3"
+            },
+            {
+              "track": 10,
+              "id": "foundation-cd07-10",
+              "title": "Track 10",
+              "dataFile": "data/foundation_cd07_track10.json",
+              "audioUrl": "audio/foundation-cd07/track-10.mp3"
+            },
+            {
+              "track": 11,
+              "id": "foundation-cd07-11",
+              "title": "Track 11",
+              "dataFile": "data/foundation_cd07_track11.json",
+              "audioUrl": "audio/foundation-cd07/track-11.mp3"
+            }
+          ]
+        },
+        {
+          "cd": 8,
+          "title": "Foundation CD 8",
+          "tracks": [
+            {
+              "track": 1,
+              "id": "foundation-cd08-01",
+              "title": "Track 1",
+              "dataFile": "data/foundation_cd08_track01.json",
+              "audioUrl": "audio/foundation-cd08/track-01.mp3"
+            },
+            {
+              "track": 2,
+              "id": "foundation-cd08-02",
+              "title": "Track 2",
+              "dataFile": "data/foundation_cd08_track02.json",
+              "audioUrl": "audio/foundation-cd08/track-02.mp3"
+            },
+            {
+              "track": 3,
+              "id": "foundation-cd08-03",
+              "title": "Track 3",
+              "dataFile": "data/foundation_cd08_track03.json",
+              "audioUrl": "audio/foundation-cd08/track-03.mp3"
+            },
+            {
+              "track": 4,
+              "id": "foundation-cd08-04",
+              "title": "Track 4",
+              "dataFile": "data/foundation_cd08_track04.json",
+              "audioUrl": "audio/foundation-cd08/track-04.mp3"
+            },
+            {
+              "track": 5,
+              "id": "foundation-cd08-05",
+              "title": "Track 5",
+              "dataFile": "data/foundation_cd08_track05.json",
+              "audioUrl": "audio/foundation-cd08/track-05.mp3"
+            },
+            {
+              "track": 6,
+              "id": "foundation-cd08-06",
+              "title": "Track 6",
+              "dataFile": "data/foundation_cd08_track06.json",
+              "audioUrl": "audio/foundation-cd08/track-06.mp3"
+            },
+            {
+              "track": 7,
+              "id": "foundation-cd08-07",
+              "title": "Track 7",
+              "dataFile": "data/foundation_cd08_track07.json",
+              "audioUrl": "audio/foundation-cd08/track-07.mp3"
+            },
+            {
+              "track": 8,
+              "id": "foundation-cd08-08",
+              "title": "Track 8",
+              "dataFile": "data/foundation_cd08_track08.json",
+              "audioUrl": "audio/foundation-cd08/track-08.mp3"
+            },
+            {
+              "track": 9,
+              "id": "foundation-cd08-09",
+              "title": "Track 9",
+              "dataFile": "data/foundation_cd08_track09.json",
+              "audioUrl": "audio/foundation-cd08/track-09.mp3"
+            },
+            {
+              "track": 10,
+              "id": "foundation-cd08-10",
+              "title": "Track 10",
+              "dataFile": "data/foundation_cd08_track10.json",
+              "audioUrl": "audio/foundation-cd08/track-10.mp3"
+            },
+            {
+              "track": 11,
+              "id": "foundation-cd08-11",
+              "title": "Track 11",
+              "dataFile": "data/foundation_cd08_track11.json",
+              "audioUrl": "audio/foundation-cd08/track-11.mp3"
+            }
+          ]
+        }
       ]
     },
     {
@@ -34,10 +733,359 @@
       "title": "Chinese Advanced",
       "totalDiscs": 4,
       "discs": [
-        { "cd": 1, "title": "Advanced CD 1", "tracks": [] },
-        { "cd": 2, "title": "Advanced CD 2", "tracks": [] },
-        { "cd": 3, "title": "Advanced CD 3", "tracks": [] },
-        { "cd": 4, "title": "Advanced CD 4", "tracks": [] }
+        {
+          "cd": 1,
+          "title": "Advanced CD 1",
+          "tracks": [
+            {
+              "track": 1,
+              "id": "advanced-cd01-01",
+              "title": "Track 1",
+              "dataFile": "data/advanced_cd01_track01.json",
+              "audioUrl": "audio/advanced-cd01/track-01.mp3"
+            },
+            {
+              "track": 2,
+              "id": "advanced-cd01-02",
+              "title": "Track 2",
+              "dataFile": "data/advanced_cd01_track02.json",
+              "audioUrl": "audio/advanced-cd01/track-02.mp3"
+            },
+            {
+              "track": 3,
+              "id": "advanced-cd01-03",
+              "title": "Track 3",
+              "dataFile": "data/advanced_cd01_track03.json",
+              "audioUrl": "audio/advanced-cd01/track-03.mp3"
+            },
+            {
+              "track": 4,
+              "id": "advanced-cd01-04",
+              "title": "Track 4",
+              "dataFile": "data/advanced_cd01_track04.json",
+              "audioUrl": "audio/advanced-cd01/track-04.mp3"
+            },
+            {
+              "track": 5,
+              "id": "advanced-cd01-05",
+              "title": "Track 5",
+              "dataFile": "data/advanced_cd01_track05.json",
+              "audioUrl": "audio/advanced-cd01/track-05.mp3"
+            },
+            {
+              "track": 6,
+              "id": "advanced-cd01-06",
+              "title": "Track 6",
+              "dataFile": "data/advanced_cd01_track06.json",
+              "audioUrl": "audio/advanced-cd01/track-06.mp3"
+            },
+            {
+              "track": 7,
+              "id": "advanced-cd01-07",
+              "title": "Track 7",
+              "dataFile": "data/advanced_cd01_track07.json",
+              "audioUrl": "audio/advanced-cd01/track-07.mp3"
+            },
+            {
+              "track": 8,
+              "id": "advanced-cd01-08",
+              "title": "Track 8",
+              "dataFile": "data/advanced_cd01_track08.json",
+              "audioUrl": "audio/advanced-cd01/track-08.mp3"
+            },
+            {
+              "track": 9,
+              "id": "advanced-cd01-09",
+              "title": "Track 9",
+              "dataFile": "data/advanced_cd01_track09.json",
+              "audioUrl": "audio/advanced-cd01/track-09.mp3"
+            },
+            {
+              "track": 10,
+              "id": "advanced-cd01-10",
+              "title": "Track 10",
+              "dataFile": "data/advanced_cd01_track10.json",
+              "audioUrl": "audio/advanced-cd01/track-10.mp3"
+            },
+            {
+              "track": 11,
+              "id": "advanced-cd01-11",
+              "title": "Track 11",
+              "dataFile": "data/advanced_cd01_track11.json",
+              "audioUrl": "audio/advanced-cd01/track-11.mp3"
+            },
+            {
+              "track": 12,
+              "id": "advanced-cd01-12",
+              "title": "Track 12",
+              "dataFile": "data/advanced_cd01_track12.json",
+              "audioUrl": "audio/advanced-cd01/track-12.mp3"
+            },
+            {
+              "track": 13,
+              "id": "advanced-cd01-13",
+              "title": "Track 13",
+              "dataFile": "data/advanced_cd01_track13.json",
+              "audioUrl": "audio/advanced-cd01/track-13.mp3"
+            }
+          ]
+        },
+        {
+          "cd": 2,
+          "title": "Advanced CD 2",
+          "tracks": [
+            {
+              "track": 1,
+              "id": "advanced-cd02-01",
+              "title": "Track 1",
+              "dataFile": "data/advanced_cd02_track01.json",
+              "audioUrl": "audio/advanced-cd02/track-01.mp3"
+            },
+            {
+              "track": 2,
+              "id": "advanced-cd02-02",
+              "title": "Track 2",
+              "dataFile": "data/advanced_cd02_track02.json",
+              "audioUrl": "audio/advanced-cd02/track-02.mp3"
+            },
+            {
+              "track": 3,
+              "id": "advanced-cd02-03",
+              "title": "Track 3",
+              "dataFile": "data/advanced_cd02_track03.json",
+              "audioUrl": "audio/advanced-cd02/track-03.mp3"
+            },
+            {
+              "track": 4,
+              "id": "advanced-cd02-04",
+              "title": "Track 4",
+              "dataFile": "data/advanced_cd02_track04.json",
+              "audioUrl": "audio/advanced-cd02/track-04.mp3"
+            },
+            {
+              "track": 5,
+              "id": "advanced-cd02-05",
+              "title": "Track 5",
+              "dataFile": "data/advanced_cd02_track05.json",
+              "audioUrl": "audio/advanced-cd02/track-05.mp3"
+            },
+            {
+              "track": 6,
+              "id": "advanced-cd02-06",
+              "title": "Track 6",
+              "dataFile": "data/advanced_cd02_track06.json",
+              "audioUrl": "audio/advanced-cd02/track-06.mp3"
+            },
+            {
+              "track": 7,
+              "id": "advanced-cd02-07",
+              "title": "Track 7",
+              "dataFile": "data/advanced_cd02_track07.json",
+              "audioUrl": "audio/advanced-cd02/track-07.mp3"
+            },
+            {
+              "track": 8,
+              "id": "advanced-cd02-08",
+              "title": "Track 8",
+              "dataFile": "data/advanced_cd02_track08.json",
+              "audioUrl": "audio/advanced-cd02/track-08.mp3"
+            },
+            {
+              "track": 9,
+              "id": "advanced-cd02-09",
+              "title": "Track 9",
+              "dataFile": "data/advanced_cd02_track09.json",
+              "audioUrl": "audio/advanced-cd02/track-09.mp3"
+            },
+            {
+              "track": 10,
+              "id": "advanced-cd02-10",
+              "title": "Track 10",
+              "dataFile": "data/advanced_cd02_track10.json",
+              "audioUrl": "audio/advanced-cd02/track-10.mp3"
+            },
+            {
+              "track": 11,
+              "id": "advanced-cd02-11",
+              "title": "Track 11",
+              "dataFile": "data/advanced_cd02_track11.json",
+              "audioUrl": "audio/advanced-cd02/track-11.mp3"
+            },
+            {
+              "track": 12,
+              "id": "advanced-cd02-12",
+              "title": "Track 12",
+              "dataFile": "data/advanced_cd02_track12.json",
+              "audioUrl": "audio/advanced-cd02/track-12.mp3"
+            },
+            {
+              "track": 13,
+              "id": "advanced-cd02-13",
+              "title": "Track 13",
+              "dataFile": "data/advanced_cd02_track13.json",
+              "audioUrl": "audio/advanced-cd02/track-13.mp3"
+            },
+            {
+              "track": 14,
+              "id": "advanced-cd02-14",
+              "title": "Track 14",
+              "dataFile": "data/advanced_cd02_track14.json",
+              "audioUrl": "audio/advanced-cd02/track-14.mp3"
+            },
+            {
+              "track": 15,
+              "id": "advanced-cd02-15",
+              "title": "Track 15",
+              "dataFile": "data/advanced_cd02_track15.json",
+              "audioUrl": "audio/advanced-cd02/track-15.mp3"
+            }
+          ]
+        },
+        {
+          "cd": 3,
+          "title": "Advanced CD 3",
+          "tracks": [
+            {
+              "track": 1,
+              "id": "advanced-cd03-01",
+              "title": "Track 1",
+              "dataFile": "data/advanced_cd03_track01.json",
+              "audioUrl": "audio/advanced-cd03/track-01.mp3"
+            },
+            {
+              "track": 2,
+              "id": "advanced-cd03-02",
+              "title": "Track 2",
+              "dataFile": "data/advanced_cd03_track02.json",
+              "audioUrl": "audio/advanced-cd03/track-02.mp3"
+            },
+            {
+              "track": 3,
+              "id": "advanced-cd03-03",
+              "title": "Track 3",
+              "dataFile": "data/advanced_cd03_track03.json",
+              "audioUrl": "audio/advanced-cd03/track-03.mp3"
+            },
+            {
+              "track": 4,
+              "id": "advanced-cd03-04",
+              "title": "Track 4",
+              "dataFile": "data/advanced_cd03_track04.json",
+              "audioUrl": "audio/advanced-cd03/track-04.mp3"
+            },
+            {
+              "track": 5,
+              "id": "advanced-cd03-05",
+              "title": "Track 5",
+              "dataFile": "data/advanced_cd03_track05.json",
+              "audioUrl": "audio/advanced-cd03/track-05.mp3"
+            },
+            {
+              "track": 6,
+              "id": "advanced-cd03-06",
+              "title": "Track 6",
+              "dataFile": "data/advanced_cd03_track06.json",
+              "audioUrl": "audio/advanced-cd03/track-06.mp3"
+            },
+            {
+              "track": 7,
+              "id": "advanced-cd03-07",
+              "title": "Track 7",
+              "dataFile": "data/advanced_cd03_track07.json",
+              "audioUrl": "audio/advanced-cd03/track-07.mp3"
+            },
+            {
+              "track": 8,
+              "id": "advanced-cd03-08",
+              "title": "Track 8",
+              "dataFile": "data/advanced_cd03_track08.json",
+              "audioUrl": "audio/advanced-cd03/track-08.mp3"
+            },
+            {
+              "track": 9,
+              "id": "advanced-cd03-09",
+              "title": "Track 9",
+              "dataFile": "data/advanced_cd03_track09.json",
+              "audioUrl": "audio/advanced-cd03/track-09.mp3"
+            }
+          ]
+        },
+        {
+          "cd": 4,
+          "title": "Advanced CD 4",
+          "tracks": [
+            {
+              "track": 1,
+              "id": "advanced-cd04-01",
+              "title": "Track 1",
+              "dataFile": "data/advanced_cd04_track01.json",
+              "audioUrl": "audio/advanced-cd04/track-01.mp3"
+            },
+            {
+              "track": 2,
+              "id": "advanced-cd04-02",
+              "title": "Track 2",
+              "dataFile": "data/advanced_cd04_track02.json",
+              "audioUrl": "audio/advanced-cd04/track-02.mp3"
+            },
+            {
+              "track": 3,
+              "id": "advanced-cd04-03",
+              "title": "Track 3",
+              "dataFile": "data/advanced_cd04_track03.json",
+              "audioUrl": "audio/advanced-cd04/track-03.mp3"
+            },
+            {
+              "track": 4,
+              "id": "advanced-cd04-04",
+              "title": "Track 4",
+              "dataFile": "data/advanced_cd04_track04.json",
+              "audioUrl": "audio/advanced-cd04/track-04.mp3"
+            },
+            {
+              "track": 5,
+              "id": "advanced-cd04-05",
+              "title": "Track 5",
+              "dataFile": "data/advanced_cd04_track05.json",
+              "audioUrl": "audio/advanced-cd04/track-05.mp3"
+            },
+            {
+              "track": 6,
+              "id": "advanced-cd04-06",
+              "title": "Track 6",
+              "dataFile": "data/advanced_cd04_track06.json",
+              "audioUrl": "audio/advanced-cd04/track-06.mp3"
+            },
+            {
+              "track": 7,
+              "id": "advanced-cd04-07",
+              "title": "Track 7",
+              "dataFile": "data/advanced_cd04_track07.json",
+              "audioUrl": "audio/advanced-cd04/track-07.mp3"
+            },
+            {
+              "track": 8,
+              "id": "advanced-cd04-08",
+              "title": "Track 8",
+              "dataFile": "data/advanced_cd04_track08.json",
+              "audioUrl": "audio/advanced-cd04/track-08.mp3"
+            },
+            {
+              "track": 9,
+              "id": "advanced-cd04-09",
+              "title": "Track 9",
+              "dataFile": "data/advanced_cd04_track09.json",
+              "audioUrl": "audio/advanced-cd04/track-09.mp3"
+            },
+            {
+              "track": 10,
+              "id": "advanced-cd04-10",
+              "title": "Track 10",
+              "dataFile": "data/advanced_cd04_track10.json",
+              "audioUrl": "audio/advanced-cd04/track-10.mp3"
+            }
+          ]
+        }
       ]
     },
     {
@@ -45,10 +1093,436 @@
       "title": "Chinese Vocabulary",
       "totalDiscs": 4,
       "discs": [
-        { "cd": 1, "title": "Vocabulary CD 1", "tracks": [] },
-        { "cd": 2, "title": "Vocabulary CD 2", "tracks": [] },
-        { "cd": 3, "title": "Vocabulary CD 3", "tracks": [] },
-        { "cd": 4, "title": "Vocabulary CD 4", "tracks": [] }
+        {
+          "cd": 1,
+          "title": "Vocabulary CD 1",
+          "tracks": [
+            {
+              "track": 1,
+              "id": "vocabulary-cd01-01",
+              "title": "Track 1",
+              "dataFile": "data/vocabulary_cd01_track01.json",
+              "audioUrl": "audio/vocabulary-cd01/track-01.mp3"
+            },
+            {
+              "track": 2,
+              "id": "vocabulary-cd01-02",
+              "title": "Track 2",
+              "dataFile": "data/vocabulary_cd01_track02.json",
+              "audioUrl": "audio/vocabulary-cd01/track-02.mp3"
+            },
+            {
+              "track": 3,
+              "id": "vocabulary-cd01-03",
+              "title": "Track 3",
+              "dataFile": "data/vocabulary_cd01_track03.json",
+              "audioUrl": "audio/vocabulary-cd01/track-03.mp3"
+            },
+            {
+              "track": 4,
+              "id": "vocabulary-cd01-04",
+              "title": "Track 4",
+              "dataFile": "data/vocabulary_cd01_track04.json",
+              "audioUrl": "audio/vocabulary-cd01/track-04.mp3"
+            },
+            {
+              "track": 5,
+              "id": "vocabulary-cd01-05",
+              "title": "Track 5",
+              "dataFile": "data/vocabulary_cd01_track05.json",
+              "audioUrl": "audio/vocabulary-cd01/track-05.mp3"
+            },
+            {
+              "track": 6,
+              "id": "vocabulary-cd01-06",
+              "title": "Track 6",
+              "dataFile": "data/vocabulary_cd01_track06.json",
+              "audioUrl": "audio/vocabulary-cd01/track-06.mp3"
+            },
+            {
+              "track": 7,
+              "id": "vocabulary-cd01-07",
+              "title": "Track 7",
+              "dataFile": "data/vocabulary_cd01_track07.json",
+              "audioUrl": "audio/vocabulary-cd01/track-07.mp3"
+            },
+            {
+              "track": 8,
+              "id": "vocabulary-cd01-08",
+              "title": "Track 8",
+              "dataFile": "data/vocabulary_cd01_track08.json",
+              "audioUrl": "audio/vocabulary-cd01/track-08.mp3"
+            },
+            {
+              "track": 9,
+              "id": "vocabulary-cd01-09",
+              "title": "Track 9",
+              "dataFile": "data/vocabulary_cd01_track09.json",
+              "audioUrl": "audio/vocabulary-cd01/track-09.mp3"
+            },
+            {
+              "track": 10,
+              "id": "vocabulary-cd01-10",
+              "title": "Track 10",
+              "dataFile": "data/vocabulary_cd01_track10.json",
+              "audioUrl": "audio/vocabulary-cd01/track-10.mp3"
+            },
+            {
+              "track": 11,
+              "id": "vocabulary-cd01-11",
+              "title": "Track 11",
+              "dataFile": "data/vocabulary_cd01_track11.json",
+              "audioUrl": "audio/vocabulary-cd01/track-11.mp3"
+            },
+            {
+              "track": 12,
+              "id": "vocabulary-cd01-12",
+              "title": "Track 12",
+              "dataFile": "data/vocabulary_cd01_track12.json",
+              "audioUrl": "audio/vocabulary-cd01/track-12.mp3"
+            }
+          ]
+        },
+        {
+          "cd": 2,
+          "title": "Vocabulary CD 2",
+          "tracks": [
+            {
+              "track": 1,
+              "id": "vocabulary-cd02-01",
+              "title": "Track 1",
+              "dataFile": "data/vocabulary_cd02_track01.json",
+              "audioUrl": "audio/vocabulary-cd02/track-01.mp3"
+            },
+            {
+              "track": 2,
+              "id": "vocabulary-cd02-02",
+              "title": "Track 2",
+              "dataFile": "data/vocabulary_cd02_track02.json",
+              "audioUrl": "audio/vocabulary-cd02/track-02.mp3"
+            },
+            {
+              "track": 3,
+              "id": "vocabulary-cd02-03",
+              "title": "Track 3",
+              "dataFile": "data/vocabulary_cd02_track03.json",
+              "audioUrl": "audio/vocabulary-cd02/track-03.mp3"
+            },
+            {
+              "track": 4,
+              "id": "vocabulary-cd02-04",
+              "title": "Track 4",
+              "dataFile": "data/vocabulary_cd02_track04.json",
+              "audioUrl": "audio/vocabulary-cd02/track-04.mp3"
+            },
+            {
+              "track": 5,
+              "id": "vocabulary-cd02-05",
+              "title": "Track 5",
+              "dataFile": "data/vocabulary_cd02_track05.json",
+              "audioUrl": "audio/vocabulary-cd02/track-05.mp3"
+            },
+            {
+              "track": 6,
+              "id": "vocabulary-cd02-06",
+              "title": "Track 6",
+              "dataFile": "data/vocabulary_cd02_track06.json",
+              "audioUrl": "audio/vocabulary-cd02/track-06.mp3"
+            },
+            {
+              "track": 7,
+              "id": "vocabulary-cd02-07",
+              "title": "Track 7",
+              "dataFile": "data/vocabulary_cd02_track07.json",
+              "audioUrl": "audio/vocabulary-cd02/track-07.mp3"
+            },
+            {
+              "track": 8,
+              "id": "vocabulary-cd02-08",
+              "title": "Track 8",
+              "dataFile": "data/vocabulary_cd02_track08.json",
+              "audioUrl": "audio/vocabulary-cd02/track-08.mp3"
+            },
+            {
+              "track": 9,
+              "id": "vocabulary-cd02-09",
+              "title": "Track 9",
+              "dataFile": "data/vocabulary_cd02_track09.json",
+              "audioUrl": "audio/vocabulary-cd02/track-09.mp3"
+            },
+            {
+              "track": 10,
+              "id": "vocabulary-cd02-10",
+              "title": "Track 10",
+              "dataFile": "data/vocabulary_cd02_track10.json",
+              "audioUrl": "audio/vocabulary-cd02/track-10.mp3"
+            },
+            {
+              "track": 11,
+              "id": "vocabulary-cd02-11",
+              "title": "Track 11",
+              "dataFile": "data/vocabulary_cd02_track11.json",
+              "audioUrl": "audio/vocabulary-cd02/track-11.mp3"
+            },
+            {
+              "track": 12,
+              "id": "vocabulary-cd02-12",
+              "title": "Track 12",
+              "dataFile": "data/vocabulary_cd02_track12.json",
+              "audioUrl": "audio/vocabulary-cd02/track-12.mp3"
+            },
+            {
+              "track": 13,
+              "id": "vocabulary-cd02-13",
+              "title": "Track 13",
+              "dataFile": "data/vocabulary_cd02_track13.json",
+              "audioUrl": "audio/vocabulary-cd02/track-13.mp3"
+            }
+          ]
+        },
+        {
+          "cd": 3,
+          "title": "Vocabulary CD 3",
+          "tracks": [
+            {
+              "track": 1,
+              "id": "vocabulary-cd03-01",
+              "title": "Track 1",
+              "dataFile": "data/vocabulary_cd03_track01.json",
+              "audioUrl": "audio/vocabulary-cd03/track-01.mp3"
+            },
+            {
+              "track": 2,
+              "id": "vocabulary-cd03-02",
+              "title": "Track 2",
+              "dataFile": "data/vocabulary_cd03_track02.json",
+              "audioUrl": "audio/vocabulary-cd03/track-02.mp3"
+            },
+            {
+              "track": 3,
+              "id": "vocabulary-cd03-03",
+              "title": "Track 3",
+              "dataFile": "data/vocabulary_cd03_track03.json",
+              "audioUrl": "audio/vocabulary-cd03/track-03.mp3"
+            },
+            {
+              "track": 4,
+              "id": "vocabulary-cd03-04",
+              "title": "Track 4",
+              "dataFile": "data/vocabulary_cd03_track04.json",
+              "audioUrl": "audio/vocabulary-cd03/track-04.mp3"
+            },
+            {
+              "track": 5,
+              "id": "vocabulary-cd03-05",
+              "title": "Track 5",
+              "dataFile": "data/vocabulary_cd03_track05.json",
+              "audioUrl": "audio/vocabulary-cd03/track-05.mp3"
+            },
+            {
+              "track": 6,
+              "id": "vocabulary-cd03-06",
+              "title": "Track 6",
+              "dataFile": "data/vocabulary_cd03_track06.json",
+              "audioUrl": "audio/vocabulary-cd03/track-06.mp3"
+            },
+            {
+              "track": 7,
+              "id": "vocabulary-cd03-07",
+              "title": "Track 7",
+              "dataFile": "data/vocabulary_cd03_track07.json",
+              "audioUrl": "audio/vocabulary-cd03/track-07.mp3"
+            },
+            {
+              "track": 8,
+              "id": "vocabulary-cd03-08",
+              "title": "Track 8",
+              "dataFile": "data/vocabulary_cd03_track08.json",
+              "audioUrl": "audio/vocabulary-cd03/track-08.mp3"
+            },
+            {
+              "track": 9,
+              "id": "vocabulary-cd03-09",
+              "title": "Track 9",
+              "dataFile": "data/vocabulary_cd03_track09.json",
+              "audioUrl": "audio/vocabulary-cd03/track-09.mp3"
+            },
+            {
+              "track": 10,
+              "id": "vocabulary-cd03-10",
+              "title": "Track 10",
+              "dataFile": "data/vocabulary_cd03_track10.json",
+              "audioUrl": "audio/vocabulary-cd03/track-10.mp3"
+            },
+            {
+              "track": 11,
+              "id": "vocabulary-cd03-11",
+              "title": "Track 11",
+              "dataFile": "data/vocabulary_cd03_track11.json",
+              "audioUrl": "audio/vocabulary-cd03/track-11.mp3"
+            },
+            {
+              "track": 12,
+              "id": "vocabulary-cd03-12",
+              "title": "Track 12",
+              "dataFile": "data/vocabulary_cd03_track12.json",
+              "audioUrl": "audio/vocabulary-cd03/track-12.mp3"
+            },
+            {
+              "track": 13,
+              "id": "vocabulary-cd03-13",
+              "title": "Track 13",
+              "dataFile": "data/vocabulary_cd03_track13.json",
+              "audioUrl": "audio/vocabulary-cd03/track-13.mp3"
+            },
+            {
+              "track": 14,
+              "id": "vocabulary-cd03-14",
+              "title": "Track 14",
+              "dataFile": "data/vocabulary_cd03_track14.json",
+              "audioUrl": "audio/vocabulary-cd03/track-14.mp3"
+            },
+            {
+              "track": 15,
+              "id": "vocabulary-cd03-15",
+              "title": "Track 15",
+              "dataFile": "data/vocabulary_cd03_track15.json",
+              "audioUrl": "audio/vocabulary-cd03/track-15.mp3"
+            },
+            {
+              "track": 16,
+              "id": "vocabulary-cd03-16",
+              "title": "Track 16",
+              "dataFile": "data/vocabulary_cd03_track16.json",
+              "audioUrl": "audio/vocabulary-cd03/track-16.mp3"
+            }
+          ]
+        },
+        {
+          "cd": 4,
+          "title": "Vocabulary CD 4",
+          "tracks": [
+            {
+              "track": 1,
+              "id": "vocabulary-cd04-01",
+              "title": "Track 1",
+              "dataFile": "data/vocabulary_cd04_track01.json",
+              "audioUrl": "audio/vocabulary-cd04/track-01.mp3"
+            },
+            {
+              "track": 2,
+              "id": "vocabulary-cd04-02",
+              "title": "Track 2",
+              "dataFile": "data/vocabulary_cd04_track02.json",
+              "audioUrl": "audio/vocabulary-cd04/track-02.mp3"
+            },
+            {
+              "track": 3,
+              "id": "vocabulary-cd04-03",
+              "title": "Track 3",
+              "dataFile": "data/vocabulary_cd04_track03.json",
+              "audioUrl": "audio/vocabulary-cd04/track-03.mp3"
+            },
+            {
+              "track": 4,
+              "id": "vocabulary-cd04-04",
+              "title": "Track 4",
+              "dataFile": "data/vocabulary_cd04_track04.json",
+              "audioUrl": "audio/vocabulary-cd04/track-04.mp3"
+            },
+            {
+              "track": 5,
+              "id": "vocabulary-cd04-05",
+              "title": "Track 5",
+              "dataFile": "data/vocabulary_cd04_track05.json",
+              "audioUrl": "audio/vocabulary-cd04/track-05.mp3"
+            },
+            {
+              "track": 6,
+              "id": "vocabulary-cd04-06",
+              "title": "Track 6",
+              "dataFile": "data/vocabulary_cd04_track06.json",
+              "audioUrl": "audio/vocabulary-cd04/track-06.mp3"
+            },
+            {
+              "track": 7,
+              "id": "vocabulary-cd04-07",
+              "title": "Track 7",
+              "dataFile": "data/vocabulary_cd04_track07.json",
+              "audioUrl": "audio/vocabulary-cd04/track-07.mp3"
+            },
+            {
+              "track": 8,
+              "id": "vocabulary-cd04-08",
+              "title": "Track 8",
+              "dataFile": "data/vocabulary_cd04_track08.json",
+              "audioUrl": "audio/vocabulary-cd04/track-08.mp3"
+            },
+            {
+              "track": 9,
+              "id": "vocabulary-cd04-09",
+              "title": "Track 9",
+              "dataFile": "data/vocabulary_cd04_track09.json",
+              "audioUrl": "audio/vocabulary-cd04/track-09.mp3"
+            },
+            {
+              "track": 10,
+              "id": "vocabulary-cd04-10",
+              "title": "Track 10",
+              "dataFile": "data/vocabulary_cd04_track10.json",
+              "audioUrl": "audio/vocabulary-cd04/track-10.mp3"
+            },
+            {
+              "track": 11,
+              "id": "vocabulary-cd04-11",
+              "title": "Track 11",
+              "dataFile": "data/vocabulary_cd04_track11.json",
+              "audioUrl": "audio/vocabulary-cd04/track-11.mp3"
+            },
+            {
+              "track": 12,
+              "id": "vocabulary-cd04-12",
+              "title": "Track 12",
+              "dataFile": "data/vocabulary_cd04_track12.json",
+              "audioUrl": "audio/vocabulary-cd04/track-12.mp3"
+            },
+            {
+              "track": 13,
+              "id": "vocabulary-cd04-13",
+              "title": "Track 13",
+              "dataFile": "data/vocabulary_cd04_track13.json",
+              "audioUrl": "audio/vocabulary-cd04/track-13.mp3"
+            },
+            {
+              "track": 14,
+              "id": "vocabulary-cd04-14",
+              "title": "Track 14",
+              "dataFile": "data/vocabulary_cd04_track14.json",
+              "audioUrl": "audio/vocabulary-cd04/track-14.mp3"
+            },
+            {
+              "track": 15,
+              "id": "vocabulary-cd04-15",
+              "title": "Track 15",
+              "dataFile": "data/vocabulary_cd04_track15.json",
+              "audioUrl": "audio/vocabulary-cd04/track-15.mp3"
+            },
+            {
+              "track": 16,
+              "id": "vocabulary-cd04-16",
+              "title": "Track 16",
+              "dataFile": "data/vocabulary_cd04_track16.json",
+              "audioUrl": "audio/vocabulary-cd04/track-16.mp3"
+            },
+            {
+              "track": 17,
+              "id": "vocabulary-cd04-17",
+              "title": "Track 17",
+              "dataFile": "data/vocabulary_cd04_track17.json",
+              "audioUrl": "audio/vocabulary-cd04/track-17.mp3"
+            }
+          ]
+        }
       ]
     }
   ]
