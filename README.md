@@ -1,10 +1,10 @@
-# Belinda Learning Chinese 🇨🇳 🎧
+# Learning Chinese 🇨🇳 🎧
 
 An interactive, lyrics-synchronized web application for learning Mandarin Chinese using the audio-guided method (Michel Thomas Mandarin Chinese Course).
 
 Built with **Gemini** (transcription pipeline, data schema & sync engine) and **Claude** (UI/UX design, visual aesthetics & styling).
 
-[![GitHub Pages Deployment](https://img.shields.io/badge/Deployment-GitHub%20Pages-blue.svg)](https://scoresby13.github.io/belinda-learning-chinese/)
+[![GitHub Pages Deployment](https://img.shields.io/badge/Deployment-GitHub%20Pages-blue.svg)](https://scoresby13.github.io/learning-chinese/)
 [![Repo Status](https://img.shields.io/badge/Status-Active%20Development-green.svg)]()
 [![Design Lead](https://img.shields.io/badge/Design%20Lead-Claude-purple.svg)]()
 
@@ -62,8 +62,8 @@ This project is co-developed between **Gemini** and **Claude**:
 ### Quick Start
 ```bash
 # Clone the repository
-git clone https://github.com/scoresby13/belinda-learning-chinese.git
-cd belinda-learning-chinese
+git clone https://github.com/scoresby13/learning-chinese.git
+cd learning-chinese
 
 # Install dependencies
 npm install
@@ -83,4 +83,4 @@ The optimized static output is generated in `dist/`.
 ---
 
 ## 📄 License
-Private repository for educational and personal learning purposes.
+Educational and personal learning purposes.

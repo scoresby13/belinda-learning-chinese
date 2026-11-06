@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Transcript Data Validator for Belinda Learning Chinese
+Transcript Data Validator for Learning Chinese
 Enforces all synchronization, timing, typography, and schema rules
 established between Gemini (data pipeline) and Claude (design system).
 """

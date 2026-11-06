@@ -1,5 +1,5 @@
 /**
- * Belinda Learning Chinese — Audio Player & Karaoke Engine
+ * Learning Chinese — Audio Player & Karaoke Engine
  * Co-developed by Gemini (data + sync engine) & Claude (UI/UX + rendering)
  */
 
@@ -186,17 +186,17 @@ async function initApp() {
 function loadStoredPreferences() {
   const read = (k) => { try { return localStorage.getItem(k); } catch { return null; } };
 
-  const savedPinyin = read('belinda_pinyin');
+  const savedPinyin = read('course_pinyin');
   if (savedPinyin !== null) state.isPinyinVisible = savedPinyin === 'true';
   applyPinyinState();
 
-  state.isToneColorOn = read('belinda_tones') === 'true';
+  state.isToneColorOn = read('course_tones') === 'true';
   applyToneState();
 
-  state.theme = document.documentElement.getAttribute('data-theme') || read('belinda_theme') || 'zen';
+  state.theme = document.documentElement.getAttribute('data-theme') || read('course_theme') || 'zen';
   applyTheme();
 
-  const savedSpeed = parseFloat(read('belinda_speed'));
+  const savedSpeed = parseFloat(read('course_speed'));
   if (Number.isFinite(savedSpeed)) setPlaybackSpeed(savedSpeed, { persist: false });
 }
 
@@ -316,7 +316,7 @@ async function loadTrackData(jsonPath, trackId) {
     elements.lessonTitle.textContent = shortTitle;
     elements.playingBadge.textContent = `CD ${data.cd} · Track ${data.track}`;
     elements.playingTitle.textContent = shortTitle;
-    document.title = `${shortTitle} — Belinda Learning Chinese`;
+    document.title = `${shortTitle} — Learning Chinese`;
 
     elements.audio.src = data.audioUrl;
     elements.audio.load();
@@ -691,7 +691,7 @@ function setSwitch(btn, on) {
 
 function togglePinyin() {
   state.isPinyinVisible = !state.isPinyinVisible;
-  store('belinda_pinyin', state.isPinyinVisible);
+  store('course_pinyin', state.isPinyinVisible);
   applyPinyinState();
 }
 function applyPinyinState() {
@@ -701,7 +701,7 @@ function applyPinyinState() {
 
 function toggleTones() {
   state.isToneColorOn = !state.isToneColorOn;
-  store('belinda_tones', state.isToneColorOn);
+  store('course_tones', state.isToneColorOn);
   applyToneState();
 }
 function applyToneState() {
@@ -730,7 +730,7 @@ function applyTheme() {
 }
 function toggleTheme() {
   state.theme = state.theme === 'dark' ? 'zen' : 'dark';
-  store('belinda_theme', state.theme);
+  store('course_theme', state.theme);
   applyTheme();
 }
 
@@ -756,7 +756,7 @@ function setPlaybackSpeed(speed, { persist = true } = {}) {
     b.classList.toggle('active', on);
     b.setAttribute('aria-checked', String(on));
   });
-  if (persist) store('belinda_speed', speed);
+  if (persist) store('course_speed', speed);
 }
 
 function setSpeedMenuOpen(open) {
@@ -857,7 +857,7 @@ function setupEventListeners() {
   // Follow system theme changes unless the reader picked one explicitly
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', (e) => {
     let saved = null;
-    try { saved = localStorage.getItem('belinda_theme'); } catch { /* noop */ }
+    try { saved = localStorage.getItem('course_theme'); } catch { /* noop */ }
     if (!saved) { state.theme = e.matches ? 'dark' : 'zen'; applyTheme(); }
   });
 

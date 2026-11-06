@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>Belinda Learning Chinese — Interactive Audio Course</title>
+  <title>Learning Chinese — Interactive Audio Course</title>
   <meta name="description" content="Lyrics-synchronised Mandarin Chinese lessons with Hanzi, Pinyin and word-by-word karaoke highlighting." />
   <meta name="theme-color" content="#FAF7F2" media="(prefers-color-scheme: light)" />
   <meta name="theme-color" content="#111315" media="(prefers-color-scheme: dark)" />
@@ -18,7 +18,7 @@
   <script>
     (function () {
       try {
-        var t = localStorage.getItem('belinda_theme');
+        var t = localStorage.getItem('course_theme');
         if (!t) t = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'zen';
         document.documentElement.setAttribute('data-theme', t);
       } catch (e) { document.documentElement.setAttribute('data-theme', 'zen'); }
@@ -37,10 +37,10 @@
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 6.5h16M4 12h10M4 17.5h16"/></svg>
         </button>
 
-        <a class="brand" href="./" aria-label="Belinda Learning Chinese — home">
+        <a class="brand" href="./" aria-label="Learning Chinese — home">
           <span class="brand-seal" aria-hidden="true">学</span>
           <span class="brand-text">
-            <span class="brand-title">Belinda <em>Learning Chinese</em></span>
+            <span class="brand-title">Learning <em>Chinese</em></span>
             <span id="currentTrackHeader" class="track-subtitle">Loading lesson…</span>
           </span>
         </a>
